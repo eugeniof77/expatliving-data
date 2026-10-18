@@ -31,6 +31,7 @@ Free to use. Please credit "Expat Living Italy (expatliving.it)" and link the pa
 - [Tax regimes](https://www.expatliving.it/api/v1/tax/regimes): the encoded regimes, verified or draft; and `/tax/regimes/<slug>/eligibility?comune=<istatCode>` (MCP: `check_tax_eligibility`): whether a comune meets a regime's geographic criteria (qualifies, does_not_qualify, or not_assessable, which is never a no). Places, not people; not tax advice
 - [Dataset catalog](https://www.expatliving.it/api/v1/datasets): every dataset below as JSON, with source URL, vintage, grain, license, page and a download link to the full published file
 - [Developer docs](https://www.expatliving.it/api/docs)
+- [Data repository](https://github.com/eugeniof77/expatliving-data): the published JSON files, OpenAPI spec and this file as a plain git repository, with a LICENSES.md, a CITATION.cff and a changelog; refreshed weekly from this site, so the site stays the source of truth. Draft datasets are left out
 
 ## Datasets
 

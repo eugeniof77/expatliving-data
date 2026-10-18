@@ -7,6 +7,16 @@ Newest first.
 
 ## 2026-10-18
 
+Data as of 2026-10-13.
+
+Changed (2):
+
+- `data/meta/sources.json`
+- `llms.txt`
+
+
+## 2026-10-18
+
 Data as of 2026-10-13. Initial snapshot.
 
 Added (114):

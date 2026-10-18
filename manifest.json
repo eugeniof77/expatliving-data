@@ -691,8 +691,8 @@
     {
       "path": "llms.txt",
       "url": "/llms.txt",
-      "sha256": "9385078f479c973c5503882a0d38c2df7c061ff1a586ee9c8f7a92beecd91511",
-      "bytes": 26739
+      "sha256": "8bb0365b7d1c51a6b1a67809e52f818cacd2ce48d8d73d0ec001cf55b47dff30",
+      "bytes": 27040
     }
   ]
 }
