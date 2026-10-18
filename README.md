@@ -9,7 +9,7 @@ missing source, a question about a field. Pull requests to the data files
 aren't accepted, because the next sync would overwrite them. If a figure is
 wrong, tell us and we fix it at the source.
 
-123 files:
+124 files:
 
 - `(root)`: 7
 - `.github`: 1
@@ -24,7 +24,7 @@ wrong, tell us and we fix it at the source.
 - `data/rules`: 4
 - `data/seismic`: 1
 - `data/tax`: 1
-- `scripts`: 2
+- `scripts`: 3
 
 ## Datasets
 

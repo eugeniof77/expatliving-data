@@ -44,7 +44,7 @@ Notes:
 | Material | License |
 | :--- | :--- |
 | Documentation (README, this file, CHANGELOG, files under `api/` and `llms.txt` as text) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| Scripts (`scripts/`, `.github/workflows/`) | MIT (see `LICENSE`) |
+| Scripts (`scripts/`, `.github/workflows/`) | MIT (see `scripts/LICENSE`) |
 
 Please credit "Expat Living Italy (expatliving.it)" and link the page the
 figures come from when you quote them.
