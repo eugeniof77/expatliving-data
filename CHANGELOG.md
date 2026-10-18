@@ -7,6 +7,15 @@ Newest first.
 
 ## 2026-10-18
 
+Data as of 2026-10-13.
+
+Changed (1):
+
+- `data/meta/sources.json`
+
+
+## 2026-10-18
+
 Data as of 2026-10-13. Initial snapshot.
 
 Added (114):

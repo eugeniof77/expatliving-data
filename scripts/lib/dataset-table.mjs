@@ -200,3 +200,22 @@ export function collectRows(dataRoot, relPaths, readFile) {
   if (h) rows.push(h);
   return rows.sort((a, b) => a.path.localeCompare(b.path));
 }
+
+/**
+ * data/meta/sources.json minus the entries for withheld datasets (drafts and
+ * anything the API marks not servable), so the public registry never names a
+ * dataset this repo doesn't carry. Every other entry is untouched, and the
+ * serialisation matches the site's own (2-space JSON plus a newline), so an
+ * unfiltered registry comes back byte-identical.
+ * @param {Buffer|string} buf the registry as the site serves it
+ * @param {string[]} withheldSlugs
+ * @returns {Buffer}
+ */
+export function filterRegistry(buf, withheldSlugs) {
+  const registry = JSON.parse(buf.toString("utf8"));
+  const withheld = new Set(withheldSlugs);
+  if (Array.isArray(registry.sources)) {
+    registry.sources = registry.sources.filter((s) => !withheld.has(s.slug));
+  }
+  return Buffer.from(JSON.stringify(registry, null, 2) + "\n", "utf8");
+}

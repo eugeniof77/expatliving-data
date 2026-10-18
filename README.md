@@ -131,8 +131,13 @@ legislation). Withheld at this snapshot:
 - `data/tax/imu-abitazione-principale-lusso-2025.json`
 - `data/tax/imu-altri-fabbricati-2025.json`
 
-`data/meta/sources.json` is the unedited source registry and may still name
-these slugs; there are no figures behind them here.
+`data/meta/sources.json` is the site's source registry minus the entries for
+withheld datasets (listed in `manifest.json` as `withheldSlugs`), so it only
+names what this repository carries.
+
+Also left out: the raw OMI bulk export the OMI files are computed from. It is
+an input, not a dataset the site presents; `data/omi/` has the published
+comune and province figures.
 
 ## How this relates to the API
 

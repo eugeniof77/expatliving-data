@@ -14,7 +14,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
-import { collectRows, replaceTable } from "./lib/dataset-table.mjs";
+import { collectRows, replaceTable, filterRegistry } from "./lib/dataset-table.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sha256 = (buf) => crypto.createHash("sha256").update(buf).digest("hex");
@@ -41,8 +41,11 @@ const fetched = [];
 for (const file of manifest.files) {
   const res = await fetch(new URL(file.url, manifest.site), { headers: { "user-agent": "expatliving-data-sync" } });
   if (!res.ok) throw new Error(`${file.url}: HTTP ${res.status}`);
-  const buf = Buffer.from(await res.arrayBuffer());
+  let buf = Buffer.from(await res.arrayBuffer());
   if (buf.length === 0) throw new Error(`${file.url}: empty body`);
+  // The registry ships without the entries for withheld datasets, exactly as
+  // the generator wrote it.
+  if (file.path === "data/meta/sources.json") buf = filterRegistry(buf, manifest.withheldSlugs ?? []);
   assertNotDraft(file, buf);
   fetched.push({ file, buf, hash: sha256(buf) });
 }

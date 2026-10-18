@@ -1,6 +1,14 @@
 {
   "site": "https://www.expatliving.it",
   "dataAsOf": "2026-10-13",
+  "withheldSlugs": [
+    "addizionale-comunale-2025",
+    "addizionale-regionale-2026",
+    "imu-abitazione-principale-lusso-2025",
+    "imu-altri-fabbricati-2025",
+    "regime-digital-nomad",
+    "regime-flat-tax-new-residents"
+  ],
   "files": [
     {
       "path": "api/openapi.json",
@@ -53,8 +61,8 @@
     {
       "path": "data/meta/sources.json",
       "url": "/data/meta/sources.json",
-      "sha256": "55970f8fcaba672ee11750a7cdc2bcb829bde17da8aba7eecc8f0ad6143a2e30",
-      "bytes": 51663
+      "sha256": "7012e342e7e1153f3ed0b243646f4280730326500b9cd7352449ca18eff3e37b",
+      "bytes": 49233
     },
     {
       "path": "data/metrics/accommodation-capacity-beds-comune-2024.json",

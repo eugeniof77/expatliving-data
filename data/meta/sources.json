@@ -188,38 +188,6 @@
       "methodNote": "Purchase €/m² divided by twelve months' rent per m², averaged across that comune's own OMI zones. A ratio between two published OMI prices, not a yield or a payback period: it ignores purchase taxes, IMU, maintenance, financing and vacancy. OMI semester 2025H2. Comuni without both a purchase and a rent figure are absent, never estimated."
     },
     {
-      "slug": "addizionale-regionale-2026",
-      "label": "Regional IRPEF surcharge (addizionale regionale)",
-      "source": "MEF — Dipartimento delle Finanze",
-      "sourceUrl": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/addregirpef/sceltaregione.htm",
-      "extractedAt": "2026-09-14",
-      "methodNote": "Regional IRPEF surcharge, scraped live from MEF's per-region rate lookup for tax year 2026. status: draft — see docs/data-sources.md §4.2."
-    },
-    {
-      "slug": "imu-altri-fabbricati-2025",
-      "label": "IMU rate on non-primary, non-category-D buildings (altri fabbricati)",
-      "source": "MEF — Dipartimento delle Finanze, Portale del Federalismo Fiscale",
-      "sourceUrl": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/nuova_imu/dati/download.htm?anno=2025",
-      "extractedAt": "2026-09-14",
-      "methodNote": "IMU, 2025 tax year, parsed from each comune's mandatory structured 'Prospetto aliquote IMU' PDF (no bulk rate file exists for IMU — see docs/data-sources.md §4.2). status: draft."
-    },
-    {
-      "slug": "imu-abitazione-principale-lusso-2025",
-      "label": "IMU rate on a luxury (cat. A/1, A/8, A/9) primary residence",
-      "source": "MEF — Dipartimento delle Finanze, Portale del Federalismo Fiscale",
-      "sourceUrl": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/nuova_imu/dati/download.htm?anno=2025",
-      "extractedAt": "2026-09-14",
-      "methodNote": "IMU, 2025 tax year, parsed from each comune's mandatory structured 'Prospetto aliquote IMU' PDF (no bulk rate file exists for IMU — see docs/data-sources.md §4.2). status: draft."
-    },
-    {
-      "slug": "addizionale-comunale-2025",
-      "label": "Municipal IRPEF surcharge (addizionale comunale)",
-      "source": "MEF — Dipartimento delle Finanze",
-      "sourceUrl": "https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Addizionale-comunale-allIRPEF/aliquote-applicabili/elenco-aliquote-2025/",
-      "extractedAt": "2026-09-14",
-      "methodNote": "Municipal IRPEF surcharge, 2025 tax year, from MEF's annual bulk export. status: draft — see docs/data-sources.md §4.2. Covers comuni with a flat rate or a 3-bracket rate matching the current national IRPEF schedule only; comuni with a non-conforming bracket count or no rate shown are absent."
-    },
-    {
       "slug": "era5-heat-days-comune-2015-2024",
       "label": "Average annual days above 30C (2015-2024)",
       "source": "Copernicus Climate Data Store (ERA5-Land)",
