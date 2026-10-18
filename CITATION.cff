@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and credit the original sources listed in LICENSES.md."
+title: "Expat Living Italy: open data"
+type: dataset
+authors:
+  - family-names: Ferrante
+    given-names: Eugenio
+version: "2026-10-13"
+date-released: "2026-10-13"
+url: "https://www.expatliving.it/data"
+repository-code: "https://github.com/eugeniof77/expatliving-data"
+abstract: "Sourced, granular numbers for people relocating to or retiring in Italy, mirrored from https://www.expatliving.it/data. Every value carries its source, reference year and extraction date."
+keywords:
+  - Italy
+  - relocation
+  - open data
+  - ISTAT
+  - OMI

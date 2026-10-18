@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "slug": "crime-rate-province-2024",
+    "label": "Reported crime rate by province (2024)",
+    "year": 2024,
+    "source": "ISTAT — crime and public safety",
+    "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+    "extractedAt": "2026-09-25",
+    "unit": "per_100k",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "All offence types reported to the police, per 100,000 residents, per province — ISTAT's own crime-rate dataflow (73_67_DF_DCCV_DELITTIPS_9, DATA_TYPE=CRIMET, TYPE_CRIME=TOT), 2024. A higher value means MORE reported crime — this is a negative-direction indicator, the same as the Europe map's OECD intentional-homicide and vehicle-theft layers.",
+    "grain": "province",
+    "kind": "scalar",
+    "coverageNote": "4 of Italy's 110 provinces — Sulcis Iglesiente, Gallura Nord-Est Sardegna, Ogliastra and Medio Campidano, all reinstated by Sardinia's 2026-01-01 province reform — have no observation in ISTAT's own crime dataflow at any offence type: the series hasn't been restated onto Sardinia's current province boundaries yet. Absent here, not estimated from a neighbouring province or an older Sardinia scheme."
+  },
+  "values": {
+    "AG": {
+      "value": 2475.7
+    },
+    "AL": {
+      "value": 3597.4
+    },
+    "AN": {
+      "value": 2662.9
+    },
+    "AO": {
+      "value": 2889.1
+    },
+    "AP": {
+      "value": 2922.8
+    },
+    "AQ": {
+      "value": 2673.2
+    },
+    "AR": {
+      "value": 3244.6
+    },
+    "AT": {
+      "value": 3048.9
+    },
+    "AV": {
+      "value": 2706.4
+    },
+    "BA": {
+      "value": 3341.2
+    },
+    "BG": {
+      "value": 3415.1
+    },
+    "BI": {
+      "value": 3155.7
+    },
+    "BL": {
+      "value": 2511.3
+    },
+    "BN": {
+      "value": 2234.0
+    },
+    "BO": {
+      "value": 6108.1
+    },
+    "BR": {
+      "value": 2802.6
+    },
+    "BS": {
+      "value": 3527.3
+    },
+    "BT": {
+      "value": 3172.1
+    },
+    "BZ": {
+      "value": 3362.8
+    },
+    "CA": {
+      "value": 2794.1
+    },
+    "CB": {
+      "value": 2932.8
+    },
+    "CE": {
+      "value": 3435.6
+    },
+    "CH": {
+      "value": 2851.8
+    },
+    "CL": {
+      "value": 2952.9
+    },
+    "CN": {
+      "value": 2489.3
+    },
+    "CO": {
+      "value": 3085.6
+    },
+    "CR": {
+      "value": 2885.3
+    },
+    "CS": {
+      "value": 2458.1
+    },
+    "CT": {
+      "value": 3976.5
+    },
+    "CZ": {
+      "value": 3338.3
+    },
+    "EN": {
+      "value": 2331.9
+    },
+    "FC": {
+      "value": 3643.7
+    },
+    "FE": {
+      "value": 4290.5
+    },
+    "FG": {
+      "value": 3913.3
+    },
+    "FI": {
+      "value": 6566.8
+    },
+    "FM": {
+      "value": 3185.7
+    },
+    "FR": {
+      "value": 2620.3
+    },
+    "GE": {
+      "value": 4865.0
+    },
+    "GO": {
+      "value": 3293.3
+    },
+    "GR": {
+      "value": 4123.4
+    },
+    "IM": {
+      "value": 4764.3
+    },
+    "IS": {
+      "value": 2831.8
+    },
+    "KR": {
+      "value": 2861.6
+    },
+    "LC": {
+      "value": 2901.6
+    },
+    "LE": {
+      "value": 2813.2
+    },
+    "LI": {
+      "value": 4900.4
+    },
+    "LO": {
+      "value": 3121.4
+    },
+    "LT": {
+      "value": 3658.7
+    },
+    "LU": {
+      "value": 3752.0
+    },
+    "MB": {
+      "value": 3641.3
+    },
+    "MC": {
+      "value": 2630.3
+    },
+    "ME": {
+      "value": 2665.8
+    },
+    "MI": {
+      "value": 6989.0
+    },
+    "MN": {
+      "value": 3079.0
+    },
+    "MO": {
+      "value": 4293.8
+    },
+    "MS": {
+      "value": 3698.6
+    },
+    "MT": {
+      "value": 2668.6
+    },
+    "NA": {
+      "value": 4489.4
+    },
+    "NO": {
+      "value": 3554.0
+    },
+    "NU": {
+      "value": 2437.6
+    },
+    "OR": {
+      "value": 1730.1
+    },
+    "PA": {
+      "value": 3945.9
+    },
+    "PC": {
+      "value": 3540.1
+    },
+    "PD": {
+      "value": 3795.1
+    },
+    "PE": {
+      "value": 3728.4
+    },
+    "PG": {
+      "value": 3554.6
+    },
+    "PI": {
+      "value": 4293.7
+    },
+    "PN": {
+      "value": 2405.5
+    },
+    "PO": {
+      "value": 5146.5
+    },
+    "PR": {
+      "value": 4213.8
+    },
+    "PT": {
+      "value": 3410.7
+    },
+    "PU": {
+      "value": 2664.7
+    },
+    "PV": {
+      "value": 4101.9
+    },
+    "PZ": {
+      "value": 1994.9
+    },
+    "RA": {
+      "value": 4071.4
+    },
+    "RC": {
+      "value": 2824.8
+    },
+    "RE": {
+      "value": 3924.8
+    },
+    "RG": {
+      "value": 2857.0
+    },
+    "RI": {
+      "value": 2969.8
+    },
+    "RM": {
+      "value": 6434.1
+    },
+    "RN": {
+      "value": 6041.9
+    },
+    "RO": {
+      "value": 3286.1
+    },
+    "SA": {
+      "value": 3247.1
+    },
+    "SI": {
+      "value": 3041.7
+    },
+    "SO": {
+      "value": 2341.0
+    },
+    "SP": {
+      "value": 3684.1
+    },
+    "SR": {
+      "value": 3895.5
+    },
+    "SS": {
+      "value": 3124.6
+    },
+    "SV": {
+      "value": 4333.4
+    },
+    "TA": {
+      "value": 2809.2
+    },
+    "TE": {
+      "value": 3244.3
+    },
+    "TN": {
+      "value": 2952.9
+    },
+    "TO": {
+      "value": 5866.3
+    },
+    "TP": {
+      "value": 3052.1
+    },
+    "TR": {
+      "value": 3459.3
+    },
+    "TS": {
+      "value": 4624.8
+    },
+    "TV": {
+      "value": 2351.9
+    },
+    "UD": {
+      "value": 2980.5
+    },
+    "VA": {
+      "value": 3777.9
+    },
+    "VB": {
+      "value": 2755.9
+    },
+    "VC": {
+      "value": 2830.4
+    },
+    "VE": {
+      "value": 4984.6
+    },
+    "VI": {
+      "value": 3278.9
+    },
+    "VR": {
+      "value": 4150.9
+    },
+    "VT": {
+      "value": 3079.2
+    },
+    "VV": {
+      "value": 3196.0
+    }
+  }
+}

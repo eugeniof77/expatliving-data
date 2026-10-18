@@ -1,0 +1,635 @@
+{
+  "meta": {
+    "slug": "oecd-disposable-income-nuts2-2021",
+    "label": "Disposable household income per capita, by NUTS 2 region (2021)",
+    "year": 2021,
+    "source": "OECD",
+    "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_ECO%40DF_INC",
+    "extractedAt": "2026-10-03",
+    "unit": "usd_ppp_per_capita",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Net disposable household income per capita, purchasing-power-parity-adjusted US dollars, per NUTS 2 region, OECD's Regional Statistics database (DSD_REG_ECO@DF_INC, MEASURE=B6N, PRICES=V, UNIT_MEASURE=USD_PPP_PS), 2021 — the newest year before a real coverage drop. Deliberately not GDP per capita: GDP is production-based and can be skewed by corporate activity concentrated in a region (this map's own GDP layer documents Ireland's and Luxembourg's tax-accounting outliers for exactly this reason); disposable income is what households actually have after taxes and transfers, the more relevant figure for 'what does a euro/dollar of income here actually buy a resident.'",
+    "grain": "nuts2",
+    "kind": "scalar",
+    "coverageNote": "Albania has ZERO codes (not an OECD member). The UK and France both report real data but at a coarser, NUTS-1-shaped grain than this map's NUTS 2 boundaries, so ZERO codes from either match — the same shape confirmed independently across every NUTS 2 layer in this batch except rooms-per-person, where France is absent entirely rather than coarse-grained."
+  },
+  "values": {
+    "AT11": {
+      "value": 33524.0
+    },
+    "AT12": {
+      "value": 33881.8
+    },
+    "AT13": {
+      "value": 30233.9
+    },
+    "AT21": {
+      "value": 31731.4
+    },
+    "AT22": {
+      "value": 32261.9
+    },
+    "AT31": {
+      "value": 32801.2
+    },
+    "AT32": {
+      "value": 32340.2
+    },
+    "AT33": {
+      "value": 31676.5
+    },
+    "AT34": {
+      "value": 33508.0
+    },
+    "BG31": {
+      "value": 12362.8
+    },
+    "BG32": {
+      "value": 12417.8
+    },
+    "BG33": {
+      "value": 12947.9
+    },
+    "BG34": {
+      "value": 12502.9
+    },
+    "BG41": {
+      "value": 20125.7
+    },
+    "BG42": {
+      "value": 12746.0
+    },
+    "CH01": {
+      "value": 26882.0
+    },
+    "CH02": {
+      "value": 27271.5
+    },
+    "CH03": {
+      "value": 29055.1
+    },
+    "CH04": {
+      "value": 33648.4
+    },
+    "CH05": {
+      "value": 26826.7
+    },
+    "CH06": {
+      "value": 29808.4
+    },
+    "CH07": {
+      "value": 24402.1
+    },
+    "CZ01": {
+      "value": 28995.2
+    },
+    "CZ02": {
+      "value": 22879.5
+    },
+    "CZ03": {
+      "value": 20729.5
+    },
+    "CZ04": {
+      "value": 18675.6
+    },
+    "CZ05": {
+      "value": 19941.8
+    },
+    "CZ06": {
+      "value": 21108.3
+    },
+    "CZ07": {
+      "value": 19307.8
+    },
+    "CZ08": {
+      "value": 19004.4
+    },
+    "DK01": {
+      "value": 25946.1
+    },
+    "DK02": {
+      "value": 24211.7
+    },
+    "DK03": {
+      "value": 23486.3
+    },
+    "DK04": {
+      "value": 23802.9
+    },
+    "DK05": {
+      "value": 23440.3
+    },
+    "EE00": {
+      "value": 19938.6
+    },
+    "EL30": {
+      "value": 21863.8
+    },
+    "EL41": {
+      "value": 16072.6
+    },
+    "EL42": {
+      "value": 20757.8
+    },
+    "EL43": {
+      "value": 17471.2
+    },
+    "EL51": {
+      "value": 16201.1
+    },
+    "EL52": {
+      "value": 17961.6
+    },
+    "EL53": {
+      "value": 19009.6
+    },
+    "EL54": {
+      "value": 17865.2
+    },
+    "EL61": {
+      "value": 16964.3
+    },
+    "EL62": {
+      "value": 22338.3
+    },
+    "EL63": {
+      "value": 15941.0
+    },
+    "EL64": {
+      "value": 16169.3
+    },
+    "EL65": {
+      "value": 17241.2
+    },
+    "ES11": {
+      "value": 23433.9
+    },
+    "ES12": {
+      "value": 25668.1
+    },
+    "ES13": {
+      "value": 24744.8
+    },
+    "ES21": {
+      "value": 31138.8
+    },
+    "ES22": {
+      "value": 27872.2
+    },
+    "ES23": {
+      "value": 24955.5
+    },
+    "ES24": {
+      "value": 26345.2
+    },
+    "ES30": {
+      "value": 30427.8
+    },
+    "ES41": {
+      "value": 24769.1
+    },
+    "ES42": {
+      "value": 21551.9
+    },
+    "ES43": {
+      "value": 20477.3
+    },
+    "ES51": {
+      "value": 27420.3
+    },
+    "ES52": {
+      "value": 22233.9
+    },
+    "ES53": {
+      "value": 24336.0
+    },
+    "ES61": {
+      "value": 20233.3
+    },
+    "ES62": {
+      "value": 21013.9
+    },
+    "ES63": {
+      "value": 22213.2
+    },
+    "ES64": {
+      "value": 20625.8
+    },
+    "FI19": {
+      "value": 24674.3
+    },
+    "FI1B": {
+      "value": 29925.6
+    },
+    "FI1C": {
+      "value": 25380.3
+    },
+    "FI1D": {
+      "value": 23322.7
+    },
+    "FI20": {
+      "value": 28799.9
+    },
+    "HR02": {
+      "value": 18773.8
+    },
+    "HR03": {
+      "value": 17673.6
+    },
+    "HR05": {
+      "value": 20371.5
+    },
+    "HR06": {
+      "value": 17775.1
+    },
+    "HU11": {
+      "value": 28502.2
+    },
+    "HU12": {
+      "value": 18899.7
+    },
+    "HU21": {
+      "value": 18260.4
+    },
+    "HU22": {
+      "value": 17290.9
+    },
+    "HU23": {
+      "value": 15398.7
+    },
+    "HU31": {
+      "value": 13838.4
+    },
+    "HU32": {
+      "value": 14809.6
+    },
+    "HU33": {
+      "value": 16269.4
+    },
+    "IE04": {
+      "value": 23696.0
+    },
+    "IE05": {
+      "value": 25397.2
+    },
+    "IE06": {
+      "value": 26273.6
+    },
+    "ITC1": {
+      "value": 29754.9
+    },
+    "ITC2": {
+      "value": 28440.7
+    },
+    "ITC3": {
+      "value": 29022.4
+    },
+    "ITC4": {
+      "value": 32775.0
+    },
+    "ITF1": {
+      "value": 24055.2
+    },
+    "ITF2": {
+      "value": 22617.1
+    },
+    "ITF3": {
+      "value": 19641.8
+    },
+    "ITF4": {
+      "value": 21318.4
+    },
+    "ITF5": {
+      "value": 21376.0
+    },
+    "ITF6": {
+      "value": 19980.3
+    },
+    "ITG1": {
+      "value": 20561.7
+    },
+    "ITG2": {
+      "value": 22941.1
+    },
+    "ITH1": {
+      "value": 36032.9
+    },
+    "ITH2": {
+      "value": 29263.5
+    },
+    "ITH3": {
+      "value": 28917.7
+    },
+    "ITH4": {
+      "value": 29596.7
+    },
+    "ITH5": {
+      "value": 31669.4
+    },
+    "ITI1": {
+      "value": 28090.5
+    },
+    "ITI2": {
+      "value": 26561.6
+    },
+    "ITI3": {
+      "value": 27084.1
+    },
+    "ITI4": {
+      "value": 28120.1
+    },
+    "LT01": {
+      "value": 29495.6
+    },
+    "LT02": {
+      "value": 21852.4
+    },
+    "LU00": {
+      "value": 38240.7
+    },
+    "LV00": {
+      "value": 19386.1
+    },
+    "MT00": {
+      "value": 25196.2
+    },
+    "NL11": {
+      "value": 26873.7
+    },
+    "NL12": {
+      "value": 27088.2
+    },
+    "NL13": {
+      "value": 27569.6
+    },
+    "NL21": {
+      "value": 27393.9
+    },
+    "NL22": {
+      "value": 28369.1
+    },
+    "NL23": {
+      "value": 27571.7
+    },
+    "NL32": {
+      "value": 30761.4
+    },
+    "NL34": {
+      "value": 27804.1
+    },
+    "NL35": {
+      "value": 30361.2
+    },
+    "NL36": {
+      "value": 28508.0
+    },
+    "NL41": {
+      "value": 29117.8
+    },
+    "NL42": {
+      "value": 27669.9
+    },
+    "NO02": {
+      "value": 28949.5
+    },
+    "NO06": {
+      "value": 30248.0
+    },
+    "NO07": {
+      "value": 29974.7
+    },
+    "NO08": {
+      "value": 33086.4
+    },
+    "NO09": {
+      "value": 29092.4
+    },
+    "NO0A": {
+      "value": 30995.6
+    },
+    "PL21": {
+      "value": 20368.3
+    },
+    "PL22": {
+      "value": 23420.6
+    },
+    "PL41": {
+      "value": 21967.4
+    },
+    "PL42": {
+      "value": 21204.2
+    },
+    "PL43": {
+      "value": 19135.6
+    },
+    "PL51": {
+      "value": 22460.6
+    },
+    "PL52": {
+      "value": 20148.3
+    },
+    "PL61": {
+      "value": 19671.9
+    },
+    "PL62": {
+      "value": 19367.3
+    },
+    "PL63": {
+      "value": 20732.4
+    },
+    "PL71": {
+      "value": 21797.4
+    },
+    "PL72": {
+      "value": 19483.9
+    },
+    "PL81": {
+      "value": 19096.0
+    },
+    "PL82": {
+      "value": 17762.6
+    },
+    "PL84": {
+      "value": 18877.8
+    },
+    "PL91": {
+      "value": 29781.5
+    },
+    "PL92": {
+      "value": 21450.4
+    },
+    "PT11": {
+      "value": 20929.1
+    },
+    "PT15": {
+      "value": 27830.7
+    },
+    "PT19": {
+      "value": 22410.1
+    },
+    "PT1A": {
+      "value": 28149.6
+    },
+    "PT1B": {
+      "value": 23332.3
+    },
+    "PT1C": {
+      "value": 23685.6
+    },
+    "PT1D": {
+      "value": 22671.0
+    },
+    "PT20": {
+      "value": 23422.9
+    },
+    "PT30": {
+      "value": 22680.2
+    },
+    "RO11": {
+      "value": 18315.7
+    },
+    "RO12": {
+      "value": 18114.1
+    },
+    "RO21": {
+      "value": 14446.3
+    },
+    "RO22": {
+      "value": 15861.9
+    },
+    "RO31": {
+      "value": 15176.2
+    },
+    "RO32": {
+      "value": 33152.0
+    },
+    "RO41": {
+      "value": 15149.5
+    },
+    "RO42": {
+      "value": 19865.5
+    },
+    "SE11": {
+      "value": 31216.1
+    },
+    "SE12": {
+      "value": 25181.5
+    },
+    "SE21": {
+      "value": 24835.6
+    },
+    "SE22": {
+      "value": 25810.4
+    },
+    "SE23": {
+      "value": 26680.6
+    },
+    "SE31": {
+      "value": 24744.5
+    },
+    "SE32": {
+      "value": 24966.9
+    },
+    "SE33": {
+      "value": 25663.5
+    },
+    "SI03": {
+      "value": 22781.4
+    },
+    "SI04": {
+      "value": 23335.8
+    },
+    "SK01": {
+      "value": 28550.8
+    },
+    "SK02": {
+      "value": 17401.2
+    },
+    "SK03": {
+      "value": 18275.0
+    },
+    "SK04": {
+      "value": 16254.4
+    },
+    "TR10": {
+      "value": 8869.9
+    },
+    "TR21": {
+      "value": 7792.1
+    },
+    "TR22": {
+      "value": 7018.6
+    },
+    "TR31": {
+      "value": 8618.2
+    },
+    "TR32": {
+      "value": 7576.5
+    },
+    "TR33": {
+      "value": 6138.6
+    },
+    "TR41": {
+      "value": 7027.1
+    },
+    "TR42": {
+      "value": 6536.2
+    },
+    "TR51": {
+      "value": 8398.2
+    },
+    "TR52": {
+      "value": 5526.8
+    },
+    "TR61": {
+      "value": 7305.4
+    },
+    "TR62": {
+      "value": 4700.1
+    },
+    "TR63": {
+      "value": 3709.3
+    },
+    "TR71": {
+      "value": 5608.5
+    },
+    "TR72": {
+      "value": 5453.8
+    },
+    "TR81": {
+      "value": 6504.9
+    },
+    "TR82": {
+      "value": 6372.3
+    },
+    "TR83": {
+      "value": 6146.1
+    },
+    "TR90": {
+      "value": 6826.5
+    },
+    "TRA1": {
+      "value": 4768.8
+    },
+    "TRA2": {
+      "value": 3236.7
+    },
+    "TRB1": {
+      "value": 4550.7
+    },
+    "TRB2": {
+      "value": 2666.2
+    },
+    "TRC1": {
+      "value": 3678.3
+    },
+    "TRC2": {
+      "value": 2457.3
+    },
+    "TRC3": {
+      "value": 2501.0
+    }
+  }
+}

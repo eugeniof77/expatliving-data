@@ -1,0 +1,644 @@
+{
+  "meta": {
+    "slug": "oecd-rooms-per-person-nuts2-2021",
+    "label": "Rooms per person, by NUTS 2 region (2021)",
+    "year": 2021,
+    "source": "OECD",
+    "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_SOC%40DF_HOUSING",
+    "extractedAt": "2026-10-03",
+    "unit": "rooms_per_person",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Average number of rooms per person in the housing stock, per NUTS 2 region, OECD's Regional Statistics database (DSD_REG_SOC@DF_HOUSING, MEASURE=ROOMS, UNIT_MEASURE=RO_PS), 2021 — the newest year before a real coverage drop (not gradual reporting lag). A housing-space signal distinct from every OMI price layer on the Italy map and from Eurostat's cost-based housing-overburden layer here: this is about physical space per resident, not price.",
+    "grain": "nuts2",
+    "kind": "scalar",
+    "coverageNote": "Albania has ZERO codes (not an OECD member). The UK reports real data but at a coarser, NUTS-1-shaped grain (11 codes) than this map's NUTS 2 boundaries, so ZERO UK codes match — the same shape as this batch's other NUTS 2 layers. FRANCE is a DIFFERENT and worse gap, checked directly rather than assumed to match: France has NO ROOMS codes at TL2 at all, not even at the coarser grain the foreign-born-share/income/attainment layers still report France at — a genuine absence from this specific dataflow, not a code-matching problem."
+  },
+  "values": {
+    "AT11": {
+      "value": 1.93
+    },
+    "AT12": {
+      "value": 1.9
+    },
+    "AT13": {
+      "value": 1.46
+    },
+    "AT21": {
+      "value": 1.92
+    },
+    "AT22": {
+      "value": 1.85
+    },
+    "AT31": {
+      "value": 1.88
+    },
+    "AT32": {
+      "value": 1.72
+    },
+    "AT33": {
+      "value": 1.73
+    },
+    "AT34": {
+      "value": 1.78
+    },
+    "BG31": {
+      "value": 1.3
+    },
+    "BG32": {
+      "value": 1.4
+    },
+    "BG33": {
+      "value": 1.2
+    },
+    "BG34": {
+      "value": 1.3
+    },
+    "BG41": {
+      "value": 1.2
+    },
+    "BG42": {
+      "value": 1.3
+    },
+    "CH01": {
+      "value": 1.5
+    },
+    "CH02": {
+      "value": 1.8
+    },
+    "CH03": {
+      "value": 1.7
+    },
+    "CH04": {
+      "value": 1.6
+    },
+    "CH05": {
+      "value": 1.8
+    },
+    "CH06": {
+      "value": 1.7
+    },
+    "CH07": {
+      "value": 1.7
+    },
+    "CZ01": {
+      "value": 1.4
+    },
+    "CZ02": {
+      "value": 1.5
+    },
+    "CZ03": {
+      "value": 1.6
+    },
+    "CZ04": {
+      "value": 1.5
+    },
+    "CZ05": {
+      "value": 1.6
+    },
+    "CZ06": {
+      "value": 1.5
+    },
+    "CZ07": {
+      "value": 1.5
+    },
+    "CZ08": {
+      "value": 1.4
+    },
+    "DK01": {
+      "value": 1.7
+    },
+    "DK02": {
+      "value": 2.0
+    },
+    "DK03": {
+      "value": 2.0
+    },
+    "DK04": {
+      "value": 2.0
+    },
+    "DK05": {
+      "value": 2.1
+    },
+    "EE00": {
+      "value": 1.67
+    },
+    "EL30": {
+      "value": 1.3
+    },
+    "EL41": {
+      "value": 1.3
+    },
+    "EL42": {
+      "value": 1.2
+    },
+    "EL43": {
+      "value": 1.3
+    },
+    "EL51": {
+      "value": 1.2
+    },
+    "EL52": {
+      "value": 1.3
+    },
+    "EL53": {
+      "value": 1.2
+    },
+    "EL54": {
+      "value": 1.3
+    },
+    "EL61": {
+      "value": 1.2
+    },
+    "EL62": {
+      "value": 1.4
+    },
+    "EL63": {
+      "value": 1.2
+    },
+    "EL64": {
+      "value": 1.3
+    },
+    "EL65": {
+      "value": 1.4
+    },
+    "ES11": {
+      "value": 2.2
+    },
+    "ES12": {
+      "value": 2.1
+    },
+    "ES13": {
+      "value": 2.1
+    },
+    "ES21": {
+      "value": 2.0
+    },
+    "ES22": {
+      "value": 2.1
+    },
+    "ES23": {
+      "value": 2.1
+    },
+    "ES24": {
+      "value": 2.0
+    },
+    "ES30": {
+      "value": 1.9
+    },
+    "ES41": {
+      "value": 2.3
+    },
+    "ES42": {
+      "value": 2.1
+    },
+    "ES43": {
+      "value": 2.2
+    },
+    "ES51": {
+      "value": 1.9
+    },
+    "ES52": {
+      "value": 2.0
+    },
+    "ES53": {
+      "value": 1.8
+    },
+    "ES61": {
+      "value": 1.9
+    },
+    "ES62": {
+      "value": 1.9
+    },
+    "ES63": {
+      "value": 1.5
+    },
+    "ES64": {
+      "value": 1.5
+    },
+    "FI19": {
+      "value": 1.84
+    },
+    "FI1B": {
+      "value": 1.66
+    },
+    "FI1C": {
+      "value": 1.85
+    },
+    "FI1D": {
+      "value": 1.86
+    },
+    "FI20": {
+      "value": 2.1
+    },
+    "HR02": {
+      "value": 1.3
+    },
+    "HR03": {
+      "value": 1.2
+    },
+    "HR05": {
+      "value": 1.1
+    },
+    "HR06": {
+      "value": 1.2
+    },
+    "HU11": {
+      "value": 1.6
+    },
+    "HU12": {
+      "value": 1.5
+    },
+    "HU21": {
+      "value": 1.6
+    },
+    "HU22": {
+      "value": 1.6
+    },
+    "HU23": {
+      "value": 1.7
+    },
+    "HU31": {
+      "value": 1.5
+    },
+    "HU32": {
+      "value": 1.5
+    },
+    "HU33": {
+      "value": 1.6
+    },
+    "IE04": {
+      "value": 2.2
+    },
+    "IE05": {
+      "value": 2.2
+    },
+    "IE06": {
+      "value": 1.9
+    },
+    "ITC1": {
+      "value": 1.4
+    },
+    "ITC2": {
+      "value": 1.3
+    },
+    "ITC3": {
+      "value": 1.5
+    },
+    "ITC4": {
+      "value": 1.3
+    },
+    "ITF1": {
+      "value": 1.4
+    },
+    "ITF2": {
+      "value": 1.4
+    },
+    "ITF3": {
+      "value": 1.3
+    },
+    "ITF4": {
+      "value": 1.3
+    },
+    "ITF5": {
+      "value": 1.3
+    },
+    "ITF6": {
+      "value": 1.5
+    },
+    "ITG1": {
+      "value": 1.4
+    },
+    "ITG2": {
+      "value": 1.6
+    },
+    "ITH1": {
+      "value": 1.3
+    },
+    "ITH2": {
+      "value": 1.3
+    },
+    "ITH3": {
+      "value": 1.4
+    },
+    "ITH4": {
+      "value": 1.6
+    },
+    "ITH5": {
+      "value": 1.5
+    },
+    "ITI1": {
+      "value": 1.5
+    },
+    "ITI2": {
+      "value": 1.4
+    },
+    "ITI3": {
+      "value": 1.4
+    },
+    "ITI4": {
+      "value": 1.3
+    },
+    "LT01": {
+      "value": 1.5
+    },
+    "LT02": {
+      "value": 1.57
+    },
+    "LU00": {
+      "value": 1.98
+    },
+    "LV00": {
+      "value": 1.2
+    },
+    "NL11": {
+      "value": 2.2
+    },
+    "NL12": {
+      "value": 2.2
+    },
+    "NL13": {
+      "value": 2.2
+    },
+    "NL21": {
+      "value": 2.1
+    },
+    "NL22": {
+      "value": 2.1
+    },
+    "NL23": {
+      "value": 2.1
+    },
+    "NL32": {
+      "value": 2.0
+    },
+    "NL34": {
+      "value": 2.0
+    },
+    "NL35": {
+      "value": 2.0
+    },
+    "NL36": {
+      "value": 2.0
+    },
+    "NL41": {
+      "value": 2.3
+    },
+    "NL42": {
+      "value": 2.3
+    },
+    "NO02": {
+      "value": 2.3
+    },
+    "NO06": {
+      "value": 2.1
+    },
+    "NO07": {
+      "value": 2.1
+    },
+    "NO08": {
+      "value": 1.9
+    },
+    "NO09": {
+      "value": 2.2
+    },
+    "NO0A": {
+      "value": 2.1
+    },
+    "PL21": {
+      "value": 1.31
+    },
+    "PL22": {
+      "value": 1.4
+    },
+    "PL41": {
+      "value": 1.36
+    },
+    "PL42": {
+      "value": 1.38
+    },
+    "PL43": {
+      "value": 1.38
+    },
+    "PL51": {
+      "value": 1.4
+    },
+    "PL52": {
+      "value": 1.48
+    },
+    "PL61": {
+      "value": 1.32
+    },
+    "PL62": {
+      "value": 1.33
+    },
+    "PL63": {
+      "value": 1.32
+    },
+    "PL71": {
+      "value": 1.38
+    },
+    "PL72": {
+      "value": 1.32
+    },
+    "PL81": {
+      "value": 1.34
+    },
+    "PL82": {
+      "value": 1.34
+    },
+    "PL84": {
+      "value": 1.42
+    },
+    "PL91": {
+      "value": 1.38
+    },
+    "PL92": {
+      "value": 1.28
+    },
+    "PT11": {
+      "value": 1.95
+    },
+    "PT15": {
+      "value": 1.92
+    },
+    "PT19": {
+      "value": 2.21
+    },
+    "PT1A": {
+      "value": 1.88
+    },
+    "PT1B": {
+      "value": 1.9
+    },
+    "PT1C": {
+      "value": 2.14
+    },
+    "PT1D": {
+      "value": 2.07
+    },
+    "PT20": {
+      "value": 1.88
+    },
+    "PT30": {
+      "value": 1.74
+    },
+    "RO11": {
+      "value": 1.1079336497474241
+    },
+    "RO12": {
+      "value": 1.0839952126596577
+    },
+    "RO21": {
+      "value": 1.0971037280460385
+    },
+    "RO22": {
+      "value": 1.176736924743195
+    },
+    "RO31": {
+      "value": 1.1568653616208366
+    },
+    "RO32": {
+      "value": 1.3038740280689567
+    },
+    "RO41": {
+      "value": 1.1723125985534073
+    },
+    "RO42": {
+      "value": 1.2096428786510087
+    },
+    "RS11": {
+      "value": 1.0
+    },
+    "RS12": {
+      "value": 1.1
+    },
+    "RS21": {
+      "value": 1.0
+    },
+    "RS22": {
+      "value": 1.1
+    },
+    "SE11": {
+      "value": 1.5
+    },
+    "SE12": {
+      "value": 1.7
+    },
+    "SE21": {
+      "value": 1.9
+    },
+    "SE22": {
+      "value": 1.8
+    },
+    "SE23": {
+      "value": 1.8
+    },
+    "SE31": {
+      "value": 1.9
+    },
+    "SE32": {
+      "value": 2.0
+    },
+    "SE33": {
+      "value": 1.9
+    },
+    "SI03": {
+      "value": 1.6
+    },
+    "SI04": {
+      "value": 1.6
+    },
+    "SK01": {
+      "value": 1.1
+    },
+    "SK02": {
+      "value": 1.22
+    },
+    "SK03": {
+      "value": 1.17
+    },
+    "SK04": {
+      "value": 1.14
+    },
+    "TR10": {
+      "value": 1.41
+    },
+    "TR21": {
+      "value": 1.68
+    },
+    "TR22": {
+      "value": 1.68
+    },
+    "TR31": {
+      "value": 1.61
+    },
+    "TR32": {
+      "value": 1.7
+    },
+    "TR33": {
+      "value": 1.56
+    },
+    "TR41": {
+      "value": 1.58
+    },
+    "TR42": {
+      "value": 1.52
+    },
+    "TR51": {
+      "value": 1.81
+    },
+    "TR52": {
+      "value": 1.56
+    },
+    "TR61": {
+      "value": 1.55
+    },
+    "TR62": {
+      "value": 1.41
+    },
+    "TR63": {
+      "value": 1.32
+    },
+    "TR71": {
+      "value": 1.77
+    },
+    "TR72": {
+      "value": 1.61
+    },
+    "TR81": {
+      "value": 1.79
+    },
+    "TR82": {
+      "value": 1.67
+    },
+    "TR83": {
+      "value": 1.69
+    },
+    "TR90": {
+      "value": 1.87
+    },
+    "TRA1": {
+      "value": 1.29
+    },
+    "TRA2": {
+      "value": 1.07
+    },
+    "TRB1": {
+      "value": 1.49
+    },
+    "TRB2": {
+      "value": 0.95
+    },
+    "TRC1": {
+      "value": 1.13
+    },
+    "TRC2": {
+      "value": 0.92
+    },
+    "TRC3": {
+      "value": 0.95
+    }
+  }
+}

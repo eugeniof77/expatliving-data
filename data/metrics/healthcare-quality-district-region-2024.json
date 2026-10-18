@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "slug": "healthcare-quality-district-region-2024",
+    "label": "Healthcare quality: community & district care by region (2024)",
+    "year": 2024,
+    "source": "Ministero della Salute",
+    "sourceUrl": "https://www.salute.gov.it/new/sites/default/files/sintesi_CORE_NSG_2024.pdf",
+    "extractedAt": "2026-09-25",
+    "unit": "points",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Ministero della Salute's Nuovo Sistema di Garanzia (NSG) CORE-indicator score for territorial/community care (GP and pharmaceutical access, home care, chronic-disease management outside hospital), per region, 2024 — the newest year published (approved by the Comitato LEA 14 May 2026). Score 0-100; 60 is the official \"sufficiency\" threshold below which a region is not considered compliant for this macro-area. A HIGHER score means BETTER assessed care — this is a positive-direction indicator, the opposite direction from this map's crime and air-quality layers.",
+    "grain": "region",
+    "kind": "scalar",
+    "coverageNote": "NSG-LEA scores Trentino-Alto Adige's two autonomous provinces — Bolzano and Trento — SEPARATELY rather than as one region, and they can score very differently (e.g. Prevenzione 2024: Bolzano 59, Trento 98). This map's region grain has one shared \"Trentino-Alto Adige\" label covering both provinces' comuni, so there is no honest single figure to show there — omitted here rather than averaged or standing one province's score in for the other's. 19/20 regions carry a real value."
+  },
+  "values": {
+    "Abruzzo": {
+      "value": 74.0
+    },
+    "Basilicata": {
+      "value": 64.0
+    },
+    "Calabria": {
+      "value": 52.0
+    },
+    "Campania": {
+      "value": 80.0
+    },
+    "Emilia-Romagna": {
+      "value": 94.0
+    },
+    "Friuli-Venezia Giulia": {
+      "value": 85.0
+    },
+    "Lazio": {
+      "value": 75.0
+    },
+    "Liguria": {
+      "value": 84.0
+    },
+    "Lombardia": {
+      "value": 89.0
+    },
+    "Marche": {
+      "value": 85.0
+    },
+    "Molise": {
+      "value": 62.0
+    },
+    "Piemonte": {
+      "value": 90.0
+    },
+    "Puglia": {
+      "value": 76.0
+    },
+    "Sardegna": {
+      "value": 65.0
+    },
+    "Sicilia": {
+      "value": 73.0
+    },
+    "Toscana": {
+      "value": 94.0
+    },
+    "Umbria": {
+      "value": 82.0
+    },
+    "Valle d'Aosta/Vallée d'Aoste": {
+      "value": 64.0
+    },
+    "Veneto": {
+      "value": 95.0
+    }
+  }
+}

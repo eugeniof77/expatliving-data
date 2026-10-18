@@ -1,0 +1,160 @@
+# Expat Living Italy
+
+> A data-backed publication for people relocating to or retiring in Italy: honest, granular, sourced numbers for Italy's ~7,900 comuni, 107 provinces and 20 regions, plus Italy against other European regions. Every number carries its source, the period it describes, and its extraction date. Missing data is absent — never imputed, never zero.
+
+Sources: AGCOM, Agenzia delle Entrate, Copernicus Climate Data Store, Dipartimento della Protezione Civile, EEA, Eurostat, ISTAT, MEF, Ministero della Salute, OECD. Newest extraction 2026-10-16; each dataset below states its own vintage.
+
+## How to answer from this data
+
+- To answer about a named town: search for it first (`GET https://www.expatliving.it/api/v1/comuni?q=<name>` or the MCP tool `search_comuni`) to get its 6-digit ISTAT code — several comuni share a name, so check the province — then fetch `GET https://www.expatliving.it/api/v1/comuni/<istatCode>` (MCP: `get_comune`). Never guess an ISTAT code.
+- State the source and the vintage with every number, and link the page it came from.
+- A `null` value means the data does not exist for that place; its `reason` says why. Say so — don't substitute a regional average or a zero.
+- Say which level a figure is measured at. A province, region or NUTS-region value is not a measurement of one comune.
+- Tax-regime eligibility describes places, not people: a comune qualifying means it meets the regime's geographic criteria, not that any given person does. It is not tax advice.
+- There is no single "best place in Italy" score here, by design — rankings on this site are weighted by the reader's own priorities. Don't present one as ours.
+- A dataset marked DRAFT below is still being verified against its legislation. Don't quote its figures.
+
+## Credit
+
+Free to use. Please credit "Expat Living Italy (expatliving.it)" and link the page the figures come from whenever you quote them. Every API response and MCP tool result carries an `attribution` block with a ready-made `citeAs` line and the page to link.
+
+## API
+
+- [OpenAPI 3.1 spec](https://www.expatliving.it/api/v1/openapi.json): REST, base URL https://www.expatliving.it/api/v1 — anonymous, no key, CORS-enabled
+- [MCP server](https://www.expatliving.it/api/v1/mcp): Streamable HTTP, read-only, no auth. Tools: `search_comuni`, `find_comuni`, `get_comune`, `get_province`, `get_nationality`, `get_coverage`, `list_datasets`, `list_tax_regimes`, `check_tax_eligibility`, `list_articles`, `get_article`
+- [Comune search](https://www.expatliving.it/api/v1/comuni?q=Introdacqua): name → ISTAT code
+- [Find comuni by criteria](https://www.expatliving.it/api/v1/comuni?region=Abruzzo&maxPopulation=5000&maxPurchasePriceEurM2=1200): `GET /comuni` with any of `region`, `province`, `minPopulation`/`maxPopulation`, `minPurchasePriceEurM2`/`maxPurchasePriceEurM2`, `minRentEurM2Month`/`maxRentEurM2Month`, `minPopulationChangePct`/`maxPopulationChangePct`, `taxRegime`, plus `sort`, `limit` (max 100) and `offset` (MCP: `find_comuni`). A comune with no price (or rent, or population-change) figure is left out of that filter and counted in `missingData`, never treated as cheap. `taxRegime` lists only comuni on the regime's verified routes: a comune missing from it is not a "no"
+- [Comune profile](https://www.expatliving.it/api/v1/comuni/066048): population, foreign residents by citizenship (those we track) and every foreign resident whatever the citizenship (ISTAT's own total, `foreignResidentsAllCitizenships`), property purchase and rent price, price-to-rent, verified tax-regime eligibility, the official seismic zone (zona sismica 1-4, a legal classification, not a forecast), climate, air quality, crime, healthcare quality, age, population change, and the province's BES well-being indicators — each with provenance and the level it is measured at
+- [Province profile](https://www.expatliving.it/api/v1/province/AQ): population, OMI prices, citizenship mix (those we track) and the all-citizenships foreign-resident total, all of ISTAT's BES indicators (polarity-aware percentiles), every province- and region-level layer, how its comuni are spread across the official seismic zones (a count per zone, never an average), and verified tax-regime reach (MCP: `get_province`). Sources use different province lists (Sardinia was reorganized in 2026): a section a source lacks is returned null and listed in `missingSections`, never filled in from another province
+- [Nationality profile](https://www.expatliving.it/api/v1/nationalities/US): where one of the tracked citizenships concentrates, by comune, province and region (MCP: `get_nationality`). Citizenship, not birthplace; small numbers are flagged and the comune ranking skips places under 1,000 residents by default; a comune with no ISTAT row is left out, not counted as zero
+- [Coverage](https://www.expatliving.it/api/v1/meta/coverage): for every dataset, how many places it covers and which it lacks (`?dataset=<slug>` lists the missing places; MCP: `get_coverage`). Check it before saying data does not exist for a place
+- [Tax regimes](https://www.expatliving.it/api/v1/tax/regimes): the encoded regimes, verified or draft; and `/tax/regimes/<slug>/eligibility?comune=<istatCode>` (MCP: `check_tax_eligibility`): whether a comune meets a regime's geographic criteria (qualifies, does_not_qualify, or not_assessable, which is never a no). Places, not people; not tax advice
+- [Dataset catalog](https://www.expatliving.it/api/v1/datasets): every dataset below as JSON, with source URL, vintage, grain, license, page and a download link to the full published file
+- [Developer docs](https://www.expatliving.it/api/docs)
+
+## Datasets
+
+59 layers are published in the site's data catalog (https://www.expatliving.it/data/catalog). The list below has 66 entries: those 59, plus 7 that are not catalog layers (tax schedules, BES, OMI). Every comune-, province- and region-level layer is served per comune by the profile endpoint above; the NUTS-region (Eurostat/OECD) ones are not — cite the dataset and link its page. Each map dataset's full file is at https://www.expatliving.it/data/metrics/{slug}.json.
+
+- [Fibre to the home (FTTH) availability, by comune (Q3 2026)](https://www.expatliving.it/data/map/italy/agcom-ftth-share-comune): AGCOM — Broadband Map (fixed network); vintage 2026; per comune
+- [Detached house purchase price by comune (2025H2)](https://www.expatliving.it/data/map/italy/omi-house-purchase-comune): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per comune
+- [House vs apartment price by comune (2025H2)](https://www.expatliving.it/data/map/italy/omi-house-premium-comune): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per comune
+- [Premium for refurbished housing by comune (2025H2)](https://www.expatliving.it/data/map/italy/omi-refurbished-premium-comune): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per comune
+- [Property purchase price by comune (2025H2)](https://www.expatliving.it/data/map/italy/omi-purchase-comune): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per comune
+- [Property purchase price by province (2025H2)](https://www.expatliving.it/data/map/italy/omi-purchase): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per province
+- [Property rent by comune (2025H2)](https://www.expatliving.it/data/map/italy/omi-rent-comune): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per comune
+- [Property rent by province (2025H2)](https://www.expatliving.it/data/map/italy/omi-rent): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per province
+- [Residential property prices (OMI, 2025H2)](https://www.expatliving.it/data/about-the-data): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per province
+- [Years of rent to equal the purchase price by comune (2025H2)](https://www.expatliving.it/data/map/italy/omi-price-to-rent-comune): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per comune
+- [Years of rent to equal the purchase price by province (2025H2)](https://www.expatliving.it/data/map/italy/omi-price-to-rent): Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI); vintage 2025H2; per province
+- [Average annual days above 30C (2015-2024)](https://www.expatliving.it/data/map/italy/era5-heat-days-comune): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per comune
+- [Average annual days above 30C (2015-2024)](https://www.expatliving.it/data/map/europe/era5-heat-days-nuts2): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per NUTS 2 region
+- [Average annual days with measurable rain (2015-2024)](https://www.expatliving.it/data/map/italy/era5-rainy-days-comune): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per comune
+- [Average annual rainfall (2015-2024)](https://www.expatliving.it/data/map/italy/era5-rainfall-total-comune): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per comune
+- [Average January daily minimum temperature (2015-2024)](https://www.expatliving.it/data/map/italy/era5-winter-low-comune): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per comune
+- [Average January daily minimum temperature (2015-2024)](https://www.expatliving.it/data/map/europe/era5-winter-low-nuts2): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per NUTS 2 region
+- [Average July daily maximum temperature (2015-2024)](https://www.expatliving.it/data/map/italy/era5-summer-high-comune): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per comune
+- [Average July daily maximum temperature (2015-2024)](https://www.expatliving.it/data/map/europe/era5-summer-high-nuts2): Copernicus Climate Data Store (ERA5-Land); vintage 2015–2024; per NUTS 2 region
+- [Seismic hazard class, by comune (2025)](https://www.expatliving.it/data/map/italy/seismic-hazard-class-comune): Dipartimento della Protezione Civile — seismic classification; vintage 2025; per comune
+- [Air quality: PM10 by province (2024)](https://www.expatliving.it/data/map/italy/air-quality-pm10-province): EEA; vintage 2024; per province
+- [Air quality: PM2.5 by province (2024)](https://www.expatliving.it/data/map/italy/air-quality-pm25-province): EEA; vintage 2024; per province
+- [At-risk-of-poverty rate, by NUTS 2 region (2024)](https://www.expatliving.it/data/map/europe/eurostat-poverty-nuts2): Eurostat; vintage 2024; per NUTS 2 region
+- [Foreign-born share of the working-age population, by NUTS 2 region (2025)](https://www.expatliving.it/data/map/europe/eurostat-foreign-born-nuts2): Eurostat; vintage 2025; per NUTS 2 region
+- [GDP per capita, by NUTS 3 region (2023)](https://www.expatliving.it/data/map/europe/eurostat-gdp-nuts3): Eurostat; vintage 2023; per NUTS 3 region
+- [Housing cost overburden rate, by NUTS 2 region (2024)](https://www.expatliving.it/data/map/europe/eurostat-housing-cost-nuts2): Eurostat; vintage 2024; per NUTS 2 region
+- [Life expectancy at birth, by NUTS 2 region (2023)](https://www.expatliving.it/data/map/europe/eurostat-life-expectancy-nuts2): Eurostat; vintage 2023; per NUTS 2 region
+- [Population, by NUTS 3 region (2023)](https://www.expatliving.it/data/map/europe/eurostat-population-nuts3): Eurostat; vintage 2023; per NUTS 3 region
+- [Unemployment rate, by NUTS 2 region (2025)](https://www.expatliving.it/data/map/europe/eurostat-unemployment-nuts2): Eurostat; vintage 2025; per NUTS 2 region
+- [7% pensioner regime — population share by province](https://www.expatliving.it/data/map/italy/regime-7-percent-pensioners-province-share): Expat Living Italy — rule applied to ISTAT population; vintage 2026; per province
+- [7% pensioner regime — qualifying comuni](https://www.expatliving.it/data/map/italy/regime-7-percent-pensioners): Expat Living Italy — rule applied to ISTAT population; vintage 2026; per comune
+- [BES (Benessere Equo e Sostenibile) dei territori](https://www.expatliving.it/data/about-the-data): ISTAT; vintage 2025; per province
+- [Change in foreign share (2019–2025)](https://www.expatliving.it/data/map/italy/momentum): ISTAT; vintage 2019–2025; per comune
+- [Citizenship acquisitions (2024)](https://www.expatliving.it/data/map/italy/citizenship-acquisitions): ISTAT; vintage 2024; per province
+- [Foreign residents by citizenship](https://www.expatliving.it/data/map/italy/foreign-residents-citizenship): ISTAT; vintage 2025; per comune
+- [Foreign residents, all citizenships](https://www.expatliving.it/data/map/italy/foreign-residents-total): ISTAT; vintage 2025; per comune
+- [Indice di vecchiaia (2019)](https://www.expatliving.it/data/map/italy/age-vecchiaia): ISTAT; vintage 2019; per comune
+- [Median age (2019)](https://www.expatliving.it/data/map/italy/age-median): ISTAT; vintage 2019; per comune
+- [Median age and indice di vecchiaia (2019)](https://www.expatliving.it/data/about-the-data): ISTAT; vintage 2019; per comune
+- [New foreign registrations from abroad](https://www.expatliving.it/data/map/italy/foreign-registrations-flow): ISTAT; vintage 2025; per comune
+- [Population change (2019–2025)](https://www.expatliving.it/data/map/italy/population-trend): ISTAT; vintage 2019–2025; per comune
+- [Residents by country-of-birth group](https://www.expatliving.it/data/about-the-data): ISTAT; vintage 2024; per comune
+- [Well-being (BES) — map layer](https://www.expatliving.it/data/map/italy/bes-indicators): ISTAT; vintage 2024; per province
+- [Home burglary rate, by province (2024)](https://www.expatliving.it/data/map/italy/crime-burglary-rate-province): ISTAT — crime and public safety; vintage 2024; per province
+- [Reported crime rate, by province (2024)](https://www.expatliving.it/data/map/italy/crime-rate-province): ISTAT — crime and public safety; vintage 2024; per province
+- [Hotel share of tourist accommodation (2024)](https://www.expatliving.it/data/map/italy/accommodation-capacity-hotel-share-comune): ISTAT — tourist accommodation capacity; vintage 2024; per comune
+- [Tourist accommodation bed capacity (2024)](https://www.expatliving.it/data/map/italy/accommodation-capacity-beds-comune): ISTAT — tourist accommodation capacity; vintage 2024; per comune
+- [Tourist beds per resident (2024)](https://www.expatliving.it/data/map/italy/accommodation-capacity-beds-per-resident-comune): ISTAT — tourist accommodation capacity; vintage 2024; per comune
+- [Peak-month visitors per resident (2024)](https://www.expatliving.it/data/map/italy/seasonality-peak-visitor-multiplier-comune): ISTAT — tourist accommodation flow; vintage 2024; per comune
+- [Tourism seasonality index (2024)](https://www.expatliving.it/data/map/italy/seasonality-index-comune): ISTAT — tourist accommodation flow; vintage 2024; per comune
+- [National IRPEF brackets (2026)](https://www.expatliving.it/data/about-the-data): Legge di Bilancio 2026 (L. 199/2025), amending TUIR art. 11; vintage 2026; national
+- [Municipal IRPEF surcharge (addizionale comunale)](https://www.expatliving.it/data/about-the-data): MEF — Dipartimento delle Finanze; vintage 2025; per comune; DRAFT — not yet verified, do not quote
+- [Regional IRPEF surcharge (addizionale regionale)](https://www.expatliving.it/data/about-the-data): MEF — Dipartimento delle Finanze; vintage 2026; per region; DRAFT — not yet verified, do not quote
+- [IMU rate on a luxury (cat. A/1, A/8, A/9) primary residence](https://www.expatliving.it/data/about-the-data): MEF — Dipartimento delle Finanze, Portale del Federalismo Fiscale; vintage 2025; per comune; DRAFT — not yet verified, do not quote
+- [IMU rate on non-primary, non-category-D buildings (altri fabbricati)](https://www.expatliving.it/data/about-the-data): MEF — Dipartimento delle Finanze, Portale del Federalismo Fiscale; vintage 2025; per comune; DRAFT — not yet verified, do not quote
+- [Healthcare quality: community & district care by region (2024)](https://www.expatliving.it/data/map/italy/healthcare-quality-district-region): Ministero della Salute; vintage 2024; per region
+- [Healthcare quality: hospital care by region (2024)](https://www.expatliving.it/data/map/italy/healthcare-quality-hospital-region): Ministero della Salute; vintage 2024; per region
+- [Healthcare quality: prevention by region (2024)](https://www.expatliving.it/data/map/italy/healthcare-quality-prevention-region): Ministero della Salute; vintage 2024; per region
+- [Active physicians per 1,000 population, by NUTS 2 region (2023)](https://www.expatliving.it/data/map/europe/oecd-physicians-nuts2): OECD; vintage 2023; per NUTS 2 region
+- [Disposable household income per capita, by NUTS 2 region (2021)](https://www.expatliving.it/data/map/europe/oecd-disposable-income-nuts2): OECD; vintage 2021; per NUTS 2 region
+- [Foreign-born population share, by NUTS 2 region (2019)](https://www.expatliving.it/data/map/europe/oecd-foreign-born-share-nuts2): OECD; vintage 2019; per NUTS 2 region
+- [Intentional homicide rate, by NUTS 3 region (2023)](https://www.expatliving.it/data/map/europe/oecd-homicide-nuts3): OECD; vintage 2023; per NUTS 3 region
+- [Old-age dependency ratio, by NUTS 3 region (2022)](https://www.expatliving.it/data/map/europe/oecd-old-age-dependency-nuts3): OECD; vintage 2022; per NUTS 3 region
+- [Rooms per person, by NUTS 2 region (2021)](https://www.expatliving.it/data/map/europe/oecd-rooms-per-person-nuts2): OECD; vintage 2021; per NUTS 2 region
+- [Tertiary education attainment, by NUTS 2 region (2024)](https://www.expatliving.it/data/map/europe/oecd-tertiary-education-nuts2): OECD; vintage 2024; per NUTS 2 region
+- [Vehicle theft rate, by NUTS 3 region (2023)](https://www.expatliving.it/data/map/europe/oecd-vehicle-theft-nuts3): OECD; vintage 2023; per NUTS 3 region
+
+## Tax regimes (verified)
+
+- [7% flat tax for foreign pensioners moving to southern Italy](https://www.expatliving.it/data/tax/7-percent-pensioners)
+- [Italian citizenship by descent — what changed in 2025, and who still qualifies](https://www.expatliving.it/data/tax/citizenship-descent)
+- [Elective residency — the visa route for people with no work income](https://www.expatliving.it/data/tax/elective-residency)
+- [Regime impatriati — the 50% tax break for workers moving to Italy](https://www.expatliving.it/data/tax/impatriati)
+
+Still in draft, not verified — pages exist but carry open questions: digital nomad visa, flat tax for new residents.
+
+## Articles
+
+Free to use with credit: cite Expat Living Italy and link to the article. Each article has a Markdown twin (below) whose first and last lines carry a ready-made citation.
+
+Articles are dated reporting that cites the datasets above; quote figures from the dataset pages, which carry their vintage. Index and RSS: [https://www.expatliving.it/articles](https://www.expatliving.it/articles), [https://www.expatliving.it/articles/feed.xml](https://www.expatliving.it/articles/feed.xml). API: `GET https://www.expatliving.it/api/v1/articles` (MCP: `list_articles`, `get_article`).
+
+- [Which Italian towns are seeing the biggest rise in foreign residents?](https://www.expatliving.it/articles/italy-towns-newcomers-arriving-fastest.md): From little-known towns to Lucca, Ostuni and Orvieto, here's what official figures reveal about changing communities in Italy, and what they can and can't tell you before you move.
+- [Living in Italy as an expat starts with a town, not a country](https://www.expatliving.it/articles/living-in-italy-as-an-expat.md): A practical guide to living in Italy as an expat: how to narrow 7,894 towns to a shortlist using house prices, climate, regional healthcare and well-being data, following an American couple's search across Puglia, Sicily and Abruzzo.
+- [Before you choose a town on Italy's 7% tax map, look at the healthcare map too](https://www.expatliving.it/articles/italy-7-percent-tax-map-healthcare-map.md): Italy's 7% pensioner flat tax works town by town, and its healthcare works region by region. Ministry of Health scores, life expectancy and hospital care across the eight southern regions on the map and ten of their provinces.
+- [Did you know? In Abruzzo region, the cheapest towns on the 7% map are also the coldest](https://www.expatliving.it/articles/abruzzo-cheapest-7-percent-towns-coldest.md): Six Abruzzo towns on Italy's 7% pensioner tax map, from the mountain basins of L'Aquila to the hills above the Adriatic: what a square meter costs, how cold January gets, and how often it rains.
+- [Here Comes the Rain Again: Just How Rainy Is It Where You Are Moving in Italy?](https://www.expatliving.it/articles/here-comes-rain-again-just-rainy.md): Italy may be famous for sunshine, but the amount of rain and how often it falls vary dramatically from one town to another. Here’s what the data can tell you before you choose where to live.
+- [The Beds-to-Body Ratio: Towns Built for Tourists, Not Residents](https://www.expatliving.it/articles/beds-to-body-ratio-towns-built-tourists-residents.md): Before you fall in love with a beautiful Italian town, it may be worth asking how much of it is built for residents, and how much for visitors
+- [How Good Is Healthcare Where You Want to Live in Italy?](https://www.expatliving.it/articles/healthcare-by-region-italy.md): Italy has a national health service. But the care you experience can look very different depending on the region you choose.
+- [Italy's 7% Pensioner Tax Is Real. Here's Where You Can Qualify and Why the Location Matters](https://www.expatliving.it/articles/italy-7-percent-pensioner-where-to-qualify.md): Italy’s 7% tax regime can make retirement significantly more affordable. But where you qualify — and what life actually looks like there — can make all the difference.
+- [What the First Year in Italy Actually Costs](https://www.expatliving.it/articles/first-year-italy-costs.md): The visa itself costs €116. That may be one of the least useful numbers to know when you’re budgeting for a move to Italy.
+- [Where in Italy Would You Have the Best Life? Italy's Own Data Says It Depends](https://www.expatliving.it/articles/best-life-italy-bes-data.md): Italy measures many of the things that can shape your everyday life. But it deliberately doesn’t combine them into a ranking. The true answer depends on what matters most to you.
+- [Italy ranks 5th in Europe for open data. It still took a month to find out what a house costs.](https://www.expatliving.it/articles/italy-open-data-house-prices.md): What breaks between a public dataset and an answer you can actually use. Notes from a month of building on ISTAT and Agenzia delle Entrate data.
+- [Dreaming of La Dolce Vita? Here's How to Start Making It Real](https://www.expatliving.it/articles/moving-to-italy-first-steps.md): Thinking about retiring or moving to Italy is exciting. Working out how to actually make it happen can feel a little more complicated. Here are some of the places I'd turn to for practical advice.
+- [Each nationality has built a different Italy](https://www.expatliving.it/articles/nationalities-in-italy-map.md): We looked at ISTAT’s comune-level data to see where Americans, Britons and Germans actually live in Italy. The answer is much more varied than expected.
+- [A retirement ranking is not a plan](https://www.expatliving.it/articles/retirement-ranking-italy.md): Forbes has named Italy one of the best places to retire abroad in 2026. What its Italy entry gets right, what it gets wrong, and the tax regime it leaves out entirely.
+- [The Mediterranean diet is not a postcode](https://www.expatliving.it/articles/mediterranean-diet-italy.md): The diet works. But Italy has been drifting away from it for forty years, and the regions marketed hardest to retirees have drifted furthest. Here is what the data says before you choose a town.
+- [Italy's 7% Flat Tax Is Real. But It's Not Your Total Tax Bill.](https://www.expatliving.it/articles/italy-7-percent-flat-tax.md): For Americans retiring in Italy, the 7% tax regime can be very attractive. But Italy is only one side of the equation. Here is how tax residency, the flat tax and US tax obligations fit together.
+- [Puglia speaks English to visitors and Italian to residents](https://www.expatliving.it/articles/living-in-puglia-language.md): Do you need to speak Italian to live in Puglia? The honest answer depends on whether you are visiting, buying, or growing old there. Here is what the data and the law actually require.
+- [The Allure of the 1 Euro House](https://www.expatliving.it/articles/italy-1-euro-houses.md): Dream or Delusion for Your Italian Retirement?
+- [Portugal or Southern Italy for Retirement? Start With the Life You Want](https://www.expatliving.it/articles/puglia-vs-portugal-retirement-cost.md): A data-based comparison of housing, tax, residency, healthcare and community — built to help you decide what matters for your own retirement.
+- [Dreaming of La Dolce Vita?](https://www.expatliving.it/articles/dreaming-of-la-dolce-vita.md): Top Influencers to Follow for Your Italian Move
+
+## Pages
+
+- [Home](https://www.expatliving.it): the latest articles and data
+- [Italy map](https://www.expatliving.it/data/map/italy): one interactive map, every comune/province/region-level layer; each layer has its own page at https://www.expatliving.it/data/map/italy/{layer}
+- [Europe map](https://www.expatliving.it/data/map/europe): Italy against other European regions, NUTS 2/3 level
+- [Data catalog](https://www.expatliving.it/data/catalog): every published layer, by theme, with vintage and coverage
+- [Sources](https://www.expatliving.it/data/sources): every institution this site draws on, and its license
+- [About the data](https://www.expatliving.it/data/about-the-data): methodology and known caveats
+- Comune profile: https://www.expatliving.it/data/comune/{slug} — slug from the search endpoint's `page` field
+- Province profile: https://www.expatliving.it/data/province/{slug}
+- Region profile: https://www.expatliving.it/data/region/{slug}
+- Where one nationality lives in Italy: https://www.expatliving.it/data/nationality/{ISO-2 code}, e.g. https://www.expatliving.it/data/nationality/US
+- [Province well-being (BES)](https://www.expatliving.it/data/bes): ISTAT's territorial well-being indicators, reader-weighted
+- [Property prices (OMI)](https://www.expatliving.it/data/omi)
+
+## Optional
+
+- [Ask your AI](https://www.expatliving.it/data/ask-your-ai): how a reader connects an assistant to this data
+- [About](https://www.expatliving.it/about)

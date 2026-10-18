@@ -1,0 +1,3797 @@
+{
+  "meta": {
+    "slug": "oecd-vehicle-theft-nuts3-2023",
+    "label": "Vehicle theft rate, by NUTS 3 region (2023)",
+    "year": 2023,
+    "source": "OECD",
+    "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_SOC%40DF_SAFETY",
+    "extractedAt": "2026-10-03",
+    "unit": "per_100k",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Vehicle thefts per 100,000 population, per NUTS 3 region (province-equivalent), OECD's own Regional Statistics database (DSD_REG_SOC@DF_SAFETY, MEASURE=VEH_THEFT — the same dataflow as intentional homicide rate, a second real measure from its shared table), 2023 — the newest year before a 2024 reporting-lag drop. A genuinely long-tailed rate, the same shape as homicide: this map's existing IQR-fence color scale (computeDomain(), applied to every non-'count' unit) handles it without new code.",
+    "grain": "nuts3",
+    "kind": "scalar",
+    "coverageNote": "Albania has ZERO codes, structurally, for the same non-membership reason as every OECD layer here. The UK has partial coverage, a different mix from homicide's own NUTS-vintage gap — checked independently for this measure rather than assumed to match."
+  },
+  "values": {
+    "AT111": {
+      "value": 13.2
+    },
+    "AT112": {
+      "value": 19.3
+    },
+    "AT113": {
+      "value": 12.2
+    },
+    "AT121": {
+      "value": 10.0
+    },
+    "AT122": {
+      "value": 30.0
+    },
+    "AT123": {
+      "value": 19.2
+    },
+    "AT124": {
+      "value": 15.7
+    },
+    "AT125": {
+      "value": 59.6
+    },
+    "AT126": {
+      "value": 16.9
+    },
+    "AT127": {
+      "value": 21.4
+    },
+    "AT130": {
+      "value": 35.4
+    },
+    "AT211": {
+      "value": 18.8
+    },
+    "AT212": {
+      "value": 0.8
+    },
+    "AT213": {
+      "value": 6.1
+    },
+    "AT221": {
+      "value": 20.9
+    },
+    "AT222": {
+      "value": 7.5
+    },
+    "AT223": {
+      "value": 15.8
+    },
+    "AT224": {
+      "value": 14.6
+    },
+    "AT225": {
+      "value": 11.0
+    },
+    "AT226": {
+      "value": 3.0
+    },
+    "AT311": {
+      "value": 7.1
+    },
+    "AT312": {
+      "value": 23.1
+    },
+    "AT313": {
+      "value": 11.2
+    },
+    "AT314": {
+      "value": 18.3
+    },
+    "AT315": {
+      "value": 14.3
+    },
+    "AT321": {
+      "value": 9.8
+    },
+    "AT322": {
+      "value": 9.3
+    },
+    "AT323": {
+      "value": 20.4
+    },
+    "AT331": {
+      "value": 3.0
+    },
+    "AT332": {
+      "value": 17.0
+    },
+    "AT333": {
+      "value": 18.4
+    },
+    "AT334": {
+      "value": 4.6
+    },
+    "AT335": {
+      "value": 11.3
+    },
+    "AT341": {
+      "value": 24.3
+    },
+    "AT342": {
+      "value": 5.4
+    },
+    "BE100": {
+      "value": 146.3
+    },
+    "BE211": {
+      "value": 80.5
+    },
+    "BE212": {
+      "value": 40.2
+    },
+    "BE213": {
+      "value": 41.6
+    },
+    "BE223": {
+      "value": 60.5
+    },
+    "BE224": {
+      "value": 40.5
+    },
+    "BE225": {
+      "value": 30.4
+    },
+    "BE231": {
+      "value": 30.3
+    },
+    "BE232": {
+      "value": 26.6
+    },
+    "BE233": {
+      "value": 29.1
+    },
+    "BE234": {
+      "value": 82.3
+    },
+    "BE235": {
+      "value": 28.2
+    },
+    "BE236": {
+      "value": 41.6
+    },
+    "BE241": {
+      "value": 57.8
+    },
+    "BE242": {
+      "value": 32.4
+    },
+    "BE251": {
+      "value": 49.9
+    },
+    "BE252": {
+      "value": 30.5
+    },
+    "BE253": {
+      "value": 34.2
+    },
+    "BE254": {
+      "value": 58.4
+    },
+    "BE255": {
+      "value": 51.9
+    },
+    "BE256": {
+      "value": 65.4
+    },
+    "BE257": {
+      "value": 22.0
+    },
+    "BE258": {
+      "value": 24.2
+    },
+    "BE310": {
+      "value": 48.7
+    },
+    "BE323": {
+      "value": 126.8
+    },
+    "BE328": {
+      "value": 210.2
+    },
+    "BE329": {
+      "value": 101.7
+    },
+    "BE32A": {
+      "value": 56.7
+    },
+    "BE32B": {
+      "value": 194.0
+    },
+    "BE32C": {
+      "value": 87.8
+    },
+    "BE32D": {
+      "value": 108.9
+    },
+    "BE331": {
+      "value": 75.9
+    },
+    "BE332": {
+      "value": 166.4
+    },
+    "BE334": {
+      "value": 60.7
+    },
+    "BE335": {
+      "value": 72.9
+    },
+    "BE336": {
+      "value": 35.0
+    },
+    "BE341": {
+      "value": 51.4
+    },
+    "BE342": {
+      "value": 46.3
+    },
+    "BE343": {
+      "value": 62.9
+    },
+    "BE344": {
+      "value": 24.1
+    },
+    "BE345": {
+      "value": 68.8
+    },
+    "BE351": {
+      "value": 52.4
+    },
+    "BE352": {
+      "value": 73.0
+    },
+    "BE353": {
+      "value": 76.3
+    },
+    "BG311": {
+      "value": 5.5
+    },
+    "BG312": {
+      "value": 3.5
+    },
+    "BG313": {
+      "value": 4.0
+    },
+    "BG314": {
+      "value": 2.7
+    },
+    "BG315": {
+      "value": 9.8
+    },
+    "BG321": {
+      "value": 3.0
+    },
+    "BG322": {
+      "value": 11.5
+    },
+    "BG323": {
+      "value": 2.6
+    },
+    "BG324": {
+      "value": 3.0
+    },
+    "BG325": {
+      "value": 2.1
+    },
+    "BG331": {
+      "value": 4.9
+    },
+    "BG332": {
+      "value": 6.8
+    },
+    "BG333": {
+      "value": 4.0
+    },
+    "BG334": {
+      "value": 1.0
+    },
+    "BG341": {
+      "value": 10.7
+    },
+    "BG342": {
+      "value": 4.1
+    },
+    "BG343": {
+      "value": 4.7
+    },
+    "BG344": {
+      "value": 2.7
+    },
+    "BG411": {
+      "value": 7.2
+    },
+    "BG412": {
+      "value": 5.7
+    },
+    "BG413": {
+      "value": 2.8
+    },
+    "BG414": {
+      "value": 8.1
+    },
+    "BG415": {
+      "value": 3.7
+    },
+    "BG421": {
+      "value": 1.4
+    },
+    "BG422": {
+      "value": 5.8
+    },
+    "BG423": {
+      "value": 3.5
+    },
+    "BG424": {
+      "value": 1.1
+    },
+    "BG425": {
+      "value": 1.4
+    },
+    "CH011": {
+      "value": 224.8
+    },
+    "CH012": {
+      "value": 193.1
+    },
+    "CH013": {
+      "value": 827.7
+    },
+    "CH021": {
+      "value": 286.4
+    },
+    "CH022": {
+      "value": 197.3
+    },
+    "CH023": {
+      "value": 601.5
+    },
+    "CH024": {
+      "value": 186.0
+    },
+    "CH025": {
+      "value": 175.2
+    },
+    "CH031": {
+      "value": 1071.0
+    },
+    "CH032": {
+      "value": 400.2
+    },
+    "CH033": {
+      "value": 188.0
+    },
+    "CH040": {
+      "value": 248.9
+    },
+    "CH051": {
+      "value": 93.4
+    },
+    "CH052": {
+      "value": 168.3
+    },
+    "CH053": {
+      "value": 128.3
+    },
+    "CH054": {
+      "value": 139.4
+    },
+    "CH055": {
+      "value": 260.9
+    },
+    "CH056": {
+      "value": 244.5
+    },
+    "CH057": {
+      "value": 320.7
+    },
+    "CH061": {
+      "value": 282.2
+    },
+    "CH062": {
+      "value": 53.2
+    },
+    "CH063": {
+      "value": 84.3
+    },
+    "CH064": {
+      "value": 118.0
+    },
+    "CH065": {
+      "value": 60.4
+    },
+    "CH066": {
+      "value": 177.5
+    },
+    "CH070": {
+      "value": 193.9
+    },
+    "CZ010": {
+      "value": 36.6
+    },
+    "CZ020": {
+      "value": 23.5
+    },
+    "CZ031": {
+      "value": 20.7
+    },
+    "CZ032": {
+      "value": 24.5
+    },
+    "CZ041": {
+      "value": 22.8
+    },
+    "CZ042": {
+      "value": 24.5
+    },
+    "CZ051": {
+      "value": 33.1
+    },
+    "CZ052": {
+      "value": 17.4
+    },
+    "CZ053": {
+      "value": 7.9
+    },
+    "CZ063": {
+      "value": 11.2
+    },
+    "CZ064": {
+      "value": 19.7
+    },
+    "CZ071": {
+      "value": 16.3
+    },
+    "CZ072": {
+      "value": 8.4
+    },
+    "CZ080": {
+      "value": 16.8
+    },
+    "DE111": {
+      "value": 40.0
+    },
+    "DE112": {
+      "value": 24.2
+    },
+    "DE113": {
+      "value": 32.4
+    },
+    "DE114": {
+      "value": 46.5
+    },
+    "DE115": {
+      "value": 40.1
+    },
+    "DE116": {
+      "value": 23.2
+    },
+    "DE117": {
+      "value": 61.9
+    },
+    "DE118": {
+      "value": 25.2
+    },
+    "DE119": {
+      "value": 27.0
+    },
+    "DE11A": {
+      "value": 26.0
+    },
+    "DE11B": {
+      "value": 33.1
+    },
+    "DE11C": {
+      "value": 15.6
+    },
+    "DE11D": {
+      "value": 19.3
+    },
+    "DE121": {
+      "value": 49.7
+    },
+    "DE122": {
+      "value": 105.4
+    },
+    "DE123": {
+      "value": 27.3
+    },
+    "DE124": {
+      "value": 57.6
+    },
+    "DE125": {
+      "value": 36.8
+    },
+    "DE126": {
+      "value": 56.7
+    },
+    "DE127": {
+      "value": 21.3
+    },
+    "DE128": {
+      "value": 32.9
+    },
+    "DE129": {
+      "value": 87.0
+    },
+    "DE12A": {
+      "value": 18.1
+    },
+    "DE12B": {
+      "value": 27.1
+    },
+    "DE12C": {
+      "value": 17.3
+    },
+    "DE131": {
+      "value": 248.7
+    },
+    "DE132": {
+      "value": 66.5
+    },
+    "DE133": {
+      "value": 57.5
+    },
+    "DE134": {
+      "value": 85.5
+    },
+    "DE135": {
+      "value": 26.4
+    },
+    "DE136": {
+      "value": 34.3
+    },
+    "DE137": {
+      "value": 23.6
+    },
+    "DE138": {
+      "value": 46.5
+    },
+    "DE139": {
+      "value": 58.0
+    },
+    "DE13A": {
+      "value": 29.8
+    },
+    "DE141": {
+      "value": 71.8
+    },
+    "DE142": {
+      "value": 38.4
+    },
+    "DE143": {
+      "value": 16.1
+    },
+    "DE144": {
+      "value": 32.7
+    },
+    "DE145": {
+      "value": 16.4
+    },
+    "DE146": {
+      "value": 25.7
+    },
+    "DE147": {
+      "value": 45.4
+    },
+    "DE148": {
+      "value": 29.1
+    },
+    "DE149": {
+      "value": 30.9
+    },
+    "DE211": {
+      "value": 113.0
+    },
+    "DE212": {
+      "value": 52.9
+    },
+    "DE213": {
+      "value": 118.7
+    },
+    "DE214": {
+      "value": 18.6
+    },
+    "DE215": {
+      "value": 23.9
+    },
+    "DE216": {
+      "value": 9.3
+    },
+    "DE217": {
+      "value": 35.6
+    },
+    "DE218": {
+      "value": 16.8
+    },
+    "DE219": {
+      "value": 26.0
+    },
+    "DE21A": {
+      "value": 30.2
+    },
+    "DE21B": {
+      "value": 30.7
+    },
+    "DE21C": {
+      "value": 35.2
+    },
+    "DE21D": {
+      "value": 15.7
+    },
+    "DE21E": {
+      "value": 19.1
+    },
+    "DE21F": {
+      "value": 15.5
+    },
+    "DE21G": {
+      "value": 19.0
+    },
+    "DE21H": {
+      "value": 25.6
+    },
+    "DE21I": {
+      "value": 25.4
+    },
+    "DE21J": {
+      "value": 25.6
+    },
+    "DE21K": {
+      "value": 18.7
+    },
+    "DE21L": {
+      "value": 25.2
+    },
+    "DE21M": {
+      "value": 18.1
+    },
+    "DE21N": {
+      "value": 15.3
+    },
+    "DE221": {
+      "value": 42.2
+    },
+    "DE222": {
+      "value": 47.5
+    },
+    "DE223": {
+      "value": 29.6
+    },
+    "DE224": {
+      "value": 32.3
+    },
+    "DE225": {
+      "value": 7.7
+    },
+    "DE226": {
+      "value": 24.0
+    },
+    "DE227": {
+      "value": 20.5
+    },
+    "DE228": {
+      "value": 15.0
+    },
+    "DE229": {
+      "value": 9.0
+    },
+    "DE22A": {
+      "value": 23.3
+    },
+    "DE22B": {
+      "value": 6.8
+    },
+    "DE22C": {
+      "value": 23.0
+    },
+    "DE231": {
+      "value": 21.4
+    },
+    "DE232": {
+      "value": 71.3
+    },
+    "DE233": {
+      "value": 37.8
+    },
+    "DE234": {
+      "value": 17.3
+    },
+    "DE235": {
+      "value": 20.3
+    },
+    "DE236": {
+      "value": 38.5
+    },
+    "DE237": {
+      "value": 12.5
+    },
+    "DE238": {
+      "value": 21.8
+    },
+    "DE239": {
+      "value": 14.2
+    },
+    "DE23A": {
+      "value": 31.7
+    },
+    "DE241": {
+      "value": 53.5
+    },
+    "DE242": {
+      "value": 41.2
+    },
+    "DE243": {
+      "value": 17.2
+    },
+    "DE244": {
+      "value": 28.1
+    },
+    "DE245": {
+      "value": 16.9
+    },
+    "DE246": {
+      "value": 11.6
+    },
+    "DE247": {
+      "value": 17.8
+    },
+    "DE248": {
+      "value": 10.4
+    },
+    "DE249": {
+      "value": 21.6
+    },
+    "DE24A": {
+      "value": 6.1
+    },
+    "DE24B": {
+      "value": 18.2
+    },
+    "DE24C": {
+      "value": 16.3
+    },
+    "DE24D": {
+      "value": 35.2
+    },
+    "DE251": {
+      "value": 80.7
+    },
+    "DE252": {
+      "value": 47.1
+    },
+    "DE253": {
+      "value": 39.6
+    },
+    "DE254": {
+      "value": 43.8
+    },
+    "DE255": {
+      "value": 34.2
+    },
+    "DE256": {
+      "value": 25.7
+    },
+    "DE257": {
+      "value": 16.6
+    },
+    "DE258": {
+      "value": 12.8
+    },
+    "DE259": {
+      "value": 19.5
+    },
+    "DE25A": {
+      "value": 12.9
+    },
+    "DE25B": {
+      "value": 29.7
+    },
+    "DE25C": {
+      "value": 18.0
+    },
+    "DE261": {
+      "value": 102.4
+    },
+    "DE262": {
+      "value": 83.7
+    },
+    "DE263": {
+      "value": 50.2
+    },
+    "DE264": {
+      "value": 17.6
+    },
+    "DE265": {
+      "value": 15.5
+    },
+    "DE266": {
+      "value": 11.3
+    },
+    "DE267": {
+      "value": 8.4
+    },
+    "DE268": {
+      "value": 44.0
+    },
+    "DE269": {
+      "value": 18.9
+    },
+    "DE26A": {
+      "value": 12.7
+    },
+    "DE26B": {
+      "value": 12.2
+    },
+    "DE26C": {
+      "value": 8.7
+    },
+    "DE271": {
+      "value": 51.7
+    },
+    "DE272": {
+      "value": 59.0
+    },
+    "DE273": {
+      "value": 48.8
+    },
+    "DE274": {
+      "value": 34.2
+    },
+    "DE275": {
+      "value": 21.4
+    },
+    "DE276": {
+      "value": 21.9
+    },
+    "DE277": {
+      "value": 18.4
+    },
+    "DE278": {
+      "value": 53.5
+    },
+    "DE279": {
+      "value": 23.1
+    },
+    "DE27A": {
+      "value": 35.3
+    },
+    "DE27B": {
+      "value": 12.1
+    },
+    "DE27C": {
+      "value": 12.5
+    },
+    "DE27D": {
+      "value": 13.4
+    },
+    "DE27E": {
+      "value": 8.5
+    },
+    "DE300": {
+      "value": 288.6
+    },
+    "DE401": {
+      "value": 89.5
+    },
+    "DE402": {
+      "value": 226.4
+    },
+    "DE403": {
+      "value": 142.7
+    },
+    "DE404": {
+      "value": 140.5
+    },
+    "DE405": {
+      "value": 103.6
+    },
+    "DE406": {
+      "value": 161.6
+    },
+    "DE407": {
+      "value": 50.4
+    },
+    "DE408": {
+      "value": 104.7
+    },
+    "DE409": {
+      "value": 97.3
+    },
+    "DE40A": {
+      "value": 139.6
+    },
+    "DE40B": {
+      "value": 111.3
+    },
+    "DE40C": {
+      "value": 112.7
+    },
+    "DE40D": {
+      "value": 48.3
+    },
+    "DE40E": {
+      "value": 105.6
+    },
+    "DE40F": {
+      "value": 44.6
+    },
+    "DE40G": {
+      "value": 187.7
+    },
+    "DE40H": {
+      "value": 184.1
+    },
+    "DE40I": {
+      "value": 92.5
+    },
+    "DE501": {
+      "value": 112.3
+    },
+    "DE502": {
+      "value": 135.8
+    },
+    "DE600": {
+      "value": 136.3
+    },
+    "DE711": {
+      "value": 236.0
+    },
+    "DE712": {
+      "value": 80.0
+    },
+    "DE713": {
+      "value": 41.9
+    },
+    "DE714": {
+      "value": 130.1
+    },
+    "DE715": {
+      "value": 38.7
+    },
+    "DE716": {
+      "value": 44.8
+    },
+    "DE717": {
+      "value": 46.4
+    },
+    "DE718": {
+      "value": 44.2
+    },
+    "DE719": {
+      "value": 29.0
+    },
+    "DE71A": {
+      "value": 49.1
+    },
+    "DE71B": {
+      "value": 21.2
+    },
+    "DE71C": {
+      "value": 48.4
+    },
+    "DE71D": {
+      "value": 36.0
+    },
+    "DE71E": {
+      "value": 36.8
+    },
+    "DE721": {
+      "value": 46.0
+    },
+    "DE722": {
+      "value": 22.5
+    },
+    "DE723": {
+      "value": 62.7
+    },
+    "DE724": {
+      "value": 37.9
+    },
+    "DE725": {
+      "value": 29.6
+    },
+    "DE731": {
+      "value": 95.5
+    },
+    "DE732": {
+      "value": 58.5
+    },
+    "DE733": {
+      "value": 36.4
+    },
+    "DE734": {
+      "value": 43.8
+    },
+    "DE735": {
+      "value": 38.4
+    },
+    "DE736": {
+      "value": 16.8
+    },
+    "DE737": {
+      "value": 31.6
+    },
+    "DE803": {
+      "value": 160.4
+    },
+    "DE804": {
+      "value": 28.7
+    },
+    "DE80J": {
+      "value": 38.8
+    },
+    "DE80K": {
+      "value": 39.4
+    },
+    "DE80L": {
+      "value": 31.0
+    },
+    "DE80M": {
+      "value": 43.3
+    },
+    "DE80N": {
+      "value": 50.4
+    },
+    "DE80O": {
+      "value": 21.0
+    },
+    "DE911": {
+      "value": 57.6
+    },
+    "DE912": {
+      "value": 34.3
+    },
+    "DE913": {
+      "value": 73.1
+    },
+    "DE914": {
+      "value": 29.0
+    },
+    "DE916": {
+      "value": 32.1
+    },
+    "DE917": {
+      "value": 63.8
+    },
+    "DE918": {
+      "value": 26.9
+    },
+    "DE91A": {
+      "value": 40.2
+    },
+    "DE91B": {
+      "value": 32.9
+    },
+    "DE91C": {
+      "value": 27.1
+    },
+    "DE922": {
+      "value": 38.6
+    },
+    "DE923": {
+      "value": 21.2
+    },
+    "DE925": {
+      "value": 55.6
+    },
+    "DE926": {
+      "value": 10.6
+    },
+    "DE927": {
+      "value": 36.2
+    },
+    "DE928": {
+      "value": 42.1
+    },
+    "DE929": {
+      "value": 93.0
+    },
+    "DE931": {
+      "value": 65.4
+    },
+    "DE932": {
+      "value": 32.1
+    },
+    "DE933": {
+      "value": 41.7
+    },
+    "DE934": {
+      "value": 27.8
+    },
+    "DE935": {
+      "value": 61.0
+    },
+    "DE936": {
+      "value": 25.5
+    },
+    "DE937": {
+      "value": 26.6
+    },
+    "DE938": {
+      "value": 43.5
+    },
+    "DE939": {
+      "value": 29.5
+    },
+    "DE93A": {
+      "value": 30.6
+    },
+    "DE93B": {
+      "value": 47.1
+    },
+    "DE941": {
+      "value": 49.1
+    },
+    "DE942": {
+      "value": 44.3
+    },
+    "DE943": {
+      "value": 33.6
+    },
+    "DE944": {
+      "value": 60.9
+    },
+    "DE945": {
+      "value": 65.8
+    },
+    "DE946": {
+      "value": 20.5
+    },
+    "DE947": {
+      "value": 30.7
+    },
+    "DE948": {
+      "value": 43.2
+    },
+    "DE949": {
+      "value": 33.0
+    },
+    "DE94A": {
+      "value": 22.9
+    },
+    "DE94B": {
+      "value": 38.2
+    },
+    "DE94C": {
+      "value": 32.5
+    },
+    "DE94D": {
+      "value": 24.3
+    },
+    "DE94E": {
+      "value": 32.9
+    },
+    "DE94F": {
+      "value": 27.4
+    },
+    "DE94G": {
+      "value": 34.7
+    },
+    "DE94H": {
+      "value": 14.3
+    },
+    "DEA11": {
+      "value": 100.1
+    },
+    "DEA12": {
+      "value": 129.6
+    },
+    "DEA13": {
+      "value": 110.1
+    },
+    "DEA14": {
+      "value": 120.2
+    },
+    "DEA15": {
+      "value": 101.7
+    },
+    "DEA16": {
+      "value": 64.9
+    },
+    "DEA17": {
+      "value": 153.7
+    },
+    "DEA18": {
+      "value": 40.4
+    },
+    "DEA19": {
+      "value": 106.2
+    },
+    "DEA1A": {
+      "value": 75.3
+    },
+    "DEA1B": {
+      "value": 99.2
+    },
+    "DEA1C": {
+      "value": 94.8
+    },
+    "DEA1D": {
+      "value": 85.2
+    },
+    "DEA1E": {
+      "value": 73.2
+    },
+    "DEA1F": {
+      "value": 77.3
+    },
+    "DEA22": {
+      "value": 101.3
+    },
+    "DEA23": {
+      "value": 188.0
+    },
+    "DEA24": {
+      "value": 130.1
+    },
+    "DEA26": {
+      "value": 114.9
+    },
+    "DEA27": {
+      "value": 122.9
+    },
+    "DEA28": {
+      "value": 56.8
+    },
+    "DEA29": {
+      "value": 107.8
+    },
+    "DEA2A": {
+      "value": 35.8
+    },
+    "DEA2B": {
+      "value": 33.2
+    },
+    "DEA2C": {
+      "value": 55.8
+    },
+    "DEA2D": {
+      "value": 158.1
+    },
+    "DEA31": {
+      "value": 75.0
+    },
+    "DEA32": {
+      "value": 76.0
+    },
+    "DEA33": {
+      "value": 60.1
+    },
+    "DEA34": {
+      "value": 66.1
+    },
+    "DEA35": {
+      "value": 64.8
+    },
+    "DEA36": {
+      "value": 77.6
+    },
+    "DEA37": {
+      "value": 55.9
+    },
+    "DEA38": {
+      "value": 42.6
+    },
+    "DEA41": {
+      "value": 63.1
+    },
+    "DEA42": {
+      "value": 41.3
+    },
+    "DEA43": {
+      "value": 52.6
+    },
+    "DEA44": {
+      "value": 21.6
+    },
+    "DEA45": {
+      "value": 46.8
+    },
+    "DEA46": {
+      "value": 55.8
+    },
+    "DEA47": {
+      "value": 64.2
+    },
+    "DEA51": {
+      "value": 76.0
+    },
+    "DEA52": {
+      "value": 94.9
+    },
+    "DEA53": {
+      "value": 69.4
+    },
+    "DEA54": {
+      "value": 61.9
+    },
+    "DEA55": {
+      "value": 79.5
+    },
+    "DEA56": {
+      "value": 61.5
+    },
+    "DEA57": {
+      "value": 27.2
+    },
+    "DEA58": {
+      "value": 46.6
+    },
+    "DEA59": {
+      "value": 38.5
+    },
+    "DEA5A": {
+      "value": 36.1
+    },
+    "DEA5B": {
+      "value": 75.7
+    },
+    "DEA5C": {
+      "value": 60.4
+    },
+    "DEB11": {
+      "value": 151.8
+    },
+    "DEB12": {
+      "value": 35.1
+    },
+    "DEB13": {
+      "value": 53.1
+    },
+    "DEB14": {
+      "value": 39.6
+    },
+    "DEB15": {
+      "value": 25.5
+    },
+    "DEB17": {
+      "value": 50.4
+    },
+    "DEB18": {
+      "value": 38.2
+    },
+    "DEB1A": {
+      "value": 42.4
+    },
+    "DEB1B": {
+      "value": 29.4
+    },
+    "DEB1C": {
+      "value": 32.5
+    },
+    "DEB1D": {
+      "value": 25.5
+    },
+    "DEB21": {
+      "value": 92.6
+    },
+    "DEB22": {
+      "value": 37.9
+    },
+    "DEB23": {
+      "value": 29.9
+    },
+    "DEB24": {
+      "value": 35.3
+    },
+    "DEB25": {
+      "value": 28.2
+    },
+    "DEB31": {
+      "value": 110.3
+    },
+    "DEB32": {
+      "value": 55.8
+    },
+    "DEB33": {
+      "value": 64.8
+    },
+    "DEB34": {
+      "value": 132.7
+    },
+    "DEB35": {
+      "value": 157.2
+    },
+    "DEB36": {
+      "value": 24.7
+    },
+    "DEB37": {
+      "value": 111.5
+    },
+    "DEB38": {
+      "value": 98.2
+    },
+    "DEB39": {
+      "value": 146.7
+    },
+    "DEB3A": {
+      "value": 54.0
+    },
+    "DEB3B": {
+      "value": 35.3
+    },
+    "DEB3C": {
+      "value": 32.8
+    },
+    "DEB3D": {
+      "value": 40.1
+    },
+    "DEB3E": {
+      "value": 54.1
+    },
+    "DEB3F": {
+      "value": 23.6
+    },
+    "DEB3G": {
+      "value": 54.3
+    },
+    "DEB3H": {
+      "value": 37.2
+    },
+    "DEB3I": {
+      "value": 37.3
+    },
+    "DEB3J": {
+      "value": 46.1
+    },
+    "DEB3K": {
+      "value": 25.5
+    },
+    "DEC01": {
+      "value": 119.4
+    },
+    "DEC02": {
+      "value": 45.7
+    },
+    "DEC03": {
+      "value": 78.6
+    },
+    "DEC04": {
+      "value": 77.2
+    },
+    "DEC05": {
+      "value": 59.5
+    },
+    "DEC06": {
+      "value": 37.5
+    },
+    "DED21": {
+      "value": 65.9
+    },
+    "DED2C": {
+      "value": 57.6
+    },
+    "DED2D": {
+      "value": 137.2
+    },
+    "DED2E": {
+      "value": 49.1
+    },
+    "DED2F": {
+      "value": 36.7
+    },
+    "DED41": {
+      "value": 53.7
+    },
+    "DED42": {
+      "value": 14.2
+    },
+    "DED43": {
+      "value": 27.2
+    },
+    "DED44": {
+      "value": 37.0
+    },
+    "DED45": {
+      "value": 23.2
+    },
+    "DED51": {
+      "value": 106.6
+    },
+    "DED52": {
+      "value": 50.0
+    },
+    "DED53": {
+      "value": 41.8
+    },
+    "DEE01": {
+      "value": 78.9
+    },
+    "DEE02": {
+      "value": 90.5
+    },
+    "DEE03": {
+      "value": 130.9
+    },
+    "DEE04": {
+      "value": 28.4
+    },
+    "DEE05": {
+      "value": 49.3
+    },
+    "DEE06": {
+      "value": 74.3
+    },
+    "DEE07": {
+      "value": 77.0
+    },
+    "DEE08": {
+      "value": 62.2
+    },
+    "DEE09": {
+      "value": 52.4
+    },
+    "DEE0A": {
+      "value": 64.3
+    },
+    "DEE0B": {
+      "value": 55.9
+    },
+    "DEE0C": {
+      "value": 61.7
+    },
+    "DEE0D": {
+      "value": 54.1
+    },
+    "DEE0E": {
+      "value": 75.1
+    },
+    "DEF01": {
+      "value": 63.3
+    },
+    "DEF02": {
+      "value": 70.1
+    },
+    "DEF03": {
+      "value": 72.5
+    },
+    "DEF04": {
+      "value": 94.7
+    },
+    "DEF05": {
+      "value": 32.3
+    },
+    "DEF06": {
+      "value": 37.6
+    },
+    "DEF07": {
+      "value": 33.0
+    },
+    "DEF08": {
+      "value": 47.7
+    },
+    "DEF09": {
+      "value": 45.5
+    },
+    "DEF0A": {
+      "value": 24.5
+    },
+    "DEF0B": {
+      "value": 28.5
+    },
+    "DEF0C": {
+      "value": 35.7
+    },
+    "DEF0D": {
+      "value": 39.1
+    },
+    "DEF0E": {
+      "value": 39.4
+    },
+    "DEF0F": {
+      "value": 89.8
+    },
+    "DEG01": {
+      "value": 57.0
+    },
+    "DEG02": {
+      "value": 34.7
+    },
+    "DEG03": {
+      "value": 39.9
+    },
+    "DEG05": {
+      "value": 50.4
+    },
+    "DEG06": {
+      "value": 22.8
+    },
+    "DEG07": {
+      "value": 28.2
+    },
+    "DEG09": {
+      "value": 34.5
+    },
+    "DEG0A": {
+      "value": 31.6
+    },
+    "DEG0C": {
+      "value": 32.8
+    },
+    "DEG0D": {
+      "value": 30.8
+    },
+    "DEG0E": {
+      "value": 32.8
+    },
+    "DEG0G": {
+      "value": 32.5
+    },
+    "DEG0J": {
+      "value": 34.6
+    },
+    "DEG0K": {
+      "value": 35.8
+    },
+    "DEG0L": {
+      "value": 46.4
+    },
+    "DEG0M": {
+      "value": 39.8
+    },
+    "DK011": {
+      "value": 9.8
+    },
+    "DK012": {
+      "value": 12.3
+    },
+    "DK013": {
+      "value": 17.9
+    },
+    "DK014": {
+      "value": 20.2
+    },
+    "DK021": {
+      "value": 11.2
+    },
+    "DK022": {
+      "value": 12.0
+    },
+    "DK031": {
+      "value": 9.5
+    },
+    "DK032": {
+      "value": 21.2
+    },
+    "DK041": {
+      "value": 30.4
+    },
+    "DK042": {
+      "value": 23.1
+    },
+    "DK050": {
+      "value": 13.6
+    },
+    "EE001": {
+      "value": 10.4
+    },
+    "EE004": {
+      "value": 7.4
+    },
+    "EE008": {
+      "value": 5.0
+    },
+    "EE009": {
+      "value": 14.5
+    },
+    "EE00A": {
+      "value": 9.0
+    },
+    "EL411": {
+      "value": 44.6
+    },
+    "EL412": {
+      "value": 42.5
+    },
+    "EL413": {
+      "value": 3.9
+    },
+    "EL421": {
+      "value": 172.0
+    },
+    "EL422": {
+      "value": 126.8
+    },
+    "EL431": {
+      "value": 105.0
+    },
+    "EL432": {
+      "value": 66.0
+    },
+    "EL433": {
+      "value": 101.0
+    },
+    "EL434": {
+      "value": 99.7
+    },
+    "EL511": {
+      "value": 113.5
+    },
+    "EL512": {
+      "value": 248.1
+    },
+    "EL513": {
+      "value": 120.6
+    },
+    "EL514": {
+      "value": 36.9
+    },
+    "EL515": {
+      "value": 100.3
+    },
+    "EL521": {
+      "value": 65.8
+    },
+    "EL522": {
+      "value": 226.5
+    },
+    "EL523": {
+      "value": 28.8
+    },
+    "EL524": {
+      "value": 23.6
+    },
+    "EL525": {
+      "value": 21.4
+    },
+    "EL526": {
+      "value": 48.4
+    },
+    "EL527": {
+      "value": 160.8
+    },
+    "EL531": {
+      "value": 13.1
+    },
+    "EL532": {
+      "value": 17.9
+    },
+    "EL533": {
+      "value": 18.3
+    },
+    "EL541": {
+      "value": 29.2
+    },
+    "EL542": {
+      "value": 96.8
+    },
+    "EL543": {
+      "value": 30.1
+    },
+    "EL611": {
+      "value": 25.4
+    },
+    "EL612": {
+      "value": 53.4
+    },
+    "EL613": {
+      "value": 169.1
+    },
+    "EL621": {
+      "value": 145.4
+    },
+    "EL622": {
+      "value": 35.2
+    },
+    "EL623": {
+      "value": 59.6
+    },
+    "EL624": {
+      "value": 107.0
+    },
+    "EL631": {
+      "value": 82.1
+    },
+    "EL632": {
+      "value": 96.4
+    },
+    "EL633": {
+      "value": 83.7
+    },
+    "EL641": {
+      "value": 110.1
+    },
+    "EL642": {
+      "value": 94.4
+    },
+    "EL643": {
+      "value": 0.0
+    },
+    "EL644": {
+      "value": 109.1
+    },
+    "EL645": {
+      "value": 84.8
+    },
+    "EL651": {
+      "value": 54.2
+    },
+    "EL652": {
+      "value": 130.9
+    },
+    "EL653": {
+      "value": 61.0
+    },
+    "ES111": {
+      "value": 5.4
+    },
+    "ES112": {
+      "value": 3.1
+    },
+    "ES113": {
+      "value": 6.9
+    },
+    "ES114": {
+      "value": 22.8
+    },
+    "ES120": {
+      "value": 16.5
+    },
+    "ES130": {
+      "value": 12.4
+    },
+    "ES211": {
+      "value": 19.0
+    },
+    "ES212": {
+      "value": 32.1
+    },
+    "ES213": {
+      "value": 31.8
+    },
+    "ES220": {
+      "value": 11.7
+    },
+    "ES230": {
+      "value": 13.3
+    },
+    "ES241": {
+      "value": 7.0
+    },
+    "ES242": {
+      "value": 4.4
+    },
+    "ES243": {
+      "value": 17.0
+    },
+    "ES300": {
+      "value": 78.5
+    },
+    "ES411": {
+      "value": 11.9
+    },
+    "ES412": {
+      "value": 18.7
+    },
+    "ES413": {
+      "value": 12.3
+    },
+    "ES414": {
+      "value": 8.9
+    },
+    "ES415": {
+      "value": 14.1
+    },
+    "ES416": {
+      "value": 12.2
+    },
+    "ES417": {
+      "value": 8.9
+    },
+    "ES418": {
+      "value": 10.7
+    },
+    "ES419": {
+      "value": 10.2
+    },
+    "ES421": {
+      "value": 21.6
+    },
+    "ES422": {
+      "value": 9.7
+    },
+    "ES423": {
+      "value": 3.0
+    },
+    "ES424": {
+      "value": 33.1
+    },
+    "ES425": {
+      "value": 24.0
+    },
+    "ES431": {
+      "value": 14.3
+    },
+    "ES432": {
+      "value": 6.4
+    },
+    "ES511": {
+      "value": 103.1
+    },
+    "ES512": {
+      "value": 69.6
+    },
+    "ES513": {
+      "value": 43.4
+    },
+    "ES514": {
+      "value": 52.0
+    },
+    "ES521": {
+      "value": 50.3
+    },
+    "ES522": {
+      "value": 20.7
+    },
+    "ES523": {
+      "value": 40.8
+    },
+    "ES531": {
+      "value": 181.6
+    },
+    "ES532": {
+      "value": 105.7
+    },
+    "ES533": {
+      "value": 47.0
+    },
+    "ES611": {
+      "value": 32.8
+    },
+    "ES612": {
+      "value": 63.8
+    },
+    "ES613": {
+      "value": 24.9
+    },
+    "ES614": {
+      "value": 22.4
+    },
+    "ES615": {
+      "value": 36.8
+    },
+    "ES616": {
+      "value": 17.9
+    },
+    "ES617": {
+      "value": 76.8
+    },
+    "ES618": {
+      "value": 66.5
+    },
+    "ES620": {
+      "value": 45.4
+    },
+    "ES630": {
+      "value": 121.5
+    },
+    "ES640": {
+      "value": 68.8
+    },
+    "FI196": {
+      "value": 20.3
+    },
+    "FI1B1": {
+      "value": 26.3
+    },
+    "FI1C1": {
+      "value": 53.3
+    },
+    "FI1C2": {
+      "value": 24.2
+    },
+    "FI1C5": {
+      "value": 10.4
+    },
+    "FI1D5": {
+      "value": 19.2
+    },
+    "FI1D7": {
+      "value": 27.8
+    },
+    "FI1D8": {
+      "value": 7.1
+    },
+    "FI1D9": {
+      "value": 18.4
+    },
+    "FI200": {
+      "value": 16.4
+    },
+    "FR101": {
+      "value": 249.9
+    },
+    "FR102": {
+      "value": 237.8
+    },
+    "FR103": {
+      "value": 214.5
+    },
+    "FR104": {
+      "value": 295.2
+    },
+    "FR105": {
+      "value": 256.0
+    },
+    "FR106": {
+      "value": 327.4
+    },
+    "FR107": {
+      "value": 293.9
+    },
+    "FR108": {
+      "value": 342.6
+    },
+    "FRB01": {
+      "value": 124.9
+    },
+    "FRB02": {
+      "value": 171.5
+    },
+    "FRB03": {
+      "value": 157.5
+    },
+    "FRB04": {
+      "value": 147.2
+    },
+    "FRB05": {
+      "value": 284.6
+    },
+    "FRB06": {
+      "value": 133.0
+    },
+    "FRC11": {
+      "value": 110.3
+    },
+    "FRC12": {
+      "value": 158.6
+    },
+    "FRC13": {
+      "value": 119.0
+    },
+    "FRC14": {
+      "value": 260.2
+    },
+    "FRC21": {
+      "value": 13.3
+    },
+    "FRC22": {
+      "value": 102.8
+    },
+    "FRC23": {
+      "value": 105.6
+    },
+    "FRC24": {
+      "value": 357.5
+    },
+    "FRD11": {
+      "value": 113.9
+    },
+    "FRD12": {
+      "value": 93.3
+    },
+    "FRD13": {
+      "value": 109.0
+    },
+    "FRD21": {
+      "value": 153.2
+    },
+    "FRD22": {
+      "value": 174.9
+    },
+    "FRE11": {
+      "value": 276.4
+    },
+    "FRE12": {
+      "value": 135.0
+    },
+    "FRE21": {
+      "value": 213.9
+    },
+    "FRE22": {
+      "value": 269.3
+    },
+    "FRE23": {
+      "value": 170.8
+    },
+    "FRF11": {
+      "value": 66.7
+    },
+    "FRF12": {
+      "value": 66.6
+    },
+    "FRF21": {
+      "value": 137.3
+    },
+    "FRF22": {
+      "value": 157.8
+    },
+    "FRF23": {
+      "value": 242.5
+    },
+    "FRF24": {
+      "value": 150.0
+    },
+    "FRF31": {
+      "value": 119.8
+    },
+    "FRF32": {
+      "value": 145.0
+    },
+    "FRF33": {
+      "value": 100.6
+    },
+    "FRF34": {
+      "value": 102.5
+    },
+    "FRG01": {
+      "value": 338.0
+    },
+    "FRG02": {
+      "value": 147.9
+    },
+    "FRG03": {
+      "value": 60.7
+    },
+    "FRG04": {
+      "value": 137.5
+    },
+    "FRG05": {
+      "value": 121.7
+    },
+    "FRH01": {
+      "value": 72.3
+    },
+    "FRH02": {
+      "value": 119.4
+    },
+    "FRH03": {
+      "value": 159.5
+    },
+    "FRH04": {
+      "value": 112.9
+    },
+    "FRI11": {
+      "value": 92.6
+    },
+    "FRI12": {
+      "value": 223.2
+    },
+    "FRI13": {
+      "value": 141.0
+    },
+    "FRI14": {
+      "value": 134.1
+    },
+    "FRI15": {
+      "value": 142.1
+    },
+    "FRI21": {
+      "value": 54.1
+    },
+    "FRI22": {
+      "value": 59.9
+    },
+    "FRI23": {
+      "value": 99.8
+    },
+    "FRI31": {
+      "value": 129.9
+    },
+    "FRI32": {
+      "value": 217.4
+    },
+    "FRI33": {
+      "value": 134.4
+    },
+    "FRI34": {
+      "value": 127.1
+    },
+    "FRJ11": {
+      "value": 180.5
+    },
+    "FRJ12": {
+      "value": 198.6
+    },
+    "FRJ13": {
+      "value": 233.7
+    },
+    "FRJ14": {
+      "value": 51.0
+    },
+    "FRJ15": {
+      "value": 227.0
+    },
+    "FRJ21": {
+      "value": 91.7
+    },
+    "FRJ22": {
+      "value": 53.4
+    },
+    "FRJ23": {
+      "value": 200.6
+    },
+    "FRJ24": {
+      "value": 99.1
+    },
+    "FRJ25": {
+      "value": 76.0
+    },
+    "FRJ26": {
+      "value": 86.3
+    },
+    "FRJ27": {
+      "value": 72.5
+    },
+    "FRJ28": {
+      "value": 104.8
+    },
+    "FRK11": {
+      "value": 84.4
+    },
+    "FRK12": {
+      "value": 38.2
+    },
+    "FRK13": {
+      "value": 90.2
+    },
+    "FRK14": {
+      "value": 175.5
+    },
+    "FRK21": {
+      "value": 169.2
+    },
+    "FRK22": {
+      "value": 144.2
+    },
+    "FRK23": {
+      "value": 279.9
+    },
+    "FRK24": {
+      "value": 256.9
+    },
+    "FRK25": {
+      "value": 192.4
+    },
+    "FRK26": {
+      "value": 324.5
+    },
+    "FRK27": {
+      "value": 94.8
+    },
+    "FRK28": {
+      "value": 168.3
+    },
+    "FRL01": {
+      "value": 120.5
+    },
+    "FRL02": {
+      "value": 116.7
+    },
+    "FRL03": {
+      "value": 233.8
+    },
+    "FRL04": {
+      "value": 517.4
+    },
+    "FRL05": {
+      "value": 226.7
+    },
+    "FRL06": {
+      "value": 214.7
+    },
+    "FRM01": {
+      "value": 201.3
+    },
+    "FRM02": {
+      "value": 124.0
+    },
+    "HR021": {
+      "value": 7.0
+    },
+    "HR022": {
+      "value": 8.8
+    },
+    "HR023": {
+      "value": 9.7
+    },
+    "HR024": {
+      "value": 10.2
+    },
+    "HR025": {
+      "value": 11.9
+    },
+    "HR026": {
+      "value": 5.0
+    },
+    "HR027": {
+      "value": 10.0
+    },
+    "HR028": {
+      "value": 8.8
+    },
+    "HR031": {
+      "value": 38.2
+    },
+    "HR032": {
+      "value": 9.4
+    },
+    "HR033": {
+      "value": 29.0
+    },
+    "HR034": {
+      "value": 26.2
+    },
+    "HR035": {
+      "value": 26.3
+    },
+    "HR036": {
+      "value": 33.7
+    },
+    "HR037": {
+      "value": 9.6
+    },
+    "HR050": {
+      "value": 25.3
+    },
+    "HR061": {
+      "value": 9.5
+    },
+    "HR062": {
+      "value": 11.3
+    },
+    "HR063": {
+      "value": 13.0
+    },
+    "HR064": {
+      "value": 7.5
+    },
+    "HR065": {
+      "value": 13.8
+    },
+    "HU110": {
+      "value": 11.1
+    },
+    "HU120": {
+      "value": 9.7
+    },
+    "HU211": {
+      "value": 5.5
+    },
+    "HU212": {
+      "value": 4.3
+    },
+    "HU213": {
+      "value": 2.4
+    },
+    "HU221": {
+      "value": 5.3
+    },
+    "HU222": {
+      "value": 2.0
+    },
+    "HU223": {
+      "value": 1.1
+    },
+    "HU231": {
+      "value": 4.0
+    },
+    "HU232": {
+      "value": 4.1
+    },
+    "HU233": {
+      "value": 2.9
+    },
+    "HU311": {
+      "value": 4.0
+    },
+    "HU312": {
+      "value": 8.4
+    },
+    "HU313": {
+      "value": 4.4
+    },
+    "HU321": {
+      "value": 1.5
+    },
+    "HU322": {
+      "value": 7.0
+    },
+    "HU323": {
+      "value": 1.7
+    },
+    "HU331": {
+      "value": 6.3
+    },
+    "HU332": {
+      "value": 1.9
+    },
+    "HU333": {
+      "value": 4.6
+    },
+    "IE041": {
+      "value": 31.1
+    },
+    "IE042": {
+      "value": 24.4
+    },
+    "IE051": {
+      "value": 89.1
+    },
+    "IE052": {
+      "value": 40.6
+    },
+    "IE053": {
+      "value": 57.9
+    },
+    "IE061": {
+      "value": 183.0
+    },
+    "IE062": {
+      "value": 87.0
+    },
+    "IE063": {
+      "value": 53.0
+    },
+    "ITC11": {
+      "value": 168.8
+    },
+    "ITC12": {
+      "value": 30.2
+    },
+    "ITC13": {
+      "value": 40.9
+    },
+    "ITC14": {
+      "value": 19.5
+    },
+    "ITC15": {
+      "value": 39.4
+    },
+    "ITC16": {
+      "value": 28.4
+    },
+    "ITC17": {
+      "value": 70.3
+    },
+    "ITC18": {
+      "value": 61.0
+    },
+    "ITC20": {
+      "value": 39.0
+    },
+    "ITC31": {
+      "value": 114.0
+    },
+    "ITC32": {
+      "value": 101.3
+    },
+    "ITC33": {
+      "value": 148.3
+    },
+    "ITC34": {
+      "value": 64.2
+    },
+    "ITC41": {
+      "value": 60.6
+    },
+    "ITC42": {
+      "value": 61.3
+    },
+    "ITC43": {
+      "value": 51.3
+    },
+    "ITC44": {
+      "value": 15.7
+    },
+    "ITC46": {
+      "value": 69.2
+    },
+    "ITC47": {
+      "value": 63.1
+    },
+    "ITC48": {
+      "value": 115.5
+    },
+    "ITC49": {
+      "value": 49.0
+    },
+    "ITC4A": {
+      "value": 41.1
+    },
+    "ITC4B": {
+      "value": 33.9
+    },
+    "ITC4C": {
+      "value": 334.5
+    },
+    "ITC4D": {
+      "value": 115.7
+    },
+    "ITF11": {
+      "value": 35.8
+    },
+    "ITF12": {
+      "value": 86.9
+    },
+    "ITF13": {
+      "value": 170.1
+    },
+    "ITF14": {
+      "value": 125.6
+    },
+    "ITF21": {
+      "value": 40.2
+    },
+    "ITF22": {
+      "value": 307.1
+    },
+    "ITF31": {
+      "value": 461.7
+    },
+    "ITF32": {
+      "value": 80.5
+    },
+    "ITF33": {
+      "value": 862.8
+    },
+    "ITF34": {
+      "value": 104.3
+    },
+    "ITF35": {
+      "value": 368.2
+    },
+    "ITF43": {
+      "value": 195.8
+    },
+    "ITF44": {
+      "value": 350.4
+    },
+    "ITF45": {
+      "value": 153.7
+    },
+    "ITF46": {
+      "value": 661.0
+    },
+    "ITF47": {
+      "value": 519.9
+    },
+    "ITF48": {
+      "value": 959.3
+    },
+    "ITF51": {
+      "value": 43.2
+    },
+    "ITF52": {
+      "value": 87.1
+    },
+    "ITF61": {
+      "value": 132.0
+    },
+    "ITF62": {
+      "value": 67.1
+    },
+    "ITF63": {
+      "value": 186.0
+    },
+    "ITF64": {
+      "value": 111.6
+    },
+    "ITF65": {
+      "value": 202.5
+    },
+    "ITG11": {
+      "value": 125.6
+    },
+    "ITG12": {
+      "value": 765.1
+    },
+    "ITG13": {
+      "value": 142.7
+    },
+    "ITG14": {
+      "value": 79.4
+    },
+    "ITG15": {
+      "value": 110.8
+    },
+    "ITG16": {
+      "value": 64.2
+    },
+    "ITG17": {
+      "value": 626.5
+    },
+    "ITG18": {
+      "value": 181.2
+    },
+    "ITG19": {
+      "value": 237.0
+    },
+    "ITG2D": {
+      "value": 58.6
+    },
+    "ITG2E": {
+      "value": 37.4
+    },
+    "ITG2F": {
+      "value": 182.1
+    },
+    "ITG2G": {
+      "value": 18.7
+    },
+    "ITH10": {
+      "value": 30.6
+    },
+    "ITH20": {
+      "value": 23.3
+    },
+    "ITH31": {
+      "value": 73.9
+    },
+    "ITH32": {
+      "value": 33.4
+    },
+    "ITH33": {
+      "value": 8.1
+    },
+    "ITH34": {
+      "value": 22.2
+    },
+    "ITH35": {
+      "value": 42.1
+    },
+    "ITH36": {
+      "value": 30.1
+    },
+    "ITH37": {
+      "value": 29.9
+    },
+    "ITH41": {
+      "value": 20.0
+    },
+    "ITH42": {
+      "value": 23.8
+    },
+    "ITH43": {
+      "value": 28.9
+    },
+    "ITH44": {
+      "value": 152.3
+    },
+    "ITH51": {
+      "value": 53.7
+    },
+    "ITH52": {
+      "value": 78.2
+    },
+    "ITH53": {
+      "value": 62.5
+    },
+    "ITH54": {
+      "value": 53.7
+    },
+    "ITH55": {
+      "value": 111.7
+    },
+    "ITH56": {
+      "value": 39.2
+    },
+    "ITH57": {
+      "value": 52.7
+    },
+    "ITH58": {
+      "value": 47.2
+    },
+    "ITH59": {
+      "value": 127.9
+    },
+    "ITI11": {
+      "value": 59.3
+    },
+    "ITI12": {
+      "value": 69.6
+    },
+    "ITI13": {
+      "value": 51.1
+    },
+    "ITI14": {
+      "value": 141.3
+    },
+    "ITI15": {
+      "value": 131.4
+    },
+    "ITI16": {
+      "value": 211.1
+    },
+    "ITI17": {
+      "value": 108.0
+    },
+    "ITI18": {
+      "value": 38.4
+    },
+    "ITI19": {
+      "value": 44.6
+    },
+    "ITI1A": {
+      "value": 52.3
+    },
+    "ITI21": {
+      "value": 51.4
+    },
+    "ITI22": {
+      "value": 55.0
+    },
+    "ITI31": {
+      "value": 46.3
+    },
+    "ITI32": {
+      "value": 32.1
+    },
+    "ITI33": {
+      "value": 45.2
+    },
+    "ITI34": {
+      "value": 66.6
+    },
+    "ITI35": {
+      "value": 70.4
+    },
+    "ITI41": {
+      "value": 52.6
+    },
+    "ITI42": {
+      "value": 39.3
+    },
+    "ITI43": {
+      "value": 515.7
+    },
+    "ITI44": {
+      "value": 180.4
+    },
+    "ITI45": {
+      "value": 80.2
+    },
+    "LT011": {
+      "value": 11.1
+    },
+    "LT021": {
+      "value": 3.7
+    },
+    "LT022": {
+      "value": 8.2
+    },
+    "LT023": {
+      "value": 12.8
+    },
+    "LT024": {
+      "value": 3.0
+    },
+    "LT025": {
+      "value": 14.7
+    },
+    "LT026": {
+      "value": 7.9
+    },
+    "LT027": {
+      "value": 8.8
+    },
+    "LT028": {
+      "value": 9.1
+    },
+    "LT029": {
+      "value": 13.5
+    },
+    "LV005": {
+      "value": 36.7
+    },
+    "LV009": {
+      "value": 12.8
+    },
+    "MT001": {
+      "value": 53.5
+    },
+    "MT002": {
+      "value": 27.1
+    },
+    "NL112": {
+      "value": 33.1
+    },
+    "NL126": {
+      "value": 40.4
+    },
+    "NL131": {
+      "value": 32.2
+    },
+    "NL132": {
+      "value": 60.9
+    },
+    "NL133": {
+      "value": 32.2
+    },
+    "NL211": {
+      "value": 47.6
+    },
+    "NL212": {
+      "value": 49.3
+    },
+    "NL213": {
+      "value": 87.2
+    },
+    "NL221": {
+      "value": 60.1
+    },
+    "NL224": {
+      "value": 64.3
+    },
+    "NL225": {
+      "value": 29.8
+    },
+    "NL226": {
+      "value": 115.2
+    },
+    "NL230": {
+      "value": 110.1
+    },
+    "NL321": {
+      "value": 59.6
+    },
+    "NL323": {
+      "value": 100.5
+    },
+    "NL325": {
+      "value": 115.8
+    },
+    "NL327": {
+      "value": 89.7
+    },
+    "NL328": {
+      "value": 76.2
+    },
+    "NL32A": {
+      "value": 147.3
+    },
+    "NL32B": {
+      "value": 248.8
+    },
+    "NL341": {
+      "value": 69.1
+    },
+    "NL342": {
+      "value": 60.9
+    },
+    "NL350": {
+      "value": 87.9
+    },
+    "NL364": {
+      "value": 99.6
+    },
+    "NL411": {
+      "value": 109.4
+    },
+    "NL414": {
+      "value": 130.6
+    },
+    "NL421": {
+      "value": 124.6
+    },
+    "NL422": {
+      "value": 114.0
+    },
+    "NL423": {
+      "value": 201.5
+    },
+    "NO020": {
+      "value": 44.3
+    },
+    "NO060": {
+      "value": 85.1
+    },
+    "NO071": {
+      "value": 42.1
+    },
+    "NO081": {
+      "value": 144.4
+    },
+    "NO092": {
+      "value": 157.9
+    },
+    "NO0A1": {
+      "value": 87.5
+    },
+    "NO0A2": {
+      "value": 52.9
+    },
+    "NO0A3": {
+      "value": 27.1
+    },
+    "PL213": {
+      "value": 6.9
+    },
+    "PL214": {
+      "value": 3.2
+    },
+    "PL217": {
+      "value": 2.1
+    },
+    "PL218": {
+      "value": 2.1
+    },
+    "PL219": {
+      "value": 4.7
+    },
+    "PL21A": {
+      "value": 1.9
+    },
+    "PL224": {
+      "value": 6.7
+    },
+    "PL225": {
+      "value": 9.7
+    },
+    "PL227": {
+      "value": 9.7
+    },
+    "PL228": {
+      "value": 16.9
+    },
+    "PL229": {
+      "value": 15.2
+    },
+    "PL22A": {
+      "value": 16.5
+    },
+    "PL22B": {
+      "value": 14.7
+    },
+    "PL22C": {
+      "value": 9.4
+    },
+    "PL411": {
+      "value": 4.4
+    },
+    "PL414": {
+      "value": 9.6
+    },
+    "PL415": {
+      "value": 32.5
+    },
+    "PL416": {
+      "value": 4.2
+    },
+    "PL417": {
+      "value": 6.4
+    },
+    "PL418": {
+      "value": 20.6
+    },
+    "PL424": {
+      "value": 14.5
+    },
+    "PL426": {
+      "value": 9.3
+    },
+    "PL427": {
+      "value": 5.8
+    },
+    "PL428": {
+      "value": 10.9
+    },
+    "PL431": {
+      "value": 29.9
+    },
+    "PL432": {
+      "value": 21.6
+    },
+    "PL514": {
+      "value": 30.1
+    },
+    "PL515": {
+      "value": 32.3
+    },
+    "PL516": {
+      "value": 25.3
+    },
+    "PL517": {
+      "value": 6.4
+    },
+    "PL518": {
+      "value": 19.6
+    },
+    "PL523": {
+      "value": 3.9
+    },
+    "PL524": {
+      "value": 5.0
+    },
+    "PL613": {
+      "value": 8.3
+    },
+    "PL616": {
+      "value": 5.3
+    },
+    "PL617": {
+      "value": 4.8
+    },
+    "PL618": {
+      "value": 5.2
+    },
+    "PL619": {
+      "value": 6.7
+    },
+    "PL621": {
+      "value": 8.6
+    },
+    "PL622": {
+      "value": 6.7
+    },
+    "PL623": {
+      "value": 5.1
+    },
+    "PL633": {
+      "value": 33.7
+    },
+    "PL634": {
+      "value": 27.4
+    },
+    "PL636": {
+      "value": 11.2
+    },
+    "PL637": {
+      "value": 8.4
+    },
+    "PL638": {
+      "value": 6.0
+    },
+    "PL711": {
+      "value": 46.5
+    },
+    "PL712": {
+      "value": 20.8
+    },
+    "PL713": {
+      "value": 8.5
+    },
+    "PL714": {
+      "value": 9.3
+    },
+    "PL715": {
+      "value": 13.9
+    },
+    "PL721": {
+      "value": 8.5
+    },
+    "PL722": {
+      "value": 2.8
+    },
+    "PL811": {
+      "value": 3.3
+    },
+    "PL812": {
+      "value": 2.2
+    },
+    "PL814": {
+      "value": 4.8
+    },
+    "PL815": {
+      "value": 3.5
+    },
+    "PL821": {
+      "value": 1.4
+    },
+    "PL822": {
+      "value": 2.3
+    },
+    "PL823": {
+      "value": 1.1
+    },
+    "PL824": {
+      "value": 1.4
+    },
+    "PL841": {
+      "value": 5.9
+    },
+    "PL842": {
+      "value": 4.9
+    },
+    "PL843": {
+      "value": 4.9
+    },
+    "PL911": {
+      "value": 96.2
+    },
+    "PL912": {
+      "value": 48.6
+    },
+    "PL913": {
+      "value": 35.7
+    },
+    "PL921": {
+      "value": 13.8
+    },
+    "PL922": {
+      "value": 12.8
+    },
+    "PL923": {
+      "value": 9.5
+    },
+    "PL924": {
+      "value": 20.0
+    },
+    "PL925": {
+      "value": 8.0
+    },
+    "PL926": {
+      "value": 19.6
+    },
+    "PT111": {
+      "value": 44.6
+    },
+    "PT112": {
+      "value": 92.9
+    },
+    "PT119": {
+      "value": 53.9
+    },
+    "PT11A": {
+      "value": 107.8
+    },
+    "PT11B": {
+      "value": 46.7
+    },
+    "PT11C": {
+      "value": 48.7
+    },
+    "PT11D": {
+      "value": 26.1
+    },
+    "PT11E": {
+      "value": 25.2
+    },
+    "PT150": {
+      "value": 162.0
+    },
+    "PT191": {
+      "value": 77.2
+    },
+    "PT192": {
+      "value": 41.2
+    },
+    "PT193": {
+      "value": 57.7
+    },
+    "PT194": {
+      "value": 29.0
+    },
+    "PT195": {
+      "value": 29.1
+    },
+    "PT196": {
+      "value": 29.1
+    },
+    "PT1A0": {
+      "value": 78.8
+    },
+    "PT1B0": {
+      "value": 101.7
+    },
+    "PT1C1": {
+      "value": 47.7
+    },
+    "PT1C2": {
+      "value": 50.2
+    },
+    "PT1C3": {
+      "value": 33.6
+    },
+    "PT1C4": {
+      "value": 31.3
+    },
+    "PT1D1": {
+      "value": 57.3
+    },
+    "PT1D2": {
+      "value": 51.6
+    },
+    "PT1D3": {
+      "value": 75.2
+    },
+    "PT200": {
+      "value": 88.5
+    },
+    "PT300": {
+      "value": 74.0
+    },
+    "RO111": {
+      "value": 5.9
+    },
+    "RO112": {
+      "value": 4.4
+    },
+    "RO113": {
+      "value": 4.9
+    },
+    "RO114": {
+      "value": 3.1
+    },
+    "RO115": {
+      "value": 3.3
+    },
+    "RO116": {
+      "value": 6.6
+    },
+    "RO121": {
+      "value": 6.4
+    },
+    "RO122": {
+      "value": 9.6
+    },
+    "RO123": {
+      "value": 7.0
+    },
+    "RO124": {
+      "value": 3.4
+    },
+    "RO125": {
+      "value": 5.0
+    },
+    "RO126": {
+      "value": 5.9
+    },
+    "RO211": {
+      "value": 3.7
+    },
+    "RO212": {
+      "value": 4.4
+    },
+    "RO213": {
+      "value": 5.4
+    },
+    "RO214": {
+      "value": 3.6
+    },
+    "RO215": {
+      "value": 9.3
+    },
+    "RO216": {
+      "value": 5.1
+    },
+    "RO221": {
+      "value": 4.3
+    },
+    "RO222": {
+      "value": 6.0
+    },
+    "RO223": {
+      "value": 5.5
+    },
+    "RO224": {
+      "value": 5.9
+    },
+    "RO225": {
+      "value": 6.3
+    },
+    "RO226": {
+      "value": 3.6
+    },
+    "RO311": {
+      "value": 7.6
+    },
+    "RO312": {
+      "value": 3.2
+    },
+    "RO313": {
+      "value": 1.7
+    },
+    "RO314": {
+      "value": 5.4
+    },
+    "RO315": {
+      "value": 16.4
+    },
+    "RO316": {
+      "value": 3.5
+    },
+    "RO317": {
+      "value": 8.5
+    },
+    "RO321": {
+      "value": 110.0
+    },
+    "RO322": {
+      "value": 4.7
+    },
+    "RO411": {
+      "value": 6.0
+    },
+    "RO412": {
+      "value": 5.8
+    },
+    "RO413": {
+      "value": 8.2
+    },
+    "RO414": {
+      "value": 4.0
+    },
+    "RO415": {
+      "value": 2.1
+    },
+    "RO421": {
+      "value": 8.5
+    },
+    "RO422": {
+      "value": 3.7
+    },
+    "RO423": {
+      "value": 6.5
+    },
+    "RO424": {
+      "value": 2.3
+    },
+    "RS110": {
+      "value": 9.9
+    },
+    "RS121": {
+      "value": 3.9
+    },
+    "RS122": {
+      "value": 2.7
+    },
+    "RS123": {
+      "value": 4.4
+    },
+    "RS124": {
+      "value": 14.5
+    },
+    "RS125": {
+      "value": 1.3
+    },
+    "RS126": {
+      "value": 15.9
+    },
+    "RS127": {
+      "value": 4.3
+    },
+    "RS211": {
+      "value": 7.1
+    },
+    "RS212": {
+      "value": 16.2
+    },
+    "RS213": {
+      "value": 3.0
+    },
+    "RS214": {
+      "value": 6.9
+    },
+    "RS215": {
+      "value": 8.8
+    },
+    "RS216": {
+      "value": 1.9
+    },
+    "RS217": {
+      "value": 2.7
+    },
+    "RS218": {
+      "value": 5.2
+    },
+    "RS221": {
+      "value": 7.9
+    },
+    "RS222": {
+      "value": 7.7
+    },
+    "RS223": {
+      "value": 12.5
+    },
+    "RS224": {
+      "value": 6.0
+    },
+    "RS225": {
+      "value": 3.2
+    },
+    "RS226": {
+      "value": 3.9
+    },
+    "RS227": {
+      "value": 4.0
+    },
+    "RS228": {
+      "value": 3.1
+    },
+    "RS229": {
+      "value": 15.6
+    },
+    "SE110": {
+      "value": 151.0
+    },
+    "SE121": {
+      "value": 154.0
+    },
+    "SE122": {
+      "value": 144.9
+    },
+    "SE123": {
+      "value": 118.8
+    },
+    "SE124": {
+      "value": 168.5
+    },
+    "SE125": {
+      "value": 147.5
+    },
+    "SE211": {
+      "value": 124.4
+    },
+    "SE212": {
+      "value": 105.4
+    },
+    "SE213": {
+      "value": 113.3
+    },
+    "SE214": {
+      "value": 78.6
+    },
+    "SE221": {
+      "value": 209.6
+    },
+    "SE224": {
+      "value": 134.8
+    },
+    "SE231": {
+      "value": 118.0
+    },
+    "SE232": {
+      "value": 139.5
+    },
+    "SE311": {
+      "value": 108.9
+    },
+    "SE312": {
+      "value": 155.7
+    },
+    "SE313": {
+      "value": 211.9
+    },
+    "SE321": {
+      "value": 185.0
+    },
+    "SE322": {
+      "value": 107.1
+    },
+    "SE331": {
+      "value": 98.7
+    },
+    "SE332": {
+      "value": 145.9
+    },
+    "SI031": {
+      "value": 5.3
+    },
+    "SI032": {
+      "value": 10.9
+    },
+    "SI033": {
+      "value": 1.4
+    },
+    "SI034": {
+      "value": 10.0
+    },
+    "SI035": {
+      "value": 5.2
+    },
+    "SI036": {
+      "value": 7.9
+    },
+    "SI037": {
+      "value": 17.6
+    },
+    "SI038": {
+      "value": 3.7
+    },
+    "SI041": {
+      "value": 39.8
+    },
+    "SI042": {
+      "value": 9.5
+    },
+    "SI043": {
+      "value": 7.6
+    },
+    "SI044": {
+      "value": 31.9
+    },
+    "SK010": {
+      "value": 26.8
+    },
+    "SK021": {
+      "value": 11.8
+    },
+    "SK022": {
+      "value": 12.8
+    },
+    "SK023": {
+      "value": 10.5
+    },
+    "SK031": {
+      "value": 19.2
+    },
+    "SK032": {
+      "value": 12.3
+    },
+    "SK041": {
+      "value": 6.8
+    },
+    "SK042": {
+      "value": 9.1
+    },
+    "TR100": {
+      "value": 43.5
+    },
+    "TR211": {
+      "value": 46.6
+    },
+    "TR212": {
+      "value": 66.6
+    },
+    "TR213": {
+      "value": 52.2
+    },
+    "TR221": {
+      "value": 79.1
+    },
+    "TR222": {
+      "value": 92.9
+    },
+    "TR310": {
+      "value": 60.5
+    },
+    "TR321": {
+      "value": 76.5
+    },
+    "TR322": {
+      "value": 25.5
+    },
+    "TR323": {
+      "value": 40.4
+    },
+    "TR331": {
+      "value": 65.6
+    },
+    "TR332": {
+      "value": 20.4
+    },
+    "TR333": {
+      "value": 12.1
+    },
+    "TR334": {
+      "value": 42.0
+    },
+    "TR411": {
+      "value": 98.8
+    },
+    "TR412": {
+      "value": 77.3
+    },
+    "TR413": {
+      "value": 23.6
+    },
+    "TR421": {
+      "value": 12.0
+    },
+    "TR422": {
+      "value": 33.5
+    },
+    "TR423": {
+      "value": 34.8
+    },
+    "TR424": {
+      "value": 9.0
+    },
+    "TR425": {
+      "value": 75.5
+    },
+    "TR510": {
+      "value": 11.0
+    },
+    "TR521": {
+      "value": 36.3
+    },
+    "TR522": {
+      "value": 6.5
+    },
+    "TR611": {
+      "value": 61.5
+    },
+    "TR612": {
+      "value": 27.3
+    },
+    "TR613": {
+      "value": 8.7
+    },
+    "TR621": {
+      "value": 71.6
+    },
+    "TR622": {
+      "value": 77.7
+    },
+    "TR631": {
+      "value": 74.5
+    },
+    "TR632": {
+      "value": 23.0
+    },
+    "TR633": {
+      "value": 44.8
+    },
+    "TR711": {
+      "value": 14.6
+    },
+    "TR712": {
+      "value": 45.7
+    },
+    "TR713": {
+      "value": 49.6
+    },
+    "TR714": {
+      "value": 23.3
+    },
+    "TR715": {
+      "value": 10.6
+    },
+    "TR721": {
+      "value": 26.5
+    },
+    "TR722": {
+      "value": 5.0
+    },
+    "TR723": {
+      "value": 4.1
+    },
+    "TR811": {
+      "value": 11.9
+    },
+    "TR812": {
+      "value": 18.5
+    },
+    "TR813": {
+      "value": 4.4
+    },
+    "TR821": {
+      "value": 7.6
+    },
+    "TR822": {
+      "value": 5.0
+    },
+    "TR823": {
+      "value": 7.5
+    },
+    "TR831": {
+      "value": 13.8
+    },
+    "TR832": {
+      "value": 7.3
+    },
+    "TR833": {
+      "value": 16.3
+    },
+    "TR834": {
+      "value": 15.6
+    },
+    "TR901": {
+      "value": 3.3
+    },
+    "TR902": {
+      "value": 8.4
+    },
+    "TR903": {
+      "value": 2.6
+    },
+    "TR904": {
+      "value": 3.7
+    },
+    "TR905": {
+      "value": 2.9
+    },
+    "TR906": {
+      "value": 5.5
+    },
+    "TRA11": {
+      "value": 2.5
+    },
+    "TRA12": {
+      "value": 3.7
+    },
+    "TRA13": {
+      "value": 1.2
+    },
+    "TRA21": {
+      "value": 9.4
+    },
+    "TRA22": {
+      "value": 5.1
+    },
+    "TRA23": {
+      "value": 44.0
+    },
+    "TRA24": {
+      "value": 4.3
+    },
+    "TRB11": {
+      "value": 12.1
+    },
+    "TRB12": {
+      "value": 20.9
+    },
+    "TRB13": {
+      "value": 6.3
+    },
+    "TRB14": {
+      "value": 1.2
+    },
+    "TRB21": {
+      "value": 8.1
+    },
+    "TRB22": {
+      "value": 4.8
+    },
+    "TRB23": {
+      "value": 3.1
+    },
+    "TRB24": {
+      "value": 2.8
+    },
+    "TRC11": {
+      "value": 126.0
+    },
+    "TRC12": {
+      "value": 36.6
+    },
+    "TRC13": {
+      "value": 66.6
+    },
+    "TRC21": {
+      "value": 50.0
+    },
+    "TRC22": {
+      "value": 10.1
+    },
+    "TRC31": {
+      "value": 12.7
+    },
+    "TRC32": {
+      "value": 21.5
+    },
+    "TRC33": {
+      "value": 4.3
+    },
+    "TRC34": {
+      "value": 3.2
+    },
+    "UKM50": {
+      "value": 64.1
+    },
+    "UKM91": {
+      "value": 33.4
+    },
+    "UKM92": {
+      "value": 54.2
+    },
+    "UKM94": {
+      "value": 45.5
+    },
+    "UKM95": {
+      "value": 72.3
+    }
+  }
+}

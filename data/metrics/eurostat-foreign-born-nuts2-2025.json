@@ -1,0 +1,794 @@
+{
+  "meta": {
+    "slug": "eurostat-foreign-born-nuts2-2025",
+    "label": "Foreign-born share of the working-age population, by NUTS 2 region (2025)",
+    "year": 2025,
+    "source": "Eurostat",
+    "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/lfst_r_lfsd2pwc",
+    "extractedAt": "2026-10-15",
+    "unit": "percent",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Share of the population aged 15-64 in private households who were born abroad (Eurostat c_birth=FOR, which combines other-EU and non-EU birthplaces) divided by the same population in total (c_birth=TOTAL), per NUTS 2 region, Eurostat's lfst_r_lfsd2pwc, 2025. It comes from the EU Labour Force Survey — a sample survey, not a register — so the figures carry sampling error. The 15 regions Eurostat flags as low reliability are left out rather than shown as clean numbers. Birthplace, not citizenship: it includes foreign-born people who hold the local citizenship, unlike this site's ISTAT foreign-resident layers. Do not compare with the OECD foreign-born layer (2019): different survey weighting, so a joined series would invent a trend. Boundaries: github.com/eurostat/Nuts2json, 2021 typology. Every region of ES, FR carries Eurostat's \"definition differs\" flag for this dataset, so its shares are not strictly like-for-like with the other countries'; they are shown, not hidden, because both are on this site's comparison shortlist.",
+    "grain": "nuts2",
+    "kind": "scalar",
+    "coverageNote": "258 NUTS 2 regions have a reliable value in 2025, 21 of them Italian. 15 regions were dropped as low reliability (BG33, BG34, BG42, FI20, FRM0, PL52, PL62, PL81, PL82, PL84, PL92, PT20, RO11, TRA2, TRB2) and 10 more have no published foreign-born figure (BG31, BG32, MT00, PL72, RO12, RO21, RO22, RO31, RO41, RO42); all are shown as no data, never as 0%. The UK has no figure since 2019 (it stopped reporting; the OECD 2019 layer is the last UK reference). Albania is not in this dataset. Every region of ES, FR carries Eurostat's \"definition differs\" flag for this dataset, so its shares are not strictly like-for-like with the other countries'; they are shown, not hidden, because both are on this site's comparison shortlist."
+  },
+  "values": {
+    "AT11": {
+      "value": 16.46
+    },
+    "AT12": {
+      "value": 19.13
+    },
+    "AT13": {
+      "value": 47.28
+    },
+    "AT21": {
+      "value": 18.31
+    },
+    "AT22": {
+      "value": 19.05
+    },
+    "AT31": {
+      "value": 22.81
+    },
+    "AT32": {
+      "value": 26.7
+    },
+    "AT33": {
+      "value": 24.74
+    },
+    "AT34": {
+      "value": 26.54
+    },
+    "BE10": {
+      "value": 55.27
+    },
+    "BE21": {
+      "value": 21.54
+    },
+    "BE22": {
+      "value": 18.28
+    },
+    "BE23": {
+      "value": 14.59
+    },
+    "BE24": {
+      "value": 22.71
+    },
+    "BE25": {
+      "value": 10.91
+    },
+    "BE31": {
+      "value": 22.39
+    },
+    "BE32": {
+      "value": 18.0
+    },
+    "BE33": {
+      "value": 23.06
+    },
+    "BE34": {
+      "value": 20.41
+    },
+    "BE35": {
+      "value": 13.46
+    },
+    "BG41": {
+      "value": 1.06
+    },
+    "CH01": {
+      "value": 47.49
+    },
+    "CH02": {
+      "value": 28.79
+    },
+    "CH03": {
+      "value": 37.95
+    },
+    "CH04": {
+      "value": 42.61
+    },
+    "CH05": {
+      "value": 33.3
+    },
+    "CH06": {
+      "value": 31.05
+    },
+    "CH07": {
+      "value": 42.01
+    },
+    "CY00": {
+      "value": 34.83
+    },
+    "CZ01": {
+      "value": 12.56
+    },
+    "CZ02": {
+      "value": 7.35
+    },
+    "CZ03": {
+      "value": 7.65
+    },
+    "CZ04": {
+      "value": 6.42
+    },
+    "CZ05": {
+      "value": 5.64
+    },
+    "CZ06": {
+      "value": 4.57
+    },
+    "CZ07": {
+      "value": 2.8
+    },
+    "CZ08": {
+      "value": 4.93
+    },
+    "DE11": {
+      "value": 31.06
+    },
+    "DE12": {
+      "value": 29.88
+    },
+    "DE13": {
+      "value": 25.23
+    },
+    "DE14": {
+      "value": 25.11
+    },
+    "DE21": {
+      "value": 29.08
+    },
+    "DE22": {
+      "value": 22.15
+    },
+    "DE23": {
+      "value": 19.36
+    },
+    "DE24": {
+      "value": 15.55
+    },
+    "DE25": {
+      "value": 26.27
+    },
+    "DE26": {
+      "value": 22.02
+    },
+    "DE27": {
+      "value": 23.6
+    },
+    "DE30": {
+      "value": 32.39
+    },
+    "DE40": {
+      "value": 11.28
+    },
+    "DE50": {
+      "value": 34.32
+    },
+    "DE60": {
+      "value": 30.47
+    },
+    "DE71": {
+      "value": 33.68
+    },
+    "DE72": {
+      "value": 23.43
+    },
+    "DE73": {
+      "value": 24.86
+    },
+    "DE80": {
+      "value": 7.97
+    },
+    "DE91": {
+      "value": 21.15
+    },
+    "DE92": {
+      "value": 25.41
+    },
+    "DE93": {
+      "value": 17.39
+    },
+    "DE94": {
+      "value": 22.56
+    },
+    "DEA1": {
+      "value": 29.76
+    },
+    "DEA2": {
+      "value": 24.85
+    },
+    "DEA3": {
+      "value": 22.14
+    },
+    "DEA4": {
+      "value": 27.26
+    },
+    "DEA5": {
+      "value": 27.39
+    },
+    "DEB1": {
+      "value": 23.81
+    },
+    "DEB2": {
+      "value": 24.46
+    },
+    "DEB3": {
+      "value": 23.76
+    },
+    "DEC0": {
+      "value": 22.79
+    },
+    "DED2": {
+      "value": 11.18
+    },
+    "DED4": {
+      "value": 11.49
+    },
+    "DED5": {
+      "value": 14.95
+    },
+    "DEE0": {
+      "value": 12.57
+    },
+    "DEF0": {
+      "value": 19.28
+    },
+    "DEG0": {
+      "value": 11.31
+    },
+    "DK01": {
+      "value": 17.75
+    },
+    "DK02": {
+      "value": 8.11
+    },
+    "DK03": {
+      "value": 10.9
+    },
+    "DK04": {
+      "value": 9.64
+    },
+    "DK05": {
+      "value": 8.61
+    },
+    "EE00": {
+      "value": 13.54
+    },
+    "EL30": {
+      "value": 8.02
+    },
+    "EL41": {
+      "value": 5.82
+    },
+    "EL42": {
+      "value": 14.44
+    },
+    "EL43": {
+      "value": 9.28
+    },
+    "EL51": {
+      "value": 8.23
+    },
+    "EL52": {
+      "value": 11.42
+    },
+    "EL53": {
+      "value": 5.1
+    },
+    "EL54": {
+      "value": 6.92
+    },
+    "EL61": {
+      "value": 5.48
+    },
+    "EL62": {
+      "value": 18.78
+    },
+    "EL63": {
+      "value": 2.86
+    },
+    "EL64": {
+      "value": 5.96
+    },
+    "EL65": {
+      "value": 7.68
+    },
+    "ES11": {
+      "value": 15.83
+    },
+    "ES12": {
+      "value": 14.91
+    },
+    "ES13": {
+      "value": 16.61
+    },
+    "ES21": {
+      "value": 18.85
+    },
+    "ES22": {
+      "value": 25.13
+    },
+    "ES23": {
+      "value": 25.98
+    },
+    "ES24": {
+      "value": 24.63
+    },
+    "ES30": {
+      "value": 30.48
+    },
+    "ES41": {
+      "value": 16.17
+    },
+    "ES42": {
+      "value": 19.25
+    },
+    "ES43": {
+      "value": 8.51
+    },
+    "ES51": {
+      "value": 30.66
+    },
+    "ES52": {
+      "value": 29.11
+    },
+    "ES53": {
+      "value": 34.0
+    },
+    "ES61": {
+      "value": 15.19
+    },
+    "ES62": {
+      "value": 25.74
+    },
+    "ES63": {
+      "value": 14.63
+    },
+    "ES64": {
+      "value": 24.43
+    },
+    "FI19": {
+      "value": 9.93
+    },
+    "FI1B": {
+      "value": 22.0
+    },
+    "FI1C": {
+      "value": 10.94
+    },
+    "FI1D": {
+      "value": 8.01
+    },
+    "FR10": {
+      "value": 27.39
+    },
+    "FRB0": {
+      "value": 9.97
+    },
+    "FRC1": {
+      "value": 12.87
+    },
+    "FRC2": {
+      "value": 9.43
+    },
+    "FRD1": {
+      "value": 5.81
+    },
+    "FRD2": {
+      "value": 7.02
+    },
+    "FRE1": {
+      "value": 9.77
+    },
+    "FRE2": {
+      "value": 10.26
+    },
+    "FRF1": {
+      "value": 13.94
+    },
+    "FRF2": {
+      "value": 10.28
+    },
+    "FRF3": {
+      "value": 10.54
+    },
+    "FRG0": {
+      "value": 7.25
+    },
+    "FRH0": {
+      "value": 6.5
+    },
+    "FRI1": {
+      "value": 10.84
+    },
+    "FRI2": {
+      "value": 8.72
+    },
+    "FRI3": {
+      "value": 7.78
+    },
+    "FRJ1": {
+      "value": 12.04
+    },
+    "FRJ2": {
+      "value": 12.23
+    },
+    "FRK1": {
+      "value": 8.24
+    },
+    "FRK2": {
+      "value": 13.66
+    },
+    "FRL0": {
+      "value": 15.05
+    },
+    "HR02": {
+      "value": 10.46
+    },
+    "HR03": {
+      "value": 10.02
+    },
+    "HR05": {
+      "value": 14.01
+    },
+    "HR06": {
+      "value": 6.49
+    },
+    "HU11": {
+      "value": 7.45
+    },
+    "HU12": {
+      "value": 3.16
+    },
+    "HU21": {
+      "value": 2.58
+    },
+    "HU22": {
+      "value": 2.66
+    },
+    "HU23": {
+      "value": 1.21
+    },
+    "HU31": {
+      "value": 1.55
+    },
+    "HU32": {
+      "value": 2.85
+    },
+    "HU33": {
+      "value": 2.39
+    },
+    "IE04": {
+      "value": 28.23
+    },
+    "IE05": {
+      "value": 25.44
+    },
+    "IE06": {
+      "value": 33.89
+    },
+    "IS00": {
+      "value": 26.59
+    },
+    "ITC1": {
+      "value": 17.77
+    },
+    "ITC2": {
+      "value": 13.3
+    },
+    "ITC3": {
+      "value": 18.26
+    },
+    "ITC4": {
+      "value": 19.19
+    },
+    "ITF1": {
+      "value": 14.4
+    },
+    "ITF2": {
+      "value": 12.07
+    },
+    "ITF3": {
+      "value": 8.13
+    },
+    "ITF4": {
+      "value": 8.56
+    },
+    "ITF5": {
+      "value": 9.85
+    },
+    "ITF6": {
+      "value": 10.22
+    },
+    "ITG1": {
+      "value": 8.03
+    },
+    "ITG2": {
+      "value": 7.13
+    },
+    "ITH1": {
+      "value": 18.99
+    },
+    "ITH2": {
+      "value": 16.97
+    },
+    "ITH3": {
+      "value": 18.04
+    },
+    "ITH4": {
+      "value": 19.77
+    },
+    "ITH5": {
+      "value": 19.51
+    },
+    "ITI1": {
+      "value": 18.35
+    },
+    "ITI2": {
+      "value": 18.53
+    },
+    "ITI3": {
+      "value": 17.14
+    },
+    "ITI4": {
+      "value": 16.63
+    },
+    "LT01": {
+      "value": 8.93
+    },
+    "LT02": {
+      "value": 4.34
+    },
+    "LU00": {
+      "value": 56.53
+    },
+    "LV00": {
+      "value": 8.5
+    },
+    "MK00": {
+      "value": 2.36
+    },
+    "NL11": {
+      "value": 12.0
+    },
+    "NL12": {
+      "value": 9.33
+    },
+    "NL13": {
+      "value": 8.28
+    },
+    "NL21": {
+      "value": 12.46
+    },
+    "NL22": {
+      "value": 12.32
+    },
+    "NL23": {
+      "value": 26.51
+    },
+    "NL32": {
+      "value": 22.82
+    },
+    "NL34": {
+      "value": 16.11
+    },
+    "NL35": {
+      "value": 16.26
+    },
+    "NL36": {
+      "value": 24.27
+    },
+    "NL41": {
+      "value": 17.04
+    },
+    "NL42": {
+      "value": 16.67
+    },
+    "NO02": {
+      "value": 16.9
+    },
+    "NO06": {
+      "value": 17.6
+    },
+    "NO07": {
+      "value": 17.84
+    },
+    "NO08": {
+      "value": 30.68
+    },
+    "NO09": {
+      "value": 22.51
+    },
+    "NO0A": {
+      "value": 21.72
+    },
+    "PL21": {
+      "value": 1.84
+    },
+    "PL22": {
+      "value": 2.16
+    },
+    "PL41": {
+      "value": 2.71
+    },
+    "PL42": {
+      "value": 4.08
+    },
+    "PL43": {
+      "value": 5.18
+    },
+    "PL51": {
+      "value": 5.99
+    },
+    "PL61": {
+      "value": 1.93
+    },
+    "PL63": {
+      "value": 3.7
+    },
+    "PL71": {
+      "value": 3.26
+    },
+    "PL91": {
+      "value": 6.94
+    },
+    "PT11": {
+      "value": 10.49
+    },
+    "PT15": {
+      "value": 24.0
+    },
+    "PT19": {
+      "value": 15.44
+    },
+    "PT1A": {
+      "value": 22.09
+    },
+    "PT1B": {
+      "value": 21.46
+    },
+    "PT1C": {
+      "value": 9.38
+    },
+    "PT1D": {
+      "value": 13.42
+    },
+    "PT30": {
+      "value": 13.8
+    },
+    "RO32": {
+      "value": 1.6
+    },
+    "RS11": {
+      "value": 12.49
+    },
+    "RS12": {
+      "value": 13.04
+    },
+    "RS21": {
+      "value": 3.85
+    },
+    "RS22": {
+      "value": 3.04
+    },
+    "SE11": {
+      "value": 32.46
+    },
+    "SE12": {
+      "value": 26.09
+    },
+    "SE21": {
+      "value": 25.75
+    },
+    "SE22": {
+      "value": 30.51
+    },
+    "SE23": {
+      "value": 25.1
+    },
+    "SE31": {
+      "value": 19.42
+    },
+    "SE32": {
+      "value": 15.23
+    },
+    "SE33": {
+      "value": 16.35
+    },
+    "SI03": {
+      "value": 13.6
+    },
+    "SI04": {
+      "value": 16.93
+    },
+    "SK01": {
+      "value": 2.58
+    },
+    "SK02": {
+      "value": 1.29
+    },
+    "SK03": {
+      "value": 0.93
+    },
+    "SK04": {
+      "value": 1.12
+    },
+    "TR10": {
+      "value": 5.4
+    },
+    "TR21": {
+      "value": 3.86
+    },
+    "TR22": {
+      "value": 2.13
+    },
+    "TR31": {
+      "value": 2.58
+    },
+    "TR32": {
+      "value": 1.99
+    },
+    "TR33": {
+      "value": 1.41
+    },
+    "TR41": {
+      "value": 7.67
+    },
+    "TR42": {
+      "value": 2.9
+    },
+    "TR51": {
+      "value": 3.5
+    },
+    "TR52": {
+      "value": 3.9
+    },
+    "TR61": {
+      "value": 3.92
+    },
+    "TR62": {
+      "value": 1.87
+    },
+    "TR63": {
+      "value": 3.41
+    },
+    "TR71": {
+      "value": 1.3
+    },
+    "TR72": {
+      "value": 1.97
+    },
+    "TR81": {
+      "value": 1.03
+    },
+    "TR82": {
+      "value": 1.11
+    },
+    "TR83": {
+      "value": 1.06
+    },
+    "TR90": {
+      "value": 1.15
+    },
+    "TRA1": {
+      "value": 2.33
+    },
+    "TRB1": {
+      "value": 0.73
+    },
+    "TRC1": {
+      "value": 6.44
+    },
+    "TRC2": {
+      "value": 0.54
+    },
+    "TRC3": {
+      "value": 1.01
+    }
+  }
+}

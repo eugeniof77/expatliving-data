@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "slug": "air-quality-pm10-province-2024",
+    "label": "Air quality: PM10 by province (2024)",
+    "year": 2024,
+    "source": "EEA",
+    "sourceUrl": "https://eeadmz1-downloads-api-appservice.azurewebsites.net",
+    "extractedAt": "2026-09-25",
+    "unit": "ug_m3",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Annual mean PM10 concentration (ug/m3), by province — European Environment Agency air-quality e-Reporting data, 'Primary validated data (E1a)' dataset, 2024. Each province's value is the unweighted average of every EEA monitoring station whose nearest comune (by coordinate) falls in that province; a station only counts for a year with at least 274 valid daily observations (75% of the year, the EU Air Quality Directive's own completeness convention). A higher value means WORSE air quality — this is a negative-direction indicator, the same class as the crime/safety layers.",
+    "grain": "province",
+    "kind": "scalar",
+    "coverageNote": "89/110 provinces have at least one EEA monitoring station within their territory (matched by nearest comune to each station's coordinates). No station-derived value for: AN, AP, AV, BA, BN, BR, BT, BZ, FG, FM, IM, KR, LE, MC, MT, OG, PU, SP, TA, VS, VV — absent, not estimated from a neighbouring province."
+  },
+  "values": {
+    "AG": {
+      "value": 21.7
+    },
+    "AL": {
+      "value": 21.1
+    },
+    "AO": {
+      "value": 16.1
+    },
+    "AQ": {
+      "value": 16.0
+    },
+    "AR": {
+      "value": 18.1
+    },
+    "AT": {
+      "value": 23.1
+    },
+    "BG": {
+      "value": 26.3
+    },
+    "BI": {
+      "value": 15.6
+    },
+    "BL": {
+      "value": 18.9
+    },
+    "BO": {
+      "value": 21.5
+    },
+    "BS": {
+      "value": 28.3
+    },
+    "CA": {
+      "value": 22.1
+    },
+    "CB": {
+      "value": 19.5
+    },
+    "CE": {
+      "value": 31.8
+    },
+    "CH": {
+      "value": 19.7
+    },
+    "CI": {
+      "value": 18.5
+    },
+    "CL": {
+      "value": 26.2
+    },
+    "CN": {
+      "value": 21.3
+    },
+    "CO": {
+      "value": 23.3
+    },
+    "CR": {
+      "value": 31.5
+    },
+    "CS": {
+      "value": 11.9
+    },
+    "CT": {
+      "value": 29.3
+    },
+    "CZ": {
+      "value": 15.8
+    },
+    "EN": {
+      "value": 16.2
+    },
+    "FC": {
+      "value": 23.4
+    },
+    "FE": {
+      "value": 23.5
+    },
+    "FI": {
+      "value": 22.7
+    },
+    "FR": {
+      "value": 27.1
+    },
+    "GE": {
+      "value": 17.0
+    },
+    "GO": {
+      "value": 17.5
+    },
+    "GR": {
+      "value": 21.0
+    },
+    "IS": {
+      "value": 22.9
+    },
+    "LC": {
+      "value": 18.3
+    },
+    "LI": {
+      "value": 18.3
+    },
+    "LO": {
+      "value": 28.8
+    },
+    "LT": {
+      "value": 23.2
+    },
+    "LU": {
+      "value": 25.4
+    },
+    "MB": {
+      "value": 28.3
+    },
+    "ME": {
+      "value": 21.5
+    },
+    "MI": {
+      "value": 27.9
+    },
+    "MN": {
+      "value": 27.7
+    },
+    "MO": {
+      "value": 27.5
+    },
+    "MS": {
+      "value": 20.9
+    },
+    "NA": {
+      "value": 41.3
+    },
+    "NO": {
+      "value": 23.3
+    },
+    "NU": {
+      "value": 19.1
+    },
+    "OR": {
+      "value": 12.8
+    },
+    "OT": {
+      "value": 20.6
+    },
+    "PA": {
+      "value": 29.2
+    },
+    "PC": {
+      "value": 22.3
+    },
+    "PD": {
+      "value": 29.8
+    },
+    "PE": {
+      "value": 22.7
+    },
+    "PG": {
+      "value": 19.0
+    },
+    "PI": {
+      "value": 20.4
+    },
+    "PN": {
+      "value": 23.9
+    },
+    "PO": {
+      "value": 22.7
+    },
+    "PR": {
+      "value": 24.7
+    },
+    "PT": {
+      "value": 23.0
+    },
+    "PV": {
+      "value": 27.6
+    },
+    "PZ": {
+      "value": 17.3
+    },
+    "RA": {
+      "value": 24.7
+    },
+    "RC": {
+      "value": 25.6
+    },
+    "RE": {
+      "value": 24.0
+    },
+    "RG": {
+      "value": 23.9
+    },
+    "RI": {
+      "value": 16.0
+    },
+    "RM": {
+      "value": 22.3
+    },
+    "RN": {
+      "value": 20.0
+    },
+    "RO": {
+      "value": 29.3
+    },
+    "SA": {
+      "value": 19.9
+    },
+    "SI": {
+      "value": 18.6
+    },
+    "SO": {
+      "value": 16.8
+    },
+    "SR": {
+      "value": 23.2
+    },
+    "SS": {
+      "value": 19.4
+    },
+    "SV": {
+      "value": 16.7
+    },
+    "TE": {
+      "value": 20.8
+    },
+    "TN": {
+      "value": 17.2
+    },
+    "TO": {
+      "value": 21.9
+    },
+    "TP": {
+      "value": 20.2
+    },
+    "TR": {
+      "value": 24.3
+    },
+    "TS": {
+      "value": 17.6
+    },
+    "TV": {
+      "value": 27.0
+    },
+    "UD": {
+      "value": 19.2
+    },
+    "VA": {
+      "value": 23.8
+    },
+    "VB": {
+      "value": 17.8
+    },
+    "VC": {
+      "value": 18.9
+    },
+    "VE": {
+      "value": 29.3
+    },
+    "VI": {
+      "value": 26.7
+    },
+    "VR": {
+      "value": 28.3
+    },
+    "VT": {
+      "value": 17.6
+    }
+  }
+}

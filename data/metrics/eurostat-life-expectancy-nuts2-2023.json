@@ -1,0 +1,872 @@
+{
+  "meta": {
+    "slug": "eurostat-life-expectancy-nuts2-2023",
+    "label": "Life expectancy at birth, by NUTS 2 region (2023)",
+    "year": 2023,
+    "source": "Eurostat",
+    "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/demo_r_mlifexp",
+    "extractedAt": "2026-10-03",
+    "unit": "years",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Life expectancy at birth (age Y_LT1, both sexes) per NUTS 2 region (roughly region-equivalent), Eurostat's own demo_r_mlifexp dataset, 2023 — chosen for the best numeric coverage of any year in 2019-2024 after 2019 itself, which is seven years stale. Boundaries: github.com/eurostat/Nuts2json, 2021 typology.",
+    "grain": "nuts2",
+    "kind": "scalar",
+    "coverageNote": "The UK has no NUTS 2 life-expectancy figure in Eurostat's data for any year checked (2019-2024) — its regions are listed in Eurostat's own geo codelist but never carry a value, a different and worse gap than the population layer's \"historical only\". Albania is present for 2023 specifically, after dropping out in 2021-2022 — a real, unexplained gap in Eurostat's own series, not smoothed over here."
+  },
+  "values": {
+    "AT11": {
+      "value": 82.1
+    },
+    "AT12": {
+      "value": 81.5
+    },
+    "AT13": {
+      "value": 81.0
+    },
+    "AT21": {
+      "value": 81.9
+    },
+    "AT22": {
+      "value": 81.9
+    },
+    "AT31": {
+      "value": 82.1
+    },
+    "AT32": {
+      "value": 82.6
+    },
+    "AT33": {
+      "value": 83.1
+    },
+    "AT34": {
+      "value": 83.0
+    },
+    "BE10": {
+      "value": 82.1
+    },
+    "BE21": {
+      "value": 83.3
+    },
+    "BE22": {
+      "value": 83.2
+    },
+    "BE23": {
+      "value": 82.7
+    },
+    "BE24": {
+      "value": 83.8
+    },
+    "BE25": {
+      "value": 83.1
+    },
+    "BE31": {
+      "value": 83.2
+    },
+    "BE32": {
+      "value": 79.8
+    },
+    "BE33": {
+      "value": 80.8
+    },
+    "BE34": {
+      "value": 80.7
+    },
+    "BE35": {
+      "value": 80.8
+    },
+    "BG31": {
+      "value": 73.9
+    },
+    "BG32": {
+      "value": 75.1
+    },
+    "BG33": {
+      "value": 75.5
+    },
+    "BG34": {
+      "value": 75.0
+    },
+    "BG41": {
+      "value": 76.8
+    },
+    "BG42": {
+      "value": 76.1
+    },
+    "CH01": {
+      "value": 84.5
+    },
+    "CH02": {
+      "value": 83.6
+    },
+    "CH03": {
+      "value": 84.1
+    },
+    "CH04": {
+      "value": 84.2
+    },
+    "CH05": {
+      "value": 83.7
+    },
+    "CH06": {
+      "value": 84.2
+    },
+    "CH07": {
+      "value": 84.9
+    },
+    "CY00": {
+      "value": 83.0
+    },
+    "CZ01": {
+      "value": 81.4
+    },
+    "CZ02": {
+      "value": 79.8
+    },
+    "CZ03": {
+      "value": 80.0
+    },
+    "CZ04": {
+      "value": 78.0
+    },
+    "CZ05": {
+      "value": 80.2
+    },
+    "CZ06": {
+      "value": 80.5
+    },
+    "CZ07": {
+      "value": 79.8
+    },
+    "CZ08": {
+      "value": 78.5
+    },
+    "DE11": {
+      "value": 82.3
+    },
+    "DE12": {
+      "value": 81.7
+    },
+    "DE13": {
+      "value": 82.0
+    },
+    "DE14": {
+      "value": 82.5
+    },
+    "DE21": {
+      "value": 82.4
+    },
+    "DE22": {
+      "value": 80.9
+    },
+    "DE23": {
+      "value": 80.7
+    },
+    "DE24": {
+      "value": 80.6
+    },
+    "DE25": {
+      "value": 81.1
+    },
+    "DE26": {
+      "value": 81.5
+    },
+    "DE27": {
+      "value": 81.8
+    },
+    "DE30": {
+      "value": 80.9
+    },
+    "DE40": {
+      "value": 80.5
+    },
+    "DE50": {
+      "value": 79.4
+    },
+    "DE60": {
+      "value": 80.7
+    },
+    "DE71": {
+      "value": 81.5
+    },
+    "DE72": {
+      "value": 80.6
+    },
+    "DE73": {
+      "value": 80.4
+    },
+    "DE80": {
+      "value": 79.8
+    },
+    "DE91": {
+      "value": 80.1
+    },
+    "DE92": {
+      "value": 80.2
+    },
+    "DE93": {
+      "value": 80.4
+    },
+    "DE94": {
+      "value": 80.2
+    },
+    "DEA1": {
+      "value": 80.1
+    },
+    "DEA2": {
+      "value": 81.0
+    },
+    "DEA3": {
+      "value": 80.5
+    },
+    "DEA4": {
+      "value": 81.0
+    },
+    "DEA5": {
+      "value": 79.8
+    },
+    "DEB1": {
+      "value": 80.8
+    },
+    "DEB2": {
+      "value": 80.9
+    },
+    "DEB3": {
+      "value": 81.2
+    },
+    "DEC0": {
+      "value": 79.8
+    },
+    "DED2": {
+      "value": 81.6
+    },
+    "DED4": {
+      "value": 80.4
+    },
+    "DED5": {
+      "value": 81.0
+    },
+    "DEE0": {
+      "value": 79.0
+    },
+    "DEF0": {
+      "value": 80.6
+    },
+    "DEG0": {
+      "value": 80.3
+    },
+    "DK01": {
+      "value": 81.9
+    },
+    "DK02": {
+      "value": 81.1
+    },
+    "DK03": {
+      "value": 81.5
+    },
+    "DK04": {
+      "value": 82.0
+    },
+    "DK05": {
+      "value": 81.4
+    },
+    "EE00": {
+      "value": 78.9
+    },
+    "EL30": {
+      "value": 81.6
+    },
+    "EL41": {
+      "value": 83.6
+    },
+    "EL42": {
+      "value": 82.4
+    },
+    "EL43": {
+      "value": 82.3
+    },
+    "EL51": {
+      "value": 80.5
+    },
+    "EL52": {
+      "value": 81.5
+    },
+    "EL53": {
+      "value": 82.1
+    },
+    "EL54": {
+      "value": 83.5
+    },
+    "EL61": {
+      "value": 81.3
+    },
+    "EL62": {
+      "value": 81.7
+    },
+    "EL63": {
+      "value": 81.6
+    },
+    "EL64": {
+      "value": 81.6
+    },
+    "EL65": {
+      "value": 81.5
+    },
+    "ES11": {
+      "value": 83.7
+    },
+    "ES12": {
+      "value": 83.1
+    },
+    "ES13": {
+      "value": 84.2
+    },
+    "ES21": {
+      "value": 84.5
+    },
+    "ES22": {
+      "value": 84.9
+    },
+    "ES23": {
+      "value": 84.2
+    },
+    "ES24": {
+      "value": 84.1
+    },
+    "ES30": {
+      "value": 85.5
+    },
+    "ES41": {
+      "value": 84.6
+    },
+    "ES42": {
+      "value": 83.9
+    },
+    "ES43": {
+      "value": 83.1
+    },
+    "ES51": {
+      "value": 84.0
+    },
+    "ES52": {
+      "value": 83.2
+    },
+    "ES53": {
+      "value": 83.7
+    },
+    "ES61": {
+      "value": 82.5
+    },
+    "ES62": {
+      "value": 82.8
+    },
+    "ES63": {
+      "value": 81.2
+    },
+    "ES64": {
+      "value": 81.6
+    },
+    "FI19": {
+      "value": 81.4
+    },
+    "FI1B": {
+      "value": 82.1
+    },
+    "FI1C": {
+      "value": 81.3
+    },
+    "FI1D": {
+      "value": 81.2
+    },
+    "FI20": {
+      "value": 84.9
+    },
+    "FR10": {
+      "value": 84.5
+    },
+    "FRB0": {
+      "value": 82.6
+    },
+    "FRC1": {
+      "value": 82.3
+    },
+    "FRC2": {
+      "value": 82.2
+    },
+    "FRD1": {
+      "value": 82.3
+    },
+    "FRD2": {
+      "value": 81.8
+    },
+    "FRE1": {
+      "value": 81.1
+    },
+    "FRE2": {
+      "value": 81.4
+    },
+    "FRF1": {
+      "value": 82.8
+    },
+    "FRF2": {
+      "value": 81.6
+    },
+    "FRF3": {
+      "value": 81.8
+    },
+    "FRG0": {
+      "value": 83.3
+    },
+    "FRH0": {
+      "value": 82.5
+    },
+    "FRI1": {
+      "value": 83.4
+    },
+    "FRI2": {
+      "value": 82.3
+    },
+    "FRI3": {
+      "value": 82.6
+    },
+    "FRJ1": {
+      "value": 82.7
+    },
+    "FRJ2": {
+      "value": 83.6
+    },
+    "FRK1": {
+      "value": 82.4
+    },
+    "FRK2": {
+      "value": 84.2
+    },
+    "FRL0": {
+      "value": 83.5
+    },
+    "FRM0": {
+      "value": 83.8
+    },
+    "HR02": {
+      "value": 77.3
+    },
+    "HR03": {
+      "value": 79.3
+    },
+    "HR05": {
+      "value": 79.5
+    },
+    "HR06": {
+      "value": 78.1
+    },
+    "HU11": {
+      "value": 78.8
+    },
+    "HU12": {
+      "value": 77.4
+    },
+    "HU21": {
+      "value": 76.7
+    },
+    "HU22": {
+      "value": 77.4
+    },
+    "HU23": {
+      "value": 76.6
+    },
+    "HU31": {
+      "value": 74.9
+    },
+    "HU32": {
+      "value": 75.7
+    },
+    "HU33": {
+      "value": 76.2
+    },
+    "IE04": {
+      "value": 82.7
+    },
+    "IE05": {
+      "value": 82.2
+    },
+    "IE06": {
+      "value": 83.1
+    },
+    "IS00": {
+      "value": 82.4
+    },
+    "ITC1": {
+      "value": 83.2
+    },
+    "ITC2": {
+      "value": 83.9
+    },
+    "ITC3": {
+      "value": 83.5
+    },
+    "ITC4": {
+      "value": 84.0
+    },
+    "ITF1": {
+      "value": 83.1
+    },
+    "ITF2": {
+      "value": 82.7
+    },
+    "ITF3": {
+      "value": 81.5
+    },
+    "ITF4": {
+      "value": 83.1
+    },
+    "ITF5": {
+      "value": 82.8
+    },
+    "ITF6": {
+      "value": 82.1
+    },
+    "ITG1": {
+      "value": 81.7
+    },
+    "ITG2": {
+      "value": 83.0
+    },
+    "ITH1": {
+      "value": 84.6
+    },
+    "ITH2": {
+      "value": 84.8
+    },
+    "ITH3": {
+      "value": 84.2
+    },
+    "ITH4": {
+      "value": 83.8
+    },
+    "ITH5": {
+      "value": 84.0
+    },
+    "ITI1": {
+      "value": 84.2
+    },
+    "ITI2": {
+      "value": 83.9
+    },
+    "ITI3": {
+      "value": 84.3
+    },
+    "ITI4": {
+      "value": 83.0
+    },
+    "LI00": {
+      "value": 83.8
+    },
+    "LT01": {
+      "value": 78.2
+    },
+    "LT02": {
+      "value": 77.1
+    },
+    "LU00": {
+      "value": 83.1
+    },
+    "LV00": {
+      "value": 75.6
+    },
+    "ME00": {
+      "value": 77.6
+    },
+    "MT00": {
+      "value": 83.1
+    },
+    "NL11": {
+      "value": 80.7
+    },
+    "NL12": {
+      "value": 81.8
+    },
+    "NL13": {
+      "value": 81.5
+    },
+    "NL21": {
+      "value": 81.6
+    },
+    "NL22": {
+      "value": 82.0
+    },
+    "NL23": {
+      "value": 81.9
+    },
+    "NL32": {
+      "value": 82.0
+    },
+    "NL34": {
+      "value": 82.2
+    },
+    "NL35": {
+      "value": 82.2
+    },
+    "NL36": {
+      "value": 81.9
+    },
+    "NL41": {
+      "value": 81.7
+    },
+    "NL42": {
+      "value": 81.5
+    },
+    "NO02": {
+      "value": 82.0
+    },
+    "NO06": {
+      "value": 83.2
+    },
+    "NO07": {
+      "value": 82.3
+    },
+    "NO08": {
+      "value": 83.3
+    },
+    "NO09": {
+      "value": 82.7
+    },
+    "NO0A": {
+      "value": 83.3
+    },
+    "PL21": {
+      "value": 79.5
+    },
+    "PL22": {
+      "value": 77.6
+    },
+    "PL41": {
+      "value": 78.2
+    },
+    "PL42": {
+      "value": 77.6
+    },
+    "PL43": {
+      "value": 77.7
+    },
+    "PL51": {
+      "value": 78.0
+    },
+    "PL52": {
+      "value": 78.6
+    },
+    "PL61": {
+      "value": 77.6
+    },
+    "PL62": {
+      "value": 77.6
+    },
+    "PL63": {
+      "value": 78.6
+    },
+    "PL71": {
+      "value": 77.2
+    },
+    "PL72": {
+      "value": 77.9
+    },
+    "PL81": {
+      "value": 78.3
+    },
+    "PL82": {
+      "value": 79.6
+    },
+    "PL84": {
+      "value": 78.8
+    },
+    "PL91": {
+      "value": 79.5
+    },
+    "PL92": {
+      "value": 77.3
+    },
+    "PT11": {
+      "value": 82.9
+    },
+    "PT15": {
+      "value": 80.9
+    },
+    "PT19": {
+      "value": 82.7
+    },
+    "PT1A": {
+      "value": 82.5
+    },
+    "PT1B": {
+      "value": 81.2
+    },
+    "PT1C": {
+      "value": 80.8
+    },
+    "PT1D": {
+      "value": 82.0
+    },
+    "PT20": {
+      "value": 79.4
+    },
+    "PT30": {
+      "value": 80.4
+    },
+    "RO11": {
+      "value": 76.5
+    },
+    "RO12": {
+      "value": 76.9
+    },
+    "RO21": {
+      "value": 75.4
+    },
+    "RO22": {
+      "value": 75.6
+    },
+    "RO31": {
+      "value": 76.0
+    },
+    "RO32": {
+      "value": 77.6
+    },
+    "RO41": {
+      "value": 76.9
+    },
+    "RO42": {
+      "value": 76.4
+    },
+    "RS11": {
+      "value": 77.2
+    },
+    "RS12": {
+      "value": 75.5
+    },
+    "RS21": {
+      "value": 76.5
+    },
+    "RS22": {
+      "value": 75.6
+    },
+    "SE11": {
+      "value": 84.2
+    },
+    "SE12": {
+      "value": 83.1
+    },
+    "SE21": {
+      "value": 83.5
+    },
+    "SE22": {
+      "value": 82.9
+    },
+    "SE23": {
+      "value": 83.3
+    },
+    "SE31": {
+      "value": 82.7
+    },
+    "SE32": {
+      "value": 82.2
+    },
+    "SE33": {
+      "value": 82.2
+    },
+    "SI03": {
+      "value": 81.0
+    },
+    "SI04": {
+      "value": 82.8
+    },
+    "SK01": {
+      "value": 80.3
+    },
+    "SK02": {
+      "value": 78.2
+    },
+    "SK03": {
+      "value": 77.6
+    },
+    "SK04": {
+      "value": 77.7
+    },
+    "TR10": {
+      "value": 77.1
+    },
+    "TR21": {
+      "value": 76.0
+    },
+    "TR22": {
+      "value": 76.4
+    },
+    "TR31": {
+      "value": 76.6
+    },
+    "TR32": {
+      "value": 77.0
+    },
+    "TR33": {
+      "value": 76.1
+    },
+    "TR41": {
+      "value": 76.6
+    },
+    "TR42": {
+      "value": 76.8
+    },
+    "TR51": {
+      "value": 77.2
+    },
+    "TR52": {
+      "value": 76.6
+    },
+    "TR61": {
+      "value": 77.1
+    },
+    "TR62": {
+      "value": 75.3
+    },
+    "TR63": {
+      "value": 55.4
+    },
+    "TR71": {
+      "value": 76.6
+    },
+    "TR72": {
+      "value": 76.7
+    },
+    "TR81": {
+      "value": 76.5
+    },
+    "TR82": {
+      "value": 77.0
+    },
+    "TR83": {
+      "value": 76.8
+    },
+    "TR90": {
+      "value": 77.5
+    },
+    "TRA1": {
+      "value": 77.2
+    },
+    "TRA2": {
+      "value": 76.9
+    },
+    "TRB1": {
+      "value": 75.4
+    },
+    "TRB2": {
+      "value": 76.3
+    },
+    "TRC1": {
+      "value": 65.2
+    },
+    "TRC2": {
+      "value": 75.2
+    },
+    "TRC3": {
+      "value": 77.0
+    }
+  }
+}

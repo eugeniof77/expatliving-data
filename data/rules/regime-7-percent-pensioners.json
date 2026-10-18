@@ -1,0 +1,927 @@
+{
+  "meta": {
+    "slug": "regime-7-percent-pensioners",
+    "label": "7% flat tax for foreign pensioners moving to southern Italy",
+    "shortLabel": "7% pensioner regime",
+    "kind": "tax-regime",
+    "status": "verified",
+    "statusNote": "Verified 2026-08-23 against art. 24-ter TUIR (D.P.R. 917/1986) and Agenzia delle Entrate guidance; the two seismic routes sourced and verified 2026-08-24. meta.status covers the regime's shared criteria — the population threshold, the population basis, the duration and the person criteria. Each route in eligibility.comuneCriteria.routes carries its OWN status, and only verified routes are derived: as of 2026-08-24 all three routes (southern-regions, seismic-2016-2017, seismic-2009-aquila) are verified, so the published set is their full union.",
+    "validFrom": "2019-01-01",
+    "validTo": null,
+    "sourceLegislation": [
+      {
+        "cite": "TUIR art. 24-ter (D.P.R. 917/1986)",
+        "title": "Opzione per l'imposta sostitutiva sui redditi delle persone fisiche titolari di redditi da pensione di fonte estera che trasferiscono la propria residenza fiscale nel Mezzogiorno",
+        "url": "https://www.brocardi.it/testo-unico-imposte-redditi/titolo-i/capo-i/art24ter.html"
+      },
+      {
+        "cite": "Legge 30 dicembre 2018, n. 145, art. 1, commi 273-274",
+        "title": "Legge di Bilancio 2019 — introduced the regime, with a 20,000-inhabitant threshold and 5 subsequent tax periods",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2018/12/31/18G00172/sg"
+      },
+      {
+        "cite": "D.L. 30 aprile 2019, n. 34 (Decreto Crescita)",
+        "title": "Extended the option from 5 to 9 subsequent tax periods",
+        "url": "https://www.gazzettaufficiale.it/eli/id/2019/04/30/19G00043/sg"
+      },
+      {
+        "cite": "Legge 11 marzo 2026, n. 34, art. 26, comma 1",
+        "title": "Raised the population threshold from 20,000 to 30,000, effective 2026-04-07",
+        "url": "https://www.gazzettaufficiale.it/"
+      },
+      {
+        "cite": "Provvedimento del Direttore dell'Agenzia delle Entrate, 31 maggio 2019, punto 1.4",
+        "title": "Establishes which ISTAT population figure and vintage the threshold binds to",
+        "url": "https://www.brocardi.it/testo-unico-imposte-redditi/titolo-i/capo-i/art24ter.html"
+      },
+      {
+        "cite": "Circolare Agenzia delle Entrate n. 21/E del 17 luglio 2020, sez. 1",
+        "title": "Operative guidance, incl. the population basis and the seismic-zone comuni",
+        "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/0/Circolare+n.+21E+del+17.07.2020.pdf/96191701-87ef-ce63-e163-a8a6e37e64ad"
+      }
+    ],
+    "verificationNotes": [
+      "RESOLVED 2026-08-23 — region list: the statute names exactly eight (Sicilia, Calabria, Sardegna, Campania, Basilicata, Abruzzo, Molise, Puglia). The earlier planning note that said “seven” was wrong; the encoding was right.",
+      "RESOLVED 2026-08-23 — threshold: raised from 20,000 to 30,000 by L. 11 marzo 2026 n. 34 art. 26 c.1, effective 2026-04-07. This site had encoded the superseded 20,000 figure, which excluded 80 comuni that now qualify.",
+      "RESOLVED 2026-08-23 — population basis: specified in guidance, not in the statute. See meta.populationBasis.",
+      "RESOLVED 2026-08-23 — duration: ten tax periods in total (the year the option takes effect plus the nine following), non-renewable. Originally six; extended by D.L. 34/2019.",
+      "RESOLVED 2026-08-23 — person criteria: five preceding tax periods of non-residence, and transfer from a country with an administrative-cooperation agreement, both confirmed in the statute (commi 2-3).",
+      "RESOLVED 2026-08-24 — populationCap scope: the statute's 'avente comunque una popolazione non superiore a 30.000 abitanti' is a single trailing clause covering all three limbs (southern regions, D.L. 189/2016 Allegati, 2009 sisma), not a separate figure per limb. Corroborated three ways: (1) Circolare 21/E's 2020 footnote quotes a lower, seismic-specific figure ('non superiore a 3.000 abitanti') for the pre-2022 text — but that predates the 2022 addition of the 2009 L'Aquila limb and the 2026 threshold rise, and no 2026-current source repeats it, so it is read as superseded rather than still operative; (2) multiple 2026 sources describing L. 34/2026 art. 26 c.1 as a literal find-and-replace of the single phrase '20.000 abitanti' with '30.000 abitanti' — a mechanism that only works if the phrase occurs once; (3) at least one source's 'Ambito di applicazione' description states explicitly that the raise applies 'nel Mezzogiorno o nei comuni colpiti da eventi sismici'. Both seismic routes are accordingly set to populationCap: \"applies\", using the same shared eligibility.comuneCriteria.maxPopulation as the southern-regions route — no per-route override was needed in scripts/etl/rules.py.",
+      "RESOLVED 2026-08-24 — both seismic routes sourced and verified. seismic-2016-2017 (138 comuni) is read directly from the D.L. 189/2016 decree text (Allegati 1, 2, 2-bis). seismic-2009-aquila (57 comuni) was initially resolved from a secondary consolidated listing rather than the governing decrees' own text; re-sourced later the same day directly from both decrees' Gazzetta Ufficiale publication — Decreto n. 3 del 16 aprile 2009 (GU n. 89) and Decreto n. 11 del 17 luglio 2009 (GU n. 173) — confirming 49 + 8 = 57 with zero discrepancies against what was already published. See that route's sourcingNotes."
+    ],
+    "summary": "Individuals holding foreign-source pension income who move their tax residence to a qualifying southern comune can elect a 7% flat substitute tax on their foreign-source income, in place of ordinary IRPEF, for the year of transfer plus the following nine tax periods — ten in total, non-renewable.",
+    "audienceNote": "The highest-intent question this site can answer: it turns a tax rule into a filterable map of real towns. It is also the one where being wrong costs a reader the most, which is why it ships behind a verification gate.",
+    "verifiedOn": "2026-08-23",
+    "populationBasis": "The threshold binds to ISTAT's annual municipal demographic survey (“Rilevazione comunale annuale del movimento e calcolo della popolazione”) as of 1 January of the year PRECEDING the first tax period of the option, and that figure stays binding for the whole run unless the taxpayer moves to a different qualifying comune. This site applies the threshold to ISTAT resident population at 1 January 2025 — which is exactly the binding figure for someone whose first tax period is 2026. Someone starting in 2027 binds to 1 January 2026 instead, so a comune close to the line should be checked against its own year.",
+    "knownIncompleteness": []
+  },
+  "eligibility": {
+    "comuneCriteria": {
+      "maxPopulation": 30000,
+      "maxPopulationValidFrom": "2026-04-07",
+      "maxPopulationHistory": [
+        {
+          "validFrom": "2019-01-01",
+          "validTo": "2026-04-06",
+          "maxPopulation": 20000
+        },
+        {
+          "validFrom": "2026-04-07",
+          "validTo": null,
+          "maxPopulation": 30000
+        }
+      ],
+      "routes": [
+        {
+          "id": "southern-regions",
+          "label": "Anywhere in eight southern regions",
+          "status": "verified",
+          "verifiedOn": "2026-08-23",
+          "populationCap": "applies",
+          "citation": "TUIR art. 24-ter, comma 1 — first limb",
+          "description": "A comune in Abruzzo, Basilicata, Calabria, Campania, Molise, Puglia, Sardegna or Sicilia whose resident population is at or below the threshold.",
+          "match": {
+            "type": "regions",
+            "regions": [
+              "Abruzzo",
+              "Basilicata",
+              "Calabria",
+              "Campania",
+              "Molise",
+              "Puglia",
+              "Sardegna",
+              "Sicilia"
+            ]
+          }
+        },
+        {
+          "id": "seismic-2016-2017",
+          "label": "The 2016–17 Central Italy seismic crater",
+          "status": "verified",
+          "verifiedOn": "2026-08-24",
+          "populationCap": "applies",
+          "citation": "TUIR art. 24-ter, comma 1 — second limb ('comuni di cui agli allegati 1, 2 e 2-bis al decreto-legge 17 ottobre 2016, n. 189, convertito, con modificazioni, dalla legge 15 dicembre 2016, n. 229'), subject to the same 'avente comunque una popolazione non superiore a 30.000 abitanti' cap as the first limb (raised from 20,000 by L. 11 marzo 2026, n. 34, art. 26, comma 1 — see meta.verificationNotes for how that scope question was resolved). Comune list: Allegati 1, 2 and 2-bis to D.L. 189/2016 itself, read directly from the decree text (arts. 1 and 6).",
+          "description": "Comuni in Abruzzo, Lazio, Marche and Umbria listed in the three annexes to D.L. 189/2016. These are named individually in the legislation, not described by a criterion, so this route can only be encoded by transcribing the annexes.",
+          "match": {
+            "type": "comuni",
+            "comuni": [
+              {
+                "name": "Cerreto D'esi",
+                "province": "AN"
+              },
+              {
+                "name": "Fabriano",
+                "province": "AN"
+              },
+              {
+                "name": "Acquasanta Terme",
+                "province": "AP"
+              },
+              {
+                "name": "Appignano del Tronto",
+                "province": "AP"
+              },
+              {
+                "name": "Arquata del Tronto",
+                "province": "AP"
+              },
+              {
+                "name": "Ascoli Piceno",
+                "province": "AP"
+              },
+              {
+                "name": "Castel di Lama",
+                "province": "AP"
+              },
+              {
+                "name": "Castignano",
+                "province": "AP"
+              },
+              {
+                "name": "Castorano",
+                "province": "AP"
+              },
+              {
+                "name": "Colli del Tronto",
+                "province": "AP"
+              },
+              {
+                "name": "Comunanza",
+                "province": "AP"
+              },
+              {
+                "name": "Cossignano",
+                "province": "AP"
+              },
+              {
+                "name": "Folignano",
+                "province": "AP"
+              },
+              {
+                "name": "Force",
+                "province": "AP"
+              },
+              {
+                "name": "Maltignano",
+                "province": "AP"
+              },
+              {
+                "name": "Montalto delle Marche",
+                "province": "AP"
+              },
+              {
+                "name": "Montedinove",
+                "province": "AP"
+              },
+              {
+                "name": "Montegallo",
+                "province": "AP"
+              },
+              {
+                "name": "Montemonaco",
+                "province": "AP"
+              },
+              {
+                "name": "Offida",
+                "province": "AP"
+              },
+              {
+                "name": "Palmiano",
+                "province": "AP"
+              },
+              {
+                "name": "Roccafluvione",
+                "province": "AP"
+              },
+              {
+                "name": "Rotella",
+                "province": "AP"
+              },
+              {
+                "name": "Venarotta",
+                "province": "AP"
+              },
+              {
+                "name": "Barete",
+                "province": "AQ"
+              },
+              {
+                "name": "Cagnano Amiterno",
+                "province": "AQ"
+              },
+              {
+                "name": "Campotosto",
+                "province": "AQ"
+              },
+              {
+                "name": "Capitignano",
+                "province": "AQ"
+              },
+              {
+                "name": "Montereale",
+                "province": "AQ"
+              },
+              {
+                "name": "Pizzoli",
+                "province": "AQ"
+              },
+              {
+                "name": "Amandola",
+                "province": "FM"
+              },
+              {
+                "name": "Belmonte Piceno",
+                "province": "FM"
+              },
+              {
+                "name": "Falerone",
+                "province": "FM"
+              },
+              {
+                "name": "Massa Fermana",
+                "province": "FM"
+              },
+              {
+                "name": "Monsampietro Morico",
+                "province": "FM"
+              },
+              {
+                "name": "Montappone",
+                "province": "FM"
+              },
+              {
+                "name": "Monte Rinaldo",
+                "province": "FM"
+              },
+              {
+                "name": "Monte Vidon Corrado",
+                "province": "FM"
+              },
+              {
+                "name": "Montefalcone Appennino",
+                "province": "FM"
+              },
+              {
+                "name": "Montefortino",
+                "province": "FM"
+              },
+              {
+                "name": "Montegiorgio",
+                "province": "FM"
+              },
+              {
+                "name": "Monteleone di Fermo",
+                "province": "FM"
+              },
+              {
+                "name": "Montelparo",
+                "province": "FM"
+              },
+              {
+                "name": "Ortezzano",
+                "province": "FM"
+              },
+              {
+                "name": "Santa Vittoria in Matenano",
+                "province": "FM"
+              },
+              {
+                "name": "Servigliano",
+                "province": "FM"
+              },
+              {
+                "name": "Smerillo",
+                "province": "FM"
+              },
+              {
+                "name": "Apiro",
+                "province": "MC"
+              },
+              {
+                "name": "Belforte del Chienti",
+                "province": "MC"
+              },
+              {
+                "name": "Bolognola",
+                "province": "MC"
+              },
+              {
+                "name": "Caldarola",
+                "province": "MC"
+              },
+              {
+                "name": "Camerino",
+                "province": "MC"
+              },
+              {
+                "name": "Camporotondo di Fiastrone",
+                "province": "MC"
+              },
+              {
+                "name": "Castelraimondo",
+                "province": "MC"
+              },
+              {
+                "name": "Castelsantangelo sul Nera",
+                "province": "MC"
+              },
+              {
+                "name": "Cessapalombo",
+                "province": "MC"
+              },
+              {
+                "name": "Cingoli",
+                "province": "MC"
+              },
+              {
+                "name": "Colmurano",
+                "province": "MC"
+              },
+              {
+                "name": "Corridonia",
+                "province": "MC"
+              },
+              {
+                "name": "Esanatoglia",
+                "province": "MC"
+              },
+              {
+                "name": "Fiastra",
+                "province": "MC"
+              },
+              {
+                "name": "Fiuminata",
+                "province": "MC"
+              },
+              {
+                "name": "Gagliole",
+                "province": "MC"
+              },
+              {
+                "name": "Gualdo",
+                "province": "MC"
+              },
+              {
+                "name": "Loro Piceno",
+                "province": "MC"
+              },
+              {
+                "name": "Macerata",
+                "province": "MC"
+              },
+              {
+                "name": "Matelica",
+                "province": "MC"
+              },
+              {
+                "name": "Mogliano",
+                "province": "MC"
+              },
+              {
+                "name": "Monte Cavallo",
+                "province": "MC"
+              },
+              {
+                "name": "Monte San Martino",
+                "province": "MC"
+              },
+              {
+                "name": "Muccia",
+                "province": "MC"
+              },
+              {
+                "name": "Penna San Giovanni",
+                "province": "MC"
+              },
+              {
+                "name": "Petriolo",
+                "province": "MC"
+              },
+              {
+                "name": "Pieve Torina",
+                "province": "MC"
+              },
+              {
+                "name": "Pioraco",
+                "province": "MC"
+              },
+              {
+                "name": "Poggio San Vicino",
+                "province": "MC"
+              },
+              {
+                "name": "Pollenza",
+                "province": "MC"
+              },
+              {
+                "name": "Ripe San Ginesio",
+                "province": "MC"
+              },
+              {
+                "name": "San Ginesio",
+                "province": "MC"
+              },
+              {
+                "name": "San Severino Marche",
+                "province": "MC"
+              },
+              {
+                "name": "Sant'Angelo in Pontano",
+                "province": "MC"
+              },
+              {
+                "name": "Sarnano",
+                "province": "MC"
+              },
+              {
+                "name": "Sefro",
+                "province": "MC"
+              },
+              {
+                "name": "Serrapetrona",
+                "province": "MC"
+              },
+              {
+                "name": "Serravalle di Chienti",
+                "province": "MC"
+              },
+              {
+                "name": "Tolentino",
+                "province": "MC"
+              },
+              {
+                "name": "Treia",
+                "province": "MC"
+              },
+              {
+                "name": "Urbisaglia",
+                "province": "MC"
+              },
+              {
+                "name": "Ussita",
+                "province": "MC"
+              },
+              {
+                "name": "Valfornace",
+                "province": "MC"
+              },
+              {
+                "name": "Visso",
+                "province": "MC"
+              },
+              {
+                "name": "Farindola",
+                "province": "PE"
+              },
+              {
+                "name": "Cascia",
+                "province": "PG"
+              },
+              {
+                "name": "Cerreto di Spoleto",
+                "province": "PG"
+              },
+              {
+                "name": "Monteleone di Spoleto",
+                "province": "PG"
+              },
+              {
+                "name": "Norcia",
+                "province": "PG"
+              },
+              {
+                "name": "Poggiodomo",
+                "province": "PG"
+              },
+              {
+                "name": "Preci",
+                "province": "PG"
+              },
+              {
+                "name": "Sant'Anatolia di Narco",
+                "province": "PG"
+              },
+              {
+                "name": "Scheggino",
+                "province": "PG"
+              },
+              {
+                "name": "Sellano",
+                "province": "PG"
+              },
+              {
+                "name": "Spoleto",
+                "province": "PG"
+              },
+              {
+                "name": "Vallo di Nera",
+                "province": "PG"
+              },
+              {
+                "name": "Accumoli",
+                "province": "RI"
+              },
+              {
+                "name": "Amatrice",
+                "province": "RI"
+              },
+              {
+                "name": "Antrodoco",
+                "province": "RI"
+              },
+              {
+                "name": "Borbona",
+                "province": "RI"
+              },
+              {
+                "name": "Borgo Velino",
+                "province": "RI"
+              },
+              {
+                "name": "Cantalice",
+                "province": "RI"
+              },
+              {
+                "name": "Castel Sant'Angelo",
+                "province": "RI"
+              },
+              {
+                "name": "Cittaducale",
+                "province": "RI"
+              },
+              {
+                "name": "Cittareale",
+                "province": "RI"
+              },
+              {
+                "name": "Leonessa",
+                "province": "RI"
+              },
+              {
+                "name": "Micigliano",
+                "province": "RI"
+              },
+              {
+                "name": "Poggio Bustone",
+                "province": "RI"
+              },
+              {
+                "name": "Posta",
+                "province": "RI"
+              },
+              {
+                "name": "Rieti",
+                "province": "RI"
+              },
+              {
+                "name": "Rivodutri",
+                "province": "RI"
+              },
+              {
+                "name": "Campli",
+                "province": "TE"
+              },
+              {
+                "name": "Castel Castagna",
+                "province": "TE"
+              },
+              {
+                "name": "Castelli",
+                "province": "TE"
+              },
+              {
+                "name": "Civitella del Tronto",
+                "province": "TE"
+              },
+              {
+                "name": "Colledara",
+                "province": "TE"
+              },
+              {
+                "name": "Cortino",
+                "province": "TE"
+              },
+              {
+                "name": "Crognaleto",
+                "province": "TE"
+              },
+              {
+                "name": "Fano Adriano",
+                "province": "TE"
+              },
+              {
+                "name": "Isola del Gran Sasso d'Italia",
+                "province": "TE"
+              },
+              {
+                "name": "Montorio al Vomano",
+                "province": "TE"
+              },
+              {
+                "name": "Pietracamela",
+                "province": "TE"
+              },
+              {
+                "name": "Rocca Santa Maria",
+                "province": "TE"
+              },
+              {
+                "name": "Teramo",
+                "province": "TE"
+              },
+              {
+                "name": "Torricella Sicura",
+                "province": "TE"
+              },
+              {
+                "name": "Tossicia",
+                "province": "TE"
+              },
+              {
+                "name": "Valle Castellana",
+                "province": "TE"
+              },
+              {
+                "name": "Arrone",
+                "province": "TR"
+              },
+              {
+                "name": "Ferentillo",
+                "province": "TR"
+              },
+              {
+                "name": "Montefranco",
+                "province": "TR"
+              },
+              {
+                "name": "Polino",
+                "province": "TR"
+              }
+            ],
+            "expectedCount": 138
+          },
+          "sourcingNotes": [
+            "SOURCED 2026-08-24 from the D.L. 189/2016 decree text itself (art. 1, art. 6 and the three annexes), fetched live from sisma2016.gov.it. Allegato 1 = 62 comuni (24 Aug 2016 event), Allegato 2 = 69 comuni (26/30 Oct 2016), Allegato 2-bis = 9 comuni (18 Jan 2017) — 140 named comuni total, matching the secondary-source count this route's notes previously flagged as unconfirmed.",
+            "140 named comuni resolve to 138 comuni on today's spine: Fiordimonte and Pievebovigliana (both Allegato 1, MC) merged into Valfornace effective 2017-01-01, and Acquacanina (Allegato 1, MC) merged into the already-listed Fiastra the same date — recorded via scripts/etl/crosswalk.py-style substitution, not deletion, per this note's original instruction.",
+            "Two comune names required correcting spelling/current-name variants against data/comuni.json rather than the decree's own spelling: Monsampietro Morico (decree prints 'Monsapietro Morico'), Isola del Gran Sasso d'Italia, Castel Castagna, Monte Cavallo and Serravalle di Chienti — none of these are mergers, just closer transcription/current-name matches.",
+            "Entries are {name, province} because that is what the annexes print. scripts/etl/rules.py resolves them against the comune spine and RAISES on any name it cannot match, rather than dropping it — an unmatched name is a comune silently missing from a page whose costliest failure is exactly that."
+          ]
+        },
+        {
+          "id": "seismic-2009-aquila",
+          "label": "Comuni affected by the 6 April 2009 L'Aquila earthquake",
+          "status": "verified",
+          "verifiedOn": "2026-08-24",
+          "populationCap": "applies",
+          "citation": "TUIR art. 24-ter, comma 1 — second limb ('comuni interessati dagli eventi sismici del 6 aprile 2009'), added to art. 24-ter by D.L. 27 gennaio 2022, n. 4 (Decreto Sostegni-ter), conv. con modificazioni dalla L. 28 marzo 2022, n. 25; subject to the same 'avente comunque una popolazione non superiore a 30.000 abitanti' cap as the other two limbs (raised from 20,000 by L. 11 marzo 2026, n. 34, art. 26, comma 1). Comune list: the 2009 'cratere sismico' — 49 comuni named by Decreto del Commissario delegato n. 3 del 16 aprile 2009 (Gazzetta Ufficiale n. 89 del 17 aprile 2009), plus 8 more added by Decreto n. 11 del 17 luglio 2009 (Gazzetta Ufficiale n. 173 del 28 luglio 2009) — 57 total, read verbatim from both decrees' own Gazzetta Ufficiale publication text; see sourcingNotes.",
+          "description": "The 2009 Abruzzo earthquake crater. A separate list from the 2016–17 annexes, defined by its own emergency decree, and overlapping them only in part.",
+          "match": {
+            "type": "comuni",
+            "comuni": [
+              {
+                "name": "Acciano",
+                "province": "AQ"
+              },
+              {
+                "name": "Barete",
+                "province": "AQ"
+              },
+              {
+                "name": "Barisciano",
+                "province": "AQ"
+              },
+              {
+                "name": "Bugnara",
+                "province": "AQ"
+              },
+              {
+                "name": "Cagnano Amiterno",
+                "province": "AQ"
+              },
+              {
+                "name": "Campotosto",
+                "province": "AQ"
+              },
+              {
+                "name": "Capestrano",
+                "province": "AQ"
+              },
+              {
+                "name": "Capitignano",
+                "province": "AQ"
+              },
+              {
+                "name": "Caporciano",
+                "province": "AQ"
+              },
+              {
+                "name": "Carapelle Calvisio",
+                "province": "AQ"
+              },
+              {
+                "name": "Castel del Monte",
+                "province": "AQ"
+              },
+              {
+                "name": "Castel di Ieri",
+                "province": "AQ"
+              },
+              {
+                "name": "Castelvecchio Calvisio",
+                "province": "AQ"
+              },
+              {
+                "name": "Castelvecchio Subequo",
+                "province": "AQ"
+              },
+              {
+                "name": "Cocullo",
+                "province": "AQ"
+              },
+              {
+                "name": "Collarmele",
+                "province": "AQ"
+              },
+              {
+                "name": "Fagnano Alto",
+                "province": "AQ"
+              },
+              {
+                "name": "Fontecchio",
+                "province": "AQ"
+              },
+              {
+                "name": "Fossa",
+                "province": "AQ"
+              },
+              {
+                "name": "Gagliano Aterno",
+                "province": "AQ"
+              },
+              {
+                "name": "Goriano Sicoli",
+                "province": "AQ"
+              },
+              {
+                "name": "L'Aquila",
+                "province": "AQ"
+              },
+              {
+                "name": "Lucoli",
+                "province": "AQ"
+              },
+              {
+                "name": "Montereale",
+                "province": "AQ"
+              },
+              {
+                "name": "Navelli",
+                "province": "AQ"
+              },
+              {
+                "name": "Ocre",
+                "province": "AQ"
+              },
+              {
+                "name": "Ofena",
+                "province": "AQ"
+              },
+              {
+                "name": "Ovindoli",
+                "province": "AQ"
+              },
+              {
+                "name": "Pizzoli",
+                "province": "AQ"
+              },
+              {
+                "name": "Poggio Picenze",
+                "province": "AQ"
+              },
+              {
+                "name": "Prata d'Ansidonia",
+                "province": "AQ"
+              },
+              {
+                "name": "Rocca di Cambio",
+                "province": "AQ"
+              },
+              {
+                "name": "Rocca di Mezzo",
+                "province": "AQ"
+              },
+              {
+                "name": "San Demetrio ne' Vestini",
+                "province": "AQ"
+              },
+              {
+                "name": "San Pio delle Camere",
+                "province": "AQ"
+              },
+              {
+                "name": "Sant'Eusanio Forconese",
+                "province": "AQ"
+              },
+              {
+                "name": "Santo Stefano di Sessanio",
+                "province": "AQ"
+              },
+              {
+                "name": "Scoppito",
+                "province": "AQ"
+              },
+              {
+                "name": "Tione degli Abruzzi",
+                "province": "AQ"
+              },
+              {
+                "name": "Tornimparte",
+                "province": "AQ"
+              },
+              {
+                "name": "Villa Sant'Angelo",
+                "province": "AQ"
+              },
+              {
+                "name": "Villa Santa Lucia degli Abruzzi",
+                "province": "AQ"
+              },
+              {
+                "name": "Brittoli",
+                "province": "PE"
+              },
+              {
+                "name": "Bussi sul Tirino",
+                "province": "PE"
+              },
+              {
+                "name": "Civitella Casanova",
+                "province": "PE"
+              },
+              {
+                "name": "Cugnoli",
+                "province": "PE"
+              },
+              {
+                "name": "Montebello di Bertona",
+                "province": "PE"
+              },
+              {
+                "name": "Popoli Terme",
+                "province": "PE"
+              },
+              {
+                "name": "Torre de' Passeri",
+                "province": "PE"
+              },
+              {
+                "name": "Arsita",
+                "province": "TE"
+              },
+              {
+                "name": "Castelli",
+                "province": "TE"
+              },
+              {
+                "name": "Colledara",
+                "province": "TE"
+              },
+              {
+                "name": "Fano Adriano",
+                "province": "TE"
+              },
+              {
+                "name": "Montorio al Vomano",
+                "province": "TE"
+              },
+              {
+                "name": "Penna Sant'Andrea",
+                "province": "TE"
+              },
+              {
+                "name": "Pietracamela",
+                "province": "TE"
+              },
+              {
+                "name": "Tossicia",
+                "province": "TE"
+              }
+            ],
+            "expectedCount": 57
+          },
+          "sourcingNotes": [
+            "RE-SOURCED 2026-08-24 directly from both governing decrees' own Gazzetta Ufficiale text, raising this route to the same rigor as the 2016-2017 route above — it previously rested on a secondary consolidated listing (6aprile.it). Decreto n. 3 del 16 aprile 2009 (GU Serie Generale n. 89 del 17 aprile 2009) names exactly 49 comuni verbatim: 37 in provincia dell'Aquila, 5 in provincia di Teramo, 7 in provincia di Pescara. Decreto n. 11 del 17 luglio 2009 (GU Serie Generale n. 173 del 28 luglio 2009), titled 'Modifiche ed integrazioni al decreto n. 3 del 16 aprile 2009', adds exactly 8 more by name: Bugnara, Cagnano Amiterno, Capitignano, Fontecchio and Montereale (AQ); Colledara, Fano Adriano and Penna Sant'Andrea (TE). 49 + 8 = 57, matching this file exactly — every name in both decrees resolves to a name already in this list, with none missing and none extra.",
+            "Two names needed a currency check against the decrees' own spelling, both harmless: Decreto n. 3 prints 'Pitracamela' for what data/comuni.json and this file call 'Pietracamela' (a typo in the original Gazzetta text, not a different comune — there is no 'Pitracamela'), and 'Popoli' for what is now 'Popoli Terme' (the comune's own 2019 renaming, not a merger).",
+            "This list is defined by its own instrument (the 2009 crater decree), not by D.L. 189/2016, so it has to be sourced separately. It is not a subset of the 2016–17 annexes.",
+            "It overlaps the 2016–17 annexes for part of the province of L'Aquila and Teramo (e.g. Campotosto, Capitignano, Montereale, Castelli, Tossicia, Colledara, Fano Adriano, Pietracamela, Montorio al Vomano appear on both routes). Overlap is harmless — rules.py takes the union of routes and a comune admitted twice appears once — but it means the two lists' lengths cannot be added to sanity-check a total."
+          ]
+        }
+      ]
+    },
+    "personCriteria": [
+      "Holds pension income paid by a foreign source.",
+      "Was not tax-resident in Italy in the five tax periods preceding the one in which the option takes effect (art. 24-ter comma 2).",
+      "Transfers residence from a country with an administrative-cooperation agreement in force with Italy (art. 24-ter comma 3)."
+    ]
+  }
+}

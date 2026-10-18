@@ -1,0 +1,690 @@
+{
+  "site": "https://www.expatliving.it",
+  "dataAsOf": "2026-10-13",
+  "files": [
+    {
+      "path": "api/openapi.json",
+      "url": "/api/v1/openapi.json",
+      "sha256": "c72799dee52c2aa71aeec5c0d50c82624c64e49e600cd64ddb252678416ef71d",
+      "bytes": 85934
+    },
+    {
+      "path": "data/bes/indicators.json",
+      "url": "/data/bes/indicators.json",
+      "sha256": "b6c4aaedbb0d7d363af96b52dd10a2f7bb00058ee53a1cdbe1cd91e5cea40fe4",
+      "bytes": 26154
+    },
+    {
+      "path": "data/bes/provinces.json",
+      "url": "/data/bes/provinces.json",
+      "sha256": "513d3c973376c3dce49689b346471fd0a4e2de570ee991ccde97320ebbd3b5c0",
+      "bytes": 11338
+    },
+    {
+      "path": "data/bes/values.json",
+      "url": "/data/bes/values.json",
+      "sha256": "7e557414787d423873d3b8bfde15643b9ac0aac77df1cfb10fce36e421db6610",
+      "bytes": 457466
+    },
+    {
+      "path": "data/comuni.json",
+      "url": "/data/comuni.json",
+      "sha256": "83d88c767de7df1b7a7dc5777f3380b1cb501e94021c32fc0c52b80df706f75f",
+      "bytes": 1486178
+    },
+    {
+      "path": "data/geo/comuni-centroids.geojson",
+      "url": "/data/geo/comuni-centroids.geojson",
+      "sha256": "d0e23bc5faed9d9570418409e46d331f93f5eed15e21aed73168c939474067ac",
+      "bytes": 1332085
+    },
+    {
+      "path": "data/geo/nuts2.geojson",
+      "url": "/data/geo/nuts2.geojson",
+      "sha256": "1a58d31efc4f6feb3b3103efb4e0fb42fd840f6fd23e4865bebd41d0c20110c1",
+      "bytes": 294343
+    },
+    {
+      "path": "data/geo/nuts3.geojson",
+      "url": "/data/geo/nuts3.geojson",
+      "sha256": "7def95bfb4e1f1f210cac35ab9696311e74a68c5ce6347e5201eaa09623c5ddb",
+      "bytes": 640562
+    },
+    {
+      "path": "data/meta/sources.json",
+      "url": "/data/meta/sources.json",
+      "sha256": "55970f8fcaba672ee11750a7cdc2bcb829bde17da8aba7eecc8f0ad6143a2e30",
+      "bytes": 51663
+    },
+    {
+      "path": "data/metrics/accommodation-capacity-beds-comune-2024.json",
+      "url": "/data/metrics/accommodation-capacity-beds-comune-2024.json",
+      "sha256": "458a9b0b7064cf4b5b4387a948119630a12b8c13b2d53d7ef990b298fe791b78",
+      "bytes": 312530
+    },
+    {
+      "path": "data/metrics/accommodation-capacity-beds-per-resident-comune-2024.json",
+      "url": "/data/metrics/accommodation-capacity-beds-per-resident-comune-2024.json",
+      "sha256": "35b3a507a491121d8718cd67690c2787037d811a037dabff48e5e105895b6ce9",
+      "bytes": 329848
+    },
+    {
+      "path": "data/metrics/accommodation-capacity-hotel-share-comune-2024.json",
+      "url": "/data/metrics/accommodation-capacity-hotel-share-comune-2024.json",
+      "sha256": "a7754cd68144c5555260fc0e113f89fe342bb31d94fe4b844f432ffbb29da950",
+      "bytes": 289818
+    },
+    {
+      "path": "data/metrics/agcom-ftth-share-comune-2026.json",
+      "url": "/data/metrics/agcom-ftth-share-comune-2026.json",
+      "sha256": "7bc0f18d1221ac6d1d65278913c9e42cb394f6a909ecaa55bb5fa62dd7292ba1",
+      "bytes": 340720
+    },
+    {
+      "path": "data/metrics/age-median-2019.json",
+      "url": "/data/metrics/age-median-2019.json",
+      "sha256": "ea829333786a26758f6d1e178e77056c46d1602798f1410f62a979f48028706a",
+      "bytes": 213646
+    },
+    {
+      "path": "data/metrics/age-structure-2019.json",
+      "url": "/data/metrics/age-structure-2019.json",
+      "sha256": "86e09a882e66a5666c3798d808c456bb585d91c23617dfc8f66fa292a977cea1",
+      "bytes": 418796
+    },
+    {
+      "path": "data/metrics/age-vecchiaia-2019.json",
+      "url": "/data/metrics/age-vecchiaia-2019.json",
+      "sha256": "58f9637b213686baf0b633e413d3824d8ba6828f240dd0387b0d60d08c13b202",
+      "bytes": 221248
+    },
+    {
+      "path": "data/metrics/air-quality-pm10-province-2024.json",
+      "url": "/data/metrics/air-quality-pm10-province-2024.json",
+      "sha256": "cf893ef463e378cf711c9cc83dddb4fd8acdbb2e629b46d36c8a0f8cd308d638",
+      "bytes": 4802
+    },
+    {
+      "path": "data/metrics/air-quality-pm25-province-2024.json",
+      "url": "/data/metrics/air-quality-pm25-province-2024.json",
+      "sha256": "fd175d02c84036319d2d249ea735a1647869d6e136fd922ca7dac2cfd5fd2f7a",
+      "bytes": 4646
+    },
+    {
+      "path": "data/metrics/bes-indicators-2024.json",
+      "url": "/data/metrics/bes-indicators-2024.json",
+      "sha256": "79b4c4a5f3c3a24db4ae605502de782e7f51930dc3699695afe883b518588a29",
+      "bytes": 136454
+    },
+    {
+      "path": "data/metrics/citizenship-acquisitions-2024.json",
+      "url": "/data/metrics/citizenship-acquisitions-2024.json",
+      "sha256": "2a3e15ca221fad2adc33912bae5a1f28bd85e451ca09b9b87c20b90ddc87b943",
+      "bytes": 2794
+    },
+    {
+      "path": "data/metrics/crime-burglary-rate-province-2024.json",
+      "url": "/data/metrics/crime-burglary-rate-province-2024.json",
+      "sha256": "0790e228126b05450462cc2d86ed19c7a13d9125c7542dd2a5067f6221e624b2",
+      "bytes": 5552
+    },
+    {
+      "path": "data/metrics/crime-rate-province-2024.json",
+      "url": "/data/metrics/crime-rate-province-2024.json",
+      "sha256": "31aac067d67eae9252377f34a67651c5b018164c5d73dc5559fe18ff326018ab",
+      "bytes": 5551
+    },
+    {
+      "path": "data/metrics/era5-heat-days-comune-2015-2024.json",
+      "url": "/data/metrics/era5-heat-days-comune-2015-2024.json",
+      "sha256": "3a5527d0731617f971e5a647ce62f37b54f168b2f2d3dc904754ca4e5ac2e52e",
+      "bytes": 338943
+    },
+    {
+      "path": "data/metrics/era5-heat-days-nuts2-2015-2024.json",
+      "url": "/data/metrics/era5-heat-days-nuts2-2015-2024.json",
+      "sha256": "3540208927de0f77e24c8d5294678e59063a6d2f2326a8e7611742207f448113",
+      "bytes": 15169
+    },
+    {
+      "path": "data/metrics/era5-rainfall-total-comune-2015-2024.json",
+      "url": "/data/metrics/era5-rainfall-total-comune-2015-2024.json",
+      "sha256": "9fd2928bc22fe9eb2609c3fa9883c981135686f4d6b56e1ab34049edfe888028",
+      "bytes": 354734
+    },
+    {
+      "path": "data/metrics/era5-rainy-days-comune-2015-2024.json",
+      "url": "/data/metrics/era5-rainy-days-comune-2015-2024.json",
+      "sha256": "9de7e74f083e7afc00265ac47e9eb5ae239589c887ecbcdd870fc5dd8d1eea3b",
+      "bytes": 348253
+    },
+    {
+      "path": "data/metrics/era5-summer-high-comune-2015-2024.json",
+      "url": "/data/metrics/era5-summer-high-comune-2015-2024.json",
+      "sha256": "7ddc3c8d1d357a254c4e7ef680bb53bb30a78022ff266e02512b310de667ebaa",
+      "bytes": 341236
+    },
+    {
+      "path": "data/metrics/era5-summer-high-nuts2-2015-2024.json",
+      "url": "/data/metrics/era5-summer-high-nuts2-2015-2024.json",
+      "sha256": "1a303a366e135c6e756ea7da068f72636459b37ae9a8427dffea67a43f02b570",
+      "bytes": 15284
+    },
+    {
+      "path": "data/metrics/era5-winter-low-comune-2015-2024.json",
+      "url": "/data/metrics/era5-winter-low-comune-2015-2024.json",
+      "sha256": "21e5aa0c78460af56a7f571ce64c4b69138f0a713ee0934b4ada330f82493866",
+      "bytes": 337218
+    },
+    {
+      "path": "data/metrics/era5-winter-low-nuts2-2015-2024.json",
+      "url": "/data/metrics/era5-winter-low-nuts2-2015-2024.json",
+      "sha256": "38d56ef82b9a1a9ba306a305e6d5140b767781a9a6fd77b5581c638b07ba0022",
+      "bytes": 15147
+    },
+    {
+      "path": "data/metrics/eurostat-foreign-born-nuts2-2025.json",
+      "url": "/data/metrics/eurostat-foreign-born-nuts2-2025.json",
+      "sha256": "db3a938c65828fca2301b870aa3c1e183c73d3678113c9c5bdddcead229bfc98",
+      "bytes": 12981
+    },
+    {
+      "path": "data/metrics/eurostat-gdp-nuts3-2023.json",
+      "url": "/data/metrics/eurostat-gdp-nuts3-2023.json",
+      "sha256": "77328b3a1ece72a94efdcbd9596743d7da51fdd6b90c99a0f5bc72a84bc82e05",
+      "bytes": 54855
+    },
+    {
+      "path": "data/metrics/eurostat-housing-cost-nuts2-2024.json",
+      "url": "/data/metrics/eurostat-housing-cost-nuts2-2024.json",
+      "sha256": "99a99707084bc8372432868fdeacc2910a0cce24bd0704d9cf5dfd1664542cce",
+      "bytes": 9822
+    },
+    {
+      "path": "data/metrics/eurostat-life-expectancy-nuts2-2023.json",
+      "url": "/data/metrics/eurostat-life-expectancy-nuts2-2023.json",
+      "sha256": "3a54946f8237b8c14cbd41105fe5bac3098e2043a8e3341370030b1c3fff8e28",
+      "bytes": 12832
+    },
+    {
+      "path": "data/metrics/eurostat-population-nuts3-2023.json",
+      "url": "/data/metrics/eurostat-population-nuts3-2023.json",
+      "sha256": "a3597aa5bbd62fe6623637c79f7045232aa2b9df8dbaa995857f7ee0e19e8836",
+      "bytes": 60283
+    },
+    {
+      "path": "data/metrics/eurostat-poverty-nuts2-2024.json",
+      "url": "/data/metrics/eurostat-poverty-nuts2-2024.json",
+      "sha256": "668c45b0f0d6dc35253c477ad9e003f4d776224ce9b250000441e04af9688c7a",
+      "bytes": 11685
+    },
+    {
+      "path": "data/metrics/eurostat-unemployment-nuts2-2025.json",
+      "url": "/data/metrics/eurostat-unemployment-nuts2-2025.json",
+      "sha256": "56ecb5b3c5df12878b1960b298f610d31b8cd67ce73aeef551bbd3e73b74100f",
+      "bytes": 12933
+    },
+    {
+      "path": "data/metrics/foreign-registrations-flow-2025.json",
+      "url": "/data/metrics/foreign-registrations-flow-2025.json",
+      "sha256": "aa0997c59f64003f91dade36c764dce9a14eb354f71ecc8d66805d7c5825ba20",
+      "bytes": 187183
+    },
+    {
+      "path": "data/metrics/foreign-residents-birthplace-2024.json",
+      "url": "/data/metrics/foreign-residents-birthplace-2024.json",
+      "sha256": "e4059802f63c6f56f56895ab3d70d5066e9bbbad7ce6235c6d107d7839915fae",
+      "bytes": 456348
+    },
+    {
+      "path": "data/metrics/foreign-residents-citizenship-2025.json",
+      "url": "/data/metrics/foreign-residents-citizenship-2025.json",
+      "sha256": "6f3f706279ff2a03dd4d57533b55c0aceaede2c8a9ef8a6f41c1a4e904b8deb9",
+      "bytes": 1009413
+    },
+    {
+      "path": "data/metrics/foreign-residents-total-2025.json",
+      "url": "/data/metrics/foreign-residents-total-2025.json",
+      "sha256": "c31c2fe3d4f2e2076661e5ffbd84ddf89d0e3f1e578a6291a44c214901dc81d8",
+      "bytes": 202644
+    },
+    {
+      "path": "data/metrics/healthcare-quality-district-region-2024.json",
+      "url": "/data/metrics/healthcare-quality-district-region-2024.json",
+      "sha256": "8912f65dd3ba8038d58284a6443f0d76a754118804a4df9c43cdd79be8a7d521",
+      "bytes": 2450
+    },
+    {
+      "path": "data/metrics/healthcare-quality-hospital-region-2024.json",
+      "url": "/data/metrics/healthcare-quality-hospital-region-2024.json",
+      "sha256": "7a7fb4faedabf4e84a3087c077738aebea0444065d18fd6c503bd920fb96ca9d",
+      "bytes": 2425
+    },
+    {
+      "path": "data/metrics/healthcare-quality-prevention-region-2024.json",
+      "url": "/data/metrics/healthcare-quality-prevention-region-2024.json",
+      "sha256": "ceeec07cc42eb848c544d4d32e1a9743920032c6bc622d69b45bf997ae944108",
+      "bytes": 2437
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-citizenship-2019.json",
+      "url": "/data/metrics/history/foreign-residents-citizenship-2019.json",
+      "sha256": "6ed7b2809c3fe9b7b3c7df3aba66d6d684ed59918e091b0b8ba761fec93b2409",
+      "bytes": 962682
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-citizenship-2020.json",
+      "url": "/data/metrics/history/foreign-residents-citizenship-2020.json",
+      "sha256": "c213db2ec80d3a30194e3a5703cd1213fe1738c4d614e7caa54ec624541ec8a8",
+      "bytes": 966295
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-citizenship-2021.json",
+      "url": "/data/metrics/history/foreign-residents-citizenship-2021.json",
+      "sha256": "aed84bc6b82181f05574e0073f8d305fd22f12dd71f09d049bfa878d636014a5",
+      "bytes": 954418
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-citizenship-2022.json",
+      "url": "/data/metrics/history/foreign-residents-citizenship-2022.json",
+      "sha256": "a2652ec271dd22bae40b222841a90feaf138d2176a7b458dc933c91004e0fbd8",
+      "bytes": 955514
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-citizenship-2023.json",
+      "url": "/data/metrics/history/foreign-residents-citizenship-2023.json",
+      "sha256": "5d575df563608b3779face726cb0b54536d8ec835abcdb139f007bd737b57e6b",
+      "bytes": 977019
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-citizenship-2024.json",
+      "url": "/data/metrics/history/foreign-residents-citizenship-2024.json",
+      "sha256": "7eb0d2197839db6bf1244c34a1cdf05988c46e1d7e6888e7b7d3160d25c653a2",
+      "bytes": 990782
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-total-2019.json",
+      "url": "/data/metrics/history/foreign-residents-total-2019.json",
+      "sha256": "29eb2c2977fcdcbcece2c9b23e6f0766d41dc7d929b8c3f7ac798ea828c1b2b9",
+      "bytes": 201683
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-total-2020.json",
+      "url": "/data/metrics/history/foreign-residents-total-2020.json",
+      "sha256": "c34ab36e2b25b8bd155d6fcbf71f17763ff7b8cfb57b0136289fad2157a4c581",
+      "bytes": 202015
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-total-2021.json",
+      "url": "/data/metrics/history/foreign-residents-total-2021.json",
+      "sha256": "bd3fba3e9deca09593a3299215c5de629e331a5761e2e8d3d19fea3414276bba",
+      "bytes": 202200
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-total-2022.json",
+      "url": "/data/metrics/history/foreign-residents-total-2022.json",
+      "sha256": "aeadd47847c3919ee734674ba1ce7dfc5cf14d3e7b2d4f6cae19200ba328966c",
+      "bytes": 202203
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-total-2023.json",
+      "url": "/data/metrics/history/foreign-residents-total-2023.json",
+      "sha256": "78585a2db59a056a9ef7ee2a55c71293aad7431deb2d2c8cdf78317599046972",
+      "bytes": 202185
+    },
+    {
+      "path": "data/metrics/history/foreign-residents-total-2024.json",
+      "url": "/data/metrics/history/foreign-residents-total-2024.json",
+      "sha256": "1389d618e357cdcca84dfd640c3f16308d338aad852554ae542b08be5fcddb9c",
+      "bytes": 202503
+    },
+    {
+      "path": "data/metrics/history/population-2002.json",
+      "url": "/data/metrics/history/population-2002.json",
+      "sha256": "f563264058a0eeee74686c8e2af557dc59e8ef88583c3800debbe412eae8f853",
+      "bytes": 212755
+    },
+    {
+      "path": "data/metrics/history/population-2003.json",
+      "url": "/data/metrics/history/population-2003.json",
+      "sha256": "a3ba33655d12e8ff393b2da7c1cd35814b1644773bf30d8bff0fc9a4578098d7",
+      "bytes": 212759
+    },
+    {
+      "path": "data/metrics/history/population-2004.json",
+      "url": "/data/metrics/history/population-2004.json",
+      "sha256": "c1a1b333a71a2b7905ea8480d3f72c70d96685f5a6eff38d9b7ca5afd2fc390e",
+      "bytes": 212788
+    },
+    {
+      "path": "data/metrics/history/population-2005.json",
+      "url": "/data/metrics/history/population-2005.json",
+      "sha256": "0d53acb74f75eb28ee71138c9f127b23fa51e8d7619bb2afb47071a5f961236f",
+      "bytes": 212815
+    },
+    {
+      "path": "data/metrics/history/population-2006.json",
+      "url": "/data/metrics/history/population-2006.json",
+      "sha256": "3a7742a8b8af553eb71fceb35fddc01e4375ad53dacdd77b1fbf7421ed0b2a36",
+      "bytes": 212816
+    },
+    {
+      "path": "data/metrics/history/population-2007.json",
+      "url": "/data/metrics/history/population-2007.json",
+      "sha256": "17012e518a77113d732f5a824120a5292d552ff738f43be3d90900f0c458d257",
+      "bytes": 212830
+    },
+    {
+      "path": "data/metrics/history/population-2008.json",
+      "url": "/data/metrics/history/population-2008.json",
+      "sha256": "15559756e9dfc70a686f8e4c09f93635a79e750fae3c70839cb17f780424161a",
+      "bytes": 212853
+    },
+    {
+      "path": "data/metrics/history/population-2009.json",
+      "url": "/data/metrics/history/population-2009.json",
+      "sha256": "98e4809a691f61aa05d717cd85acc29a0f29899250b5c418fb72d4c2d05e1e67",
+      "bytes": 212867
+    },
+    {
+      "path": "data/metrics/history/population-2010.json",
+      "url": "/data/metrics/history/population-2010.json",
+      "sha256": "6c4d81036030ef9a7dd53dd883bb72de5aecfa76ebf6bf50bd229448ca309781",
+      "bytes": 212870
+    },
+    {
+      "path": "data/metrics/history/population-2011.json",
+      "url": "/data/metrics/history/population-2011.json",
+      "sha256": "fc2e41fe87762c4283cbd0ac6c0f1c6adf2bbc285ae88b495a00af61dc7253ce",
+      "bytes": 212861
+    },
+    {
+      "path": "data/metrics/history/population-2012.json",
+      "url": "/data/metrics/history/population-2012.json",
+      "sha256": "a1af93a19f9510ca1f892f54cc337734e5b4722fabb47c30db51bfd64fb41293",
+      "bytes": 212885
+    },
+    {
+      "path": "data/metrics/history/population-2013.json",
+      "url": "/data/metrics/history/population-2013.json",
+      "sha256": "d11a0c3c3b43d907bcc6de73e8cbfb21520113917ee6352b68a9fd37d90caff8",
+      "bytes": 212873
+    },
+    {
+      "path": "data/metrics/history/population-2014.json",
+      "url": "/data/metrics/history/population-2014.json",
+      "sha256": "491723ed4f0d647ff22d34a2939ab1c96d4110d91d793e28a8d727ca024760db",
+      "bytes": 212850
+    },
+    {
+      "path": "data/metrics/history/population-2015.json",
+      "url": "/data/metrics/history/population-2015.json",
+      "sha256": "7281b5ed6f9405599941b9953a489d53639c3035c9a5ea17ed6430bca3d7678e",
+      "bytes": 212829
+    },
+    {
+      "path": "data/metrics/history/population-2016.json",
+      "url": "/data/metrics/history/population-2016.json",
+      "sha256": "eb2fd9c2b09273ae42772ba5d485d4b563c71c5b2408cd118f566f5a4d006af3",
+      "bytes": 212804
+    },
+    {
+      "path": "data/metrics/history/population-2017.json",
+      "url": "/data/metrics/history/population-2017.json",
+      "sha256": "35ebc1ea1126d4f9bba70f7b3cdb13242232773bb4e5e6aa6a1ebdfa5f874e88",
+      "bytes": 212791
+    },
+    {
+      "path": "data/metrics/history/population-2018.json",
+      "url": "/data/metrics/history/population-2018.json",
+      "sha256": "23a95e10650ac620059c9f0b38c3d4d5ddbce218f1ebd17c077272a48896fd0e",
+      "bytes": 212760
+    },
+    {
+      "path": "data/metrics/history/population-2019.json",
+      "url": "/data/metrics/history/population-2019.json",
+      "sha256": "00812e60e472dfca9513d096b0c9a1da58bc582da363fb302f21b18e36ff0801",
+      "bytes": 212733
+    },
+    {
+      "path": "data/metrics/history/population-2020.json",
+      "url": "/data/metrics/history/population-2020.json",
+      "sha256": "83bfbb76978e9d05db67e255dc4e55fb99a1ea05068b495ab231f43173f49984",
+      "bytes": 212706
+    },
+    {
+      "path": "data/metrics/history/population-2021.json",
+      "url": "/data/metrics/history/population-2021.json",
+      "sha256": "e1f0e5008fd69c8d3bd7580ccfee129df34f6c853f86813e3c61e98b3d16ccdd",
+      "bytes": 212670
+    },
+    {
+      "path": "data/metrics/history/population-2022.json",
+      "url": "/data/metrics/history/population-2022.json",
+      "sha256": "a34ceced7bbf262c089ec491720a428635b4eb9bc841aab3772d8856833daeea",
+      "bytes": 212682
+    },
+    {
+      "path": "data/metrics/history/population-2023.json",
+      "url": "/data/metrics/history/population-2023.json",
+      "sha256": "f1839eee11a6a0e991728c06dd64343098bc52ccdf3a451820d5656f8d5c58ad",
+      "bytes": 212670
+    },
+    {
+      "path": "data/metrics/history/population-2024.json",
+      "url": "/data/metrics/history/population-2024.json",
+      "sha256": "55deaccdc41a0833b079eced7c26a972e7d592cf1ab79842f6b631d084c66cfd",
+      "bytes": 212664
+    },
+    {
+      "path": "data/metrics/history/population-2025.json",
+      "url": "/data/metrics/history/population-2025.json",
+      "sha256": "100eb0322f5b6818a7d4b8380daa638466723aae4ac74c566a255a313728aa3d",
+      "bytes": 212658
+    },
+    {
+      "path": "data/metrics/momentum-2019-2025.json",
+      "url": "/data/metrics/momentum-2019-2025.json",
+      "sha256": "de2b2d9e11ef4df1d42181d847017723b195ccb245bed8941dec2858301da6da",
+      "bytes": 221664
+    },
+    {
+      "path": "data/metrics/oecd-disposable-income-nuts2-2021.json",
+      "url": "/data/metrics/oecd-disposable-income-nuts2-2021.json",
+      "sha256": "318cbfeff39114e601d70c0e85e422be83155e8061f9d440e31b6c74dab4708a",
+      "bytes": 10540
+    },
+    {
+      "path": "data/metrics/oecd-foreign-born-share-nuts2-2019.json",
+      "url": "/data/metrics/oecd-foreign-born-share-nuts2-2019.json",
+      "sha256": "be08cc732943a3bea193d2b176f9cbad7219e506e4d3d020e164d801bc016fb5",
+      "bytes": 8653
+    },
+    {
+      "path": "data/metrics/oecd-homicide-nuts3-2023.json",
+      "url": "/data/metrics/oecd-homicide-nuts3-2023.json",
+      "sha256": "9cdd287083862b6cf9057971d29799673bece0fa5fab94b60c349122fd8a2098",
+      "bytes": 52434
+    },
+    {
+      "path": "data/metrics/oecd-old-age-dependency-nuts3-2022.json",
+      "url": "/data/metrics/oecd-old-age-dependency-nuts3-2022.json",
+      "sha256": "7dcd5b1a8906c3f58a392bb08b6d5272094eb906f5088fab971110eaeb136622",
+      "bytes": 61634
+    },
+    {
+      "path": "data/metrics/oecd-physicians-nuts2-2023.json",
+      "url": "/data/metrics/oecd-physicians-nuts2-2023.json",
+      "sha256": "6d613f897353d262255e637e99f4c599709e0fe6b4b29d871cfe5dd70990203d",
+      "bytes": 9826
+    },
+    {
+      "path": "data/metrics/oecd-rooms-per-person-nuts2-2021.json",
+      "url": "/data/metrics/oecd-rooms-per-person-nuts2-2021.json",
+      "sha256": "9b01580e5606cdae8cc431c4b094cd4f61ecfa347c8af46e670d4ee81d76d946",
+      "bytes": 9982
+    },
+    {
+      "path": "data/metrics/oecd-tertiary-education-nuts2-2024.json",
+      "url": "/data/metrics/oecd-tertiary-education-nuts2-2024.json",
+      "sha256": "0f328e577d39adb69f79a16eb20f8270b590de2c1cb34bcfe43cebfc9864d8cb",
+      "bytes": 9767
+    },
+    {
+      "path": "data/metrics/oecd-vehicle-theft-nuts3-2023.json",
+      "url": "/data/metrics/oecd-vehicle-theft-nuts3-2023.json",
+      "sha256": "d43ceddafa3903766049d5586ea8905165c85d8643ba473aa209297af430366b",
+      "bytes": 54122
+    },
+    {
+      "path": "data/metrics/omi-house-premium-comune-2025h2.json",
+      "url": "/data/metrics/omi-house-premium-comune-2025h2.json",
+      "sha256": "41410c70121c8314a8ec5b82b979dea80d21759b9fe481a89ab57d971c4ddfbd",
+      "bytes": 169447
+    },
+    {
+      "path": "data/metrics/omi-house-purchase-comune-2025h2.json",
+      "url": "/data/metrics/omi-house-purchase-comune-2025h2.json",
+      "sha256": "a3104eb8f6cb99ff1ed21342bb94a83c58e267fa74f3e2cada4008ad82184726",
+      "bytes": 181556
+    },
+    {
+      "path": "data/metrics/omi-price-to-rent-2025h2.json",
+      "url": "/data/metrics/omi-price-to-rent-2025h2.json",
+      "sha256": "116ba6ceb1e88a770752579d3ef4ea2cc1392898114cca104e8a26d392261b3f",
+      "bytes": 3640
+    },
+    {
+      "path": "data/metrics/omi-price-to-rent-comune-2025h2.json",
+      "url": "/data/metrics/omi-price-to-rent-comune-2025h2.json",
+      "sha256": "6deb0cbe74817c71b523e4d2d17263f2ef658423ec22afdbe9814626e2ccea2c",
+      "bytes": 192498
+    },
+    {
+      "path": "data/metrics/omi-purchase-2025h2.json",
+      "url": "/data/metrics/omi-purchase-2025h2.json",
+      "sha256": "b9982787592dbe4bb487cec2160b3c4df78dd8ef05f7bafb067e5e8c6ebbc38e",
+      "bytes": 3444
+    },
+    {
+      "path": "data/metrics/omi-purchase-comune-2025h2.json",
+      "url": "/data/metrics/omi-purchase-comune-2025h2.json",
+      "sha256": "379eb3da308f1ca65b3f74f1b15917b3a3eb269bc4f2842465de592b027f4e08",
+      "bytes": 216124
+    },
+    {
+      "path": "data/metrics/omi-refurbished-premium-comune-2025h2.json",
+      "url": "/data/metrics/omi-refurbished-premium-comune-2025h2.json",
+      "sha256": "8b2a98200356ba65d9bdc19887ccf5c7fce41c46e209cc50a08c92ce8177b4dd",
+      "bytes": 60495
+    },
+    {
+      "path": "data/metrics/omi-rent-2025h2.json",
+      "url": "/data/metrics/omi-rent-2025h2.json",
+      "sha256": "aacb3eda8edc0a3b8dfe8edeeeaea0b5d03a6f2ce3fece4efc012ab203fa4f4a",
+      "bytes": 3255
+    },
+    {
+      "path": "data/metrics/omi-rent-comune-2025h2.json",
+      "url": "/data/metrics/omi-rent-comune-2025h2.json",
+      "sha256": "98fd07eb3e37dc075c0c392c2d4b36580cbf6693b8a5d26f64a8b5fd63e9d6c3",
+      "bytes": 190273
+    },
+    {
+      "path": "data/metrics/population-trend-2019-2025.json",
+      "url": "/data/metrics/population-trend-2019-2025.json",
+      "sha256": "8bb6bdb1ca728c7240b4ebe8214c30f374b7ceca4497e271db046c13e8e0e3c8",
+      "bytes": 250785
+    },
+    {
+      "path": "data/metrics/regime-7-percent-pensioners-province-share.json",
+      "url": "/data/metrics/regime-7-percent-pensioners-province-share.json",
+      "sha256": "a0b72505c5a6ab2efdfd054afd3202d554e7cd8cde9044a20ff000170f77b469",
+      "bytes": 3519
+    },
+    {
+      "path": "data/metrics/regime-7-percent-pensioners.json",
+      "url": "/data/metrics/regime-7-percent-pensioners.json",
+      "sha256": "e2c6d4592643c455d00473abdad9c8c82e6ee4fb3e64269db9cf5975c0c4fd22",
+      "bytes": 70898
+    },
+    {
+      "path": "data/metrics/seasonality-index-comune-2024.json",
+      "url": "/data/metrics/seasonality-index-comune-2024.json",
+      "sha256": "0f38d8ed05dfa156fbb474f427511353dd9e01b49b52c6e21d4577119ea3e304",
+      "bytes": 107449
+    },
+    {
+      "path": "data/metrics/seasonality-peak-visitor-multiplier-comune-2024.json",
+      "url": "/data/metrics/seasonality-peak-visitor-multiplier-comune-2024.json",
+      "sha256": "bf83806c60e3f65748c7e1081fc0467ac55c74af90f856ed541afe8cad043ed7",
+      "bytes": 107821
+    },
+    {
+      "path": "data/metrics/seismic-hazard-class-comune-2025.json",
+      "url": "/data/metrics/seismic-hazard-class-comune-2025.json",
+      "sha256": "7803cd48a19a4a149c90ef7d5a346326189f00aa3b92d0f56c0801f803877f3f",
+      "bytes": 317757
+    },
+    {
+      "path": "data/omi/comuni.json",
+      "url": "/data/omi/comuni.json",
+      "sha256": "dea3891ee82423b1fd7e360c8980fab8c74af2e118ea5dd11443ef8f33c4dcc4",
+      "bytes": 1102271
+    },
+    {
+      "path": "data/omi/provinces.json",
+      "url": "/data/omi/provinces.json",
+      "sha256": "d5896a3e34deca82046806a4f210b41755478fca3ff6cc5d891d89a9e99ce909",
+      "bytes": 17388
+    },
+    {
+      "path": "data/rules/regime-7-percent-pensioners.json",
+      "url": "/data/rules/regime-7-percent-pensioners.json",
+      "sha256": "a2bd6c670f1c2d984047889a49460a3f1e1b3c20537e4c0a8a2e7c38b654d6b0",
+      "bytes": 35018
+    },
+    {
+      "path": "data/rules/regime-citizenship-descent.json",
+      "url": "/data/rules/regime-citizenship-descent.json",
+      "sha256": "a3d8f59ffd2bd063712b59f3b8576153a46e0ee5b73bcd0bb0812e1bb1fdcbea",
+      "bytes": 13818
+    },
+    {
+      "path": "data/rules/regime-elective-residency.json",
+      "url": "/data/rules/regime-elective-residency.json",
+      "sha256": "cd79db6644dcaa7180e2f01b13578a510406e32441d2f6f66629431b99c0aa70",
+      "bytes": 13294
+    },
+    {
+      "path": "data/rules/regime-impatriati.json",
+      "url": "/data/rules/regime-impatriati.json",
+      "sha256": "aa5ac634d7a6e6a6e05f9b959904ada3d1ff5de31c1ab1b9f8830cc9a094d7b1",
+      "bytes": 13410
+    },
+    {
+      "path": "data/seismic/zone-labels.json",
+      "url": "/data/seismic/zone-labels.json",
+      "sha256": "5590e00213db8951cde46029cdf0fe90af8d3db6955c1b3cc60eeb3ea2c1c977",
+      "bytes": 135392
+    },
+    {
+      "path": "data/slug-map.json",
+      "url": "/data/slug-map.json",
+      "sha256": "4abdc538b4d45543a82868ec72bb56a937a930f50876256fb539f974df8f63a8",
+      "bytes": 197658
+    },
+    {
+      "path": "data/tax/irpef-national-2026.json",
+      "url": "/data/tax/irpef-national-2026.json",
+      "sha256": "136f13ed7d4b27852b3775e6e12e0f4ca7f47ac5262d7d129bed14e95ec3b9ff",
+      "bytes": 5427
+    },
+    {
+      "path": "llms.txt",
+      "url": "/llms.txt",
+      "sha256": "9385078f479c973c5503882a0d38c2df7c061ff1a586ee9c8f7a92beecd91511",
+      "bytes": 26739
+    }
+  ]
+}

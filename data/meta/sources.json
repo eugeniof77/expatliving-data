@@ -1,0 +1,535 @@
+{
+  "synthetic": false,
+  "dataAsOf": "2026-10-13",
+  "populationFloorDefault": 1000,
+  "sources": [
+    {
+      "slug": "foreign-residents-citizenship-2025",
+      "label": "Foreign residents by citizenship",
+      "source": "ISTAT",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Residents holding foreign citizenship, by comune and nationality."
+    },
+    {
+      "slug": "foreign-residents-total-2025",
+      "label": "Foreign residents, all citizenships",
+      "source": "ISTAT",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Residents holding any foreign citizenship, by comune: ISTAT's own total, not limited to the nationalities this site tracks. Citizenship, not birthplace. Comuni ISTAT sends no total for are absent, not zero."
+    },
+    {
+      "slug": "foreign-residents-birthplace-2024",
+      "label": "Residents by country-of-birth group",
+      "source": "ISTAT",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Broad country-of-birth group (Italy / other EU / non-EU), not per-nationality — see methodology page."
+    },
+    {
+      "slug": "foreign-registrations-flow-2025",
+      "label": "New foreign registrations from abroad",
+      "source": "ISTAT",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-10-13",
+      "methodNote": "New residency registrations from abroad, by comune. Not nationality-specific."
+    },
+    {
+      "slug": "population-trend-2019-2025",
+      "label": "Population change (2019–2025)",
+      "source": "ISTAT",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Total resident population % change, 2019–2025 (shorter than 10 years — see methodology)."
+    },
+    {
+      "slug": "age-structure-2019",
+      "label": "Median age and indice di vecchiaia (2019)",
+      "source": "ISTAT",
+      "sourceUrl": "https://demo.istat.it/data/ricostruzione/PopolazioneEta-SingolaArea-Comuni.zip",
+      "extractedAt": "2026-10-13",
+      "methodNote": "From ISTAT's intercensal population reconstruction, 2019 (its last year) — not current-year."
+    },
+    {
+      "slug": "age-median-2019",
+      "label": "Median age (2019)",
+      "source": "ISTAT",
+      "sourceUrl": "https://demo.istat.it/data/ricostruzione/PopolazioneEta-SingolaArea-Comuni.zip",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Median age, from ISTAT's intercensal population reconstruction, 2019 (its last year) — not current-year."
+    },
+    {
+      "slug": "age-vecchiaia-2019",
+      "label": "Indice di vecchiaia (2019)",
+      "source": "ISTAT",
+      "sourceUrl": "https://demo.istat.it/data/ricostruzione/PopolazioneEta-SingolaArea-Comuni.zip",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Population aged 65+ per 100 aged 0-14, from ISTAT's intercensal population reconstruction, 2019. Comuni with nobody aged 0-14 are omitted (the ratio is undefined), not shown as zero."
+    },
+    {
+      "slug": "momentum-2019-2025",
+      "label": "Change in foreign share (2019–2025)",
+      "source": "ISTAT",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Percentage-point change in the all-citizenships foreign-resident share, 2019–2025 (shorter than 5/10 years — see methodology)."
+    },
+    {
+      "slug": "citizenship-acquisitions-2024",
+      "label": "Citizenship acquisitions (2024)",
+      "source": "ISTAT",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-10-13",
+      "methodNote": "Foreigners who acquired Italian citizenship, by province (province-level, not comune)."
+    },
+    {
+      "slug": "bes-territori-2025",
+      "label": "BES (Benessere Equo e Sostenibile) dei territori",
+      "source": "ISTAT",
+      "sourceUrl": "https://www.istat.it/wp-content/uploads/2025/06/Bes_at_local_level_annual_update_2025.zip",
+      "extractedAt": "2026-08-09",
+      "methodNote": "BesT 2025 edition (reference year 2024). All 67 published indicators, province level (15 flagged as a curated expat-relevant default view). Percentile ranks are polarity-aware: a higher percentile always means better, regardless of whether the underlying indicator's direction is 'higher is better' or 'lower is better'."
+    },
+    {
+      "slug": "bes-indicators-2024",
+      "label": "Well-being (BES) — map layer",
+      "source": "ISTAT",
+      "sourceUrl": "https://www.istat.it/wp-content/uploads/2025/06/Bes_at_local_level_annual_update_2025.zip",
+      "extractedAt": "2026-08-19",
+      "methodNote": "BesT 2025 edition (reference year 2024). Percentile rank among the 106 provinces with data for the selected indicator, polarity-aware — a higher percentile always means better, whichever direction the underlying indicator runs. Raw values, in each indicator's own units, are on the indicator explorer."
+    },
+    {
+      "slug": "irpef-national-2026",
+      "label": "National IRPEF brackets (2026)",
+      "source": "Legge di Bilancio 2026 (L. 199/2025), amending TUIR art. 11",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/imposta-sul-reddito-delle-persone-fisiche-irpef-/aliquote-e-calcolo-dell-irpef",
+      "extractedAt": "2026-08-24",
+      "methodNote": "The statutory IRPEF rate schedule: 23% to EUR 28,000, 33% to EUR 50,000, 43% above. Hand-encoded from the legislation, not scraped. Used to compute IMPOSTA LORDA — tax before credits — never tax payable: detrazioni are not modeled, so any figure derived from it overstates what someone actually pays. Verified 2026-08-25 against TUIR art. 11 as amended by L. 199/2025 — see data/tax/irpef-national-2026.json's verificationNotes."
+    },
+    {
+      "slug": "omi-quotazioni-2025h2",
+      "label": "Residential property prices (OMI, 2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Transaction-range midpoints (Compr_min/Compr_max, Loc_min/Loc_max) for \"Abitazioni civili\" in \"NORMALE\" condition, averaged across OMI zones to comune level, then population-weighted (ISTAT resident population) to province level. OMI semester 2025H2."
+    },
+    {
+      "slug": "omi-purchase-2025h2",
+      "label": "Property purchase price by province (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Residential purchase price, €/m², population-weighted from comune to province across the comuni OMI covers. Transaction-range midpoints for \"Abitazioni civili\" in normal condition, OMI semester 2025H2. Provinces absent from the OMI file are absent here, never zero-filled."
+    },
+    {
+      "slug": "omi-rent-2025h2",
+      "label": "Property rent by province (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Residential rent, €/m² per month, population-weighted from comune to province across the comuni OMI covers. Transaction-range midpoints for \"Abitazioni civili\" in normal condition, OMI semester 2025H2. Provinces absent from the OMI file are absent here, never zero-filled."
+    },
+    {
+      "slug": "omi-price-to-rent-2025h2",
+      "label": "Years of rent to equal the purchase price by province (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Purchase €/m² divided by twelve months' rent per m², population-weighted from comune to province across the comuni OMI covers. A ratio between two published OMI prices, not a yield or a payback period: it ignores purchase taxes, IMU, maintenance, financing and vacancy. OMI semester 2025H2. At province grain this is the ratio of the two population-weighted means, not the average of the comuni's own ratios — the two are not the same number, and this one answers \"what does the average square meter in this province cost to buy versus rent\". Provinces without both a purchase and a rent figure are absent, never estimated."
+    },
+    {
+      "slug": "omi-purchase-comune-2025h2",
+      "label": "Property purchase price by comune (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Residential purchase price, €/m², averaged across that comune's own OMI zones. Transaction-range midpoints for \"Abitazioni civili\" in normal condition, OMI semester 2025H2. Comuni absent from the OMI file are absent here, never zero-filled."
+    },
+    {
+      "slug": "omi-rent-comune-2025h2",
+      "label": "Property rent by comune (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Residential rent, €/m² per month, averaged across that comune's own OMI zones. Transaction-range midpoints for \"Abitazioni civili\" in normal condition, OMI semester 2025H2. Comuni absent from the OMI file are absent here, never zero-filled."
+    },
+    {
+      "slug": "omi-refurbished-premium-comune-2025h2",
+      "label": "Premium for refurbished housing by comune (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Mean price of \"Abitazioni civili\" graded OTTIMO divided by the same comune's NORMALE price, OMI semester 2025H2. 1.3 means excellent-condition housing costs a third more than ordinary housing in that town. Grades are paired within each OMI micro-zone and then averaged, so the comparison is like-for-like rather than across different parts of town. This is the gap between two market prices, NOT the cost of renovating. Comuni where OMI grades no OTTIMO zone are absent, never assumed to be 1.0. SCADENTE is not used: OMI records it for 63 comuni against 2,304 for OTTIMO, too few to publish as national coverage."
+    },
+    {
+      "slug": "omi-house-purchase-comune-2025h2",
+      "label": "Detached house purchase price by comune (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Purchase price of \"Ville e Villini\" (OMI's detached-house category) in normal condition, €/m², averaged across a comune's own OMI micro-zones. Every other price layer here describes Abitazioni civili — apartments — so this is a different product, not a variant. Comuni where OMI prices no detached housing are absent, never filled in with the apartment figure. OMI semester 2025H2."
+    },
+    {
+      "slug": "omi-house-premium-comune-2025h2",
+      "label": "House vs apartment price by comune (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Detached-house €/m² divided by apartment €/m², paired WITHIN each OMI micro-zone and then averaged — comparing a comune's two means would compare different parts of town, since the categories are not surveyed in the same zones. 1.14 means a house costs 14% more per square meter than a flat in the same zone. Below 1 means the reverse, which is the case in 450 comuni. Comuni without both figures in a shared zone are absent. OMI semester 2025H2."
+    },
+    {
+      "slug": "omi-price-to-rent-comune-2025h2",
+      "label": "Years of rent to equal the purchase price by comune (2025H2)",
+      "source": "Agenzia delle Entrate — Osservatorio del Mercato Immobiliare (OMI)",
+      "sourceUrl": "https://www.agenziaentrate.gov.it/portale/schede/fabbricatiterreni/omi/banche-dati/quotazioni-immobiliari",
+      "extractedAt": "2026-09-12",
+      "methodNote": "Purchase €/m² divided by twelve months' rent per m², averaged across that comune's own OMI zones. A ratio between two published OMI prices, not a yield or a payback period: it ignores purchase taxes, IMU, maintenance, financing and vacancy. OMI semester 2025H2. Comuni without both a purchase and a rent figure are absent, never estimated."
+    },
+    {
+      "slug": "addizionale-regionale-2026",
+      "label": "Regional IRPEF surcharge (addizionale regionale)",
+      "source": "MEF — Dipartimento delle Finanze",
+      "sourceUrl": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/addregirpef/sceltaregione.htm",
+      "extractedAt": "2026-09-14",
+      "methodNote": "Regional IRPEF surcharge, scraped live from MEF's per-region rate lookup for tax year 2026. status: draft — see docs/data-sources.md §4.2."
+    },
+    {
+      "slug": "imu-altri-fabbricati-2025",
+      "label": "IMU rate on non-primary, non-category-D buildings (altri fabbricati)",
+      "source": "MEF — Dipartimento delle Finanze, Portale del Federalismo Fiscale",
+      "sourceUrl": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/nuova_imu/dati/download.htm?anno=2025",
+      "extractedAt": "2026-09-14",
+      "methodNote": "IMU, 2025 tax year, parsed from each comune's mandatory structured 'Prospetto aliquote IMU' PDF (no bulk rate file exists for IMU — see docs/data-sources.md §4.2). status: draft."
+    },
+    {
+      "slug": "imu-abitazione-principale-lusso-2025",
+      "label": "IMU rate on a luxury (cat. A/1, A/8, A/9) primary residence",
+      "source": "MEF — Dipartimento delle Finanze, Portale del Federalismo Fiscale",
+      "sourceUrl": "https://www1.finanze.gov.it/finanze2/dipartimentopolitichefiscali/fiscalitalocale/nuova_imu/dati/download.htm?anno=2025",
+      "extractedAt": "2026-09-14",
+      "methodNote": "IMU, 2025 tax year, parsed from each comune's mandatory structured 'Prospetto aliquote IMU' PDF (no bulk rate file exists for IMU — see docs/data-sources.md §4.2). status: draft."
+    },
+    {
+      "slug": "addizionale-comunale-2025",
+      "label": "Municipal IRPEF surcharge (addizionale comunale)",
+      "source": "MEF — Dipartimento delle Finanze",
+      "sourceUrl": "https://www.finanze.gov.it/it/fiscalita/fiscalita-regionale-e-locale/Addizionale-comunale-allIRPEF/aliquote-applicabili/elenco-aliquote-2025/",
+      "extractedAt": "2026-09-14",
+      "methodNote": "Municipal IRPEF surcharge, 2025 tax year, from MEF's annual bulk export. status: draft — see docs/data-sources.md §4.2. Covers comuni with a flat rate or a 3-bracket rate matching the current national IRPEF schedule only; comuni with a non-conforming bracket count or no rate shown are absent."
+    },
+    {
+      "slug": "era5-heat-days-comune-2015-2024",
+      "label": "Average annual days above 30C (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics",
+      "extractedAt": "2026-09-22",
+      "methodNote": "Mean number of days per year with a daily maximum 2m temperature of 30C or more, averaged across 2015-2024 (ten baseline years — a deliberate departure from the WMO's 30-year normal period, given CDS's per-request cost cap; see scripts/etl/era5.py's own docstring). ERA5-Land reanalysis, Copernicus Climate Data Store, daily-maximum statistic, UTC+01:00 day boundary."
+    },
+    {
+      "slug": "era5-summer-high-comune-2015-2024",
+      "label": "Average July daily maximum temperature (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics",
+      "extractedAt": "2026-09-22",
+      "methodNote": "Mean of July's daily maximum 2m temperature, averaged across 2015-2024. Fixed calendar month (July), not 'the hottest month per comune' - simpler and reproducible; Italy's seasonal cycle doesn't shift enough between comuni to change which month that is. ERA5-Land reanalysis, Copernicus Climate Data Store, daily-maximum statistic, UTC+01:00 day boundary."
+    },
+    {
+      "slug": "era5-winter-low-comune-2015-2024",
+      "label": "Average January daily minimum temperature (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics",
+      "extractedAt": "2026-09-22",
+      "methodNote": "Mean of January's daily minimum 2m temperature, averaged across 2015-2024. Fixed calendar month (January), same reasoning as the July summer-high layer. ERA5-Land reanalysis, Copernicus Climate Data Store, daily-minimum statistic, UTC+01:00 day boundary."
+    },
+    {
+      "slug": "crime-rate-province-2024",
+      "label": "Reported crime rate, by province (2024)",
+      "source": "ISTAT — crime and public safety",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-09-25",
+      "methodNote": "All offense types reported to the police, per 100,000 residents, per province — ISTAT's own crime-rate dataflow (73_67_DF_DCCV_DELITTIPS_9, DATA_TYPE=CRIMET, TYPE_CRIME=TOT), 2024. A higher value means MORE reported crime — this is a negative-direction indicator, the same as the Europe map's OECD intentional-homicide and vehicle-theft layers."
+    },
+    {
+      "slug": "crime-burglary-rate-province-2024",
+      "label": "Home burglary rate, by province (2024)",
+      "source": "ISTAT — crime and public safety",
+      "sourceUrl": "https://esploradati.istat.it/SDMXWS/rest",
+      "extractedAt": "2026-09-25",
+      "methodNote": "Home burglaries (\"furti in abitazioni\") reported to the police, per 100,000 residents, per province — the same ISTAT dataflow as the overall crime rate (73_67_DF_DCCV_DELITTIPS_9, DATA_TYPE=CRIMET, TYPE_CRIME=BURGTHEF), 2024. Picked as the one offense-specific breakdown most relevant to a relocating homeowner, over the total rate alone. A higher value means MORE reported burglary — a negative-direction indicator, same as the overall crime-rate layer."
+    },
+    {
+      "slug": "air-quality-pm10-province-2024",
+      "label": "Air quality: PM10 by province (2024)",
+      "source": "EEA",
+      "sourceUrl": "https://eeadmz1-downloads-api-appservice.azurewebsites.net",
+      "extractedAt": "2026-09-25",
+      "methodNote": "Annual mean PM10 concentration (ug/m3), by province — European Environment Agency air-quality e-Reporting data, 'Primary validated data (E1a)' dataset, 2024. Each province's value is the unweighted average of every EEA monitoring station whose nearest comune (by coordinate) falls in that province; a station only counts for a year with at least 274 valid daily observations (75% of the year, the EU Air Quality Directive's own completeness convention). A higher value means WORSE air quality — this is a negative-direction indicator, the same class as the crime/safety layers."
+    },
+    {
+      "slug": "air-quality-pm25-province-2024",
+      "label": "Air quality: PM2.5 by province (2024)",
+      "source": "EEA",
+      "sourceUrl": "https://eeadmz1-downloads-api-appservice.azurewebsites.net",
+      "extractedAt": "2026-09-25",
+      "methodNote": "Annual mean PM2.5 concentration (ug/m3), by province — European Environment Agency air-quality e-Reporting data, 'Primary validated data (E1a)' dataset, 2024. Each province's value is the unweighted average of every EEA monitoring station whose nearest comune (by coordinate) falls in that province; a station only counts for a year with at least 274 valid daily observations (75% of the year, the EU Air Quality Directive's own completeness convention). A higher value means WORSE air quality — this is a negative-direction indicator, the same class as the crime/safety layers."
+    },
+    {
+      "slug": "healthcare-quality-prevention-region-2024",
+      "label": "Healthcare quality: prevention by region (2024)",
+      "source": "Ministero della Salute",
+      "sourceUrl": "https://www.salute.gov.it/new/sites/default/files/sintesi_CORE_NSG_2024.pdf",
+      "extractedAt": "2026-09-25",
+      "methodNote": "Ministero della Salute's Nuovo Sistema di Garanzia (NSG) CORE-indicator score for collective prevention and public health (vaccination coverage, screening uptake, food/veterinary safety controls), per region, 2024 — the newest year published (approved by the Comitato LEA 14 May 2026). Score 0-100; 60 is the official \"sufficiency\" threshold below which a region is not considered compliant for this macro-area. A HIGHER score means BETTER assessed care — this is a positive-direction indicator, the opposite direction from this map's crime and air-quality layers."
+    },
+    {
+      "slug": "healthcare-quality-district-region-2024",
+      "label": "Healthcare quality: community & district care by region (2024)",
+      "source": "Ministero della Salute",
+      "sourceUrl": "https://www.salute.gov.it/new/sites/default/files/sintesi_CORE_NSG_2024.pdf",
+      "extractedAt": "2026-09-25",
+      "methodNote": "Ministero della Salute's Nuovo Sistema di Garanzia (NSG) CORE-indicator score for territorial/community care (GP and pharmaceutical access, home care, chronic-disease management outside hospital), per region, 2024 — the newest year published (approved by the Comitato LEA 14 May 2026). Score 0-100; 60 is the official \"sufficiency\" threshold below which a region is not considered compliant for this macro-area. A HIGHER score means BETTER assessed care — this is a positive-direction indicator, the opposite direction from this map's crime and air-quality layers."
+    },
+    {
+      "slug": "healthcare-quality-hospital-region-2024",
+      "label": "Healthcare quality: hospital care by region (2024)",
+      "source": "Ministero della Salute",
+      "sourceUrl": "https://www.salute.gov.it/new/sites/default/files/sintesi_CORE_NSG_2024.pdf",
+      "extractedAt": "2026-09-25",
+      "methodNote": "Ministero della Salute's Nuovo Sistema di Garanzia (NSG) CORE-indicator score for hospital care (surgical appropriateness, post-operative outcomes, C-section rates, stroke mortality), per region, 2024 — the newest year published (approved by the Comitato LEA 14 May 2026). Score 0-100; 60 is the official \"sufficiency\" threshold below which a region is not considered compliant for this macro-area. A HIGHER score means BETTER assessed care — this is a positive-direction indicator, the opposite direction from this map's crime and air-quality layers."
+    },
+    {
+      "slug": "era5-rainfall-total-comune-2015-2024",
+      "label": "Average annual rainfall (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+      "extractedAt": "2026-09-28",
+      "methodNote": "Mean total annual precipitation, averaged across 2015-2024 (same ten-baseline-year departure from the WMO 30-year normal as the temperature layers, for the same CDS cost-cap reason; see scripts/etl/era5.py's own docstring). Built from the raw hourly ERA5-Land dataset (reanalysis-era5-land), not the derived daily-statistics dataset used for temperature above — that derived dataset excludes accumulated variables like precipitation from its own catalog entirely. Each day's total is read directly from the single 00:00 UTC reading on the FOLLOWING calendar day: ERA5-Land resets its accumulated fields at 00 UTC daily (unlike full ERA5, which resets at the 06/18 UTC forecast-run boundaries), so that one timestep already holds the whole day's accumulation — no hour-by-hour de-accumulation is performed. Confirmed against ECMWF's own support forum, checked live 2026-09-28. A 'day' here is a UTC calendar day (00-00 UTC), not the temperature layers' UTC+01:00 local day — immaterial to an annual total, but a real difference from how this file's own temperature layers define a day."
+    },
+    {
+      "slug": "era5-rainy-days-comune-2015-2024",
+      "label": "Average annual days with measurable rain (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+      "extractedAt": "2026-09-28",
+      "methodNote": "Mean number of 'wet days' per year, averaged across 2015-2024 — a wet day is the WMO's own definition (a day with 1.0mm of precipitation or more, WMO-No. 8 Guide to Instruments and Methods of Observation), not a cutoff picked for this site. Same source, method and UTC-day-boundary note as the rainfall-total layer above."
+    },
+    {
+      "slug": "seasonality-index-comune-2024",
+      "label": "Tourism seasonality index (2024)",
+      "source": "ISTAT — tourist accommodation flow",
+      "sourceUrl": "https://esploradati.istat.it/databrowser/DWL/Servizi/DCSC_Occupancy_in_collective_accommodation.zip",
+      "extractedAt": "2026-09-28",
+      "methodNote": "1 minus the ratio of the quietest month's tourist-accommodation nights spent (presenze) to the busiest month's, from ISTAT's comune-level monthly occupancy survey, 2024 (the newest year not flagged provisional in the source — 2025's own rows are 100% flagged '(f)'). 0 means visitor nights are spread evenly across the year; a value approaching 1 means almost all of the year's overnight tourist stays happen in a single month. A raw peak/trough ratio was deliberately not used: it is undefined whenever any month records zero presenze, a real and unremarkable outcome for a small seasonal town's quietest month."
+    },
+    {
+      "slug": "seasonality-peak-visitor-multiplier-comune-2024",
+      "label": "Peak-month visitors per resident (2024)",
+      "source": "ISTAT — tourist accommodation flow",
+      "sourceUrl": "https://esploradati.istat.it/databrowser/DWL/Servizi/DCSC_Occupancy_in_collective_accommodation.zip",
+      "extractedAt": "2026-09-28",
+      "methodNote": "The comune's busiest month's tourist-accommodation nights spent (presenze), divided by the number of days in that month, divided by the comune's resident population (comuni.json, most recently published year — one year newer than this metric's own 2024 tourism figures, a real vintage mismatch). Reads as: on an average night in this comune's busiest month, this many overnight tourists are present for every resident — 0.16 means 16 tourists per 100 residents, so the night-time population is 1.16 times the resident one (it is a ratio of visitors to residents, not a multiplier of the population). Registered commercial accommodation only, set against the residents of the whole comune, so a large comune with a small tourist core reads lower than its busiest streets feel. Same source and year-selection reasoning as the seasonality index above."
+    },
+    {
+      "slug": "accommodation-capacity-beds-comune-2024",
+      "label": "Tourist accommodation bed capacity (2024)",
+      "source": "ISTAT — tourist accommodation capacity",
+      "sourceUrl": "https://esploradati.istat.it/databrowser/DWL/Servizi/DCSC Capacity of tourist accommodation municipal.zip",
+      "extractedAt": "2026-09-29",
+      "methodNote": "Total registered tourist-accommodation bed capacity (hotels and similar establishments plus campsites, holiday rentals, agritourism, hostels, B&Bs and other collective accommodation), ISTAT's comune-level capacity survey, 2024. This is installed capacity (how many beds exist), not realized occupancy (see the seasonality-index and peak-visitor-multiplier layers for how full those beds actually get across the year) — a comune can have a large bed capacity that sits mostly empty, or a small one that's booked solid."
+    },
+    {
+      "slug": "accommodation-capacity-beds-per-resident-comune-2024",
+      "label": "Tourist beds per resident (2024)",
+      "source": "ISTAT — tourist accommodation capacity",
+      "sourceUrl": "https://esploradati.istat.it/databrowser/DWL/Servizi/DCSC Capacity of tourist accommodation municipal.zip",
+      "extractedAt": "2026-09-29",
+      "methodNote": "Total registered tourist-accommodation bed capacity divided by the comune's resident population (comuni.json, most recently published year — one year newer than this metric's own 2024 capacity figures, a real vintage mismatch, same as the peak-visitor-multiplier layer). Reads as: this comune has about this many tourist beds for every resident. The installed-capacity companion to peak-visitor-multiplier's realized-occupancy figure."
+    },
+    {
+      "slug": "accommodation-capacity-hotel-share-comune-2024",
+      "label": "Hotel share of tourist accommodation (2024)",
+      "source": "ISTAT — tourist accommodation capacity",
+      "sourceUrl": "https://esploradati.istat.it/databrowser/DWL/Servizi/DCSC Capacity of tourist accommodation municipal.zip",
+      "extractedAt": "2026-09-29",
+      "methodNote": "Beds in hotels and similar establishments (all star ratings plus residenze turistico alberghiere) as a share of the comune's total registered tourist-accommodation bed capacity, 2024. 0 means every registered bed is non-hotel (campsites, holiday rentals, agritourism, hostels, B&Bs, mountain huts, other); 1 means the comune's entire registered capacity is hotel beds. Answers 'what kind of tourist accommodation exists here', a different question from the total-capacity and beds-per-resident layers' 'how much'. Undefined (excluded, not zeroed) for a comune with zero total beds - there is no capacity to take a share of. One category of the non-hotel residual, 'alloggi in affitto' (holiday rentals), changes definition from 2025 onward to include informal private rentals for the first time (confirmed live in the source file's own footnote) - this metric's 2024 reference year predates that change, so it does not need to account for it, but a future re-run at a later reference year would need to treat 2024-and-earlier and 2025-and-later as two different definitions of 'non-hotel', not one continuous series."
+    },
+    {
+      "slug": "era5-heat-days-nuts2-2015-2024",
+      "label": "Average annual days above 30C (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Mean number of days per year with a daily maximum 2m temperature of 30C or more, averaged across 2015-2024 and across every ERA5-Land grid cell inside each NUTS 2 region's own boundary. Same ten-baseline-year window and CDS cost-cap reasoning as the comune-grain layer of the same name — see scripts/etl/era5.py's own docstring."
+    },
+    {
+      "slug": "era5-summer-high-nuts2-2015-2024",
+      "label": "Average July daily maximum temperature (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Mean of July's daily maximum 2m temperature, averaged across 2015-2024 and across every ERA5-Land grid cell inside each NUTS 2 region's own boundary. Fixed calendar month (July), same reasoning as the comune-grain layer of the same name."
+    },
+    {
+      "slug": "era5-winter-low-nuts2-2015-2024",
+      "label": "Average January daily minimum temperature (2015-2024)",
+      "source": "Copernicus Climate Data Store (ERA5-Land)",
+      "sourceUrl": "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Mean of January's daily minimum 2m temperature, averaged across 2015-2024 and across every ERA5-Land grid cell inside each NUTS 2 region's own boundary. Fixed calendar month (January), same reasoning as the comune-grain layer of the same name."
+    },
+    {
+      "slug": "eurostat-population-nuts3-2023",
+      "label": "Population, by NUTS 3 region (2023)",
+      "source": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/demo_r_pjanaggr3",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Total resident population per NUTS 3 region (province-equivalent), Eurostat's own demo_r_pjanaggr3 dataset, 2023 — the newest year whose only gap is the UK (absent since 2020; its last real value predates this file's vintage), not a further reporting-lag gap on top of that. Albania is present for every one of its 12 NUTS 3 units. Boundaries: github.com/eurostat/Nuts2json, 2021 typology."
+    },
+    {
+      "slug": "eurostat-life-expectancy-nuts2-2023",
+      "label": "Life expectancy at birth, by NUTS 2 region (2023)",
+      "source": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/demo_r_mlifexp",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Life expectancy at birth (age Y_LT1, both sexes) per NUTS 2 region (roughly region-equivalent), Eurostat's own demo_r_mlifexp dataset, 2023 — chosen for the best numeric coverage of any year in 2019-2024 after 2019 itself, which is seven years stale. Boundaries: github.com/eurostat/Nuts2json, 2021 typology."
+    },
+    {
+      "slug": "eurostat-gdp-nuts3-2023",
+      "label": "GDP per capita, by NUTS 3 region (2023)",
+      "source": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/nama_10r_3gdp",
+      "extractedAt": "2026-10-03",
+      "methodNote": "GDP per inhabitant in current-price euros (not purchasing-power-adjusted — a PPS-per-capita figure would rank differently, since a euro buys more in Albania than in Ireland), per NUTS 3 region (province-equivalent), Eurostat's own nama_10r_3gdp dataset, 2023, the newest year with Italy (2024 has none; year reviewed 2026-10-03). Boundaries: github.com/eurostat/Nuts2json, 2021 typology. A handful of regions (Ireland's IE053 and IE061, small German districts) are genuine multinational-tax-accounting outliers, not local prosperity — the map's color scale excludes them from setting its range without excluding them from the map (see components/EuropeMapExplorer.tsx's computeDomain())."
+    },
+    {
+      "slug": "eurostat-unemployment-nuts2-2025",
+      "label": "Unemployment rate, by NUTS 2 region (2025)",
+      "source": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/lfst_r_lfu3rt",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Unemployment rate (ages 15-74, both sexes, all education levels) per NUTS 2 region (roughly region-equivalent), Eurostat's own lfst_r_lfu3rt dataset, 2025 — the newest year available, unlike this map's other layers: unemployment's only coverage gap (the UK, plus three small perennially-unreported regions) opened in 2020 and hasn't widened since, so there's no recency/coverage tradeoff to weigh here. Boundaries: github.com/eurostat/Nuts2json, 2021 typology. A handful of regions with genuinely extreme unemployment (Spain's Ceuta and Melilla, both above 24%) sit far enough above the rest of Europe's distribution that the map's color scale saturates them at its darkest step rather than let two outliers compress everyone else's real variation — their exact figures still show on click."
+    },
+    {
+      "slug": "eurostat-poverty-nuts2-2024",
+      "label": "At-risk-of-poverty rate, by NUTS 2 region (2024)",
+      "source": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/ilc_li41",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Share of population with disposable income below 60% of the national median, per NUTS 2 region (roughly region-equivalent), Eurostat's own ilc_li41 dataset (2024) — the specific NUTS 2 member of the ilc_* family this map's build spec flagged as needing a series picked first; ilc_li02 is the related national-only cross-tab, not used here. Coverage for this dataset rises then falls over time; the year was last reviewed on 2026-10-03, when 2024 replaced 2022 (2025 has fewer regions). Boundaries: github.com/eurostat/Nuts2json, 2021 typology."
+    },
+    {
+      "slug": "eurostat-housing-cost-nuts2-2024",
+      "label": "Housing cost overburden rate, by NUTS 2 region (2024)",
+      "source": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/ilc_lvho07_r",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Share of population living in a household where total housing costs exceed 40% of disposable income, per NUTS 2 region (roughly region-equivalent), Eurostat's own ilc_lvho07_r dataset (2024) — found by searching Eurostat's own dataset catalog for \"housing cost overburden\", not by guessing at ilc_lvho07* code variants (several guesses 404'd). This dataset's own series only starts in 2021; the year was last reviewed on 2026-10-03, when 2024 replaced 2022 (2025 has fewer regions). Boundaries: github.com/eurostat/Nuts2json, 2021 typology."
+    },
+    {
+      "slug": "oecd-homicide-nuts3-2023",
+      "label": "Intentional homicide rate, by NUTS 3 region (2023)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_SOC%40DF_SAFETY",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Intentional homicides per 100,000 population, per NUTS 3 region (province-equivalent), OECD's own Regional Statistics database (DSD_REG_SOC@DF_SAFETY, MEASURE=HOMIC), 2023 — the newest year with complete coverage for this map's focus countries before a later reporting-lag drop. Boundaries: github.com/eurostat/Nuts2json, 2021 typology, reused from scripts/etl/eurostat.py rather than re-fetched — OECD's own REF_AREA codes are the same NUTS codes Eurostat uses for EU/EFTA countries (confirmed: all 107 Italian NUTS 3 codes match exactly)."
+    },
+    {
+      "slug": "oecd-physicians-nuts2-2023",
+      "label": "Active physicians per 1,000 population, by NUTS 2 region (2023)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_HEALTH%40DF_CARE",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Active physicians per 1,000 population, per NUTS 2 region (region-equivalent), OECD's own Regional Statistics database (DSD_REG_HEALTH@DF_CARE, MEASURE=DOC, UNIT_MEASURE=10P3HB), 2023 — the newest year with stable coverage across Italy and this map's other 'Italy vs elsewhere' focus countries (Spain, France, Portugal, Greece) before Italy drops out entirely in 2024. Boundaries: github.com/eurostat/Nuts2json, 2021 typology, reused from scripts/etl/eurostat.py rather than re-fetched — confirmed again for this dataflow: all 21 Italian NUTS 2 codes match exactly. A capital-region concentration is visible in the shipped values (Athens, Prague and Bucharest's regions are the top three) — physicians typically register at the hospital or clinic they practise at, which clusters in capitals, regardless of where their patients actually live; a known feature of this kind of registration data, not a data error."
+    },
+    {
+      "slug": "oecd-vehicle-theft-nuts3-2023",
+      "label": "Vehicle theft rate, by NUTS 3 region (2023)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_SOC%40DF_SAFETY",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Vehicle thefts per 100,000 population, per NUTS 3 region (province-equivalent), OECD's own Regional Statistics database (DSD_REG_SOC@DF_SAFETY, MEASURE=VEH_THEFT — the same dataflow as intentional homicide rate, a second real measure from its shared table), 2023 — the newest year before a 2024 reporting-lag drop. A genuinely long-tailed rate, the same shape as homicide: this map's existing IQR-fence color scale (computeDomain(), applied to every non-'count' unit) handles it without new code."
+    },
+    {
+      "slug": "oecd-foreign-born-share-nuts2-2019",
+      "label": "Foreign-born population share, by NUTS 2 region (2019)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_MIGRANT%40DF_MIGR_STOCK",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Foreign-born population as a share of the working-age (15-64) population, per NUTS 2 region, OECD's Regional Statistics database (DSD_REG_MIGRANT@DF_MIGR_STOCK, MEASURE=POP, ORIGIN=FB, UNIT_MEASURE=PT_POP_SUB), 2019 — the newest year before the series stops entirely in 2020. Distinct from every Italy-map citizenship/residency layer here: those count foreign CITIZENS registered in Italy specifically; this counts people born abroad, OECD-wide, the survey-based definition rather than a population-registry one."
+    },
+    {
+      "slug": "oecd-old-age-dependency-nuts3-2022",
+      "label": "Old-age dependency ratio, by NUTS 3 region (2022)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_DEPEND",
+      "extractedAt": "2026-10-03",
+      "methodNote": "People aged 65+ as a percentage of the working-age (15-64) population, per NUTS 3 region (province-equivalent), OECD's Regional Statistics database (DSD_REG_DEMO@DF_DEPEND, MEASURE=DEPEND_RATIO, AGE=Y_GE65, UNIT_MEASURE=PT_POP_Y15T64), 2022 — the newest year before a 2023 coverage drop, and the finest grain of any layer in this batch (NUTS 3, matching homicide and vehicle theft rather than the NUTS 2 layers). A structurally different signal from every existing age layer: the Italy map's median-age and indice-di-vecchiaia layers describe a comune's age profile directly; this describes the working-age population's support burden, the figure that actually predicts strain on local services."
+    },
+    {
+      "slug": "oecd-rooms-per-person-nuts2-2021",
+      "label": "Rooms per person, by NUTS 2 region (2021)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_SOC%40DF_HOUSING",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Average number of rooms per person in the housing stock, per NUTS 2 region, OECD's Regional Statistics database (DSD_REG_SOC@DF_HOUSING, MEASURE=ROOMS, UNIT_MEASURE=RO_PS), 2021 — the newest year before a real coverage drop (not gradual reporting lag). A housing-space signal distinct from every OMI price layer on the Italy map and from Eurostat's cost-based housing-overburden layer here: this is about physical space per resident, not price."
+    },
+    {
+      "slug": "oecd-disposable-income-nuts2-2021",
+      "label": "Disposable household income per capita, by NUTS 2 region (2021)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_ECO%40DF_INC",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Net disposable household income per capita, purchasing-power-parity-adjusted US dollars, per NUTS 2 region, OECD's Regional Statistics database (DSD_REG_ECO@DF_INC, MEASURE=B6N, PRICES=V, UNIT_MEASURE=USD_PPP_PS), 2021 — the newest year before a real coverage drop. Deliberately not GDP per capita: GDP is production-based and can be skewed by corporate activity concentrated in a region (this map's own GDP layer documents Ireland's and Luxembourg's tax-accounting outliers for exactly this reason); disposable income is what households actually have after taxes and transfers, the more relevant figure for 'what does a euro/dollar of income here actually buy a resident.'"
+    },
+    {
+      "slug": "oecd-tertiary-education-nuts2-2024",
+      "label": "Tertiary education attainment, by NUTS 2 region (2024)",
+      "source": "OECD",
+      "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_EDU%40DF_ATTAIN",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Share of the population aged 25-64 whose highest completed education is tertiary (ISCED 2011 levels 5-8), per NUTS 2 region, OECD's Regional Statistics database (DSD_REG_EDU@DF_ATTAIN, MEASURE=NEAC_SHARE_EA, STATISTICAL_OPERATION=MEAN), 2024 — stable coverage 2022-2024, the newest year in that window."
+    },
+    {
+      "slug": "regime-7-percent-pensioners",
+      "label": "7% pensioner regime — qualifying comuni",
+      "source": "Expat Living Italy — rule applied to ISTAT population",
+      "sourceUrl": "https://www.brocardi.it/testo-unico-imposte-redditi/titolo-i/capo-i/art24ter.html",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Comuni admitted by the 7% pensioner regime. Routes covered: Anywhere in eight southern regions (2,424 comuni); The 2016–17 Central Italy seismic crater (133 comuni); Comuni affected by the 6 April 2009 L'Aquila earthquake (56 comuni). The population threshold is 30,000 residents. Derived by applying the rule to the resident population in this site's comune spine — not a hand-maintained list — so a comune crossing the threshold leaves on the next run. Shaded by population. Personal eligibility depends on criteria no map can check."
+    },
+    {
+      "slug": "regime-7-percent-pensioners-province-share",
+      "label": "7% pensioner regime — population share by province",
+      "source": "Expat Living Italy — rule applied to ISTAT population",
+      "sourceUrl": "https://www.brocardi.it/testo-unico-imposte-redditi/titolo-i/capo-i/art24ter.html",
+      "extractedAt": "2026-10-03",
+      "methodNote": "Share of each province's ISTAT resident population living in a comune that qualifies for the 7% pensioner regime (see the regime-7-percent-pensioners layer for which comuni and by which route). Computed by summing the population of qualifying comuni within each province and dividing by the province's total population, from this site's comune spine — not a second measurement, a rollup of the comune-grain layer to the grain BES Salute publishes at, so the two can sit on the same page. A province with no qualifying comuni shows a real 0%, not a missing value."
+    },
+    {
+      "slug": "eurostat-foreign-born-nuts2-2025",
+      "label": "Foreign-born share of the working-age population, by NUTS 2 region (2025)",
+      "source": "Eurostat",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/lfst_r_lfsd2pwc",
+      "extractedAt": "2026-10-15",
+      "methodNote": "Share of the population aged 15-64 in private households who were born abroad (Eurostat c_birth=FOR, which combines other-EU and non-EU birthplaces) divided by the same population in total (c_birth=TOTAL), per NUTS 2 region, Eurostat's lfst_r_lfsd2pwc, 2025. It comes from the EU Labour Force Survey — a sample survey, not a register — so the figures carry sampling error. The 15 regions Eurostat flags as low reliability are left out rather than shown as clean numbers. Birthplace, not citizenship: it includes foreign-born people who hold the local citizenship, unlike this site's ISTAT foreign-resident layers. Do not compare with the OECD foreign-born layer (2019): different survey weighting, so a joined series would invent a trend. Boundaries: github.com/eurostat/Nuts2json, 2021 typology. Every region of ES, FR carries Eurostat's \"definition differs\" flag for this dataset, so its shares are not strictly like-for-like with the other countries'; they are shown, not hidden, because both are on this site's comparison shortlist."
+    },
+    {
+      "slug": "seismic-hazard-class-comune-2025",
+      "label": "Seismic hazard class, by comune (2025)",
+      "source": "Dipartimento della Protezione Civile — seismic classification",
+      "sourceUrl": "https://rischi.protezionecivile.gov.it/it/sismico/attivita/classificazione-sismica/",
+      "extractedAt": "2026-10-15",
+      "methodNote": "The regulatory seismic zone of each comune from the Dipartimento della Protezione Civile's national table, updated to 31 May 2025, restated as a HAZARD CLASS: class 4 is the official zona 1 (highest hazard), class 3 is zona 2, class 2 is zona 3 and class 1 is zona 4 (lowest). The numbering is turned around only so that a bigger number is a higher hazard, as on every other map layer; the official zone number is shown on each place's page. Each Region (and the autonomous Provinces of Trento and Bolzano) classifies its own comuni by its own act, so the table is a mosaic of those acts. Regional sub-zones (Lazio 2A/2B/3A/3B, Basilicata 1a-3b, Piemonte 3S) are counted in their national zone. This is a legal classification used for planning and for the control of building works — not a forecast of earthquakes and not an assessment of any building. Since the 2018 building code (NTC 2018) the design load of a new building comes from site-specific hazard, not from the zone. Before buying, have the specific building checked by a qualified engineer. Credit: Fonte: Dipartimento della Protezione Civile-Presidenza del Consiglio dei Ministri (CC BY 4.0)."
+    },
+    {
+      "slug": "agcom-ftth-share-comune-2026",
+      "label": "Fibre to the home (FTTH) availability, by comune (Q3 2026)",
+      "source": "AGCOM — Broadband Map (fixed network)",
+      "sourceUrl": "https://geo3.agcom.it/opendata",
+      "extractedAt": "2026-10-16",
+      "methodNote": "The share of a comune's locations where fibre to the home (FTTH) is available, from AGCOM's Broadband Map of the fixed network, edition Q3 2026 (network data as of 5 October 2026). AGCOM maps the fixed network on a grid of 20 m by 20 m cells, and a cell exists only where the network reaches a building; each cell records the best technology available there. This layer counts the cells whose best technology is FTTH and divides by all of the comune's cells. It is a share of LOCATIONS, not of households or people: an apartment block and a farmhouse each count once. A building with no fixed line at all (served only by fixed wireless, mobile or satellite) has no cell and is left out of both counts. 'Available' means the network reaches the location, not that anyone there subscribes. Cells on a comune's border are counted in both comuni. Higher is better. Credit: BroadbandMap di Agcom - Autorità per le garanzie nelle comunicazioni è distribuito con Licenza Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0), https://geo3.agcom.it/opendata."
+    }
+  ]
+}

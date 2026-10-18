@@ -1,0 +1,4229 @@
+{
+  "meta": {
+    "slug": "oecd-old-age-dependency-nuts3-2022",
+    "label": "Old-age dependency ratio, by NUTS 3 region (2022)",
+    "year": 2022,
+    "source": "OECD",
+    "sourceUrl": "https://data-explorer.oecd.org/vis?df[ds]=DisseminateFinalDMZ&df[id]=DSD_REG_DEMO%40DF_DEPEND",
+    "extractedAt": "2026-10-03",
+    "unit": "percent",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "People aged 65+ as a percentage of the working-age (15-64) population, per NUTS 3 region (province-equivalent), OECD's Regional Statistics database (DSD_REG_DEMO@DF_DEPEND, MEASURE=DEPEND_RATIO, AGE=Y_GE65, UNIT_MEASURE=PT_POP_Y15T64), 2022 — the newest year before a 2023 coverage drop, and the finest grain of any layer in this batch (NUTS 3, matching homicide and vehicle theft rather than the NUTS 2 layers). A structurally different signal from every existing age layer: the Italy map's median-age and indice-di-vecchiaia layers describe a comune's age profile directly; this describes the working-age population's support burden, the figure that actually predicts strain on local services.",
+    "grain": "nuts3",
+    "kind": "scalar",
+    "coverageNote": "Albania has ZERO codes (not an OECD member). Italy has FULL 107/107 NUTS 3 coverage — the only layer in this batch with no Italy-specific gap at all. The UK and France both have partial coverage; checked independently rather than assumed to match another layer's shape."
+  },
+  "values": {
+    "AL011": {
+      "value": 23.76
+    },
+    "AL012": {
+      "value": 23.44
+    },
+    "AL013": {
+      "value": 26.19
+    },
+    "AL014": {
+      "value": 26.11
+    },
+    "AL015": {
+      "value": 22.26
+    },
+    "AL021": {
+      "value": 24.95
+    },
+    "AL022": {
+      "value": 21.81
+    },
+    "AL031": {
+      "value": 23.88
+    },
+    "AL032": {
+      "value": 23.58
+    },
+    "AL033": {
+      "value": 26.04
+    },
+    "AL034": {
+      "value": 22.14
+    },
+    "AL035": {
+      "value": 23.55
+    },
+    "AT111": {
+      "value": 40.15
+    },
+    "AT112": {
+      "value": 33.65
+    },
+    "AT113": {
+      "value": 38.41
+    },
+    "AT121": {
+      "value": 29.58
+    },
+    "AT122": {
+      "value": 32.22
+    },
+    "AT123": {
+      "value": 30.65
+    },
+    "AT124": {
+      "value": 36.79
+    },
+    "AT125": {
+      "value": 35.66
+    },
+    "AT126": {
+      "value": 30.58
+    },
+    "AT127": {
+      "value": 31.16
+    },
+    "AT130": {
+      "value": 24.01
+    },
+    "AT211": {
+      "value": 34.31
+    },
+    "AT212": {
+      "value": 38.27
+    },
+    "AT213": {
+      "value": 35.83
+    },
+    "AT221": {
+      "value": 26.28
+    },
+    "AT222": {
+      "value": 37.6
+    },
+    "AT223": {
+      "value": 40.9
+    },
+    "AT224": {
+      "value": 32.76
+    },
+    "AT225": {
+      "value": 33.1
+    },
+    "AT226": {
+      "value": 38.59
+    },
+    "AT311": {
+      "value": 28.52
+    },
+    "AT312": {
+      "value": 28.25
+    },
+    "AT313": {
+      "value": 28.23
+    },
+    "AT314": {
+      "value": 31.78
+    },
+    "AT315": {
+      "value": 31.0
+    },
+    "AT321": {
+      "value": 33.5
+    },
+    "AT322": {
+      "value": 29.41
+    },
+    "AT323": {
+      "value": 29.56
+    },
+    "AT331": {
+      "value": 31.42
+    },
+    "AT332": {
+      "value": 27.62
+    },
+    "AT333": {
+      "value": 32.56
+    },
+    "AT334": {
+      "value": 25.56
+    },
+    "AT335": {
+      "value": 28.49
+    },
+    "AT341": {
+      "value": 28.1
+    },
+    "AT342": {
+      "value": 27.02
+    },
+    "BE100": {
+      "value": 19.17
+    },
+    "BE211": {
+      "value": 30.37
+    },
+    "BE212": {
+      "value": 32.6
+    },
+    "BE213": {
+      "value": 33.1
+    },
+    "BE223": {
+      "value": 34.57
+    },
+    "BE224": {
+      "value": 33.61
+    },
+    "BE225": {
+      "value": 33.48
+    },
+    "BE231": {
+      "value": 32.8
+    },
+    "BE232": {
+      "value": 32.88
+    },
+    "BE233": {
+      "value": 35.49
+    },
+    "BE234": {
+      "value": 29.84
+    },
+    "BE235": {
+      "value": 33.3
+    },
+    "BE236": {
+      "value": 32.3
+    },
+    "BE241": {
+      "value": 30.23
+    },
+    "BE242": {
+      "value": 32.68
+    },
+    "BE251": {
+      "value": 42.75
+    },
+    "BE252": {
+      "value": 34.11
+    },
+    "BE253": {
+      "value": 36.14
+    },
+    "BE254": {
+      "value": 34.56
+    },
+    "BE255": {
+      "value": 47.8
+    },
+    "BE256": {
+      "value": 33.68
+    },
+    "BE257": {
+      "value": 33.38
+    },
+    "BE258": {
+      "value": 62.62
+    },
+    "BE310": {
+      "value": 31.42
+    },
+    "BE323": {
+      "value": 29.5
+    },
+    "BE328": {
+      "value": 31.1
+    },
+    "BE329": {
+      "value": 30.36
+    },
+    "BE32A": {
+      "value": 29.79
+    },
+    "BE32B": {
+      "value": 29.51
+    },
+    "BE32C": {
+      "value": 28.87
+    },
+    "BE32D": {
+      "value": 32.92
+    },
+    "BE331": {
+      "value": 28.64
+    },
+    "BE332": {
+      "value": 30.41
+    },
+    "BE334": {
+      "value": 29.34
+    },
+    "BE335": {
+      "value": 30.47
+    },
+    "BE336": {
+      "value": 31.37
+    },
+    "BE341": {
+      "value": 23.13
+    },
+    "BE342": {
+      "value": 24.59
+    },
+    "BE343": {
+      "value": 30.12
+    },
+    "BE344": {
+      "value": 28.71
+    },
+    "BE345": {
+      "value": 27.46
+    },
+    "BE351": {
+      "value": 30.87
+    },
+    "BE352": {
+      "value": 29.22
+    },
+    "BE353": {
+      "value": 31.72
+    },
+    "BG311": {
+      "value": 54.91
+    },
+    "BG312": {
+      "value": 47.4
+    },
+    "BG313": {
+      "value": 40.19
+    },
+    "BG314": {
+      "value": 46.99
+    },
+    "BG315": {
+      "value": 47.06
+    },
+    "BG321": {
+      "value": 44.69
+    },
+    "BG322": {
+      "value": 52.01
+    },
+    "BG323": {
+      "value": 43.48
+    },
+    "BG324": {
+      "value": 38.74
+    },
+    "BG325": {
+      "value": 45.42
+    },
+    "BG331": {
+      "value": 33.35
+    },
+    "BG332": {
+      "value": 43.15
+    },
+    "BG333": {
+      "value": 39.72
+    },
+    "BG334": {
+      "value": 40.55
+    },
+    "BG341": {
+      "value": 34.5
+    },
+    "BG342": {
+      "value": 37.31
+    },
+    "BG343": {
+      "value": 45.17
+    },
+    "BG344": {
+      "value": 39.9
+    },
+    "BG411": {
+      "value": 29.26
+    },
+    "BG412": {
+      "value": 38.07
+    },
+    "BG413": {
+      "value": 33.01
+    },
+    "BG414": {
+      "value": 41.73
+    },
+    "BG415": {
+      "value": 46.54
+    },
+    "BG421": {
+      "value": 35.37
+    },
+    "BG422": {
+      "value": 41.49
+    },
+    "BG423": {
+      "value": 37.84
+    },
+    "BG424": {
+      "value": 43.33
+    },
+    "BG425": {
+      "value": 41.56
+    },
+    "CH011": {
+      "value": 24.71
+    },
+    "CH012": {
+      "value": 31.16
+    },
+    "CH013": {
+      "value": 24.38
+    },
+    "CH021": {
+      "value": 33.87
+    },
+    "CH022": {
+      "value": 24.47
+    },
+    "CH023": {
+      "value": 31.39
+    },
+    "CH024": {
+      "value": 30.1
+    },
+    "CH025": {
+      "value": 34.57
+    },
+    "CH031": {
+      "value": 29.75
+    },
+    "CH032": {
+      "value": 36.01
+    },
+    "CH033": {
+      "value": 27.88
+    },
+    "CH040": {
+      "value": 25.52
+    },
+    "CH051": {
+      "value": 32.09
+    },
+    "CH052": {
+      "value": 34.21
+    },
+    "CH053": {
+      "value": 32.22
+    },
+    "CH054": {
+      "value": 31.91
+    },
+    "CH055": {
+      "value": 28.78
+    },
+    "CH056": {
+      "value": 34.71
+    },
+    "CH057": {
+      "value": 28.33
+    },
+    "CH061": {
+      "value": 27.68
+    },
+    "CH062": {
+      "value": 33.74
+    },
+    "CH063": {
+      "value": 27.92
+    },
+    "CH064": {
+      "value": 30.86
+    },
+    "CH065": {
+      "value": 33.51
+    },
+    "CH066": {
+      "value": 26.4
+    },
+    "CH070": {
+      "value": 36.69
+    },
+    "CZ010": {
+      "value": 30.6
+    },
+    "CZ020": {
+      "value": 29.9
+    },
+    "CZ031": {
+      "value": 33.94
+    },
+    "CZ032": {
+      "value": 33.26
+    },
+    "CZ041": {
+      "value": 33.36
+    },
+    "CZ042": {
+      "value": 32.11
+    },
+    "CZ051": {
+      "value": 33.27
+    },
+    "CZ052": {
+      "value": 36.22
+    },
+    "CZ053": {
+      "value": 33.47
+    },
+    "CZ063": {
+      "value": 33.72
+    },
+    "CZ064": {
+      "value": 32.61
+    },
+    "CZ071": {
+      "value": 34.27
+    },
+    "CZ072": {
+      "value": 34.26
+    },
+    "CZ080": {
+      "value": 32.64
+    },
+    "DE111": {
+      "value": 26.64
+    },
+    "DE112": {
+      "value": 32.05
+    },
+    "DE113": {
+      "value": 32.35
+    },
+    "DE114": {
+      "value": 34.72
+    },
+    "DE115": {
+      "value": 31.53
+    },
+    "DE116": {
+      "value": 33.81
+    },
+    "DE117": {
+      "value": 29.72
+    },
+    "DE118": {
+      "value": 30.65
+    },
+    "DE119": {
+      "value": 31.21
+    },
+    "DE11A": {
+      "value": 30.74
+    },
+    "DE11B": {
+      "value": 37.11
+    },
+    "DE11C": {
+      "value": 35.16
+    },
+    "DE11D": {
+      "value": 33.07
+    },
+    "DE121": {
+      "value": 42.86
+    },
+    "DE122": {
+      "value": 27.67
+    },
+    "DE123": {
+      "value": 34.09
+    },
+    "DE124": {
+      "value": 35.23
+    },
+    "DE125": {
+      "value": 24.34
+    },
+    "DE126": {
+      "value": 26.84
+    },
+    "DE127": {
+      "value": 35.36
+    },
+    "DE128": {
+      "value": 35.04
+    },
+    "DE129": {
+      "value": 31.47
+    },
+    "DE12A": {
+      "value": 33.57
+    },
+    "DE12B": {
+      "value": 34.38
+    },
+    "DE12C": {
+      "value": 33.19
+    },
+    "DE131": {
+      "value": 24.79
+    },
+    "DE132": {
+      "value": 36.47
+    },
+    "DE133": {
+      "value": 34.51
+    },
+    "DE134": {
+      "value": 33.82
+    },
+    "DE135": {
+      "value": 33.99
+    },
+    "DE136": {
+      "value": 36.24
+    },
+    "DE137": {
+      "value": 31.0
+    },
+    "DE138": {
+      "value": 33.38
+    },
+    "DE139": {
+      "value": 32.84
+    },
+    "DE13A": {
+      "value": 34.96
+    },
+    "DE141": {
+      "value": 33.08
+    },
+    "DE142": {
+      "value": 27.15
+    },
+    "DE143": {
+      "value": 35.44
+    },
+    "DE144": {
+      "value": 27.76
+    },
+    "DE145": {
+      "value": 30.84
+    },
+    "DE146": {
+      "value": 30.01
+    },
+    "DE147": {
+      "value": 37.15
+    },
+    "DE148": {
+      "value": 31.7
+    },
+    "DE149": {
+      "value": 32.96
+    },
+    "DE211": {
+      "value": 28.06
+    },
+    "DE212": {
+      "value": 25.28
+    },
+    "DE213": {
+      "value": 30.75
+    },
+    "DE214": {
+      "value": 35.14
+    },
+    "DE215": {
+      "value": 37.76
+    },
+    "DE216": {
+      "value": 34.51
+    },
+    "DE217": {
+      "value": 29.0
+    },
+    "DE218": {
+      "value": 29.12
+    },
+    "DE219": {
+      "value": 28.15
+    },
+    "DE21A": {
+      "value": 26.22
+    },
+    "DE21B": {
+      "value": 23.86
+    },
+    "DE21C": {
+      "value": 34.8
+    },
+    "DE21D": {
+      "value": 41.06
+    },
+    "DE21E": {
+      "value": 32.04
+    },
+    "DE21F": {
+      "value": 36.13
+    },
+    "DE21G": {
+      "value": 31.22
+    },
+    "DE21H": {
+      "value": 32.47
+    },
+    "DE21I": {
+      "value": 30.36
+    },
+    "DE21J": {
+      "value": 28.56
+    },
+    "DE21K": {
+      "value": 34.51
+    },
+    "DE21L": {
+      "value": 37.96
+    },
+    "DE21M": {
+      "value": 36.79
+    },
+    "DE21N": {
+      "value": 35.5
+    },
+    "DE221": {
+      "value": 31.47
+    },
+    "DE222": {
+      "value": 32.18
+    },
+    "DE223": {
+      "value": 33.03
+    },
+    "DE224": {
+      "value": 32.1
+    },
+    "DE225": {
+      "value": 35.75
+    },
+    "DE226": {
+      "value": 29.5
+    },
+    "DE227": {
+      "value": 29.52
+    },
+    "DE228": {
+      "value": 36.39
+    },
+    "DE229": {
+      "value": 36.74
+    },
+    "DE22A": {
+      "value": 34.01
+    },
+    "DE22B": {
+      "value": 31.31
+    },
+    "DE22C": {
+      "value": 29.67
+    },
+    "DE231": {
+      "value": 37.8
+    },
+    "DE232": {
+      "value": 24.75
+    },
+    "DE233": {
+      "value": 36.39
+    },
+    "DE234": {
+      "value": 34.23
+    },
+    "DE235": {
+      "value": 34.64
+    },
+    "DE236": {
+      "value": 30.3
+    },
+    "DE237": {
+      "value": 33.83
+    },
+    "DE238": {
+      "value": 31.48
+    },
+    "DE239": {
+      "value": 32.62
+    },
+    "DE23A": {
+      "value": 37.22
+    },
+    "DE241": {
+      "value": 28.62
+    },
+    "DE242": {
+      "value": 32.47
+    },
+    "DE243": {
+      "value": 37.3
+    },
+    "DE244": {
+      "value": 39.15
+    },
+    "DE245": {
+      "value": 30.83
+    },
+    "DE246": {
+      "value": 36.73
+    },
+    "DE247": {
+      "value": 38.1
+    },
+    "DE248": {
+      "value": 33.3
+    },
+    "DE249": {
+      "value": 42.55
+    },
+    "DE24A": {
+      "value": 39.86
+    },
+    "DE24B": {
+      "value": 39.7
+    },
+    "DE24C": {
+      "value": 37.08
+    },
+    "DE24D": {
+      "value": 43.76
+    },
+    "DE251": {
+      "value": 34.27
+    },
+    "DE252": {
+      "value": 25.71
+    },
+    "DE253": {
+      "value": 27.96
+    },
+    "DE254": {
+      "value": 30.85
+    },
+    "DE255": {
+      "value": 34.45
+    },
+    "DE256": {
+      "value": 31.98
+    },
+    "DE257": {
+      "value": 33.46
+    },
+    "DE258": {
+      "value": 37.4
+    },
+    "DE259": {
+      "value": 36.36
+    },
+    "DE25A": {
+      "value": 33.74
+    },
+    "DE25B": {
+      "value": 33.99
+    },
+    "DE25C": {
+      "value": 35.59
+    },
+    "DE261": {
+      "value": 32.4
+    },
+    "DE262": {
+      "value": 38.59
+    },
+    "DE263": {
+      "value": 29.62
+    },
+    "DE264": {
+      "value": 35.28
+    },
+    "DE265": {
+      "value": 41.45
+    },
+    "DE266": {
+      "value": 36.96
+    },
+    "DE267": {
+      "value": 34.79
+    },
+    "DE268": {
+      "value": 33.04
+    },
+    "DE269": {
+      "value": 35.07
+    },
+    "DE26A": {
+      "value": 38.45
+    },
+    "DE26B": {
+      "value": 35.88
+    },
+    "DE26C": {
+      "value": 35.48
+    },
+    "DE271": {
+      "value": 29.03
+    },
+    "DE272": {
+      "value": 36.11
+    },
+    "DE273": {
+      "value": 35.12
+    },
+    "DE274": {
+      "value": 34.06
+    },
+    "DE275": {
+      "value": 31.85
+    },
+    "DE276": {
+      "value": 32.94
+    },
+    "DE277": {
+      "value": 32.4
+    },
+    "DE278": {
+      "value": 30.55
+    },
+    "DE279": {
+      "value": 32.0
+    },
+    "DE27A": {
+      "value": 36.41
+    },
+    "DE27B": {
+      "value": 34.22
+    },
+    "DE27C": {
+      "value": 33.61
+    },
+    "DE27D": {
+      "value": 31.72
+    },
+    "DE27E": {
+      "value": 37.01
+    },
+    "DE300": {
+      "value": 28.9
+    },
+    "DE401": {
+      "value": 47.05
+    },
+    "DE402": {
+      "value": 43.95
+    },
+    "DE403": {
+      "value": 45.75
+    },
+    "DE404": {
+      "value": 30.6
+    },
+    "DE405": {
+      "value": 39.94
+    },
+    "DE406": {
+      "value": 39.69
+    },
+    "DE407": {
+      "value": 50.26
+    },
+    "DE408": {
+      "value": 37.11
+    },
+    "DE409": {
+      "value": 40.95
+    },
+    "DE40A": {
+      "value": 38.28
+    },
+    "DE40B": {
+      "value": 51.11
+    },
+    "DE40C": {
+      "value": 47.03
+    },
+    "DE40D": {
+      "value": 45.2
+    },
+    "DE40E": {
+      "value": 38.23
+    },
+    "DE40F": {
+      "value": 49.63
+    },
+    "DE40G": {
+      "value": 50.83
+    },
+    "DE40H": {
+      "value": 36.64
+    },
+    "DE40I": {
+      "value": 50.33
+    },
+    "DE501": {
+      "value": 32.53
+    },
+    "DE502": {
+      "value": 35.05
+    },
+    "DE600": {
+      "value": 26.94
+    },
+    "DE711": {
+      "value": 25.5
+    },
+    "DE712": {
+      "value": 22.79
+    },
+    "DE713": {
+      "value": 24.36
+    },
+    "DE714": {
+      "value": 31.19
+    },
+    "DE715": {
+      "value": 36.44
+    },
+    "DE716": {
+      "value": 33.89
+    },
+    "DE717": {
+      "value": 30.27
+    },
+    "DE718": {
+      "value": 37.08
+    },
+    "DE719": {
+      "value": 34.6
+    },
+    "DE71A": {
+      "value": 33.73
+    },
+    "DE71B": {
+      "value": 39.54
+    },
+    "DE71C": {
+      "value": 33.92
+    },
+    "DE71D": {
+      "value": 37.9
+    },
+    "DE71E": {
+      "value": 33.86
+    },
+    "DE721": {
+      "value": 29.91
+    },
+    "DE722": {
+      "value": 36.09
+    },
+    "DE723": {
+      "value": 34.92
+    },
+    "DE724": {
+      "value": 30.65
+    },
+    "DE725": {
+      "value": 40.65
+    },
+    "DE731": {
+      "value": 30.11
+    },
+    "DE732": {
+      "value": 33.95
+    },
+    "DE733": {
+      "value": 39.81
+    },
+    "DE734": {
+      "value": 41.44
+    },
+    "DE735": {
+      "value": 37.99
+    },
+    "DE736": {
+      "value": 38.15
+    },
+    "DE737": {
+      "value": 42.53
+    },
+    "DE803": {
+      "value": 38.79
+    },
+    "DE804": {
+      "value": 44.6
+    },
+    "DE80J": {
+      "value": 46.54
+    },
+    "DE80K": {
+      "value": 42.23
+    },
+    "DE80L": {
+      "value": 45.91
+    },
+    "DE80M": {
+      "value": 40.85
+    },
+    "DE80N": {
+      "value": 44.1
+    },
+    "DE80O": {
+      "value": 41.71
+    },
+    "DE911": {
+      "value": 31.98
+    },
+    "DE912": {
+      "value": 37.68
+    },
+    "DE913": {
+      "value": 35.94
+    },
+    "DE914": {
+      "value": 32.79
+    },
+    "DE916": {
+      "value": 45.74
+    },
+    "DE917": {
+      "value": 38.22
+    },
+    "DE918": {
+      "value": 42.78
+    },
+    "DE91A": {
+      "value": 34.43
+    },
+    "DE91B": {
+      "value": 39.03
+    },
+    "DE91C": {
+      "value": 36.58
+    },
+    "DE922": {
+      "value": 36.39
+    },
+    "DE923": {
+      "value": 42.29
+    },
+    "DE925": {
+      "value": 37.8
+    },
+    "DE926": {
+      "value": 44.4
+    },
+    "DE927": {
+      "value": 36.28
+    },
+    "DE928": {
+      "value": 40.47
+    },
+    "DE929": {
+      "value": 33.36
+    },
+    "DE931": {
+      "value": 38.78
+    },
+    "DE932": {
+      "value": 43.11
+    },
+    "DE933": {
+      "value": 35.92
+    },
+    "DE934": {
+      "value": 48.44
+    },
+    "DE935": {
+      "value": 32.06
+    },
+    "DE936": {
+      "value": 38.95
+    },
+    "DE937": {
+      "value": 34.36
+    },
+    "DE938": {
+      "value": 35.95
+    },
+    "DE939": {
+      "value": 34.65
+    },
+    "DE93A": {
+      "value": 42.18
+    },
+    "DE93B": {
+      "value": 36.98
+    },
+    "DE941": {
+      "value": 35.64
+    },
+    "DE942": {
+      "value": 33.66
+    },
+    "DE943": {
+      "value": 29.06
+    },
+    "DE944": {
+      "value": 27.42
+    },
+    "DE945": {
+      "value": 42.84
+    },
+    "DE946": {
+      "value": 38.43
+    },
+    "DE947": {
+      "value": 38.43
+    },
+    "DE948": {
+      "value": 25.69
+    },
+    "DE949": {
+      "value": 30.49
+    },
+    "DE94A": {
+      "value": 44.46
+    },
+    "DE94B": {
+      "value": 33.46
+    },
+    "DE94C": {
+      "value": 34.73
+    },
+    "DE94D": {
+      "value": 34.48
+    },
+    "DE94E": {
+      "value": 33.8
+    },
+    "DE94F": {
+      "value": 25.51
+    },
+    "DE94G": {
+      "value": 38.47
+    },
+    "DE94H": {
+      "value": 41.36
+    },
+    "DEA11": {
+      "value": 28.96
+    },
+    "DEA12": {
+      "value": 32.01
+    },
+    "DEA13": {
+      "value": 33.85
+    },
+    "DEA14": {
+      "value": 34.79
+    },
+    "DEA15": {
+      "value": 33.06
+    },
+    "DEA16": {
+      "value": 38.82
+    },
+    "DEA17": {
+      "value": 35.33
+    },
+    "DEA18": {
+      "value": 34.66
+    },
+    "DEA19": {
+      "value": 33.57
+    },
+    "DEA1A": {
+      "value": 32.24
+    },
+    "DEA1B": {
+      "value": 33.11
+    },
+    "DEA1C": {
+      "value": 39.15
+    },
+    "DEA1D": {
+      "value": 35.81
+    },
+    "DEA1E": {
+      "value": 36.31
+    },
+    "DEA1F": {
+      "value": 38.92
+    },
+    "DEA22": {
+      "value": 27.4
+    },
+    "DEA23": {
+      "value": 25.81
+    },
+    "DEA24": {
+      "value": 34.37
+    },
+    "DEA26": {
+      "value": 34.53
+    },
+    "DEA27": {
+      "value": 34.77
+    },
+    "DEA28": {
+      "value": 35.24
+    },
+    "DEA29": {
+      "value": 33.88
+    },
+    "DEA2A": {
+      "value": 34.84
+    },
+    "DEA2B": {
+      "value": 38.35
+    },
+    "DEA2C": {
+      "value": 35.31
+    },
+    "DEA2D": {
+      "value": 31.43
+    },
+    "DEA31": {
+      "value": 36.67
+    },
+    "DEA32": {
+      "value": 32.6
+    },
+    "DEA33": {
+      "value": 25.41
+    },
+    "DEA34": {
+      "value": 30.45
+    },
+    "DEA35": {
+      "value": 34.76
+    },
+    "DEA36": {
+      "value": 37.65
+    },
+    "DEA37": {
+      "value": 31.97
+    },
+    "DEA38": {
+      "value": 34.63
+    },
+    "DEA41": {
+      "value": 30.81
+    },
+    "DEA42": {
+      "value": 31.37
+    },
+    "DEA43": {
+      "value": 36.0
+    },
+    "DEA44": {
+      "value": 37.95
+    },
+    "DEA45": {
+      "value": 37.36
+    },
+    "DEA46": {
+      "value": 35.83
+    },
+    "DEA47": {
+      "value": 29.02
+    },
+    "DEA51": {
+      "value": 34.78
+    },
+    "DEA52": {
+      "value": 31.74
+    },
+    "DEA53": {
+      "value": 35.15
+    },
+    "DEA54": {
+      "value": 33.27
+    },
+    "DEA55": {
+      "value": 34.1
+    },
+    "DEA56": {
+      "value": 39.0
+    },
+    "DEA57": {
+      "value": 36.0
+    },
+    "DEA58": {
+      "value": 35.83
+    },
+    "DEA59": {
+      "value": 32.88
+    },
+    "DEA5A": {
+      "value": 34.97
+    },
+    "DEA5B": {
+      "value": 34.77
+    },
+    "DEA5C": {
+      "value": 37.47
+    },
+    "DEB11": {
+      "value": 33.89
+    },
+    "DEB12": {
+      "value": 40.54
+    },
+    "DEB13": {
+      "value": 36.48
+    },
+    "DEB14": {
+      "value": 38.9
+    },
+    "DEB15": {
+      "value": 40.53
+    },
+    "DEB17": {
+      "value": 36.05
+    },
+    "DEB18": {
+      "value": 36.48
+    },
+    "DEB1A": {
+      "value": 38.35
+    },
+    "DEB1B": {
+      "value": 34.25
+    },
+    "DEB1C": {
+      "value": 40.93
+    },
+    "DEB1D": {
+      "value": 37.88
+    },
+    "DEB21": {
+      "value": 26.51
+    },
+    "DEB22": {
+      "value": 38.05
+    },
+    "DEB23": {
+      "value": 33.28
+    },
+    "DEB24": {
+      "value": 40.66
+    },
+    "DEB25": {
+      "value": 33.81
+    },
+    "DEB31": {
+      "value": 36.94
+    },
+    "DEB32": {
+      "value": 31.48
+    },
+    "DEB33": {
+      "value": 29.94
+    },
+    "DEB34": {
+      "value": 29.08
+    },
+    "DEB35": {
+      "value": 25.92
+    },
+    "DEB36": {
+      "value": 40.57
+    },
+    "DEB37": {
+      "value": 42.56
+    },
+    "DEB38": {
+      "value": 37.13
+    },
+    "DEB39": {
+      "value": 32.69
+    },
+    "DEB3A": {
+      "value": 38.24
+    },
+    "DEB3B": {
+      "value": 33.23
+    },
+    "DEB3C": {
+      "value": 40.44
+    },
+    "DEB3D": {
+      "value": 36.35
+    },
+    "DEB3E": {
+      "value": 32.38
+    },
+    "DEB3F": {
+      "value": 36.75
+    },
+    "DEB3G": {
+      "value": 41.16
+    },
+    "DEB3H": {
+      "value": 38.64
+    },
+    "DEB3I": {
+      "value": 37.61
+    },
+    "DEB3J": {
+      "value": 34.36
+    },
+    "DEB3K": {
+      "value": 43.0
+    },
+    "DEC01": {
+      "value": 37.29
+    },
+    "DEC02": {
+      "value": 37.52
+    },
+    "DEC03": {
+      "value": 40.29
+    },
+    "DEC04": {
+      "value": 40.34
+    },
+    "DEC05": {
+      "value": 41.98
+    },
+    "DEC06": {
+      "value": 42.03
+    },
+    "DED21": {
+      "value": 34.84
+    },
+    "DED2C": {
+      "value": 49.11
+    },
+    "DED2D": {
+      "value": 54.25
+    },
+    "DED2E": {
+      "value": 48.97
+    },
+    "DED2F": {
+      "value": 48.72
+    },
+    "DED41": {
+      "value": 47.88
+    },
+    "DED42": {
+      "value": 54.71
+    },
+    "DED43": {
+      "value": 50.15
+    },
+    "DED44": {
+      "value": 54.48
+    },
+    "DED45": {
+      "value": 52.34
+    },
+    "DED51": {
+      "value": 30.6
+    },
+    "DED52": {
+      "value": 46.27
+    },
+    "DED53": {
+      "value": 44.7
+    },
+    "DEE01": {
+      "value": 57.86
+    },
+    "DEE02": {
+      "value": 39.46
+    },
+    "DEE03": {
+      "value": 39.88
+    },
+    "DEE04": {
+      "value": 42.46
+    },
+    "DEE05": {
+      "value": 49.34
+    },
+    "DEE06": {
+      "value": 45.35
+    },
+    "DEE07": {
+      "value": 41.29
+    },
+    "DEE08": {
+      "value": 49.28
+    },
+    "DEE09": {
+      "value": 50.3
+    },
+    "DEE0A": {
+      "value": 53.92
+    },
+    "DEE0B": {
+      "value": 44.59
+    },
+    "DEE0C": {
+      "value": 49.19
+    },
+    "DEE0D": {
+      "value": 45.31
+    },
+    "DEE0E": {
+      "value": 51.53
+    },
+    "DEF01": {
+      "value": 30.38
+    },
+    "DEF02": {
+      "value": 27.75
+    },
+    "DEF03": {
+      "value": 36.84
+    },
+    "DEF04": {
+      "value": 36.41
+    },
+    "DEF05": {
+      "value": 41.25
+    },
+    "DEF06": {
+      "value": 36.21
+    },
+    "DEF07": {
+      "value": 39.65
+    },
+    "DEF08": {
+      "value": 46.98
+    },
+    "DEF09": {
+      "value": 35.26
+    },
+    "DEF0A": {
+      "value": 44.87
+    },
+    "DEF0B": {
+      "value": 38.97
+    },
+    "DEF0C": {
+      "value": 39.86
+    },
+    "DEF0D": {
+      "value": 35.0
+    },
+    "DEF0E": {
+      "value": 36.83
+    },
+    "DEF0F": {
+      "value": 38.15
+    },
+    "DEG01": {
+      "value": 36.48
+    },
+    "DEG02": {
+      "value": 53.45
+    },
+    "DEG03": {
+      "value": 33.91
+    },
+    "DEG05": {
+      "value": 38.47
+    },
+    "DEG06": {
+      "value": 41.96
+    },
+    "DEG07": {
+      "value": 46.95
+    },
+    "DEG09": {
+      "value": 44.21
+    },
+    "DEG0A": {
+      "value": 48.72
+    },
+    "DEG0C": {
+      "value": 43.06
+    },
+    "DEG0D": {
+      "value": 43.39
+    },
+    "DEG0E": {
+      "value": 43.0
+    },
+    "DEG0G": {
+      "value": 42.43
+    },
+    "DEG0J": {
+      "value": 45.96
+    },
+    "DEG0K": {
+      "value": 47.47
+    },
+    "DEG0L": {
+      "value": 53.95
+    },
+    "DEG0M": {
+      "value": 55.95
+    },
+    "DK011": {
+      "value": 16.71
+    },
+    "DK012": {
+      "value": 29.74
+    },
+    "DK013": {
+      "value": 39.63
+    },
+    "DK014": {
+      "value": 54.09
+    },
+    "DK021": {
+      "value": 33.32
+    },
+    "DK022": {
+      "value": 40.62
+    },
+    "DK031": {
+      "value": 35.63
+    },
+    "DK032": {
+      "value": 36.24
+    },
+    "DK041": {
+      "value": 36.59
+    },
+    "DK042": {
+      "value": 28.96
+    },
+    "DK050": {
+      "value": 36.08
+    },
+    "EE001": {
+      "value": 27.56
+    },
+    "EE004": {
+      "value": 37.49
+    },
+    "EE008": {
+      "value": 33.51
+    },
+    "EE009": {
+      "value": 36.73
+    },
+    "EE00A": {
+      "value": 43.1
+    },
+    "EL301": {
+      "value": 35.99
+    },
+    "EL302": {
+      "value": 28.84
+    },
+    "EL303": {
+      "value": 32.4
+    },
+    "EL304": {
+      "value": 34.39
+    },
+    "EL305": {
+      "value": 30.91
+    },
+    "EL306": {
+      "value": 25.28
+    },
+    "EL307": {
+      "value": 33.23
+    },
+    "EL411": {
+      "value": 39.5
+    },
+    "EL412": {
+      "value": 41.49
+    },
+    "EL413": {
+      "value": 37.92
+    },
+    "EL421": {
+      "value": 28.81
+    },
+    "EL422": {
+      "value": 32.81
+    },
+    "EL431": {
+      "value": 30.81
+    },
+    "EL432": {
+      "value": 41.78
+    },
+    "EL433": {
+      "value": 27.6
+    },
+    "EL434": {
+      "value": 30.96
+    },
+    "EL511": {
+      "value": 42.15
+    },
+    "EL512": {
+      "value": 28.28
+    },
+    "EL513": {
+      "value": 36.34
+    },
+    "EL514": {
+      "value": 43.85
+    },
+    "EL515": {
+      "value": 41.61
+    },
+    "EL521": {
+      "value": 41.37
+    },
+    "EL522": {
+      "value": 31.27
+    },
+    "EL523": {
+      "value": 45.23
+    },
+    "EL524": {
+      "value": 40.46
+    },
+    "EL525": {
+      "value": 39.16
+    },
+    "EL526": {
+      "value": 51.85
+    },
+    "EL527": {
+      "value": 37.1
+    },
+    "EL531": {
+      "value": 40.84
+    },
+    "EL532": {
+      "value": 42.16
+    },
+    "EL533": {
+      "value": 37.43
+    },
+    "EL541": {
+      "value": 52.59
+    },
+    "EL542": {
+      "value": 51.05
+    },
+    "EL543": {
+      "value": 41.17
+    },
+    "EL611": {
+      "value": 48.65
+    },
+    "EL612": {
+      "value": 37.36
+    },
+    "EL613": {
+      "value": 37.37
+    },
+    "EL621": {
+      "value": 30.46
+    },
+    "EL622": {
+      "value": 38.43
+    },
+    "EL623": {
+      "value": 39.74
+    },
+    "EL624": {
+      "value": 40.49
+    },
+    "EL631": {
+      "value": 41.66
+    },
+    "EL632": {
+      "value": 32.64
+    },
+    "EL633": {
+      "value": 40.55
+    },
+    "EL641": {
+      "value": 36.99
+    },
+    "EL642": {
+      "value": 39.12
+    },
+    "EL643": {
+      "value": 60.77
+    },
+    "EL644": {
+      "value": 44.94
+    },
+    "EL645": {
+      "value": 53.33
+    },
+    "EL651": {
+      "value": 43.16
+    },
+    "EL652": {
+      "value": 40.82
+    },
+    "EL653": {
+      "value": 44.01
+    },
+    "ES111": {
+      "value": 40.62
+    },
+    "ES112": {
+      "value": 49.73
+    },
+    "ES113": {
+      "value": 54.4
+    },
+    "ES114": {
+      "value": 36.64
+    },
+    "ES120": {
+      "value": 43.43
+    },
+    "ES130": {
+      "value": 35.75
+    },
+    "ES211": {
+      "value": 34.25
+    },
+    "ES212": {
+      "value": 36.49
+    },
+    "ES213": {
+      "value": 37.07
+    },
+    "ES220": {
+      "value": 31.23
+    },
+    "ES230": {
+      "value": 33.39
+    },
+    "ES241": {
+      "value": 35.26
+    },
+    "ES242": {
+      "value": 38.17
+    },
+    "ES243": {
+      "value": 33.44
+    },
+    "ES300": {
+      "value": 27.24
+    },
+    "ES411": {
+      "value": 42.34
+    },
+    "ES412": {
+      "value": 39.17
+    },
+    "ES413": {
+      "value": 45.5
+    },
+    "ES414": {
+      "value": 42.78
+    },
+    "ES415": {
+      "value": 44.07
+    },
+    "ES416": {
+      "value": 35.48
+    },
+    "ES417": {
+      "value": 40.8
+    },
+    "ES418": {
+      "value": 37.95
+    },
+    "ES419": {
+      "value": 53.2
+    },
+    "ES421": {
+      "value": 29.48
+    },
+    "ES422": {
+      "value": 31.21
+    },
+    "ES423": {
+      "value": 35.37
+    },
+    "ES424": {
+      "value": 24.06
+    },
+    "ES425": {
+      "value": 27.25
+    },
+    "ES431": {
+      "value": 30.38
+    },
+    "ES432": {
+      "value": 36.85
+    },
+    "ES511": {
+      "value": 29.13
+    },
+    "ES512": {
+      "value": 28.06
+    },
+    "ES513": {
+      "value": 29.9
+    },
+    "ES514": {
+      "value": 29.84
+    },
+    "ES521": {
+      "value": 31.45
+    },
+    "ES522": {
+      "value": 30.07
+    },
+    "ES523": {
+      "value": 29.45
+    },
+    "ES531": {
+      "value": 18.26
+    },
+    "ES532": {
+      "value": 24.53
+    },
+    "ES533": {
+      "value": 25.8
+    },
+    "ES611": {
+      "value": 22.58
+    },
+    "ES612": {
+      "value": 25.97
+    },
+    "ES613": {
+      "value": 30.49
+    },
+    "ES614": {
+      "value": 27.69
+    },
+    "ES615": {
+      "value": 25.42
+    },
+    "ES616": {
+      "value": 30.0
+    },
+    "ES617": {
+      "value": 27.06
+    },
+    "ES618": {
+      "value": 25.7
+    },
+    "ES620": {
+      "value": 23.98
+    },
+    "ES630": {
+      "value": 18.24
+    },
+    "ES640": {
+      "value": 16.63
+    },
+    "FI196": {
+      "value": 48.62
+    },
+    "FI1B1": {
+      "value": 27.58
+    },
+    "FI1C1": {
+      "value": 39.01
+    },
+    "FI1C2": {
+      "value": 44.64
+    },
+    "FI1C5": {
+      "value": 48.58
+    },
+    "FI1D5": {
+      "value": 42.51
+    },
+    "FI1D7": {
+      "value": 45.31
+    },
+    "FI1D8": {
+      "value": 52.57
+    },
+    "FI1D9": {
+      "value": 33.67
+    },
+    "FI200": {
+      "value": 38.88
+    },
+    "FR101": {
+      "value": 25.91
+    },
+    "FR102": {
+      "value": 24.15
+    },
+    "FR103": {
+      "value": 26.82
+    },
+    "FR104": {
+      "value": 24.55
+    },
+    "FR105": {
+      "value": 23.69
+    },
+    "FR106": {
+      "value": 19.57
+    },
+    "FR107": {
+      "value": 23.8
+    },
+    "FR108": {
+      "value": 22.56
+    },
+    "FRB01": {
+      "value": 46.18
+    },
+    "FRB02": {
+      "value": 35.8
+    },
+    "FRB03": {
+      "value": 51.46
+    },
+    "FRB04": {
+      "value": 37.2
+    },
+    "FRB05": {
+      "value": 44.97
+    },
+    "FRB06": {
+      "value": 34.62
+    },
+    "FRC11": {
+      "value": 35.15
+    },
+    "FRC12": {
+      "value": 54.69
+    },
+    "FRC13": {
+      "value": 46.96
+    },
+    "FRC14": {
+      "value": 43.72
+    },
+    "FRC21": {
+      "value": 32.93
+    },
+    "FRC22": {
+      "value": 41.4
+    },
+    "FRC23": {
+      "value": 41.2
+    },
+    "FRC24": {
+      "value": 33.45
+    },
+    "FRD11": {
+      "value": 37.94
+    },
+    "FRD12": {
+      "value": 44.84
+    },
+    "FRD13": {
+      "value": 47.76
+    },
+    "FRD21": {
+      "value": 33.76
+    },
+    "FRD22": {
+      "value": 34.46
+    },
+    "FRE11": {
+      "value": 28.61
+    },
+    "FRE12": {
+      "value": 32.69
+    },
+    "FRE21": {
+      "value": 35.99
+    },
+    "FRE22": {
+      "value": 28.91
+    },
+    "FRE23": {
+      "value": 33.99
+    },
+    "FRF11": {
+      "value": 30.36
+    },
+    "FRF12": {
+      "value": 34.0
+    },
+    "FRF21": {
+      "value": 37.91
+    },
+    "FRF22": {
+      "value": 37.61
+    },
+    "FRF23": {
+      "value": 33.53
+    },
+    "FRF24": {
+      "value": 45.04
+    },
+    "FRF31": {
+      "value": 32.07
+    },
+    "FRF32": {
+      "value": 41.21
+    },
+    "FRF33": {
+      "value": 33.18
+    },
+    "FRF34": {
+      "value": 43.16
+    },
+    "FRG01": {
+      "value": 30.44
+    },
+    "FRG02": {
+      "value": 34.23
+    },
+    "FRG03": {
+      "value": 38.98
+    },
+    "FRG04": {
+      "value": 38.58
+    },
+    "FRG05": {
+      "value": 44.95
+    },
+    "FRH01": {
+      "value": 47.59
+    },
+    "FRH02": {
+      "value": 40.78
+    },
+    "FRH03": {
+      "value": 29.35
+    },
+    "FRH04": {
+      "value": 44.64
+    },
+    "FRI11": {
+      "value": 53.48
+    },
+    "FRI12": {
+      "value": 31.46
+    },
+    "FRI13": {
+      "value": 45.26
+    },
+    "FRI14": {
+      "value": 47.85
+    },
+    "FRI15": {
+      "value": 41.88
+    },
+    "FRI21": {
+      "value": 49.82
+    },
+    "FRI22": {
+      "value": 56.61
+    },
+    "FRI23": {
+      "value": 43.62
+    },
+    "FRI31": {
+      "value": 45.16
+    },
+    "FRI32": {
+      "value": 51.25
+    },
+    "FRI33": {
+      "value": 41.1
+    },
+    "FRI34": {
+      "value": 37.64
+    },
+    "FRJ11": {
+      "value": 47.63
+    },
+    "FRJ12": {
+      "value": 40.88
+    },
+    "FRJ13": {
+      "value": 36.61
+    },
+    "FRJ14": {
+      "value": 45.39
+    },
+    "FRJ15": {
+      "value": 46.87
+    },
+    "FRJ21": {
+      "value": 46.82
+    },
+    "FRJ22": {
+      "value": 48.85
+    },
+    "FRJ23": {
+      "value": 26.08
+    },
+    "FRJ24": {
+      "value": 50.34
+    },
+    "FRJ25": {
+      "value": 56.81
+    },
+    "FRJ26": {
+      "value": 47.51
+    },
+    "FRJ27": {
+      "value": 45.39
+    },
+    "FRJ28": {
+      "value": 39.01
+    },
+    "FRK11": {
+      "value": 50.23
+    },
+    "FRK12": {
+      "value": 51.28
+    },
+    "FRK13": {
+      "value": 43.3
+    },
+    "FRK14": {
+      "value": 36.84
+    },
+    "FRK21": {
+      "value": 30.07
+    },
+    "FRK22": {
+      "value": 44.79
+    },
+    "FRK23": {
+      "value": 38.42
+    },
+    "FRK24": {
+      "value": 30.9
+    },
+    "FRK25": {
+      "value": 38.9
+    },
+    "FRK26": {
+      "value": 27.19
+    },
+    "FRK27": {
+      "value": 35.03
+    },
+    "FRK28": {
+      "value": 27.5
+    },
+    "FRL01": {
+      "value": 47.24
+    },
+    "FRL02": {
+      "value": 45.35
+    },
+    "FRL03": {
+      "value": 41.94
+    },
+    "FRL04": {
+      "value": 34.43
+    },
+    "FRL05": {
+      "value": 46.92
+    },
+    "FRL06": {
+      "value": 39.46
+    },
+    "FRM01": {
+      "value": 41.18
+    },
+    "FRM02": {
+      "value": 40.05
+    },
+    "HR021": {
+      "value": 37.47
+    },
+    "HR022": {
+      "value": 34.43
+    },
+    "HR023": {
+      "value": 36.44
+    },
+    "HR024": {
+      "value": 36.1
+    },
+    "HR025": {
+      "value": 34.48
+    },
+    "HR026": {
+      "value": 36.53
+    },
+    "HR027": {
+      "value": 39.15
+    },
+    "HR028": {
+      "value": 39.85
+    },
+    "HR031": {
+      "value": 41.91
+    },
+    "HR032": {
+      "value": 42.82
+    },
+    "HR033": {
+      "value": 39.2
+    },
+    "HR034": {
+      "value": 45.92
+    },
+    "HR035": {
+      "value": 34.5
+    },
+    "HR036": {
+      "value": 38.99
+    },
+    "HR037": {
+      "value": 36.55
+    },
+    "HR050": {
+      "value": 32.16
+    },
+    "HR061": {
+      "value": 32.63
+    },
+    "HR062": {
+      "value": 31.83
+    },
+    "HR063": {
+      "value": 34.63
+    },
+    "HR064": {
+      "value": 31.87
+    },
+    "HR065": {
+      "value": 33.36
+    },
+    "HU110": {
+      "value": 32.53
+    },
+    "HU120": {
+      "value": 27.08
+    },
+    "HU211": {
+      "value": 30.39
+    },
+    "HU212": {
+      "value": 29.58
+    },
+    "HU213": {
+      "value": 33.44
+    },
+    "HU221": {
+      "value": 28.57
+    },
+    "HU222": {
+      "value": 32.56
+    },
+    "HU223": {
+      "value": 37.05
+    },
+    "HU231": {
+      "value": 33.66
+    },
+    "HU232": {
+      "value": 36.2
+    },
+    "HU233": {
+      "value": 35.39
+    },
+    "HU311": {
+      "value": 29.85
+    },
+    "HU312": {
+      "value": 33.89
+    },
+    "HU313": {
+      "value": 34.02
+    },
+    "HU321": {
+      "value": 29.17
+    },
+    "HU322": {
+      "value": 33.42
+    },
+    "HU323": {
+      "value": 26.88
+    },
+    "HU331": {
+      "value": 32.9
+    },
+    "HU332": {
+      "value": 37.05
+    },
+    "HU333": {
+      "value": 33.73
+    },
+    "IE041": {
+      "value": 27.17
+    },
+    "IE042": {
+      "value": 26.72
+    },
+    "IE051": {
+      "value": 26.13
+    },
+    "IE052": {
+      "value": 25.44
+    },
+    "IE053": {
+      "value": 24.68
+    },
+    "IE061": {
+      "value": 19.59
+    },
+    "IE062": {
+      "value": 20.05
+    },
+    "IE063": {
+      "value": 22.79
+    },
+    "ITC11": {
+      "value": 42.0
+    },
+    "ITC12": {
+      "value": 45.21
+    },
+    "ITC13": {
+      "value": 49.44
+    },
+    "ITC14": {
+      "value": 45.21
+    },
+    "ITC15": {
+      "value": 38.79
+    },
+    "ITC16": {
+      "value": 39.58
+    },
+    "ITC17": {
+      "value": 43.85
+    },
+    "ITC18": {
+      "value": 46.48
+    },
+    "ITC20": {
+      "value": 39.28
+    },
+    "ITC31": {
+      "value": 46.6
+    },
+    "ITC32": {
+      "value": 49.56
+    },
+    "ITC33": {
+      "value": 48.32
+    },
+    "ITC34": {
+      "value": 45.2
+    },
+    "ITC41": {
+      "value": 38.76
+    },
+    "ITC42": {
+      "value": 37.08
+    },
+    "ITC43": {
+      "value": 39.23
+    },
+    "ITC44": {
+      "value": 38.86
+    },
+    "ITC46": {
+      "value": 33.87
+    },
+    "ITC47": {
+      "value": 34.6
+    },
+    "ITC48": {
+      "value": 39.54
+    },
+    "ITC49": {
+      "value": 34.44
+    },
+    "ITC4A": {
+      "value": 39.5
+    },
+    "ITC4B": {
+      "value": 38.47
+    },
+    "ITC4C": {
+      "value": 35.75
+    },
+    "ITC4D": {
+      "value": 36.23
+    },
+    "ITF11": {
+      "value": 40.88
+    },
+    "ITF12": {
+      "value": 37.97
+    },
+    "ITF13": {
+      "value": 38.33
+    },
+    "ITF14": {
+      "value": 41.52
+    },
+    "ITF21": {
+      "value": 43.01
+    },
+    "ITF22": {
+      "value": 41.17
+    },
+    "ITF31": {
+      "value": 28.01
+    },
+    "ITF32": {
+      "value": 37.25
+    },
+    "ITF33": {
+      "value": 29.11
+    },
+    "ITF34": {
+      "value": 35.42
+    },
+    "ITF35": {
+      "value": 33.76
+    },
+    "ITF43": {
+      "value": 38.18
+    },
+    "ITF44": {
+      "value": 38.25
+    },
+    "ITF45": {
+      "value": 40.43
+    },
+    "ITF46": {
+      "value": 35.03
+    },
+    "ITF47": {
+      "value": 35.37
+    },
+    "ITF48": {
+      "value": 31.26
+    },
+    "ITF51": {
+      "value": 38.77
+    },
+    "ITF52": {
+      "value": 37.45
+    },
+    "ITF61": {
+      "value": 36.9
+    },
+    "ITF62": {
+      "value": 33.83
+    },
+    "ITF63": {
+      "value": 37.06
+    },
+    "ITF64": {
+      "value": 36.57
+    },
+    "ITF65": {
+      "value": 35.88
+    },
+    "ITG11": {
+      "value": 38.02
+    },
+    "ITG12": {
+      "value": 34.68
+    },
+    "ITG13": {
+      "value": 38.62
+    },
+    "ITG14": {
+      "value": 36.56
+    },
+    "ITG15": {
+      "value": 34.87
+    },
+    "ITG16": {
+      "value": 38.46
+    },
+    "ITG17": {
+      "value": 32.84
+    },
+    "ITG18": {
+      "value": 32.66
+    },
+    "ITG19": {
+      "value": 35.22
+    },
+    "ITG2D": {
+      "value": 38.18
+    },
+    "ITG2E": {
+      "value": 41.98
+    },
+    "ITG2F": {
+      "value": 37.57
+    },
+    "ITG2G": {
+      "value": 45.76
+    },
+    "ITG2H": {
+      "value": 44.39
+    },
+    "ITH10": {
+      "value": 31.12
+    },
+    "ITH20": {
+      "value": 36.15
+    },
+    "ITH31": {
+      "value": 35.42
+    },
+    "ITH32": {
+      "value": 35.54
+    },
+    "ITH33": {
+      "value": 44.86
+    },
+    "ITH34": {
+      "value": 36.19
+    },
+    "ITH35": {
+      "value": 40.58
+    },
+    "ITH36": {
+      "value": 36.73
+    },
+    "ITH37": {
+      "value": 44.0
+    },
+    "ITH41": {
+      "value": 39.27
+    },
+    "ITH42": {
+      "value": 44.08
+    },
+    "ITH43": {
+      "value": 43.49
+    },
+    "ITH44": {
+      "value": 47.39
+    },
+    "ITH51": {
+      "value": 40.05
+    },
+    "ITH52": {
+      "value": 36.54
+    },
+    "ITH53": {
+      "value": 34.67
+    },
+    "ITH54": {
+      "value": 36.85
+    },
+    "ITH55": {
+      "value": 38.93
+    },
+    "ITH56": {
+      "value": 46.93
+    },
+    "ITH57": {
+      "value": 41.44
+    },
+    "ITH58": {
+      "value": 39.68
+    },
+    "ITH59": {
+      "value": 37.15
+    },
+    "ITI11": {
+      "value": 45.72
+    },
+    "ITI12": {
+      "value": 42.33
+    },
+    "ITI13": {
+      "value": 41.63
+    },
+    "ITI14": {
+      "value": 41.6
+    },
+    "ITI15": {
+      "value": 35.08
+    },
+    "ITI16": {
+      "value": 45.42
+    },
+    "ITI17": {
+      "value": 39.82
+    },
+    "ITI18": {
+      "value": 42.09
+    },
+    "ITI19": {
+      "value": 43.2
+    },
+    "ITI1A": {
+      "value": 46.99
+    },
+    "ITI21": {
+      "value": 41.92
+    },
+    "ITI22": {
+      "value": 47.08
+    },
+    "ITI31": {
+      "value": 39.39
+    },
+    "ITI32": {
+      "value": 41.49
+    },
+    "ITI33": {
+      "value": 42.15
+    },
+    "ITI34": {
+      "value": 42.29
+    },
+    "ITI35": {
+      "value": 42.07
+    },
+    "ITI41": {
+      "value": 39.93
+    },
+    "ITI42": {
+      "value": 42.58
+    },
+    "ITI43": {
+      "value": 34.75
+    },
+    "ITI44": {
+      "value": 34.36
+    },
+    "ITI45": {
+      "value": 38.81
+    },
+    "LT011": {
+      "value": 26.62
+    },
+    "LT021": {
+      "value": 35.0
+    },
+    "LT022": {
+      "value": 31.48
+    },
+    "LT023": {
+      "value": 30.28
+    },
+    "LT024": {
+      "value": 31.08
+    },
+    "LT025": {
+      "value": 35.0
+    },
+    "LT026": {
+      "value": 32.72
+    },
+    "LT027": {
+      "value": 32.19
+    },
+    "LT028": {
+      "value": 30.43
+    },
+    "LT029": {
+      "value": 37.07
+    },
+    "LU000": {
+      "value": 21.27
+    },
+    "LV005": {
+      "value": 35.78
+    },
+    "LV009": {
+      "value": 31.95
+    },
+    "ME000": {
+      "value": 24.23
+    },
+    "MT001": {
+      "value": 27.14
+    },
+    "MT002": {
+      "value": 33.62
+    },
+    "NL112": {
+      "value": 42.01
+    },
+    "NL126": {
+      "value": 37.47
+    },
+    "NL131": {
+      "value": 40.12
+    },
+    "NL132": {
+      "value": 39.66
+    },
+    "NL133": {
+      "value": 38.33
+    },
+    "NL211": {
+      "value": 29.23
+    },
+    "NL212": {
+      "value": 31.51
+    },
+    "NL213": {
+      "value": 32.83
+    },
+    "NL221": {
+      "value": 32.67
+    },
+    "NL224": {
+      "value": 30.47
+    },
+    "NL225": {
+      "value": 40.19
+    },
+    "NL226": {
+      "value": 31.03
+    },
+    "NL230": {
+      "value": 22.32
+    },
+    "NL321": {
+      "value": 36.06
+    },
+    "NL323": {
+      "value": 34.19
+    },
+    "NL325": {
+      "value": 29.47
+    },
+    "NL327": {
+      "value": 35.71
+    },
+    "NL328": {
+      "value": 35.61
+    },
+    "NL32A": {
+      "value": 32.19
+    },
+    "NL32B": {
+      "value": 22.22
+    },
+    "NL341": {
+      "value": 43.91
+    },
+    "NL342": {
+      "value": 38.88
+    },
+    "NL350": {
+      "value": 26.92
+    },
+    "NL361": {
+      "value": 25.88
+    },
+    "NL362": {
+      "value": 27.42
+    },
+    "NL363": {
+      "value": 30.44
+    },
+    "NL364": {
+      "value": 31.63
+    },
+    "NL365": {
+      "value": 32.11
+    },
+    "NL366": {
+      "value": 28.28
+    },
+    "NL411": {
+      "value": 34.08
+    },
+    "NL414": {
+      "value": 31.49
+    },
+    "NL421": {
+      "value": 36.83
+    },
+    "NL422": {
+      "value": 40.04
+    },
+    "NL423": {
+      "value": 40.47
+    },
+    "NO020": {
+      "value": 37.29
+    },
+    "NO060": {
+      "value": 28.73
+    },
+    "NO071": {
+      "value": 34.98
+    },
+    "NO081": {
+      "value": 18.21
+    },
+    "NO092": {
+      "value": 28.98
+    },
+    "NO0A1": {
+      "value": 24.19
+    },
+    "NO0A2": {
+      "value": 28.17
+    },
+    "NO0A3": {
+      "value": 33.11
+    },
+    "PL213": {
+      "value": 29.01
+    },
+    "PL214": {
+      "value": 25.05
+    },
+    "PL217": {
+      "value": 28.41
+    },
+    "PL218": {
+      "value": 24.32
+    },
+    "PL219": {
+      "value": 26.03
+    },
+    "PL21A": {
+      "value": 30.66
+    },
+    "PL224": {
+      "value": 34.08
+    },
+    "PL225": {
+      "value": 30.28
+    },
+    "PL227": {
+      "value": 29.37
+    },
+    "PL228": {
+      "value": 30.45
+    },
+    "PL229": {
+      "value": 31.19
+    },
+    "PL22A": {
+      "value": 32.23
+    },
+    "PL22B": {
+      "value": 36.26
+    },
+    "PL22C": {
+      "value": 26.9
+    },
+    "PL411": {
+      "value": 27.73
+    },
+    "PL414": {
+      "value": 28.25
+    },
+    "PL415": {
+      "value": 31.35
+    },
+    "PL416": {
+      "value": 28.53
+    },
+    "PL417": {
+      "value": 26.14
+    },
+    "PL418": {
+      "value": 22.18
+    },
+    "PL424": {
+      "value": 34.03
+    },
+    "PL426": {
+      "value": 32.12
+    },
+    "PL427": {
+      "value": 31.53
+    },
+    "PL428": {
+      "value": 28.89
+    },
+    "PL431": {
+      "value": 29.0
+    },
+    "PL432": {
+      "value": 30.07
+    },
+    "PL514": {
+      "value": 29.78
+    },
+    "PL515": {
+      "value": 33.54
+    },
+    "PL516": {
+      "value": 31.67
+    },
+    "PL517": {
+      "value": 35.9
+    },
+    "PL518": {
+      "value": 25.43
+    },
+    "PL523": {
+      "value": 32.44
+    },
+    "PL524": {
+      "value": 30.63
+    },
+    "PL613": {
+      "value": 30.85
+    },
+    "PL616": {
+      "value": 28.27
+    },
+    "PL617": {
+      "value": 29.23
+    },
+    "PL618": {
+      "value": 27.68
+    },
+    "PL619": {
+      "value": 31.19
+    },
+    "PL621": {
+      "value": 28.78
+    },
+    "PL622": {
+      "value": 28.95
+    },
+    "PL623": {
+      "value": 28.01
+    },
+    "PL633": {
+      "value": 33.5
+    },
+    "PL634": {
+      "value": 21.06
+    },
+    "PL636": {
+      "value": 29.03
+    },
+    "PL637": {
+      "value": 26.22
+    },
+    "PL638": {
+      "value": 26.43
+    },
+    "PL711": {
+      "value": 38.93
+    },
+    "PL712": {
+      "value": 31.69
+    },
+    "PL713": {
+      "value": 31.11
+    },
+    "PL714": {
+      "value": 30.87
+    },
+    "PL715": {
+      "value": 32.44
+    },
+    "PL721": {
+      "value": 34.23
+    },
+    "PL722": {
+      "value": 34.13
+    },
+    "PL811": {
+      "value": 29.71
+    },
+    "PL812": {
+      "value": 33.21
+    },
+    "PL814": {
+      "value": 30.49
+    },
+    "PL815": {
+      "value": 32.95
+    },
+    "PL821": {
+      "value": 30.16
+    },
+    "PL822": {
+      "value": 29.55
+    },
+    "PL823": {
+      "value": 26.54
+    },
+    "PL824": {
+      "value": 29.49
+    },
+    "PL841": {
+      "value": 29.09
+    },
+    "PL842": {
+      "value": 32.06
+    },
+    "PL843": {
+      "value": 28.43
+    },
+    "PL911": {
+      "value": 29.44
+    },
+    "PL912": {
+      "value": 24.64
+    },
+    "PL913": {
+      "value": 25.41
+    },
+    "PL921": {
+      "value": 30.38
+    },
+    "PL922": {
+      "value": 28.33
+    },
+    "PL923": {
+      "value": 30.2
+    },
+    "PL924": {
+      "value": 27.36
+    },
+    "PL925": {
+      "value": 29.08
+    },
+    "PL926": {
+      "value": 29.17
+    },
+    "PT111": {
+      "value": 47.07
+    },
+    "PT112": {
+      "value": 29.78
+    },
+    "PT119": {
+      "value": 31.94
+    },
+    "PT11A": {
+      "value": 34.1
+    },
+    "PT11B": {
+      "value": 64.04
+    },
+    "PT11C": {
+      "value": 28.66
+    },
+    "PT11D": {
+      "value": 47.75
+    },
+    "PT11E": {
+      "value": 60.12
+    },
+    "PT150": {
+      "value": 38.22
+    },
+    "PT191": {
+      "value": 37.07
+    },
+    "PT192": {
+      "value": 46.05
+    },
+    "PT193": {
+      "value": 40.66
+    },
+    "PT194": {
+      "value": 47.78
+    },
+    "PT195": {
+      "value": 59.24
+    },
+    "PT196": {
+      "value": 58.0
+    },
+    "PT1A0": {
+      "value": 33.81
+    },
+    "PT1B0": {
+      "value": 35.72
+    },
+    "PT1C1": {
+      "value": 42.15
+    },
+    "PT1C2": {
+      "value": 45.5
+    },
+    "PT1C3": {
+      "value": 50.59
+    },
+    "PT1C4": {
+      "value": 44.38
+    },
+    "PT1D1": {
+      "value": 38.73
+    },
+    "PT1D2": {
+      "value": 48.11
+    },
+    "PT1D3": {
+      "value": 41.65
+    },
+    "PT200": {
+      "value": 24.53
+    },
+    "PT300": {
+      "value": 30.12
+    },
+    "RO111": {
+      "value": 27.81
+    },
+    "RO112": {
+      "value": 25.96
+    },
+    "RO113": {
+      "value": 29.34
+    },
+    "RO114": {
+      "value": 27.29
+    },
+    "RO115": {
+      "value": 25.4
+    },
+    "RO116": {
+      "value": 30.91
+    },
+    "RO121": {
+      "value": 32.32
+    },
+    "RO122": {
+      "value": 31.75
+    },
+    "RO123": {
+      "value": 28.96
+    },
+    "RO124": {
+      "value": 29.93
+    },
+    "RO125": {
+      "value": 30.67
+    },
+    "RO126": {
+      "value": 29.19
+    },
+    "RO211": {
+      "value": 29.88
+    },
+    "RO212": {
+      "value": 27.8
+    },
+    "RO213": {
+      "value": 26.45
+    },
+    "RO214": {
+      "value": 33.99
+    },
+    "RO215": {
+      "value": 27.47
+    },
+    "RO216": {
+      "value": 30.2
+    },
+    "RO221": {
+      "value": 36.55
+    },
+    "RO222": {
+      "value": 35.34
+    },
+    "RO223": {
+      "value": 29.92
+    },
+    "RO224": {
+      "value": 32.0
+    },
+    "RO225": {
+      "value": 32.91
+    },
+    "RO226": {
+      "value": 31.81
+    },
+    "RO311": {
+      "value": 31.24
+    },
+    "RO312": {
+      "value": 31.36
+    },
+    "RO313": {
+      "value": 29.43
+    },
+    "RO314": {
+      "value": 32.46
+    },
+    "RO315": {
+      "value": 32.23
+    },
+    "RO316": {
+      "value": 33.14
+    },
+    "RO317": {
+      "value": 42.48
+    },
+    "RO321": {
+      "value": 29.26
+    },
+    "RO322": {
+      "value": 19.05
+    },
+    "RO411": {
+      "value": 32.12
+    },
+    "RO412": {
+      "value": 27.66
+    },
+    "RO413": {
+      "value": 33.41
+    },
+    "RO414": {
+      "value": 33.36
+    },
+    "RO415": {
+      "value": 34.86
+    },
+    "RO421": {
+      "value": 30.15
+    },
+    "RO422": {
+      "value": 36.21
+    },
+    "RO423": {
+      "value": 35.25
+    },
+    "RO424": {
+      "value": 27.64
+    },
+    "RS110": {
+      "value": 31.01
+    },
+    "RS121": {
+      "value": 35.32
+    },
+    "RS122": {
+      "value": 33.04
+    },
+    "RS123": {
+      "value": 28.32
+    },
+    "RS124": {
+      "value": 32.99
+    },
+    "RS125": {
+      "value": 31.13
+    },
+    "RS126": {
+      "value": 33.49
+    },
+    "RS127": {
+      "value": 32.62
+    },
+    "RS211": {
+      "value": 36.06
+    },
+    "RS212": {
+      "value": 35.9
+    },
+    "RS213": {
+      "value": 33.39
+    },
+    "RS214": {
+      "value": 38.0
+    },
+    "RS215": {
+      "value": 38.61
+    },
+    "RS216": {
+      "value": 39.61
+    },
+    "RS217": {
+      "value": 26.97
+    },
+    "RS218": {
+      "value": 35.47
+    },
+    "RS221": {
+      "value": 40.49
+    },
+    "RS222": {
+      "value": 39.03
+    },
+    "RS223": {
+      "value": 47.96
+    },
+    "RS224": {
+      "value": 33.63
+    },
+    "RS225": {
+      "value": 35.32
+    },
+    "RS226": {
+      "value": 42.93
+    },
+    "RS227": {
+      "value": 34.36
+    },
+    "RS228": {
+      "value": 23.29
+    },
+    "RS229": {
+      "value": 36.79
+    },
+    "SE110": {
+      "value": 24.74
+    },
+    "SE121": {
+      "value": 29.44
+    },
+    "SE122": {
+      "value": 38.5
+    },
+    "SE123": {
+      "value": 33.52
+    },
+    "SE124": {
+      "value": 35.66
+    },
+    "SE125": {
+      "value": 35.97
+    },
+    "SE211": {
+      "value": 34.61
+    },
+    "SE212": {
+      "value": 35.43
+    },
+    "SE213": {
+      "value": 44.09
+    },
+    "SE214": {
+      "value": 45.39
+    },
+    "SE221": {
+      "value": 40.86
+    },
+    "SE224": {
+      "value": 31.66
+    },
+    "SE231": {
+      "value": 37.13
+    },
+    "SE232": {
+      "value": 31.53
+    },
+    "SE311": {
+      "value": 41.12
+    },
+    "SE312": {
+      "value": 43.33
+    },
+    "SE313": {
+      "value": 41.47
+    },
+    "SE321": {
+      "value": 41.8
+    },
+    "SE322": {
+      "value": 40.05
+    },
+    "SE331": {
+      "value": 35.01
+    },
+    "SE332": {
+      "value": 41.13
+    },
+    "SI031": {
+      "value": 38.97
+    },
+    "SI032": {
+      "value": 33.84
+    },
+    "SI033": {
+      "value": 35.29
+    },
+    "SI034": {
+      "value": 32.26
+    },
+    "SI035": {
+      "value": 35.31
+    },
+    "SI036": {
+      "value": 34.85
+    },
+    "SI037": {
+      "value": 31.32
+    },
+    "SI038": {
+      "value": 35.3
+    },
+    "SI041": {
+      "value": 29.57
+    },
+    "SI042": {
+      "value": 33.0
+    },
+    "SI043": {
+      "value": 38.97
+    },
+    "SI044": {
+      "value": 36.14
+    },
+    "SK010": {
+      "value": 27.29
+    },
+    "SK021": {
+      "value": 26.71
+    },
+    "SK022": {
+      "value": 29.04
+    },
+    "SK023": {
+      "value": 28.27
+    },
+    "SK031": {
+      "value": 24.66
+    },
+    "SK032": {
+      "value": 27.46
+    },
+    "SK041": {
+      "value": 22.7
+    },
+    "SK042": {
+      "value": 24.42
+    },
+    "TR100": {
+      "value": 10.43
+    },
+    "TR211": {
+      "value": 13.31
+    },
+    "TR212": {
+      "value": 22.72
+    },
+    "TR213": {
+      "value": 21.42
+    },
+    "TR221": {
+      "value": 23.84
+    },
+    "TR222": {
+      "value": 22.98
+    },
+    "TR310": {
+      "value": 17.43
+    },
+    "TR321": {
+      "value": 21.02
+    },
+    "TR322": {
+      "value": 17.0
+    },
+    "TR323": {
+      "value": 19.13
+    },
+    "TR331": {
+      "value": 17.87
+    },
+    "TR332": {
+      "value": 17.53
+    },
+    "TR333": {
+      "value": 20.07
+    },
+    "TR334": {
+      "value": 18.92
+    },
+    "TR411": {
+      "value": 14.31
+    },
+    "TR412": {
+      "value": 17.41
+    },
+    "TR413": {
+      "value": 16.87
+    },
+    "TR421": {
+      "value": 11.4
+    },
+    "TR422": {
+      "value": 15.16
+    },
+    "TR423": {
+      "value": 15.86
+    },
+    "TR424": {
+      "value": 21.07
+    },
+    "TR425": {
+      "value": 18.54
+    },
+    "TR510": {
+      "value": 13.32
+    },
+    "TR521": {
+      "value": 15.0
+    },
+    "TR522": {
+      "value": 16.92
+    },
+    "TR611": {
+      "value": 13.2
+    },
+    "TR612": {
+      "value": 19.98
+    },
+    "TR613": {
+      "value": 23.1
+    },
+    "TR621": {
+      "value": 13.6
+    },
+    "TR622": {
+      "value": 14.91
+    },
+    "TR631": {
+      "value": 12.28
+    },
+    "TR632": {
+      "value": 13.54
+    },
+    "TR633": {
+      "value": 14.07
+    },
+    "TR711": {
+      "value": 19.05
+    },
+    "TR712": {
+      "value": 14.6
+    },
+    "TR713": {
+      "value": 15.94
+    },
+    "TR714": {
+      "value": 18.18
+    },
+    "TR715": {
+      "value": 18.95
+    },
+    "TR721": {
+      "value": 13.98
+    },
+    "TR722": {
+      "value": 20.48
+    },
+    "TR723": {
+      "value": 21.48
+    },
+    "TR811": {
+      "value": 20.28
+    },
+    "TR812": {
+      "value": 20.25
+    },
+    "TR813": {
+      "value": 22.68
+    },
+    "TR821": {
+      "value": 29.58
+    },
+    "TR822": {
+      "value": 25.82
+    },
+    "TR823": {
+      "value": 31.57
+    },
+    "TR831": {
+      "value": 18.59
+    },
+    "TR832": {
+      "value": 22.46
+    },
+    "TR833": {
+      "value": 24.65
+    },
+    "TR834": {
+      "value": 23.61
+    },
+    "TR901": {
+      "value": 19.93
+    },
+    "TR902": {
+      "value": 23.35
+    },
+    "TR903": {
+      "value": 26.44
+    },
+    "TR904": {
+      "value": 20.03
+    },
+    "TR905": {
+      "value": 26.87
+    },
+    "TR906": {
+      "value": 19.68
+    },
+    "TRA11": {
+      "value": 14.27
+    },
+    "TRA12": {
+      "value": 19.27
+    },
+    "TRA13": {
+      "value": 16.91
+    },
+    "TRA21": {
+      "value": 8.53
+    },
+    "TRA22": {
+      "value": 13.5
+    },
+    "TRA23": {
+      "value": 11.56
+    },
+    "TRA24": {
+      "value": 21.57
+    },
+    "TRB11": {
+      "value": 16.46
+    },
+    "TRB12": {
+      "value": 15.72
+    },
+    "TRB13": {
+      "value": 11.49
+    },
+    "TRB14": {
+      "value": 22.96
+    },
+    "TRB21": {
+      "value": 7.0
+    },
+    "TRB22": {
+      "value": 9.15
+    },
+    "TRB23": {
+      "value": 9.15
+    },
+    "TRB24": {
+      "value": 5.69
+    },
+    "TRC11": {
+      "value": 9.08
+    },
+    "TRC12": {
+      "value": 13.0
+    },
+    "TRC13": {
+      "value": 12.78
+    },
+    "TRC21": {
+      "value": 7.08
+    },
+    "TRC22": {
+      "value": 8.09
+    },
+    "TRC31": {
+      "value": 9.2
+    },
+    "TRC32": {
+      "value": 7.56
+    },
+    "TRC33": {
+      "value": 5.75
+    },
+    "TRC34": {
+      "value": 8.59
+    },
+    "UKD33": {
+      "value": 13.19
+    },
+    "UKD34": {
+      "value": 22.99
+    },
+    "UKD35": {
+      "value": 30.46
+    },
+    "UKD36": {
+      "value": 29.14
+    },
+    "UKD37": {
+      "value": 26.81
+    },
+    "UKD41": {
+      "value": 22.75
+    },
+    "UKD42": {
+      "value": 33.21
+    },
+    "UKD44": {
+      "value": 38.87
+    },
+    "UKD45": {
+      "value": 33.61
+    },
+    "UKD46": {
+      "value": 29.6
+    },
+    "UKD47": {
+      "value": 34.42
+    },
+    "UKD61": {
+      "value": 30.58
+    },
+    "UKD62": {
+      "value": 36.76
+    },
+    "UKD63": {
+      "value": 34.41
+    },
+    "UKD71": {
+      "value": 29.97
+    },
+    "UKD72": {
+      "value": 22.28
+    },
+    "UKD73": {
+      "value": 38.56
+    },
+    "UKD74": {
+      "value": 36.67
+    },
+    "UKE11": {
+      "value": 23.62
+    },
+    "UKE12": {
+      "value": 45.54
+    },
+    "UKE13": {
+      "value": 35.65
+    },
+    "UKE21": {
+      "value": 28.91
+    },
+    "UKE22": {
+      "value": 42.52
+    },
+    "UKE32": {
+      "value": 25.69
+    },
+    "UKE41": {
+      "value": 24.17
+    },
+    "UKE42": {
+      "value": 23.51
+    },
+    "UKE44": {
+      "value": 29.03
+    },
+    "UKE45": {
+      "value": 29.97
+    },
+    "UKF11": {
+      "value": 25.47
+    },
+    "UKF12": {
+      "value": 36.54
+    },
+    "UKF13": {
+      "value": 35.83
+    },
+    "UKF14": {
+      "value": 16.53
+    },
+    "UKF15": {
+      "value": 34.07
+    },
+    "UKF16": {
+      "value": 35.2
+    },
+    "UKF21": {
+      "value": 17.52
+    },
+    "UKF22": {
+      "value": 33.97
+    },
+    "UKF24": {
+      "value": 26.87
+    },
+    "UKF25": {
+      "value": 28.92
+    },
+    "UKF30": {
+      "value": 39.16
+    },
+    "UKG11": {
+      "value": 45.01
+    },
+    "UKG12": {
+      "value": 38.1
+    },
+    "UKG13": {
+      "value": 33.01
+    },
+    "UKG21": {
+      "value": 27.88
+    },
+    "UKG22": {
+      "value": 43.3
+    },
+    "UKG23": {
+      "value": 27.27
+    },
+    "UKG24": {
+      "value": 36.3
+    },
+    "UKG31": {
+      "value": 19.86
+    },
+    "UKG32": {
+      "value": 34.97
+    },
+    "UKG33": {
+      "value": 21.46
+    },
+    "UKG36": {
+      "value": 33.15
+    },
+    "UKG37": {
+      "value": 22.72
+    },
+    "UKG38": {
+      "value": 28.03
+    },
+    "UKG39": {
+      "value": 25.86
+    },
+    "UKH21": {
+      "value": 17.65
+    },
+    "UKH24": {
+      "value": 26.59
+    },
+    "UKH25": {
+      "value": 28.54
+    },
+    "UKH31": {
+      "value": 30.73
+    },
+    "UKH32": {
+      "value": 20.97
+    },
+    "UKH34": {
+      "value": 36.6
+    },
+    "UKH35": {
+      "value": 29.57
+    },
+    "UKH36": {
+      "value": 33.65
+    },
+    "UKH37": {
+      "value": 33.62
+    },
+    "UKI33": {
+      "value": 16.63
+    },
+    "UKI34": {
+      "value": 13.1
+    },
+    "UKI41": {
+      "value": 10.45
+    },
+    "UKI42": {
+      "value": 7.32
+    },
+    "UKI43": {
+      "value": 13.81
+    },
+    "UKI44": {
+      "value": 12.46
+    },
+    "UKI45": {
+      "value": 11.61
+    },
+    "UKI51": {
+      "value": 19.87
+    },
+    "UKI52": {
+      "value": 20.9
+    },
+    "UKI53": {
+      "value": 16.91
+    },
+    "UKI54": {
+      "value": 21.44
+    },
+    "UKI61": {
+      "value": 27.96
+    },
+    "UKI62": {
+      "value": 20.71
+    },
+    "UKI63": {
+      "value": 21.37
+    },
+    "UKI71": {
+      "value": 22.47
+    },
+    "UKI72": {
+      "value": 16.96
+    },
+    "UKI73": {
+      "value": 17.93
+    },
+    "UKI74": {
+      "value": 21.88
+    },
+    "UKI75": {
+      "value": 20.63
+    },
+    "UKJ12": {
+      "value": 21.44
+    },
+    "UKJ13": {
+      "value": 30.38
+    },
+    "UKJ14": {
+      "value": 27.9
+    },
+    "UKJ21": {
+      "value": 19.73
+    },
+    "UKJ22": {
+      "value": 45.29
+    },
+    "UKJ25": {
+      "value": 29.21
+    },
+    "UKJ26": {
+      "value": 32.37
+    },
+    "UKJ27": {
+      "value": 44.66
+    },
+    "UKJ28": {
+      "value": 31.34
+    },
+    "UKJ31": {
+      "value": 21.97
+    },
+    "UKJ32": {
+      "value": 19.77
+    },
+    "UKJ34": {
+      "value": 52.37
+    },
+    "UKJ35": {
+      "value": 37.62
+    },
+    "UKJ36": {
+      "value": 41.12
+    },
+    "UKJ37": {
+      "value": 27.37
+    },
+    "UKJ41": {
+      "value": 25.93
+    },
+    "UKJ43": {
+      "value": 26.64
+    },
+    "UKJ44": {
+      "value": 39.38
+    },
+    "UKJ45": {
+      "value": 31.04
+    },
+    "UKJ46": {
+      "value": 33.23
+    },
+    "UKK30": {
+      "value": 43.14
+    },
+    "UKK41": {
+      "value": 28.79
+    },
+    "UKK42": {
+      "value": 46.3
+    },
+    "UKK43": {
+      "value": 43.72
+    },
+    "UKM50": {
+      "value": 30.0
+    },
+    "UKM91": {
+      "value": 44.72
+    },
+    "UKM92": {
+      "value": 46.51
+    },
+    "UKM93": {
+      "value": 35.65
+    },
+    "UKM94": {
+      "value": 44.97
+    },
+    "UKM95": {
+      "value": 31.88
+    },
+    "UKN06": {
+      "value": 22.25
+    },
+    "UKN07": {
+      "value": 25.98
+    },
+    "UKN08": {
+      "value": 27.78
+    },
+    "UKN09": {
+      "value": 37.42
+    },
+    "UKN0A": {
+      "value": 25.76
+    },
+    "UKN0B": {
+      "value": 24.29
+    },
+    "UKN0C": {
+      "value": 32.11
+    },
+    "UKN0D": {
+      "value": 27.66
+    },
+    "UKN0E": {
+      "value": 28.48
+    },
+    "UKN0F": {
+      "value": 32.1
+    },
+    "UKN0G": {
+      "value": 30.91
+    }
+  }
+}

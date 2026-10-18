@@ -1,0 +1,1025 @@
+{
+  "meta": {
+    "slug": "era5-winter-low-nuts2-2015-2024",
+    "label": "Average January daily minimum temperature (2015-2024)",
+    "year": 2024,
+    "source": "Copernicus Climate Data Store (ERA5-Land)",
+    "sourceUrl": "https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics",
+    "extractedAt": "2026-10-03",
+    "unit": "celsius",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "Mean of January's daily minimum 2m temperature, averaged across 2015-2024 and across every ERA5-Land grid cell inside each NUTS 2 region's own boundary. Fixed calendar month (January), same reasoning as the comune-grain layer of the same name.",
+    "grain": "nuts2",
+    "kind": "scalar",
+    "coverageNote": "ERA5-Land's native grid is ~9km (0.1 degree) resolution — each region's figure is the average of every grid cell whose center falls inside that NUTS 2 region's own boundary, not a single nearest cell, since a region can be far larger — or, for a handful of city-regions, smaller — than one grid cell. 2 region(s) — ES64, ES63 — contain no grid cell inside their own polygon at this resolution (small city-regions or island exclaves) and are assigned the nearest LAND cell to their centroid instead — a real ERA5-Land reading, just from a cell slightly outside the region's own boundary, rather than a dropped or fabricated figure. Very small regions (e.g. Brussels-Capital, Malta) may average just one or two grid cells, which is real, not a bug — larger regions can average thousands."
+  },
+  "values": {
+    "AL01": {
+      "value": -2.7
+    },
+    "AL02": {
+      "value": -1.0
+    },
+    "AL03": {
+      "value": -0.2
+    },
+    "AT11": {
+      "value": -2.1
+    },
+    "AT12": {
+      "value": -2.9
+    },
+    "AT13": {
+      "value": -1.5
+    },
+    "AT21": {
+      "value": -7.3
+    },
+    "AT22": {
+      "value": -6.5
+    },
+    "AT31": {
+      "value": -3.8
+    },
+    "AT32": {
+      "value": -9.5
+    },
+    "AT33": {
+      "value": -11.7
+    },
+    "AT34": {
+      "value": -9.4
+    },
+    "BE10": {
+      "value": 1.6
+    },
+    "BE21": {
+      "value": 2.0
+    },
+    "BE22": {
+      "value": 1.6
+    },
+    "BE23": {
+      "value": 2.2
+    },
+    "BE24": {
+      "value": 1.7
+    },
+    "BE25": {
+      "value": 2.7
+    },
+    "BE31": {
+      "value": 1.3
+    },
+    "BE32": {
+      "value": 1.4
+    },
+    "BE33": {
+      "value": -0.1
+    },
+    "BE34": {
+      "value": -0.6
+    },
+    "BE35": {
+      "value": 0.4
+    },
+    "BG31": {
+      "value": -3.7
+    },
+    "BG32": {
+      "value": -2.7
+    },
+    "BG33": {
+      "value": -1.8
+    },
+    "BG34": {
+      "value": -1.1
+    },
+    "BG41": {
+      "value": -5.0
+    },
+    "BG42": {
+      "value": -3.0
+    },
+    "CH01": {
+      "value": -9.4
+    },
+    "CH02": {
+      "value": -5.0
+    },
+    "CH03": {
+      "value": -1.8
+    },
+    "CH04": {
+      "value": -2.1
+    },
+    "CH05": {
+      "value": -10.2
+    },
+    "CH06": {
+      "value": -5.8
+    },
+    "CH07": {
+      "value": -7.2
+    },
+    "CY00": {
+      "value": 8.5
+    },
+    "CZ01": {
+      "value": -1.9
+    },
+    "CZ02": {
+      "value": -2.2
+    },
+    "CZ03": {
+      "value": -3.2
+    },
+    "CZ04": {
+      "value": -2.8
+    },
+    "CZ05": {
+      "value": -3.5
+    },
+    "CZ06": {
+      "value": -3.2
+    },
+    "CZ07": {
+      "value": -4.0
+    },
+    "CZ08": {
+      "value": -4.0
+    },
+    "DE11": {
+      "value": -1.4
+    },
+    "DE12": {
+      "value": -0.8
+    },
+    "DE13": {
+      "value": -2.1
+    },
+    "DE14": {
+      "value": -2.6
+    },
+    "DE21": {
+      "value": -3.6
+    },
+    "DE22": {
+      "value": -2.6
+    },
+    "DE23": {
+      "value": -2.4
+    },
+    "DE24": {
+      "value": -2.1
+    },
+    "DE25": {
+      "value": -1.4
+    },
+    "DE26": {
+      "value": -1.0
+    },
+    "DE27": {
+      "value": -3.4
+    },
+    "DE30": {
+      "value": -0.3
+    },
+    "DE40": {
+      "value": -0.2
+    },
+    "DE50": {
+      "value": 1.1
+    },
+    "DE60": {
+      "value": 0.7
+    },
+    "DE71": {
+      "value": -0.3
+    },
+    "DE72": {
+      "value": -0.7
+    },
+    "DE73": {
+      "value": -0.9
+    },
+    "DE80": {
+      "value": 0.1
+    },
+    "DE91": {
+      "value": -0.2
+    },
+    "DE92": {
+      "value": 0.7
+    },
+    "DE93": {
+      "value": 0.8
+    },
+    "DE94": {
+      "value": 1.3
+    },
+    "DEA1": {
+      "value": 1.5
+    },
+    "DEA2": {
+      "value": 0.5
+    },
+    "DEA3": {
+      "value": 1.2
+    },
+    "DEA4": {
+      "value": 0.4
+    },
+    "DEA5": {
+      "value": -0.6
+    },
+    "DEB1": {
+      "value": -0.3
+    },
+    "DEB2": {
+      "value": -0.8
+    },
+    "DEB3": {
+      "value": 0.1
+    },
+    "DEC0": {
+      "value": -0.1
+    },
+    "DED2": {
+      "value": -1.3
+    },
+    "DED4": {
+      "value": -2.2
+    },
+    "DED5": {
+      "value": -0.2
+    },
+    "DEE0": {
+      "value": -0.0
+    },
+    "DEF0": {
+      "value": 0.9
+    },
+    "DEG0": {
+      "value": -1.5
+    },
+    "DK01": {
+      "value": 0.7
+    },
+    "DK02": {
+      "value": 1.0
+    },
+    "DK03": {
+      "value": 1.0
+    },
+    "DK04": {
+      "value": 0.8
+    },
+    "DK05": {
+      "value": 1.0
+    },
+    "EE00": {
+      "value": -5.3
+    },
+    "EL30": {
+      "value": 5.3
+    },
+    "EL41": {
+      "value": 7.9
+    },
+    "EL42": {
+      "value": 10.8
+    },
+    "EL43": {
+      "value": 7.3
+    },
+    "EL51": {
+      "value": 0.1
+    },
+    "EL52": {
+      "value": 0.0
+    },
+    "EL53": {
+      "value": -2.7
+    },
+    "EL54": {
+      "value": 0.1
+    },
+    "EL61": {
+      "value": 0.7
+    },
+    "EL62": {
+      "value": 9.4
+    },
+    "EL63": {
+      "value": 3.3
+    },
+    "EL64": {
+      "value": 2.2
+    },
+    "EL65": {
+      "value": 3.2
+    },
+    "ES11": {
+      "value": 3.4
+    },
+    "ES12": {
+      "value": 2.3
+    },
+    "ES13": {
+      "value": 2.2
+    },
+    "ES21": {
+      "value": 3.1
+    },
+    "ES22": {
+      "value": 1.1
+    },
+    "ES23": {
+      "value": 0.4
+    },
+    "ES24": {
+      "value": 0.3
+    },
+    "ES30": {
+      "value": 0.5
+    },
+    "ES41": {
+      "value": 0.1
+    },
+    "ES42": {
+      "value": 1.1
+    },
+    "ES43": {
+      "value": 3.6
+    },
+    "ES51": {
+      "value": 0.7
+    },
+    "ES52": {
+      "value": 3.8
+    },
+    "ES53": {
+      "value": 9.4
+    },
+    "ES61": {
+      "value": 4.2
+    },
+    "ES62": {
+      "value": 3.9
+    },
+    "ES63": {
+      "value": 11.2
+    },
+    "ES64": {
+      "value": 9.2
+    },
+    "FI19": {
+      "value": -7.7
+    },
+    "FI1B": {
+      "value": -6.0
+    },
+    "FI1C": {
+      "value": -6.8
+    },
+    "FI1D": {
+      "value": -11.8
+    },
+    "FI20": {
+      "value": -1.4
+    },
+    "FR10": {
+      "value": 1.9
+    },
+    "FRB0": {
+      "value": 2.3
+    },
+    "FRC1": {
+      "value": 1.1
+    },
+    "FRC2": {
+      "value": -0.5
+    },
+    "FRD1": {
+      "value": 3.2
+    },
+    "FRD2": {
+      "value": 2.3
+    },
+    "FRE1": {
+      "value": 1.9
+    },
+    "FRE2": {
+      "value": 1.6
+    },
+    "FRF1": {
+      "value": -0.4
+    },
+    "FRF2": {
+      "value": 1.0
+    },
+    "FRF3": {
+      "value": 0.2
+    },
+    "FRG0": {
+      "value": 3.4
+    },
+    "FRH0": {
+      "value": 4.2
+    },
+    "FRI1": {
+      "value": 3.4
+    },
+    "FRI2": {
+      "value": 1.6
+    },
+    "FRI3": {
+      "value": 3.3
+    },
+    "FRJ1": {
+      "value": 1.5
+    },
+    "FRJ2": {
+      "value": 1.2
+    },
+    "FRK1": {
+      "value": -0.1
+    },
+    "FRK2": {
+      "value": -2.5
+    },
+    "FRL0": {
+      "value": -1.6
+    },
+    "FRM0": {
+      "value": 4.1
+    },
+    "HR02": {
+      "value": -1.9
+    },
+    "HR03": {
+      "value": -0.6
+    },
+    "HR05": {
+      "value": -1.9
+    },
+    "HR06": {
+      "value": -1.7
+    },
+    "HU11": {
+      "value": -2.2
+    },
+    "HU12": {
+      "value": -2.2
+    },
+    "HU21": {
+      "value": -1.9
+    },
+    "HU22": {
+      "value": -1.6
+    },
+    "HU23": {
+      "value": -1.6
+    },
+    "HU31": {
+      "value": -3.2
+    },
+    "HU32": {
+      "value": -2.3
+    },
+    "HU33": {
+      "value": -1.6
+    },
+    "IE04": {
+      "value": 3.4
+    },
+    "IE05": {
+      "value": 3.4
+    },
+    "IE06": {
+      "value": 2.9
+    },
+    "IS00": {
+      "value": -8.2
+    },
+    "ITC1": {
+      "value": -3.4
+    },
+    "ITC2": {
+      "value": -11.1
+    },
+    "ITC3": {
+      "value": 2.5
+    },
+    "ITC4": {
+      "value": -3.1
+    },
+    "ITF1": {
+      "value": -1.2
+    },
+    "ITF2": {
+      "value": 0.9
+    },
+    "ITF3": {
+      "value": 2.7
+    },
+    "ITF4": {
+      "value": 4.8
+    },
+    "ITF5": {
+      "value": 1.6
+    },
+    "ITF6": {
+      "value": 4.7
+    },
+    "ITG1": {
+      "value": 5.2
+    },
+    "ITG2": {
+      "value": 5.4
+    },
+    "ITH1": {
+      "value": -11.1
+    },
+    "ITH2": {
+      "value": -7.3
+    },
+    "ITH3": {
+      "value": -1.8
+    },
+    "ITH4": {
+      "value": -3.2
+    },
+    "ITH5": {
+      "value": 0.4
+    },
+    "ITI1": {
+      "value": 2.3
+    },
+    "ITI2": {
+      "value": 0.8
+    },
+    "ITI3": {
+      "value": 1.2
+    },
+    "ITI4": {
+      "value": 2.1
+    },
+    "LI00": {
+      "value": -7.9
+    },
+    "LT01": {
+      "value": -5.2
+    },
+    "LT02": {
+      "value": -4.4
+    },
+    "LU00": {
+      "value": -0.4
+    },
+    "LV00": {
+      "value": -5.0
+    },
+    "ME00": {
+      "value": -4.6
+    },
+    "MK00": {
+      "value": -3.8
+    },
+    "MT00": {
+      "value": 12.5
+    },
+    "NL11": {
+      "value": 1.9
+    },
+    "NL12": {
+      "value": 2.6
+    },
+    "NL13": {
+      "value": 1.6
+    },
+    "NL21": {
+      "value": 1.6
+    },
+    "NL22": {
+      "value": 1.7
+    },
+    "NL23": {
+      "value": 2.3
+    },
+    "NL31": {
+      "value": 2.0
+    },
+    "NL32": {
+      "value": 3.3
+    },
+    "NL33": {
+      "value": 2.6
+    },
+    "NL34": {
+      "value": 2.8
+    },
+    "NL35": {
+      "value": 2.0
+    },
+    "NL36": {
+      "value": 2.7
+    },
+    "NL41": {
+      "value": 1.9
+    },
+    "NL42": {
+      "value": 1.6
+    },
+    "NO02": {
+      "value": -12.2
+    },
+    "NO06": {
+      "value": -8.2
+    },
+    "NO07": {
+      "value": -12.1
+    },
+    "NO08": {
+      "value": -8.9
+    },
+    "NO09": {
+      "value": -6.8
+    },
+    "NO0A": {
+      "value": -7.2
+    },
+    "NO0B": {
+      "value": -16.0
+    },
+    "PL21": {
+      "value": -4.4
+    },
+    "PL22": {
+      "value": -3.5
+    },
+    "PL41": {
+      "value": -1.7
+    },
+    "PL42": {
+      "value": -0.9
+    },
+    "PL43": {
+      "value": -1.0
+    },
+    "PL51": {
+      "value": -2.4
+    },
+    "PL52": {
+      "value": -2.4
+    },
+    "PL61": {
+      "value": -2.0
+    },
+    "PL62": {
+      "value": -3.3
+    },
+    "PL63": {
+      "value": -1.8
+    },
+    "PL71": {
+      "value": -2.6
+    },
+    "PL72": {
+      "value": -3.5
+    },
+    "PL81": {
+      "value": -3.6
+    },
+    "PL82": {
+      "value": -4.0
+    },
+    "PL84": {
+      "value": -3.9
+    },
+    "PL91": {
+      "value": -2.8
+    },
+    "PL92": {
+      "value": -3.0
+    },
+    "PT11": {
+      "value": 2.6
+    },
+    "PT15": {
+      "value": 7.8
+    },
+    "PT16": {
+      "value": 4.3
+    },
+    "PT17": {
+      "value": 8.9
+    },
+    "PT18": {
+      "value": 6.1
+    },
+    "PT19": {
+      "value": 3.8
+    },
+    "PT1A": {
+      "value": 9.1
+    },
+    "PT1B": {
+      "value": 8.5
+    },
+    "PT1C": {
+      "value": 6.0
+    },
+    "PT1D": {
+      "value": 6.6
+    },
+    "PT20": {
+      "value": 13.2
+    },
+    "PT30": {
+      "value": 13.2
+    },
+    "RO11": {
+      "value": -4.9
+    },
+    "RO12": {
+      "value": -6.1
+    },
+    "RO21": {
+      "value": -5.5
+    },
+    "RO22": {
+      "value": -2.9
+    },
+    "RO31": {
+      "value": -3.9
+    },
+    "RO32": {
+      "value": -3.8
+    },
+    "RO41": {
+      "value": -3.9
+    },
+    "RO42": {
+      "value": -3.3
+    },
+    "RS11": {
+      "value": -2.0
+    },
+    "RS12": {
+      "value": -1.7
+    },
+    "RS21": {
+      "value": -4.7
+    },
+    "RS22": {
+      "value": -4.0
+    },
+    "SE11": {
+      "value": -2.9
+    },
+    "SE12": {
+      "value": -3.6
+    },
+    "SE21": {
+      "value": -2.1
+    },
+    "SE22": {
+      "value": -0.7
+    },
+    "SE23": {
+      "value": -1.8
+    },
+    "SE31": {
+      "value": -6.9
+    },
+    "SE32": {
+      "value": -9.7
+    },
+    "SE33": {
+      "value": -13.1
+    },
+    "SI03": {
+      "value": -2.8
+    },
+    "SI04": {
+      "value": -3.1
+    },
+    "SK01": {
+      "value": -2.2
+    },
+    "SK02": {
+      "value": -3.0
+    },
+    "SK03": {
+      "value": -5.6
+    },
+    "SK04": {
+      "value": -5.4
+    },
+    "TR10": {
+      "value": 3.5
+    },
+    "TR21": {
+      "value": 1.1
+    },
+    "TR22": {
+      "value": 1.3
+    },
+    "TR31": {
+      "value": 3.0
+    },
+    "TR32": {
+      "value": 1.2
+    },
+    "TR33": {
+      "value": -2.6
+    },
+    "TR41": {
+      "value": -2.6
+    },
+    "TR42": {
+      "value": -2.4
+    },
+    "TR51": {
+      "value": -3.7
+    },
+    "TR52": {
+      "value": -3.9
+    },
+    "TR61": {
+      "value": -1.0
+    },
+    "TR62": {
+      "value": -0.0
+    },
+    "TR63": {
+      "value": -1.7
+    },
+    "TR71": {
+      "value": -4.6
+    },
+    "TR72": {
+      "value": -7.5
+    },
+    "TR81": {
+      "value": -2.3
+    },
+    "TR82": {
+      "value": -4.0
+    },
+    "TR83": {
+      "value": -3.4
+    },
+    "TR90": {
+      "value": -6.6
+    },
+    "TRA1": {
+      "value": -11.3
+    },
+    "TRA2": {
+      "value": -12.0
+    },
+    "TRB1": {
+      "value": -6.3
+    },
+    "TRB2": {
+      "value": -9.4
+    },
+    "TRC1": {
+      "value": -0.8
+    },
+    "TRC2": {
+      "value": -0.3
+    },
+    "TRC3": {
+      "value": -2.7
+    },
+    "UKC1": {
+      "value": 1.4
+    },
+    "UKC2": {
+      "value": 1.5
+    },
+    "UKD1": {
+      "value": 1.2
+    },
+    "UKD3": {
+      "value": 1.7
+    },
+    "UKD4": {
+      "value": 2.2
+    },
+    "UKD6": {
+      "value": 1.9
+    },
+    "UKD7": {
+      "value": 3.0
+    },
+    "UKE1": {
+      "value": 2.1
+    },
+    "UKE2": {
+      "value": 1.4
+    },
+    "UKE3": {
+      "value": 1.7
+    },
+    "UKE4": {
+      "value": 1.5
+    },
+    "UKF1": {
+      "value": 1.6
+    },
+    "UKF2": {
+      "value": 1.7
+    },
+    "UKF3": {
+      "value": 2.1
+    },
+    "UKG1": {
+      "value": 1.7
+    },
+    "UKG2": {
+      "value": 1.6
+    },
+    "UKG3": {
+      "value": 1.8
+    },
+    "UKH1": {
+      "value": 2.3
+    },
+    "UKH2": {
+      "value": 1.8
+    },
+    "UKH3": {
+      "value": 2.4
+    },
+    "UKI3": {
+      "value": 1.9
+    },
+    "UKI4": {
+      "value": 2.0
+    },
+    "UKI5": {
+      "value": 2.3
+    },
+    "UKI6": {
+      "value": 2.0
+    },
+    "UKI7": {
+      "value": 2.2
+    },
+    "UKJ1": {
+      "value": 1.8
+    },
+    "UKJ2": {
+      "value": 2.6
+    },
+    "UKJ3": {
+      "value": 2.6
+    },
+    "UKJ4": {
+      "value": 2.5
+    },
+    "UKK1": {
+      "value": 2.0
+    },
+    "UKK2": {
+      "value": 2.9
+    },
+    "UKK3": {
+      "value": 4.7
+    },
+    "UKK4": {
+      "value": 3.5
+    },
+    "UKL1": {
+      "value": 2.8
+    },
+    "UKL2": {
+      "value": 1.4
+    },
+    "UKM5": {
+      "value": 0.5
+    },
+    "UKM6": {
+      "value": 1.2
+    },
+    "UKM7": {
+      "value": -0.0
+    },
+    "UKM8": {
+      "value": 0.9
+    },
+    "UKM9": {
+      "value": 1.3
+    },
+    "UKN0": {
+      "value": 2.9
+    }
+  }
+}

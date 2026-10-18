@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "slug": "regime-impatriati",
+    "label": "Regime impatriati — the 50% tax break for workers moving to Italy",
+    "shortLabel": "regime impatriati",
+    "kind": "tax-regime",
+    "status": "verified",
+    "verifiedOn": "2026-08-24",
+    "statusNote": "Verified 2026-08-24 against art. 5, D.Lgs. 209/2023 — read in full (all 10 commi, verbatim) from Normattiva's consolidated/vigente text — and against Legge 132/2025 art. 22, comma 1. Corroborated by four Agenzia delle Entrate risposte ad interpello (nn. 53/E, 70/E, 71/E, 74/E, all 2025). No dedicated circolare governs art. 5 — see meta.verificationNotes for what that turned out to mean.",
+    "validFrom": "2024-01-01",
+    "validTo": null,
+    "sourceLegislation": [
+      {
+        "cite": "D.Lgs. 27 dicembre 2023, n. 209, art. 5",
+        "title": "VERIFIED — read in full, all 10 commi, from Normattiva's consolidated text. The current regime, applying to tax residence transferred to Italy from 1 January 2024. Replaced art. 16 D.Lgs. 147/2015 outright (comma 9) rather than amending it.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-12-27;209~art5!vig="
+      },
+      {
+        "cite": "D.Lgs. 14 settembre 2015, n. 147, art. 16",
+        "title": "The PREDECESSOR regime. Still governs anyone who transferred residence before 2024 — different rates (70%, or 90% in the eight southern regions) and a different duration. Not encoded here.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;147"
+      },
+      {
+        "cite": "Legge 23 settembre 2025, n. 132, art. 22, comma 1",
+        "title": "VERIFIED — the ONLY change this law made to art. 5: comma 1, lett. d) gained an alternative qualifying path, applied AI-technologies research, alongside the existing D.Lgs. 108/2012 / D.Lgs. 206/2007 test. It did not touch the prior-residence test or anything else in the article — the 'stricter prior-residence test for employer-of-record arrangements' this file's draft note attributed to it does not appear in the text; that 6/7-period rule was already in the original December 2023 wording (comma 1, lett. b)).",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-09-23;132"
+      },
+      {
+        "cite": "Risposta ad interpello Agenzia delle Entrate n. 53/E del 28 febbraio 2025",
+        "title": "The 'test di continuità' behind the comma 1 lett. b) six/seven-period rule: confirms it turns on whether the worker was previously employed in Italy — not abroad — by the same employer or group.",
+        "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/8473268/Risposta+n.+53_2025.pdf/56473d48-9582-5895-59fe-a628a3756c25"
+      },
+      {
+        "cite": "Risposta ad interpello Agenzia delle Entrate n. 70/E del 12 marzo 2025",
+        "title": "Confirms the regime is open to someone transferring tax residence to Italy for the very first time — eligibility is about the ABSENCE of Italian residence in the look-back window, not about having had some prior period of it.",
+        "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/8703578/Risposta+n.+70_2025/00d4841b-1a6f-b750-30cd-0d831dfba292"
+      },
+      {
+        "cite": "Risposta ad interpello Agenzia delle Entrate n. 71/E del 12 marzo 2025",
+        "title": "On the elevata qualificazione o specializzazione test: a university degree is not indispensable if a professional qualification under art. 27-quater D.Lgs. 286/1998 (the same route the EU Blue Card uses) is otherwise evidenced.",
+        "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/8703578/Risposta+n.+71_2025.pdf"
+      },
+      {
+        "cite": "Risposta ad interpello Agenzia delle Entrate n. 74/E del 12 marzo 2025",
+        "title": "Same qualification question without a degree: at least three years' relevant professional experience in the seven years before applying can substitute, mirroring the EU Blue Card's own test.",
+        "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/8703578/Risposta+n.+74_2025/e221f0c2-3e81-57d6-5672-8c719f33e91e"
+      }
+    ],
+    "verificationNotes": [
+      "RESOLVED 2026-08-24 — prior-residence extension: comma 1, lett. b) and comma 2, verbatim. Base test is three tax periods of non-residence. Where the Italian work is for the same entity, or a same-group entity (the art. 2359 c.c. control test), the worker was employed by abroad, the minimum extends to six tax periods if the worker was NOT previously employed in Italy by that entity/group before working abroad, and to seven tax periods if the worker WAS previously employed in Italy by that entity/group before going abroad and is now returning to it. Corroborated by AE Risposta n. 53/2025's 'test di continuità.'",
+      "RESOLVED 2026-08-24 — qualification test ('elevata qualificazione o specializzazione'): comma 1, lett. d) points at D.Lgs. 108/2012 (the EU Blue Card decree) and D.Lgs. 206/2007 (professional-qualification recognition), OR — added by L. 132/2025 art. 22 c.1 — applied research in AI technologies. AE Risposte 71/2025 and 74/2025 confirm a university degree is not strictly required: a professional qualification under art. 27-quater D.Lgs. 286/1998, evidenced by at least three years' relevant experience in the preceding seven, can substitute.",
+      "RESOLVED 2026-08-24 — income cap: comma 1, verbatim — the EUR 600,000 ceiling sits inside the same clause granting the reduced inclusion ('entro il limite annuo di 600.000 euro concorrono... limitatamente al 50 per cento'). It is a taper, not a cliff: income up to the ceiling gets the reduced 50%/40% inclusion, income above it is taxed in full, and exceeding it does not disqualify the income below it.",
+      "RESOLVED 2026-08-24 — the 60%-exemption (40%-taxable) trigger: comma 4, lett. a)/b) and comma 5, verbatim. Triggered by transferring to Italy with an already-existing minor child, OR the birth/adoption of a minor during the benefit period — either way conditioned on the child being resident in Italy for the period claimed (comma 5). It is a flat condition, not per-child: one qualifying child or several produce the same 40% taxable share. Secondary guidance describes it as available to each parent independently, provided each independently meets the regime's own requirements.",
+      "RESOLVED 2026-08-24 — residence commitment: comma 3, verbatim. The commitment referenced by comma 1 lett. a) is 'almeno quattro anni' — at least four years. Recapture: 'il lavoratore decade dai benefici e si provvede al recupero di quelli già fruiti, con applicazione dei relativi interessi' — the full benefit already claimed is clawed back, plus statutory interest. The article specifies no further penalty; general accertamento sanctions may separately apply but sit outside art. 5.",
+      "RESOLVED 2026-08-24 — duration: comma 3, first sentence, verbatim — the transfer year plus four subsequent tax periods, five in total, confirming the encoded figure. No 5+5 mechanism survives from the predecessor art. 16 regime: comma 9 repeals art. 16 outright, with a pure grandfather clause for pre-2024 transfers and nothing carried forward. A separate, narrower transitional extension does exist (comma 10) — recorded in meta.knownIncompleteness rather than the headline figure, since it applies only to 2024 transferees.",
+      "RESOLVED 2026-08-24 — territoriality: comma 1, lett. c), verbatim — 'l'attività lavorativa è prestata per la maggior parte del periodo d'imposta nel territorio dello Stato': the work must be performed in Italy for the majority of the tax period. The requirement itself is not ambiguous in the statute. What remains genuinely unsettled — recorded in meta.knownIncompleteness rather than forced to an answer — is how 'majority of the tax period' is measured for someone working partly remotely for a foreign employer.",
+      "RESOLVED 2026-08-24 — the exemption's scope: comma 1, verbatim, names exactly three income categories, all 'prodotti in Italia' — redditi di lavoro dipendente, redditi assimilati a quelli di lavoro dipendente, and redditi di lavoro autonomo derivanti dall'esercizio di arti e professioni. Pensions and foreign-source income sit outside that list entirely; the article is silent on them because they are not Italian employment or self-employment income, not because of some separate carve-out.",
+      "RESOLVED 2026-08-24 — governing circolare: none exists. Circolare n. 20/2024 (4 novembre 2024), the only circolare the Agenzia's own 'Normativa e prassi' page for this regime lists, is about art. 1 (residenza fiscale delle persone fisiche) and does not substantively address art. 5. The operative guidance on art. 5 runs entirely through risposte ad interpello — four of the load-bearing ones are cited in meta.sourceLegislation above, out of many more issued through 2026.",
+      "RESOLVED 2026-08-24 — for Italian citizens specifically, comma 6 sets how the comma 1 lett. b) non-residence test is checked for tax periods before this decree took effect: they count as resident abroad for those periods if registered with AIRE, or resident in another State under a double-taxation treaty. Separately, AE Risposta 70/2025 confirms the regime does not require any prior period of Italian residence at all — only the absence of one in the required look-back window."
+    ],
+    "summary": "Workers who move their tax residence to Italy can have 50% of their Italian employment or self-employment income excluded from IRPEF for five tax periods — 60% where there is a minor child, including one born or adopted after the move — up to EUR 600,000 of eligible income a year. Unlike the 7% pensioner regime, it turns on who you are and where you came from, not on which comune you move to: it applies anywhere in Italy.",
+    "audienceNote": "The largest audience on this site after the pensioner regime, and a different one: working-age people relocating with a job or a client base, rather than retirees choosing a town. It is person-level, so it produces an explainer page and no map.",
+    "knownIncompleteness": [
+      "This file encodes ONLY the regime as it applies to tax residence transferred from 1 January 2024. Anyone who moved before that is governed by the predecessor regime (art. 16 D.Lgs. 147/2015), whose rates were 70% — or 90% for a transfer to one of the eight southern regions — over a different duration. Those figures are still all over the internet and are the ones a reader is most likely to arrive believing. Their regime is not described here.",
+      "The regime for returning researchers and lecturers (docenti e ricercatori) is a separate provision with its own, more generous terms. It is frequently discussed under the same 'rientro dei cervelli' heading and is not encoded here.",
+      "This describes the income-tax relief only. It says nothing about whether a reader has the right to live and work in Italy, which is a separate question with separate rules.",
+      "The 'majority of the tax period' territoriality test (art. 5, comma 1, lett. c)) is unambiguous as a rule, but how it is measured for someone working partly remotely for a foreign employer — day-counting, occasional travel, and so on — is not settled by anything read for this file.",
+      "The headline duration figure on this page (5 tax periods) is the general case. A narrow transitional rule (comma 10) extends it to 8 for someone who transferred residence in 2024 AND had already bought their primary home in Italy by 31 December 2023 — but only at the base 50%-inclusion rate for the extra 3 periods; the text does not carry the 40%-taxable minor-child rate into them. Not given its own stat here because it only ever applies to 2024 transfers, a closed and shrinking population."
+    ]
+  },
+  "eligibility": {
+    "personCriteria": [
+      "Transfers tax residence to Italy (from the 2024 tax period onwards; earlier transfers fall under the predecessor regime).",
+      "Was not tax-resident in Italy for the three tax periods preceding the transfer. That extends to six tax periods when returning to work for the same employer (or another company in the same corporate group) worked for abroad but never worked for in Italy before going abroad — and to seven tax periods when they HAD worked for that same employer or group in Italy before their time abroad.",
+      "Commits to remaining tax-resident in Italy for at least four years; breaking that commitment forfeits the whole benefit already claimed, plus interest.",
+      "Holds 'elevata qualificazione o specializzazione' under D.Lgs. 108/2012 (the EU Blue Card decree) or D.Lgs. 206/2007 (professional-qualification recognition) — a university degree is not strictly required if a professional qualification is otherwise evidenced by relevant experience — or has carried out applied research in artificial-intelligence technologies.",
+      "Performs the work mainly in Italian territory — in Italy for the majority of the tax period.",
+      "The relief applies to Italian employment or self-employment income only, up to €600,000 a year (income above that is taxed in full, but does not disqualify the option) — not to pensions, and not to foreign-source income."
+    ]
+  }
+}

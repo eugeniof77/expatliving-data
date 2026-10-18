@@ -1,0 +1,3752 @@
+{
+  "meta": {
+    "slug": "eurostat-gdp-nuts3-2023",
+    "label": "GDP per capita, by NUTS 3 region (2023)",
+    "year": 2023,
+    "source": "Eurostat",
+    "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/product/view/nama_10r_3gdp",
+    "extractedAt": "2026-10-03",
+    "unit": "eur_per_capita",
+    "dimensions": [
+      "value"
+    ],
+    "methodNote": "GDP per inhabitant in current-price euros (not purchasing-power-adjusted — a PPS-per-capita figure would rank differently, since a euro buys more in Albania than in Ireland), per NUTS 3 region (province-equivalent), Eurostat's own nama_10r_3gdp dataset, 2023, the newest year with Italy (2024 has none; year reviewed 2026-10-03). Boundaries: github.com/eurostat/Nuts2json, 2021 typology. A handful of regions (Ireland's IE053 and IE061, small German districts) are genuine multinational-tax-accounting outliers, not local prosperity — the map's color scale excludes them from setting its range without excluding them from the map (see components/EuropeMapExplorer.tsx's computeDomain()).",
+    "grain": "nuts3",
+    "kind": "scalar",
+    "coverageNote": "The UK has no NUTS 3 GDP figure for any year — absent from Eurostat's own geo dimension entirely, not merely missing a value (a different, more total gap than the population layer's \"historical only\"). Albania, Norway and Switzerland have no NUTS 3 figure for 2023 and show as no data, never as zero."
+  },
+  "values": {
+    "AT111": {
+      "value": 32300
+    },
+    "AT112": {
+      "value": 41300
+    },
+    "AT113": {
+      "value": 33100
+    },
+    "AT121": {
+      "value": 40600
+    },
+    "AT122": {
+      "value": 37600
+    },
+    "AT123": {
+      "value": 52300
+    },
+    "AT124": {
+      "value": 39700
+    },
+    "AT125": {
+      "value": 32100
+    },
+    "AT126": {
+      "value": 37000
+    },
+    "AT127": {
+      "value": 57500
+    },
+    "AT130": {
+      "value": 60200
+    },
+    "AT211": {
+      "value": 56400
+    },
+    "AT212": {
+      "value": 40400
+    },
+    "AT213": {
+      "value": 44000
+    },
+    "AT221": {
+      "value": 59800
+    },
+    "AT222": {
+      "value": 46200
+    },
+    "AT223": {
+      "value": 48000
+    },
+    "AT224": {
+      "value": 39000
+    },
+    "AT225": {
+      "value": 38400
+    },
+    "AT226": {
+      "value": 41400
+    },
+    "AT311": {
+      "value": 46600
+    },
+    "AT312": {
+      "value": 66400
+    },
+    "AT313": {
+      "value": 35900
+    },
+    "AT314": {
+      "value": 50900
+    },
+    "AT315": {
+      "value": 45000
+    },
+    "AT321": {
+      "value": 45200
+    },
+    "AT322": {
+      "value": 56500
+    },
+    "AT323": {
+      "value": 67600
+    },
+    "AT331": {
+      "value": 57300
+    },
+    "AT332": {
+      "value": 55800
+    },
+    "AT333": {
+      "value": 43300
+    },
+    "AT334": {
+      "value": 55800
+    },
+    "AT335": {
+      "value": 56200
+    },
+    "AT341": {
+      "value": 64800
+    },
+    "AT342": {
+      "value": 51700
+    },
+    "BE100": {
+      "value": 82300
+    },
+    "BE211": {
+      "value": 61500
+    },
+    "BE212": {
+      "value": 59100
+    },
+    "BE213": {
+      "value": 59000
+    },
+    "BE223": {
+      "value": 29900
+    },
+    "BE224": {
+      "value": 49900
+    },
+    "BE225": {
+      "value": 36300
+    },
+    "BE231": {
+      "value": 34200
+    },
+    "BE232": {
+      "value": 36300
+    },
+    "BE233": {
+      "value": 34900
+    },
+    "BE234": {
+      "value": 64000
+    },
+    "BE235": {
+      "value": 38200
+    },
+    "BE236": {
+      "value": 48400
+    },
+    "BE241": {
+      "value": 61000
+    },
+    "BE242": {
+      "value": 48900
+    },
+    "BE251": {
+      "value": 53000
+    },
+    "BE252": {
+      "value": 36800
+    },
+    "BE253": {
+      "value": 48900
+    },
+    "BE254": {
+      "value": 55500
+    },
+    "BE255": {
+      "value": 43600
+    },
+    "BE256": {
+      "value": 53300
+    },
+    "BE257": {
+      "value": 56700
+    },
+    "BE258": {
+      "value": 46200
+    },
+    "BE310": {
+      "value": 68200
+    },
+    "BE323": {
+      "value": 31800
+    },
+    "BE328": {
+      "value": 39700
+    },
+    "BE329": {
+      "value": 23500
+    },
+    "BE32A": {
+      "value": 29400
+    },
+    "BE32B": {
+      "value": 31700
+    },
+    "BE32C": {
+      "value": 30300
+    },
+    "BE32D": {
+      "value": 23500
+    },
+    "BE331": {
+      "value": 38700
+    },
+    "BE332": {
+      "value": 40300
+    },
+    "BE334": {
+      "value": 25500
+    },
+    "BE335": {
+      "value": 33900
+    },
+    "BE336": {
+      "value": 35600
+    },
+    "BE341": {
+      "value": 30700
+    },
+    "BE342": {
+      "value": 29000
+    },
+    "BE343": {
+      "value": 38100
+    },
+    "BE344": {
+      "value": 36000
+    },
+    "BE345": {
+      "value": 23500
+    },
+    "BE351": {
+      "value": 28000
+    },
+    "BE352": {
+      "value": 39400
+    },
+    "BE353": {
+      "value": 24100
+    },
+    "BG311": {
+      "value": 7700
+    },
+    "BG312": {
+      "value": 7700
+    },
+    "BG313": {
+      "value": 13900
+    },
+    "BG314": {
+      "value": 9100
+    },
+    "BG315": {
+      "value": 9200
+    },
+    "BG321": {
+      "value": 10300
+    },
+    "BG322": {
+      "value": 12400
+    },
+    "BG323": {
+      "value": 11100
+    },
+    "BG324": {
+      "value": 8700
+    },
+    "BG325": {
+      "value": 6700
+    },
+    "BG331": {
+      "value": 13800
+    },
+    "BG332": {
+      "value": 8700
+    },
+    "BG333": {
+      "value": 8800
+    },
+    "BG334": {
+      "value": 9600
+    },
+    "BG341": {
+      "value": 11300
+    },
+    "BG342": {
+      "value": 6900
+    },
+    "BG343": {
+      "value": 9100
+    },
+    "BG344": {
+      "value": 18700
+    },
+    "BG411": {
+      "value": 31500
+    },
+    "BG412": {
+      "value": 12400
+    },
+    "BG413": {
+      "value": 8400
+    },
+    "BG414": {
+      "value": 8000
+    },
+    "BG415": {
+      "value": 7700
+    },
+    "BG421": {
+      "value": 11400
+    },
+    "BG422": {
+      "value": 6700
+    },
+    "BG423": {
+      "value": 8200
+    },
+    "BG424": {
+      "value": 8700
+    },
+    "BG425": {
+      "value": 8000
+    },
+    "CY000": {
+      "value": 33900
+    },
+    "CZ010": {
+      "value": 63500
+    },
+    "CZ020": {
+      "value": 26400
+    },
+    "CZ031": {
+      "value": 24300
+    },
+    "CZ032": {
+      "value": 25000
+    },
+    "CZ041": {
+      "value": 17900
+    },
+    "CZ042": {
+      "value": 20700
+    },
+    "CZ051": {
+      "value": 21500
+    },
+    "CZ052": {
+      "value": 25500
+    },
+    "CZ053": {
+      "value": 24000
+    },
+    "CZ063": {
+      "value": 25000
+    },
+    "CZ064": {
+      "value": 28600
+    },
+    "CZ071": {
+      "value": 23100
+    },
+    "CZ072": {
+      "value": 24500
+    },
+    "CZ080": {
+      "value": 22600
+    },
+    "DE111": {
+      "value": 118100
+    },
+    "DE112": {
+      "value": 86900
+    },
+    "DE113": {
+      "value": 53000
+    },
+    "DE114": {
+      "value": 37600
+    },
+    "DE115": {
+      "value": 59600
+    },
+    "DE116": {
+      "value": 40500
+    },
+    "DE117": {
+      "value": 67200
+    },
+    "DE118": {
+      "value": 77400
+    },
+    "DE119": {
+      "value": 65500
+    },
+    "DE11A": {
+      "value": 56900
+    },
+    "DE11B": {
+      "value": 49600
+    },
+    "DE11C": {
+      "value": 44000
+    },
+    "DE11D": {
+      "value": 56400
+    },
+    "DE121": {
+      "value": 70600
+    },
+    "DE122": {
+      "value": 83300
+    },
+    "DE123": {
+      "value": 42900
+    },
+    "DE124": {
+      "value": 50800
+    },
+    "DE125": {
+      "value": 70800
+    },
+    "DE126": {
+      "value": 80200
+    },
+    "DE127": {
+      "value": 37100
+    },
+    "DE128": {
+      "value": 46200
+    },
+    "DE129": {
+      "value": 48400
+    },
+    "DE12A": {
+      "value": 35700
+    },
+    "DE12B": {
+      "value": 37900
+    },
+    "DE12C": {
+      "value": 46400
+    },
+    "DE131": {
+      "value": 63000
+    },
+    "DE132": {
+      "value": 35400
+    },
+    "DE133": {
+      "value": 40400
+    },
+    "DE134": {
+      "value": 47800
+    },
+    "DE135": {
+      "value": 52300
+    },
+    "DE136": {
+      "value": 46900
+    },
+    "DE137": {
+      "value": 59100
+    },
+    "DE138": {
+      "value": 42800
+    },
+    "DE139": {
+      "value": 38700
+    },
+    "DE13A": {
+      "value": 37000
+    },
+    "DE141": {
+      "value": 50100
+    },
+    "DE142": {
+      "value": 43100
+    },
+    "DE143": {
+      "value": 42400
+    },
+    "DE144": {
+      "value": 100800
+    },
+    "DE145": {
+      "value": 39100
+    },
+    "DE146": {
+      "value": 63100
+    },
+    "DE147": {
+      "value": 61100
+    },
+    "DE148": {
+      "value": 52600
+    },
+    "DE149": {
+      "value": 45300
+    },
+    "DE211": {
+      "value": 164200
+    },
+    "DE212": {
+      "value": 100900
+    },
+    "DE213": {
+      "value": 61600
+    },
+    "DE214": {
+      "value": 61300
+    },
+    "DE215": {
+      "value": 43500
+    },
+    "DE216": {
+      "value": 36400
+    },
+    "DE217": {
+      "value": 37800
+    },
+    "DE218": {
+      "value": 43700
+    },
+    "DE219": {
+      "value": 44400
+    },
+    "DE21A": {
+      "value": 39400
+    },
+    "DE21B": {
+      "value": 61000
+    },
+    "DE21C": {
+      "value": 34900
+    },
+    "DE21D": {
+      "value": 40000
+    },
+    "DE21E": {
+      "value": 45200
+    },
+    "DE21F": {
+      "value": 50300
+    },
+    "DE21G": {
+      "value": 42400
+    },
+    "DE21H": {
+      "value": 149200
+    },
+    "DE21I": {
+      "value": 43700
+    },
+    "DE21J": {
+      "value": 54400
+    },
+    "DE21K": {
+      "value": 42300
+    },
+    "DE21L": {
+      "value": 54200
+    },
+    "DE21M": {
+      "value": 54700
+    },
+    "DE21N": {
+      "value": 49300
+    },
+    "DE221": {
+      "value": 72800
+    },
+    "DE222": {
+      "value": 80400
+    },
+    "DE223": {
+      "value": 68400
+    },
+    "DE224": {
+      "value": 52900
+    },
+    "DE225": {
+      "value": 40500
+    },
+    "DE226": {
+      "value": 41600
+    },
+    "DE227": {
+      "value": 47600
+    },
+    "DE228": {
+      "value": 38800
+    },
+    "DE229": {
+      "value": 42000
+    },
+    "DE22A": {
+      "value": 44700
+    },
+    "DE22B": {
+      "value": 36400
+    },
+    "DE22C": {
+      "value": 75300
+    },
+    "DE231": {
+      "value": 78800
+    },
+    "DE232": {
+      "value": 109700
+    },
+    "DE233": {
+      "value": 69000
+    },
+    "DE234": {
+      "value": 34900
+    },
+    "DE235": {
+      "value": 49800
+    },
+    "DE236": {
+      "value": 47700
+    },
+    "DE237": {
+      "value": 41700
+    },
+    "DE238": {
+      "value": 33700
+    },
+    "DE239": {
+      "value": 46700
+    },
+    "DE23A": {
+      "value": 52200
+    },
+    "DE241": {
+      "value": 78300
+    },
+    "DE242": {
+      "value": 79200
+    },
+    "DE243": {
+      "value": 122400
+    },
+    "DE244": {
+      "value": 52700
+    },
+    "DE245": {
+      "value": 31500
+    },
+    "DE246": {
+      "value": 28800
+    },
+    "DE247": {
+      "value": 34100
+    },
+    "DE248": {
+      "value": 40100
+    },
+    "DE249": {
+      "value": 45600
+    },
+    "DE24A": {
+      "value": 42000
+    },
+    "DE24B": {
+      "value": 46000
+    },
+    "DE24C": {
+      "value": 41100
+    },
+    "DE24D": {
+      "value": 46400
+    },
+    "DE251": {
+      "value": 77900
+    },
+    "DE252": {
+      "value": 118700
+    },
+    "DE253": {
+      "value": 47300
+    },
+    "DE254": {
+      "value": 73600
+    },
+    "DE255": {
+      "value": 45200
+    },
+    "DE256": {
+      "value": 37900
+    },
+    "DE257": {
+      "value": 44500
+    },
+    "DE258": {
+      "value": 27400
+    },
+    "DE259": {
+      "value": 39600
+    },
+    "DE25A": {
+      "value": 38700
+    },
+    "DE25B": {
+      "value": 39100
+    },
+    "DE25C": {
+      "value": 39600
+    },
+    "DE261": {
+      "value": 85200
+    },
+    "DE262": {
+      "value": 115000
+    },
+    "DE263": {
+      "value": 76600
+    },
+    "DE264": {
+      "value": 45100
+    },
+    "DE265": {
+      "value": 41200
+    },
+    "DE266": {
+      "value": 51300
+    },
+    "DE267": {
+      "value": 39600
+    },
+    "DE268": {
+      "value": 48500
+    },
+    "DE269": {
+      "value": 44900
+    },
+    "DE26A": {
+      "value": 46500
+    },
+    "DE26B": {
+      "value": 28200
+    },
+    "DE26C": {
+      "value": 35700
+    },
+    "DE271": {
+      "value": 56100
+    },
+    "DE272": {
+      "value": 45000
+    },
+    "DE273": {
+      "value": 67400
+    },
+    "DE274": {
+      "value": 72500
+    },
+    "DE275": {
+      "value": 35500
+    },
+    "DE276": {
+      "value": 37000
+    },
+    "DE277": {
+      "value": 43600
+    },
+    "DE278": {
+      "value": 51400
+    },
+    "DE279": {
+      "value": 42900
+    },
+    "DE27A": {
+      "value": 47400
+    },
+    "DE27B": {
+      "value": 47600
+    },
+    "DE27C": {
+      "value": 50600
+    },
+    "DE27D": {
+      "value": 59500
+    },
+    "DE27E": {
+      "value": 42900
+    },
+    "DE300": {
+      "value": 54700
+    },
+    "DE401": {
+      "value": 40000
+    },
+    "DE402": {
+      "value": 46900
+    },
+    "DE403": {
+      "value": 46300
+    },
+    "DE404": {
+      "value": 52000
+    },
+    "DE405": {
+      "value": 27200
+    },
+    "DE406": {
+      "value": 47800
+    },
+    "DE407": {
+      "value": 32900
+    },
+    "DE408": {
+      "value": 25700
+    },
+    "DE409": {
+      "value": 27500
+    },
+    "DE40A": {
+      "value": 31200
+    },
+    "DE40B": {
+      "value": 35100
+    },
+    "DE40C": {
+      "value": 41500
+    },
+    "DE40D": {
+      "value": 33400
+    },
+    "DE40E": {
+      "value": 33000
+    },
+    "DE40F": {
+      "value": 36000
+    },
+    "DE40G": {
+      "value": 51300
+    },
+    "DE40H": {
+      "value": 43300
+    },
+    "DE40I": {
+      "value": 38800
+    },
+    "DE501": {
+      "value": 61100
+    },
+    "DE502": {
+      "value": 42800
+    },
+    "DE600": {
+      "value": 84200
+    },
+    "DE711": {
+      "value": 94200
+    },
+    "DE712": {
+      "value": 120900
+    },
+    "DE713": {
+      "value": 50600
+    },
+    "DE714": {
+      "value": 73700
+    },
+    "DE715": {
+      "value": 35600
+    },
+    "DE716": {
+      "value": 33600
+    },
+    "DE717": {
+      "value": 55800
+    },
+    "DE718": {
+      "value": 72800
+    },
+    "DE719": {
+      "value": 40300
+    },
+    "DE71A": {
+      "value": 72800
+    },
+    "DE71B": {
+      "value": 32200
+    },
+    "DE71C": {
+      "value": 48400
+    },
+    "DE71D": {
+      "value": 29500
+    },
+    "DE71E": {
+      "value": 36500
+    },
+    "DE721": {
+      "value": 45600
+    },
+    "DE722": {
+      "value": 43100
+    },
+    "DE723": {
+      "value": 37100
+    },
+    "DE724": {
+      "value": 49100
+    },
+    "DE725": {
+      "value": 35500
+    },
+    "DE731": {
+      "value": 67400
+    },
+    "DE732": {
+      "value": 47600
+    },
+    "DE733": {
+      "value": 44200
+    },
+    "DE734": {
+      "value": 39300
+    },
+    "DE735": {
+      "value": 39500
+    },
+    "DE736": {
+      "value": 47600
+    },
+    "DE737": {
+      "value": 36200
+    },
+    "DE803": {
+      "value": 50600
+    },
+    "DE804": {
+      "value": 50500
+    },
+    "DE80J": {
+      "value": 37800
+    },
+    "DE80K": {
+      "value": 33400
+    },
+    "DE80L": {
+      "value": 34400
+    },
+    "DE80M": {
+      "value": 31900
+    },
+    "DE80N": {
+      "value": 34900
+    },
+    "DE80O": {
+      "value": 32200
+    },
+    "DE911": {
+      "value": 85500
+    },
+    "DE912": {
+      "value": 56000
+    },
+    "DE913": {
+      "value": 185100
+    },
+    "DE914": {
+      "value": 28000
+    },
+    "DE916": {
+      "value": 36600
+    },
+    "DE917": {
+      "value": 27700
+    },
+    "DE918": {
+      "value": 35200
+    },
+    "DE91A": {
+      "value": 26600
+    },
+    "DE91B": {
+      "value": 26300
+    },
+    "DE91C": {
+      "value": 43400
+    },
+    "DE922": {
+      "value": 39200
+    },
+    "DE923": {
+      "value": 39200
+    },
+    "DE925": {
+      "value": 36500
+    },
+    "DE926": {
+      "value": 42300
+    },
+    "DE927": {
+      "value": 38400
+    },
+    "DE928": {
+      "value": 31600
+    },
+    "DE929": {
+      "value": 57800
+    },
+    "DE931": {
+      "value": 40000
+    },
+    "DE932": {
+      "value": 31900
+    },
+    "DE933": {
+      "value": 30300
+    },
+    "DE934": {
+      "value": 34300
+    },
+    "DE935": {
+      "value": 38100
+    },
+    "DE936": {
+      "value": 27400
+    },
+    "DE937": {
+      "value": 42900
+    },
+    "DE938": {
+      "value": 42400
+    },
+    "DE939": {
+      "value": 38600
+    },
+    "DE93A": {
+      "value": 37800
+    },
+    "DE93B": {
+      "value": 38700
+    },
+    "DE941": {
+      "value": 28500
+    },
+    "DE942": {
+      "value": 82700
+    },
+    "DE943": {
+      "value": 56700
+    },
+    "DE944": {
+      "value": 61800
+    },
+    "DE945": {
+      "value": 48800
+    },
+    "DE946": {
+      "value": 41500
+    },
+    "DE947": {
+      "value": 34900
+    },
+    "DE948": {
+      "value": 47100
+    },
+    "DE949": {
+      "value": 54300
+    },
+    "DE94A": {
+      "value": 33300
+    },
+    "DE94B": {
+      "value": 41700
+    },
+    "DE94C": {
+      "value": 34800
+    },
+    "DE94D": {
+      "value": 35100
+    },
+    "DE94E": {
+      "value": 40100
+    },
+    "DE94F": {
+      "value": 59000
+    },
+    "DE94G": {
+      "value": 43100
+    },
+    "DE94H": {
+      "value": 35400
+    },
+    "DEA11": {
+      "value": 104100
+    },
+    "DEA12": {
+      "value": 40300
+    },
+    "DEA13": {
+      "value": 54600
+    },
+    "DEA14": {
+      "value": 48100
+    },
+    "DEA15": {
+      "value": 41000
+    },
+    "DEA16": {
+      "value": 46400
+    },
+    "DEA17": {
+      "value": 35000
+    },
+    "DEA18": {
+      "value": 43000
+    },
+    "DEA19": {
+      "value": 33500
+    },
+    "DEA1A": {
+      "value": 40600
+    },
+    "DEA1B": {
+      "value": 37600
+    },
+    "DEA1C": {
+      "value": 55600
+    },
+    "DEA1D": {
+      "value": 47000
+    },
+    "DEA1E": {
+      "value": 35300
+    },
+    "DEA1F": {
+      "value": 35100
+    },
+    "DEA22": {
+      "value": 88500
+    },
+    "DEA23": {
+      "value": 78500
+    },
+    "DEA24": {
+      "value": 55000
+    },
+    "DEA26": {
+      "value": 35300
+    },
+    "DEA27": {
+      "value": 42500
+    },
+    "DEA28": {
+      "value": 33800
+    },
+    "DEA29": {
+      "value": 32000
+    },
+    "DEA2A": {
+      "value": 42800
+    },
+    "DEA2B": {
+      "value": 32300
+    },
+    "DEA2C": {
+      "value": 34000
+    },
+    "DEA2D": {
+      "value": 44900
+    },
+    "DEA31": {
+      "value": 29100
+    },
+    "DEA32": {
+      "value": 38600
+    },
+    "DEA33": {
+      "value": 71200
+    },
+    "DEA34": {
+      "value": 47200
+    },
+    "DEA35": {
+      "value": 36600
+    },
+    "DEA36": {
+      "value": 30600
+    },
+    "DEA37": {
+      "value": 41100
+    },
+    "DEA38": {
+      "value": 39600
+    },
+    "DEA41": {
+      "value": 54500
+    },
+    "DEA42": {
+      "value": 59200
+    },
+    "DEA43": {
+      "value": 39900
+    },
+    "DEA44": {
+      "value": 33800
+    },
+    "DEA45": {
+      "value": 37000
+    },
+    "DEA46": {
+      "value": 46300
+    },
+    "DEA47": {
+      "value": 44900
+    },
+    "DEA51": {
+      "value": 44800
+    },
+    "DEA52": {
+      "value": 49300
+    },
+    "DEA53": {
+      "value": 39500
+    },
+    "DEA54": {
+      "value": 36800
+    },
+    "DEA55": {
+      "value": 33500
+    },
+    "DEA56": {
+      "value": 36000
+    },
+    "DEA57": {
+      "value": 44900
+    },
+    "DEA58": {
+      "value": 42000
+    },
+    "DEA59": {
+      "value": 55800
+    },
+    "DEA5A": {
+      "value": 46000
+    },
+    "DEA5B": {
+      "value": 44800
+    },
+    "DEA5C": {
+      "value": 37000
+    },
+    "DEB11": {
+      "value": 90400
+    },
+    "DEB12": {
+      "value": 33700
+    },
+    "DEB13": {
+      "value": 32700
+    },
+    "DEB14": {
+      "value": 36400
+    },
+    "DEB15": {
+      "value": 35100
+    },
+    "DEB17": {
+      "value": 38500
+    },
+    "DEB18": {
+      "value": 40500
+    },
+    "DEB1A": {
+      "value": 32600
+    },
+    "DEB1B": {
+      "value": 43500
+    },
+    "DEB1C": {
+      "value": 40300
+    },
+    "DEB1D": {
+      "value": 44100
+    },
+    "DEB21": {
+      "value": 57000
+    },
+    "DEB22": {
+      "value": 40000
+    },
+    "DEB23": {
+      "value": 36900
+    },
+    "DEB24": {
+      "value": 41700
+    },
+    "DEB25": {
+      "value": 24800
+    },
+    "DEB31": {
+      "value": 45800
+    },
+    "DEB32": {
+      "value": 60200
+    },
+    "DEB33": {
+      "value": 54700
+    },
+    "DEB34": {
+      "value": 80500
+    },
+    "DEB35": {
+      "value": 88400
+    },
+    "DEB36": {
+      "value": 38500
+    },
+    "DEB37": {
+      "value": 47400
+    },
+    "DEB38": {
+      "value": 66300
+    },
+    "DEB39": {
+      "value": 44200
+    },
+    "DEB3A": {
+      "value": 65200
+    },
+    "DEB3B": {
+      "value": 32000
+    },
+    "DEB3C": {
+      "value": 27000
+    },
+    "DEB3D": {
+      "value": 33200
+    },
+    "DEB3E": {
+      "value": 44000
+    },
+    "DEB3F": {
+      "value": 27300
+    },
+    "DEB3G": {
+      "value": 22700
+    },
+    "DEB3H": {
+      "value": 32400
+    },
+    "DEB3I": {
+      "value": 23700
+    },
+    "DEB3J": {
+      "value": 49900
+    },
+    "DEB3K": {
+      "value": 20800
+    },
+    "DEC01": {
+      "value": 51600
+    },
+    "DEC02": {
+      "value": 31000
+    },
+    "DEC03": {
+      "value": 29700
+    },
+    "DEC04": {
+      "value": 38300
+    },
+    "DEC05": {
+      "value": 47400
+    },
+    "DEC06": {
+      "value": 35600
+    },
+    "DED21": {
+      "value": 51300
+    },
+    "DED2C": {
+      "value": 34600
+    },
+    "DED2D": {
+      "value": 37100
+    },
+    "DED2E": {
+      "value": 34100
+    },
+    "DED2F": {
+      "value": 28500
+    },
+    "DED41": {
+      "value": 44200
+    },
+    "DED42": {
+      "value": 29600
+    },
+    "DED43": {
+      "value": 33700
+    },
+    "DED44": {
+      "value": 31700
+    },
+    "DED45": {
+      "value": 39300
+    },
+    "DED51": {
+      "value": 48200
+    },
+    "DED52": {
+      "value": 32600
+    },
+    "DED53": {
+      "value": 37300
+    },
+    "DEE01": {
+      "value": 38700
+    },
+    "DEE02": {
+      "value": 40300
+    },
+    "DEE03": {
+      "value": 42700
+    },
+    "DEE04": {
+      "value": 32000
+    },
+    "DEE05": {
+      "value": 38700
+    },
+    "DEE06": {
+      "value": 32500
+    },
+    "DEE07": {
+      "value": 36500
+    },
+    "DEE08": {
+      "value": 34200
+    },
+    "DEE09": {
+      "value": 30800
+    },
+    "DEE0A": {
+      "value": 28600
+    },
+    "DEE0B": {
+      "value": 43800
+    },
+    "DEE0C": {
+      "value": 34400
+    },
+    "DEE0D": {
+      "value": 37000
+    },
+    "DEE0E": {
+      "value": 31200
+    },
+    "DEF01": {
+      "value": 51400
+    },
+    "DEF02": {
+      "value": 58400
+    },
+    "DEF03": {
+      "value": 57900
+    },
+    "DEF04": {
+      "value": 56400
+    },
+    "DEF05": {
+      "value": 45700
+    },
+    "DEF06": {
+      "value": 28400
+    },
+    "DEF07": {
+      "value": 46100
+    },
+    "DEF08": {
+      "value": 35300
+    },
+    "DEF09": {
+      "value": 34900
+    },
+    "DEF0A": {
+      "value": 26200
+    },
+    "DEF0B": {
+      "value": 37600
+    },
+    "DEF0C": {
+      "value": 36200
+    },
+    "DEF0D": {
+      "value": 39700
+    },
+    "DEF0E": {
+      "value": 36200
+    },
+    "DEF0F": {
+      "value": 42500
+    },
+    "DEG01": {
+      "value": 49500
+    },
+    "DEG02": {
+      "value": 36500
+    },
+    "DEG03": {
+      "value": 58200
+    },
+    "DEG05": {
+      "value": 37200
+    },
+    "DEG06": {
+      "value": 32000
+    },
+    "DEG07": {
+      "value": 32300
+    },
+    "DEG09": {
+      "value": 32300
+    },
+    "DEG0A": {
+      "value": 28700
+    },
+    "DEG0C": {
+      "value": 34300
+    },
+    "DEG0D": {
+      "value": 32900
+    },
+    "DEG0E": {
+      "value": 27700
+    },
+    "DEG0G": {
+      "value": 37800
+    },
+    "DEG0J": {
+      "value": 31000
+    },
+    "DEG0K": {
+      "value": 36200
+    },
+    "DEG0L": {
+      "value": 28700
+    },
+    "DEG0M": {
+      "value": 27800
+    },
+    "DK011": {
+      "value": 88400
+    },
+    "DK012": {
+      "value": 108700
+    },
+    "DK013": {
+      "value": 54300
+    },
+    "DK014": {
+      "value": 41700
+    },
+    "DK021": {
+      "value": 42800
+    },
+    "DK022": {
+      "value": 45400
+    },
+    "DK031": {
+      "value": 45900
+    },
+    "DK032": {
+      "value": 60400
+    },
+    "DK041": {
+      "value": 56200
+    },
+    "DK042": {
+      "value": 53800
+    },
+    "DK050": {
+      "value": 50000
+    },
+    "EE001": {
+      "value": 37600
+    },
+    "EE004": {
+      "value": 18300
+    },
+    "EE008": {
+      "value": 22000
+    },
+    "EE009": {
+      "value": 17200
+    },
+    "EE00A": {
+      "value": 17600
+    },
+    "EL301": {
+      "value": 36800
+    },
+    "EL302": {
+      "value": 15100
+    },
+    "EL303": {
+      "value": 42800
+    },
+    "EL304": {
+      "value": 25800
+    },
+    "EL305": {
+      "value": 22600
+    },
+    "EL306": {
+      "value": 28100
+    },
+    "EL307": {
+      "value": 24700
+    },
+    "EL411": {
+      "value": 13000
+    },
+    "EL412": {
+      "value": 12900
+    },
+    "EL413": {
+      "value": 13500
+    },
+    "EL421": {
+      "value": 18600
+    },
+    "EL422": {
+      "value": 26900
+    },
+    "EL431": {
+      "value": 17500
+    },
+    "EL432": {
+      "value": 21100
+    },
+    "EL433": {
+      "value": 17900
+    },
+    "EL434": {
+      "value": 19000
+    },
+    "EL511": {
+      "value": 14400
+    },
+    "EL512": {
+      "value": 11700
+    },
+    "EL513": {
+      "value": 11800
+    },
+    "EL514": {
+      "value": 13200
+    },
+    "EL515": {
+      "value": 17100
+    },
+    "EL521": {
+      "value": 15000
+    },
+    "EL522": {
+      "value": 18100
+    },
+    "EL523": {
+      "value": 14800
+    },
+    "EL524": {
+      "value": 17400
+    },
+    "EL525": {
+      "value": 14300
+    },
+    "EL526": {
+      "value": 13200
+    },
+    "EL527": {
+      "value": 17900
+    },
+    "EL531": {
+      "value": 15300
+    },
+    "EL532": {
+      "value": 13100
+    },
+    "EL533": {
+      "value": 18500
+    },
+    "EL541": {
+      "value": 13100
+    },
+    "EL542": {
+      "value": 14200
+    },
+    "EL543": {
+      "value": 14200
+    },
+    "EL611": {
+      "value": 13300
+    },
+    "EL612": {
+      "value": 18600
+    },
+    "EL613": {
+      "value": 16400
+    },
+    "EL621": {
+      "value": 24100
+    },
+    "EL622": {
+      "value": 18600
+    },
+    "EL623": {
+      "value": 18800
+    },
+    "EL624": {
+      "value": 17000
+    },
+    "EL631": {
+      "value": 14100
+    },
+    "EL632": {
+      "value": 16600
+    },
+    "EL633": {
+      "value": 14000
+    },
+    "EL641": {
+      "value": 26500
+    },
+    "EL642": {
+      "value": 17100
+    },
+    "EL643": {
+      "value": 12900
+    },
+    "EL644": {
+      "value": 15900
+    },
+    "EL645": {
+      "value": 13900
+    },
+    "EL651": {
+      "value": 19500
+    },
+    "EL652": {
+      "value": 17700
+    },
+    "EL653": {
+      "value": 16700
+    },
+    "ES111": {
+      "value": 29700
+    },
+    "ES112": {
+      "value": 29000
+    },
+    "ES113": {
+      "value": 29300
+    },
+    "ES114": {
+      "value": 27100
+    },
+    "ES120": {
+      "value": 28100
+    },
+    "ES130": {
+      "value": 28400
+    },
+    "ES211": {
+      "value": 41700
+    },
+    "ES212": {
+      "value": 39000
+    },
+    "ES213": {
+      "value": 38300
+    },
+    "ES220": {
+      "value": 37000
+    },
+    "ES230": {
+      "value": 32400
+    },
+    "ES241": {
+      "value": 35900
+    },
+    "ES242": {
+      "value": 32000
+    },
+    "ES243": {
+      "value": 34900
+    },
+    "ES300": {
+      "value": 42600
+    },
+    "ES411": {
+      "value": 23300
+    },
+    "ES412": {
+      "value": 31500
+    },
+    "ES413": {
+      "value": 27200
+    },
+    "ES414": {
+      "value": 32000
+    },
+    "ES415": {
+      "value": 29300
+    },
+    "ES416": {
+      "value": 28300
+    },
+    "ES417": {
+      "value": 31500
+    },
+    "ES418": {
+      "value": 31400
+    },
+    "ES419": {
+      "value": 26200
+    },
+    "ES421": {
+      "value": 26500
+    },
+    "ES422": {
+      "value": 25300
+    },
+    "ES423": {
+      "value": 29500
+    },
+    "ES424": {
+      "value": 24800
+    },
+    "ES425": {
+      "value": 23200
+    },
+    "ES431": {
+      "value": 22400
+    },
+    "ES432": {
+      "value": 26400
+    },
+    "ES511": {
+      "value": 35900
+    },
+    "ES512": {
+      "value": 35800
+    },
+    "ES513": {
+      "value": 33600
+    },
+    "ES514": {
+      "value": 34500
+    },
+    "ES521": {
+      "value": 23500
+    },
+    "ES522": {
+      "value": 29000
+    },
+    "ES523": {
+      "value": 28100
+    },
+    "ES531": {
+      "value": 32800
+    },
+    "ES532": {
+      "value": 35100
+    },
+    "ES533": {
+      "value": 25500
+    },
+    "ES611": {
+      "value": 24100
+    },
+    "ES612": {
+      "value": 21300
+    },
+    "ES613": {
+      "value": 22200
+    },
+    "ES614": {
+      "value": 22200
+    },
+    "ES615": {
+      "value": 24600
+    },
+    "ES616": {
+      "value": 21100
+    },
+    "ES617": {
+      "value": 23400
+    },
+    "ES618": {
+      "value": 24900
+    },
+    "ES620": {
+      "value": 25500
+    },
+    "ES630": {
+      "value": 22400
+    },
+    "ES640": {
+      "value": 20500
+    },
+    "FI196": {
+      "value": 46300
+    },
+    "FI1B1": {
+      "value": 62200
+    },
+    "FI1C1": {
+      "value": 45600
+    },
+    "FI1C2": {
+      "value": 41200
+    },
+    "FI1C5": {
+      "value": 37800
+    },
+    "FI1D5": {
+      "value": 45800
+    },
+    "FI1D7": {
+      "value": 44900
+    },
+    "FI1D8": {
+      "value": 37900
+    },
+    "FI1D9": {
+      "value": 42600
+    },
+    "FI200": {
+      "value": 53800
+    },
+    "FR101": {
+      "value": 125300
+    },
+    "FR102": {
+      "value": 35800
+    },
+    "FR103": {
+      "value": 46000
+    },
+    "FR104": {
+      "value": 46600
+    },
+    "FR105": {
+      "value": 116100
+    },
+    "FR106": {
+      "value": 46200
+    },
+    "FR107": {
+      "value": 47200
+    },
+    "FR108": {
+      "value": 35600
+    },
+    "FRB01": {
+      "value": 32200
+    },
+    "FRB02": {
+      "value": 30800
+    },
+    "FRB03": {
+      "value": 28600
+    },
+    "FRB04": {
+      "value": 38000
+    },
+    "FRB05": {
+      "value": 33200
+    },
+    "FRB06": {
+      "value": 38100
+    },
+    "FRC11": {
+      "value": 41400
+    },
+    "FRC12": {
+      "value": 28900
+    },
+    "FRC13": {
+      "value": 32700
+    },
+    "FRC14": {
+      "value": 30900
+    },
+    "FRC21": {
+      "value": 32800
+    },
+    "FRC22": {
+      "value": 32200
+    },
+    "FRC23": {
+      "value": 25900
+    },
+    "FRC24": {
+      "value": 32300
+    },
+    "FRD11": {
+      "value": 35700
+    },
+    "FRD12": {
+      "value": 34200
+    },
+    "FRD13": {
+      "value": 28800
+    },
+    "FRD21": {
+      "value": 29500
+    },
+    "FRD22": {
+      "value": 37600
+    },
+    "FRE11": {
+      "value": 34800
+    },
+    "FRE12": {
+      "value": 28500
+    },
+    "FRE21": {
+      "value": 27800
+    },
+    "FRE22": {
+      "value": 30700
+    },
+    "FRE23": {
+      "value": 33300
+    },
+    "FRF11": {
+      "value": 40100
+    },
+    "FRF12": {
+      "value": 34400
+    },
+    "FRF21": {
+      "value": 31800
+    },
+    "FRF22": {
+      "value": 33500
+    },
+    "FRF23": {
+      "value": 43200
+    },
+    "FRF24": {
+      "value": 30700
+    },
+    "FRF31": {
+      "value": 32800
+    },
+    "FRF32": {
+      "value": 26200
+    },
+    "FRF33": {
+      "value": 29800
+    },
+    "FRF34": {
+      "value": 30300
+    },
+    "FRG01": {
+      "value": 41400
+    },
+    "FRG02": {
+      "value": 33600
+    },
+    "FRG03": {
+      "value": 36700
+    },
+    "FRG04": {
+      "value": 30900
+    },
+    "FRG05": {
+      "value": 35200
+    },
+    "FRH01": {
+      "value": 31200
+    },
+    "FRH02": {
+      "value": 33500
+    },
+    "FRH03": {
+      "value": 40400
+    },
+    "FRH04": {
+      "value": 33800
+    },
+    "FRI11": {
+      "value": 28200
+    },
+    "FRI12": {
+      "value": 41600
+    },
+    "FRI13": {
+      "value": 30500
+    },
+    "FRI14": {
+      "value": 31500
+    },
+    "FRI15": {
+      "value": 36900
+    },
+    "FRI21": {
+      "value": 32500
+    },
+    "FRI22": {
+      "value": 25600
+    },
+    "FRI23": {
+      "value": 32800
+    },
+    "FRI31": {
+      "value": 36700
+    },
+    "FRI32": {
+      "value": 32100
+    },
+    "FRI33": {
+      "value": 34200
+    },
+    "FRI34": {
+      "value": 36800
+    },
+    "FRJ11": {
+      "value": 26700
+    },
+    "FRJ12": {
+      "value": 30300
+    },
+    "FRJ13": {
+      "value": 36600
+    },
+    "FRJ14": {
+      "value": 30700
+    },
+    "FRJ15": {
+      "value": 30000
+    },
+    "FRJ21": {
+      "value": 26800
+    },
+    "FRJ22": {
+      "value": 30500
+    },
+    "FRJ23": {
+      "value": 47700
+    },
+    "FRJ24": {
+      "value": 25500
+    },
+    "FRJ25": {
+      "value": 33200
+    },
+    "FRJ26": {
+      "value": 30100
+    },
+    "FRJ27": {
+      "value": 28300
+    },
+    "FRJ28": {
+      "value": 28100
+    },
+    "FRK11": {
+      "value": 30300
+    },
+    "FRK12": {
+      "value": 29100
+    },
+    "FRK13": {
+      "value": 28800
+    },
+    "FRK14": {
+      "value": 37800
+    },
+    "FRK21": {
+      "value": 31400
+    },
+    "FRK22": {
+      "value": 28500
+    },
+    "FRK23": {
+      "value": 40200
+    },
+    "FRK24": {
+      "value": 40600
+    },
+    "FRK25": {
+      "value": 32600
+    },
+    "FRK26": {
+      "value": 55700
+    },
+    "FRK27": {
+      "value": 46100
+    },
+    "FRK28": {
+      "value": 38000
+    },
+    "FRL01": {
+      "value": 31300
+    },
+    "FRL02": {
+      "value": 34300
+    },
+    "FRL03": {
+      "value": 45200
+    },
+    "FRL04": {
+      "value": 44400
+    },
+    "FRL05": {
+      "value": 33000
+    },
+    "FRL06": {
+      "value": 36400
+    },
+    "FRM01": {
+      "value": 39800
+    },
+    "FRM02": {
+      "value": 32600
+    },
+    "HR021": {
+      "value": 13700
+    },
+    "HR022": {
+      "value": 11000
+    },
+    "HR023": {
+      "value": 11100
+    },
+    "HR024": {
+      "value": 13200
+    },
+    "HR025": {
+      "value": 15200
+    },
+    "HR026": {
+      "value": 12400
+    },
+    "HR027": {
+      "value": 15100
+    },
+    "HR028": {
+      "value": 15300
+    },
+    "HR031": {
+      "value": 23500
+    },
+    "HR032": {
+      "value": 17200
+    },
+    "HR033": {
+      "value": 16600
+    },
+    "HR034": {
+      "value": 15700
+    },
+    "HR035": {
+      "value": 16600
+    },
+    "HR036": {
+      "value": 22900
+    },
+    "HR037": {
+      "value": 19900
+    },
+    "HR050": {
+      "value": 34500
+    },
+    "HR061": {
+      "value": 17300
+    },
+    "HR062": {
+      "value": 18100
+    },
+    "HR063": {
+      "value": 16900
+    },
+    "HR064": {
+      "value": 13600
+    },
+    "HR065": {
+      "value": 18500
+    },
+    "HU110": {
+      "value": 44700
+    },
+    "HU120": {
+      "value": 17600
+    },
+    "HU211": {
+      "value": 18100
+    },
+    "HU212": {
+      "value": 20100
+    },
+    "HU213": {
+      "value": 16000
+    },
+    "HU221": {
+      "value": 21400
+    },
+    "HU222": {
+      "value": 16300
+    },
+    "HU223": {
+      "value": 14100
+    },
+    "HU231": {
+      "value": 14100
+    },
+    "HU232": {
+      "value": 12300
+    },
+    "HU233": {
+      "value": 14200
+    },
+    "HU311": {
+      "value": 13200
+    },
+    "HU312": {
+      "value": 14900
+    },
+    "HU313": {
+      "value": 9300
+    },
+    "HU321": {
+      "value": 15200
+    },
+    "HU322": {
+      "value": 12800
+    },
+    "HU323": {
+      "value": 12000
+    },
+    "HU331": {
+      "value": 15500
+    },
+    "HU332": {
+      "value": 11800
+    },
+    "HU333": {
+      "value": 15700
+    },
+    "IE041": {
+      "value": 31900
+    },
+    "IE042": {
+      "value": 61000
+    },
+    "IE051": {
+      "value": 64200
+    },
+    "IE052": {
+      "value": 43900
+    },
+    "IE053": {
+      "value": 168900
+    },
+    "IE061": {
+      "value": 166700
+    },
+    "IE062": {
+      "value": 44500
+    },
+    "IE063": {
+      "value": 38300
+    },
+    "ITC11": {
+      "value": 39000
+    },
+    "ITC12": {
+      "value": 34000
+    },
+    "ITC13": {
+      "value": 33400
+    },
+    "ITC14": {
+      "value": 29000
+    },
+    "ITC15": {
+      "value": 36200
+    },
+    "ITC16": {
+      "value": 40400
+    },
+    "ITC17": {
+      "value": 30300
+    },
+    "ITC18": {
+      "value": 35500
+    },
+    "ITC20": {
+      "value": 47200
+    },
+    "ITC31": {
+      "value": 29200
+    },
+    "ITC32": {
+      "value": 35000
+    },
+    "ITC33": {
+      "value": 42400
+    },
+    "ITC34": {
+      "value": 38800
+    },
+    "ITC41": {
+      "value": 36000
+    },
+    "ITC42": {
+      "value": 34900
+    },
+    "ITC43": {
+      "value": 38600
+    },
+    "ITC44": {
+      "value": 36700
+    },
+    "ITC46": {
+      "value": 42000
+    },
+    "ITC47": {
+      "value": 42900
+    },
+    "ITC48": {
+      "value": 30500
+    },
+    "ITC49": {
+      "value": 32700
+    },
+    "ITC4A": {
+      "value": 39300
+    },
+    "ITC4B": {
+      "value": 39200
+    },
+    "ITC4C": {
+      "value": 71200
+    },
+    "ITC4D": {
+      "value": 39000
+    },
+    "ITF11": {
+      "value": 31700
+    },
+    "ITF12": {
+      "value": 30900
+    },
+    "ITF13": {
+      "value": 30100
+    },
+    "ITF14": {
+      "value": 31700
+    },
+    "ITF21": {
+      "value": 27100
+    },
+    "ITF22": {
+      "value": 27200
+    },
+    "ITF31": {
+      "value": 21500
+    },
+    "ITF32": {
+      "value": 21600
+    },
+    "ITF33": {
+      "value": 24500
+    },
+    "ITF34": {
+      "value": 22900
+    },
+    "ITF35": {
+      "value": 24400
+    },
+    "ITF43": {
+      "value": 22300
+    },
+    "ITF44": {
+      "value": 22100
+    },
+    "ITF45": {
+      "value": 21900
+    },
+    "ITF46": {
+      "value": 22100
+    },
+    "ITF47": {
+      "value": 27700
+    },
+    "ITF48": {
+      "value": 19800
+    },
+    "ITF51": {
+      "value": 29500
+    },
+    "ITF52": {
+      "value": 24500
+    },
+    "ITF61": {
+      "value": 19500
+    },
+    "ITF62": {
+      "value": 20600
+    },
+    "ITF63": {
+      "value": 24100
+    },
+    "ITF64": {
+      "value": 20100
+    },
+    "ITF65": {
+      "value": 22000
+    },
+    "ITG11": {
+      "value": 20000
+    },
+    "ITG12": {
+      "value": 23900
+    },
+    "ITG13": {
+      "value": 22500
+    },
+    "ITG14": {
+      "value": 19000
+    },
+    "ITG15": {
+      "value": 20400
+    },
+    "ITG16": {
+      "value": 19300
+    },
+    "ITG17": {
+      "value": 22800
+    },
+    "ITG18": {
+      "value": 22300
+    },
+    "ITG19": {
+      "value": 23600
+    },
+    "ITG2D": {
+      "value": 27100
+    },
+    "ITG2E": {
+      "value": 24200
+    },
+    "ITG2F": {
+      "value": 34400
+    },
+    "ITG2G": {
+      "value": 21900
+    },
+    "ITG2H": {
+      "value": 19500
+    },
+    "ITH10": {
+      "value": 61500
+    },
+    "ITH20": {
+      "value": 46800
+    },
+    "ITH31": {
+      "value": 41500
+    },
+    "ITH32": {
+      "value": 42600
+    },
+    "ITH33": {
+      "value": 39600
+    },
+    "ITH34": {
+      "value": 40700
+    },
+    "ITH35": {
+      "value": 38700
+    },
+    "ITH36": {
+      "value": 42000
+    },
+    "ITH37": {
+      "value": 31700
+    },
+    "ITH41": {
+      "value": 36600
+    },
+    "ITH42": {
+      "value": 37700
+    },
+    "ITH43": {
+      "value": 34300
+    },
+    "ITH44": {
+      "value": 41400
+    },
+    "ITH51": {
+      "value": 40300
+    },
+    "ITH52": {
+      "value": 47400
+    },
+    "ITH53": {
+      "value": 44100
+    },
+    "ITH54": {
+      "value": 48600
+    },
+    "ITH55": {
+      "value": 50100
+    },
+    "ITH56": {
+      "value": 30200
+    },
+    "ITH57": {
+      "value": 38200
+    },
+    "ITH58": {
+      "value": 39800
+    },
+    "ITH59": {
+      "value": 36500
+    },
+    "ITI11": {
+      "value": 31300
+    },
+    "ITI12": {
+      "value": 36400
+    },
+    "ITI13": {
+      "value": 31400
+    },
+    "ITI14": {
+      "value": 46700
+    },
+    "ITI15": {
+      "value": 35900
+    },
+    "ITI16": {
+      "value": 32900
+    },
+    "ITI17": {
+      "value": 38100
+    },
+    "ITI18": {
+      "value": 36700
+    },
+    "ITI19": {
+      "value": 37300
+    },
+    "ITI1A": {
+      "value": 30400
+    },
+    "ITI21": {
+      "value": 32200
+    },
+    "ITI22": {
+      "value": 29200
+    },
+    "ITI31": {
+      "value": 33800
+    },
+    "ITI32": {
+      "value": 35100
+    },
+    "ITI33": {
+      "value": 32400
+    },
+    "ITI34": {
+      "value": 32700
+    },
+    "ITI35": {
+      "value": 29300
+    },
+    "ITI41": {
+      "value": 26300
+    },
+    "ITI42": {
+      "value": 25400
+    },
+    "ITI43": {
+      "value": 47600
+    },
+    "ITI44": {
+      "value": 27500
+    },
+    "ITI45": {
+      "value": 27100
+    },
+    "LT011": {
+      "value": 39400
+    },
+    "LT021": {
+      "value": 14300
+    },
+    "LT022": {
+      "value": 25500
+    },
+    "LT023": {
+      "value": 22700
+    },
+    "LT024": {
+      "value": 14800
+    },
+    "LT025": {
+      "value": 18300
+    },
+    "LT026": {
+      "value": 18100
+    },
+    "LT027": {
+      "value": 14500
+    },
+    "LT028": {
+      "value": 17800
+    },
+    "LT029": {
+      "value": 14100
+    },
+    "LU000": {
+      "value": 123000
+    },
+    "LV005": {
+      "value": 11500
+    },
+    "LV009": {
+      "value": 13600
+    },
+    "ME000": {
+      "value": 11300
+    },
+    "MK001": {
+      "value": 6700
+    },
+    "MK002": {
+      "value": 7300
+    },
+    "MK003": {
+      "value": 7200
+    },
+    "MK004": {
+      "value": 9000
+    },
+    "MK005": {
+      "value": 7700
+    },
+    "MK006": {
+      "value": 4400
+    },
+    "MK007": {
+      "value": 4300
+    },
+    "MK008": {
+      "value": 11100
+    },
+    "MT001": {
+      "value": 38900
+    },
+    "MT002": {
+      "value": 22700
+    },
+    "NL112": {
+      "value": 56600
+    },
+    "NL126": {
+      "value": 47500
+    },
+    "NL131": {
+      "value": 40900
+    },
+    "NL132": {
+      "value": 37900
+    },
+    "NL133": {
+      "value": 47300
+    },
+    "NL211": {
+      "value": 53800
+    },
+    "NL212": {
+      "value": 46800
+    },
+    "NL213": {
+      "value": 49000
+    },
+    "NL221": {
+      "value": 52300
+    },
+    "NL224": {
+      "value": 49100
+    },
+    "NL225": {
+      "value": 42000
+    },
+    "NL226": {
+      "value": 50800
+    },
+    "NL230": {
+      "value": 46300
+    },
+    "NL321": {
+      "value": 40100
+    },
+    "NL323": {
+      "value": 40600
+    },
+    "NL325": {
+      "value": 39500
+    },
+    "NL327": {
+      "value": 56700
+    },
+    "NL328": {
+      "value": 41900
+    },
+    "NL32A": {
+      "value": 42000
+    },
+    "NL32B": {
+      "value": 112900
+    },
+    "NL341": {
+      "value": 51600
+    },
+    "NL342": {
+      "value": 49600
+    },
+    "NL350": {
+      "value": 70500
+    },
+    "NL361": {
+      "value": 55700
+    },
+    "NL362": {
+      "value": 63600
+    },
+    "NL363": {
+      "value": 47200
+    },
+    "NL364": {
+      "value": 55400
+    },
+    "NL365": {
+      "value": 41600
+    },
+    "NL366": {
+      "value": 62100
+    },
+    "NL411": {
+      "value": 55900
+    },
+    "NL414": {
+      "value": 72900
+    },
+    "NL421": {
+      "value": 53600
+    },
+    "NL422": {
+      "value": 46900
+    },
+    "NL423": {
+      "value": 47600
+    },
+    "PL213": {
+      "value": 31800
+    },
+    "PL214": {
+      "value": 14300
+    },
+    "PL217": {
+      "value": 12100
+    },
+    "PL218": {
+      "value": 12700
+    },
+    "PL219": {
+      "value": 11600
+    },
+    "PL21A": {
+      "value": 14800
+    },
+    "PL224": {
+      "value": 17300
+    },
+    "PL225": {
+      "value": 18700
+    },
+    "PL227": {
+      "value": 18200
+    },
+    "PL228": {
+      "value": 14300
+    },
+    "PL229": {
+      "value": 26100
+    },
+    "PL22A": {
+      "value": 27900
+    },
+    "PL22B": {
+      "value": 17400
+    },
+    "PL22C": {
+      "value": 24400
+    },
+    "PL411": {
+      "value": 14600
+    },
+    "PL414": {
+      "value": 15400
+    },
+    "PL415": {
+      "value": 38700
+    },
+    "PL416": {
+      "value": 17700
+    },
+    "PL417": {
+      "value": 17300
+    },
+    "PL418": {
+      "value": 21200
+    },
+    "PL424": {
+      "value": 22700
+    },
+    "PL426": {
+      "value": 16100
+    },
+    "PL427": {
+      "value": 12200
+    },
+    "PL428": {
+      "value": 14700
+    },
+    "PL431": {
+      "value": 15300
+    },
+    "PL432": {
+      "value": 16300
+    },
+    "PL514": {
+      "value": 30200
+    },
+    "PL515": {
+      "value": 15700
+    },
+    "PL516": {
+      "value": 23200
+    },
+    "PL517": {
+      "value": 14200
+    },
+    "PL518": {
+      "value": 21400
+    },
+    "PL523": {
+      "value": 12500
+    },
+    "PL524": {
+      "value": 18200
+    },
+    "PL613": {
+      "value": 19600
+    },
+    "PL616": {
+      "value": 14400
+    },
+    "PL617": {
+      "value": 13500
+    },
+    "PL618": {
+      "value": 13900
+    },
+    "PL619": {
+      "value": 13300
+    },
+    "PL621": {
+      "value": 13500
+    },
+    "PL622": {
+      "value": 15800
+    },
+    "PL623": {
+      "value": 11500
+    },
+    "PL633": {
+      "value": 30100
+    },
+    "PL634": {
+      "value": 13100
+    },
+    "PL636": {
+      "value": 14800
+    },
+    "PL637": {
+      "value": 12800
+    },
+    "PL638": {
+      "value": 14400
+    },
+    "PL711": {
+      "value": 25300
+    },
+    "PL712": {
+      "value": 16100
+    },
+    "PL713": {
+      "value": 19400
+    },
+    "PL714": {
+      "value": 14600
+    },
+    "PL715": {
+      "value": 14700
+    },
+    "PL721": {
+      "value": 15500
+    },
+    "PL722": {
+      "value": 14100
+    },
+    "PL811": {
+      "value": 12700
+    },
+    "PL812": {
+      "value": 11000
+    },
+    "PL814": {
+      "value": 17700
+    },
+    "PL815": {
+      "value": 11800
+    },
+    "PL821": {
+      "value": 11900
+    },
+    "PL822": {
+      "value": 10300
+    },
+    "PL823": {
+      "value": 17400
+    },
+    "PL824": {
+      "value": 15300
+    },
+    "PL841": {
+      "value": 17100
+    },
+    "PL842": {
+      "value": 14300
+    },
+    "PL843": {
+      "value": 13700
+    },
+    "PL911": {
+      "value": 55100
+    },
+    "PL912": {
+      "value": 15200
+    },
+    "PL913": {
+      "value": 24300
+    },
+    "PL921": {
+      "value": 15700
+    },
+    "PL922": {
+      "value": 15900
+    },
+    "PL923": {
+      "value": 31500
+    },
+    "PL924": {
+      "value": 15600
+    },
+    "PL925": {
+      "value": 16000
+    },
+    "PL926": {
+      "value": 17200
+    },
+    "PT111": {
+      "value": 19700
+    },
+    "PT112": {
+      "value": 21700
+    },
+    "PT119": {
+      "value": 20600
+    },
+    "PT11A": {
+      "value": 24500
+    },
+    "PT11B": {
+      "value": 16800
+    },
+    "PT11C": {
+      "value": 16300
+    },
+    "PT11D": {
+      "value": 18900
+    },
+    "PT11E": {
+      "value": 17700
+    },
+    "PT150": {
+      "value": 27500
+    },
+    "PT191": {
+      "value": 24800
+    },
+    "PT192": {
+      "value": 22000
+    },
+    "PT193": {
+      "value": 24400
+    },
+    "PT194": {
+      "value": 19900
+    },
+    "PT195": {
+      "value": 19800
+    },
+    "PT196": {
+      "value": 17600
+    },
+    "PT1A0": {
+      "value": 40100
+    },
+    "PT1B0": {
+      "value": 17100
+    },
+    "PT1C1": {
+      "value": 31200
+    },
+    "PT1C2": {
+      "value": 25600
+    },
+    "PT1C3": {
+      "value": 20000
+    },
+    "PT1C4": {
+      "value": 21800
+    },
+    "PT1D1": {
+      "value": 19600
+    },
+    "PT1D2": {
+      "value": 19800
+    },
+    "PT1D3": {
+      "value": 21700
+    },
+    "PT200": {
+      "value": 22300
+    },
+    "PT300": {
+      "value": 27300
+    },
+    "RO111": {
+      "value": 13500
+    },
+    "RO112": {
+      "value": 10800
+    },
+    "RO113": {
+      "value": 24700
+    },
+    "RO114": {
+      "value": 11700
+    },
+    "RO115": {
+      "value": 11400
+    },
+    "RO116": {
+      "value": 12700
+    },
+    "RO121": {
+      "value": 15500
+    },
+    "RO122": {
+      "value": 19700
+    },
+    "RO123": {
+      "value": 11800
+    },
+    "RO124": {
+      "value": 12200
+    },
+    "RO125": {
+      "value": 13200
+    },
+    "RO126": {
+      "value": 18200
+    },
+    "RO211": {
+      "value": 11300
+    },
+    "RO212": {
+      "value": 8000
+    },
+    "RO213": {
+      "value": 14000
+    },
+    "RO214": {
+      "value": 10400
+    },
+    "RO215": {
+      "value": 9100
+    },
+    "RO216": {
+      "value": 7500
+    },
+    "RO221": {
+      "value": 12100
+    },
+    "RO222": {
+      "value": 11000
+    },
+    "RO223": {
+      "value": 17900
+    },
+    "RO224": {
+      "value": 10300
+    },
+    "RO225": {
+      "value": 13900
+    },
+    "RO226": {
+      "value": 9700
+    },
+    "RO311": {
+      "value": 14500
+    },
+    "RO312": {
+      "value": 8400
+    },
+    "RO313": {
+      "value": 11200
+    },
+    "RO314": {
+      "value": 8000
+    },
+    "RO315": {
+      "value": 10500
+    },
+    "RO316": {
+      "value": 15200
+    },
+    "RO317": {
+      "value": 10200
+    },
+    "RO321": {
+      "value": 48900
+    },
+    "RO322": {
+      "value": 16500
+    },
+    "RO411": {
+      "value": 13000
+    },
+    "RO412": {
+      "value": 18600
+    },
+    "RO413": {
+      "value": 12600
+    },
+    "RO414": {
+      "value": 9800
+    },
+    "RO415": {
+      "value": 13100
+    },
+    "RO421": {
+      "value": 15300
+    },
+    "RO422": {
+      "value": 13600
+    },
+    "RO423": {
+      "value": 13400
+    },
+    "RO424": {
+      "value": 22000
+    },
+    "RS110": {
+      "value": 19300
+    },
+    "RS121": {
+      "value": 7200
+    },
+    "RS122": {
+      "value": 10200
+    },
+    "RS123": {
+      "value": 13300
+    },
+    "RS124": {
+      "value": 8700
+    },
+    "RS125": {
+      "value": 9900
+    },
+    "RS126": {
+      "value": 6500
+    },
+    "RS127": {
+      "value": 11500
+    },
+    "RS211": {
+      "value": 7900
+    },
+    "RS212": {
+      "value": 8400
+    },
+    "RS213": {
+      "value": 5500
+    },
+    "RS214": {
+      "value": 8900
+    },
+    "RS215": {
+      "value": 6700
+    },
+    "RS216": {
+      "value": 6500
+    },
+    "RS217": {
+      "value": 5800
+    },
+    "RS218": {
+      "value": 7900
+    },
+    "RS221": {
+      "value": 23900
+    },
+    "RS222": {
+      "value": 7300
+    },
+    "RS223": {
+      "value": 6100
+    },
+    "RS224": {
+      "value": 5500
+    },
+    "RS225": {
+      "value": 8400
+    },
+    "RS226": {
+      "value": 7500
+    },
+    "RS227": {
+      "value": 7700
+    },
+    "RS228": {
+      "value": 4900
+    },
+    "RS229": {
+      "value": 6200
+    },
+    "SE110": {
+      "value": 68700
+    },
+    "SE121": {
+      "value": 48200
+    },
+    "SE122": {
+      "value": 39200
+    },
+    "SE123": {
+      "value": 44900
+    },
+    "SE124": {
+      "value": 44300
+    },
+    "SE125": {
+      "value": 38600
+    },
+    "SE211": {
+      "value": 43600
+    },
+    "SE212": {
+      "value": 49700
+    },
+    "SE213": {
+      "value": 37700
+    },
+    "SE214": {
+      "value": 39600
+    },
+    "SE221": {
+      "value": 40200
+    },
+    "SE224": {
+      "value": 43000
+    },
+    "SE231": {
+      "value": 38400
+    },
+    "SE232": {
+      "value": 52600
+    },
+    "SE311": {
+      "value": 38900
+    },
+    "SE312": {
+      "value": 40700
+    },
+    "SE313": {
+      "value": 36600
+    },
+    "SE321": {
+      "value": 44700
+    },
+    "SE322": {
+      "value": 40600
+    },
+    "SE331": {
+      "value": 45300
+    },
+    "SE332": {
+      "value": 54700
+    },
+    "SI031": {
+      "value": 20400
+    },
+    "SI032": {
+      "value": 24500
+    },
+    "SI033": {
+      "value": 22700
+    },
+    "SI034": {
+      "value": 26100
+    },
+    "SI035": {
+      "value": 16500
+    },
+    "SI036": {
+      "value": 24700
+    },
+    "SI037": {
+      "value": 27200
+    },
+    "SI038": {
+      "value": 19700
+    },
+    "SI041": {
+      "value": 44700
+    },
+    "SI042": {
+      "value": 26200
+    },
+    "SI043": {
+      "value": 27200
+    },
+    "SI044": {
+      "value": 28400
+    },
+    "SK010": {
+      "value": 46100
+    },
+    "SK021": {
+      "value": 24500
+    },
+    "SK022": {
+      "value": 19200
+    },
+    "SK023": {
+      "value": 20000
+    },
+    "SK031": {
+      "value": 19900
+    },
+    "SK032": {
+      "value": 17500
+    },
+    "SK041": {
+      "value": 14300
+    },
+    "SK042": {
+      "value": 19000
+    },
+    "TR100": {
+      "value": 19100
+    },
+    "TR211": {
+      "value": 15500
+    },
+    "TR212": {
+      "value": 10100
+    },
+    "TR213": {
+      "value": 13200
+    },
+    "TR221": {
+      "value": 10600
+    },
+    "TR222": {
+      "value": 12100
+    },
+    "TR310": {
+      "value": 13700
+    },
+    "TR321": {
+      "value": 8800
+    },
+    "TR322": {
+      "value": 9800
+    },
+    "TR323": {
+      "value": 12300
+    },
+    "TR331": {
+      "value": 11400
+    },
+    "TR332": {
+      "value": 8000
+    },
+    "TR333": {
+      "value": 9200
+    },
+    "TR334": {
+      "value": 9000
+    },
+    "TR411": {
+      "value": 12200
+    },
+    "TR412": {
+      "value": 12700
+    },
+    "TR413": {
+      "value": 13400
+    },
+    "TR421": {
+      "value": 19900
+    },
+    "TR422": {
+      "value": 11200
+    },
+    "TR423": {
+      "value": 10800
+    },
+    "TR424": {
+      "value": 13300
+    },
+    "TR425": {
+      "value": 12900
+    },
+    "TR510": {
+      "value": 18400
+    },
+    "TR521": {
+      "value": 9300
+    },
+    "TR522": {
+      "value": 11600
+    },
+    "TR611": {
+      "value": 13300
+    },
+    "TR612": {
+      "value": 9000
+    },
+    "TR613": {
+      "value": 9300
+    },
+    "TR621": {
+      "value": 8600
+    },
+    "TR622": {
+      "value": 9900
+    },
+    "TR631": {
+      "value": 6900
+    },
+    "TR632": {
+      "value": 7300
+    },
+    "TR633": {
+      "value": 6800
+    },
+    "TR711": {
+      "value": 10400
+    },
+    "TR712": {
+      "value": 10100
+    },
+    "TR713": {
+      "value": 8200
+    },
+    "TR714": {
+      "value": 8400
+    },
+    "TR715": {
+      "value": 8900
+    },
+    "TR721": {
+      "value": 9700
+    },
+    "TR722": {
+      "value": 7900
+    },
+    "TR723": {
+      "value": 7000
+    },
+    "TR811": {
+      "value": 9000
+    },
+    "TR812": {
+      "value": 8900
+    },
+    "TR813": {
+      "value": 7400
+    },
+    "TR821": {
+      "value": 9300
+    },
+    "TR822": {
+      "value": 9900
+    },
+    "TR823": {
+      "value": 7500
+    },
+    "TR831": {
+      "value": 8500
+    },
+    "TR832": {
+      "value": 5900
+    },
+    "TR833": {
+      "value": 7500
+    },
+    "TR834": {
+      "value": 8000
+    },
+    "TR901": {
+      "value": 7800
+    },
+    "TR902": {
+      "value": 6500
+    },
+    "TR903": {
+      "value": 6700
+    },
+    "TR904": {
+      "value": 7800
+    },
+    "TR905": {
+      "value": 9100
+    },
+    "TR906": {
+      "value": 6300
+    },
+    "TRA11": {
+      "value": 7100
+    },
+    "TRA12": {
+      "value": 10100
+    },
+    "TRA13": {
+      "value": 6600
+    },
+    "TRA21": {
+      "value": 4500
+    },
+    "TRA22": {
+      "value": 6600
+    },
+    "TRA23": {
+      "value": 6200
+    },
+    "TRA24": {
+      "value": 8900
+    },
+    "TRB11": {
+      "value": 7100
+    },
+    "TRB12": {
+      "value": 7700
+    },
+    "TRB13": {
+      "value": 6100
+    },
+    "TRB14": {
+      "value": 10300
+    },
+    "TRB21": {
+      "value": 4300
+    },
+    "TRB22": {
+      "value": 5400
+    },
+    "TRB23": {
+      "value": 5200
+    },
+    "TRB24": {
+      "value": 6600
+    },
+    "TRC11": {
+      "value": 7400
+    },
+    "TRC12": {
+      "value": 5900
+    },
+    "TRC13": {
+      "value": 5700
+    },
+    "TRC21": {
+      "value": 4200
+    },
+    "TRC22": {
+      "value": 5300
+    },
+    "TRC31": {
+      "value": 6000
+    },
+    "TRC32": {
+      "value": 5400
+    },
+    "TRC33": {
+      "value": 7000
+    },
+    "TRC34": {
+      "value": 6000
+    }
+  }
+}

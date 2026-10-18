@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "slug": "irpef-national-2026",
+    "label": "National IRPEF brackets",
+    "taxYear": 2026,
+    "source": "Legge di Bilancio 2026 (L. 199/2025), amending TUIR art. 11",
+    "sourceUrl": "https://www.agenziaentrate.gov.it/portale/imposta-sul-reddito-delle-persone-fisiche-irpef-/aliquote-e-calcolo-dell-irpef",
+    "extractedAt": "2026-08-24",
+    "status": "verified",
+    "verifiedOn": "2026-08-25",
+    "statusNote": "Verified 2026-08-25 against TUIR art. 11 (as amended) and Legge 30 dicembre 2025, n. 199, art. 1, commi 3-4 — read verbatim from Normattiva's consolidated text, corroborated independently by agenziaentrate.gov.it's own worked example (13,700 = 6,440 + 33% x 22,000, versus 14,140 under the pre-2026 35% bracket) and by this file's own EUR 440 arithmetic check. See meta.verificationNotes for the four questions this resolves.",
+    "grain": "national",
+    "sourceLegislation": [
+      {
+        "cite": "TUIR art. 11, comma 1 (D.P.R. 917/1986), as amended by L. 199/2025 art. 1 comma 3",
+        "title": "The IRPEF rate schedule itself — three brackets, both boundaries and all three rates read verbatim from Normattiva's consolidated text 2026-08-25.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917~art11"
+      },
+      {
+        "cite": "Legge 30 dicembre 2025, n. 199 (Legge di Bilancio 2026), art. 1, comma 3",
+        "title": "Cuts TUIR art. 11, comma 1, lett. b) from 35% to 33%, effective from the 2026 tax period under the law's general 1 January 2026 commencement. Read verbatim from Normattiva 2026-08-25.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199"
+      },
+      {
+        "cite": "TUIR art. 16-ter, comma 5-bis, inserted by L. 199/2025 art. 1 comma 4",
+        "title": "A flat EUR 440 reduction of the 19% detrazioni for total income above EUR 200,000, neutralising the second-bracket cut for high earners. Read verbatim from Normattiva 2026-08-25. NOT modelled here — see knownIncompleteness.",
+        "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+      }
+    ],
+    "verificationNotes": [
+      "RESOLVED 2026-08-25 — read against Normattiva's consolidated text of TUIR art. 11, comma 1: 'a) fino a 28.000 euro, 23 per cento; b) oltre 28.000 euro e fino a 50.000 euro, ((33 per cento)); c) oltre 50.000 euro, 43 per cento' — the double parentheses are Normattiva's own marker for text carrying a not-yet-fully-consolidated recent amendment. Three brackets, both boundaries (28,000 / 50,000) and all three rates (23% / 33% / 43%) confirmed verbatim, matching this file exactly.",
+      "RESOLVED 2026-08-25 — confirmed Legge 30 dicembre 2025, n. 199 (Legge di Bilancio 2026), art. 1, comma 3, verbatim: 'All'articolo 11, comma 1, lettera b), del testo unico delle imposte sui redditi... le parole: \"35 per cento\" sono sostituite dalle seguenti: \"33 per cento\".' The citation now carries the article and comma — see sourceLegislation above.",
+      "RESOLVED 2026-08-25 — L. 199/2025 enters into force 1 January 2026 under its general commencement clause, with no separate or pro-rata effective date for art. 1, comma 3 specifically. 'Dal periodo d'imposta 2026' does read as the whole tax year, not a mid-year cutover — unlike the 7% regime's 2026-04-07 threshold change, this provision has no in-year date to miss.",
+      "RESOLVED 2026-08-25 — L. 199/2025's text makes no reference to the regime forfettario, the regime impatriati (D.Lgs. 209/2023 art. 5), or the 7% pensioner flat-tax (TUIR art. 24-ter) anywhere in its IRPEF-rate or art. 16-ter provisions. Both substitute regimes continue to displace or reduce ordinary IRPEF as before, unaffected by this law."
+    ],
+    "knownIncompleteness": [
+      "DETRAZIONI AND DEDUZIONI ARE NOT MODELLED. This file is the rate schedule, and lib/tax.ts computes IMPOSTA LORDA — tax before credits — not tax payable. Real liability is lower, often much lower at modest incomes, because of the no-tax area and the income-type credits (lavoro dipendente, pensione, lavoro autonomo) that taper as income rises. Any figure derived from this file alone overstates what someone actually pays, and must be labelled as gross tax wherever it is shown.",
+      "One specific consequence, worth naming because it inverts the headline: for total income above EUR 200,000, TUIR art. 16-ter comma 5-bis (added by the same Budget Law) cuts the 19% detrazioni by a flat EUR 440 — precisely cancelling the saving from the second-bracket cut. A reader in that band who reads '35% became 33%' as a tax cut has been told the opposite of what happens to them.",
+      "The 2025 schedule differed: the second bracket was 35%, not 33%, over the same boundaries. Someone computing a 2025 figure needs that rate, and this file does not carry it — a 2025 file would be a separate one, keyed by its own taxYear.",
+      "Regional and municipal surcharges are separate files and separate laws. data/tax/addizionale-regionale-2026.json carries the regional half; the municipal half is not built. An 'all-in rate' needs all three."
+    ]
+  },
+  "brackets": [
+    {
+      "upTo": 28000,
+      "rate": 0.23
+    },
+    {
+      "upTo": 50000,
+      "rate": 0.33
+    },
+    {
+      "upTo": null,
+      "rate": 0.43
+    }
+  ]
+}

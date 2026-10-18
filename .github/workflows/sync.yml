@@ -1,0 +1,45 @@
+name: Sync from expatliving.it
+
+# Refreshes the mirror from the live site. No secrets: it reads only the public
+# site and commits with the built-in GITHUB_TOKEN.
+#
+# Manual only for now. While this repository is private its Actions minutes
+# come out of the same account quota as the private site repo, so nothing runs
+# on a schedule. Once the repository is public (Actions are then free),
+# uncomment the schedule below.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "17 5 * * 1" # Mondays, 05:17 UTC. Enable once the repo is public.
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch the files listed in manifest.json
+        id: sync
+        run: node scripts/sync.mjs
+
+      - name: Commit the snapshot
+        if: steps.sync.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Snapshot from expatliving.it ($(date -u +%F))"
+          git push
