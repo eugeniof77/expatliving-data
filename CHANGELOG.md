@@ -5,6 +5,21 @@ Newest first.
 
 <!-- entries -->
 
+## 2026-10-26
+
+Snapshot refreshed from https://www.expatliving.it. Changed (7):
+
+- `api/openapi.json`
+- `data/meta/sources.json`
+- `data/metrics/healthcare-quality-district-region-2024.json`
+- `data/metrics/healthcare-quality-hospital-region-2024.json`
+- `data/metrics/healthcare-quality-prevention-region-2024.json`
+- `data/metrics/seismic-hazard-class-comune-2025.json`
+- `llms.txt`
+
+Added or removed files appear only when the generator is re-run and the manifest replaced.
+
+
 ## 2026-10-18
 
 Data as of 2026-10-13.

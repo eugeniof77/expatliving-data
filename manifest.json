@@ -13,8 +13,8 @@
     {
       "path": "api/openapi.json",
       "url": "/api/v1/openapi.json",
-      "sha256": "c72799dee52c2aa71aeec5c0d50c82624c64e49e600cd64ddb252678416ef71d",
-      "bytes": 85934
+      "sha256": "d8b62948f1e65d920604aea7e94a85dd571c924f5fe185fdc04b0edf859385b9",
+      "bytes": 104897
     },
     {
       "path": "data/bes/indicators.json",
@@ -61,8 +61,8 @@
     {
       "path": "data/meta/sources.json",
       "url": "/data/meta/sources.json",
-      "sha256": "7012e342e7e1153f3ed0b243646f4280730326500b9cd7352449ca18eff3e37b",
-      "bytes": 49233
+      "sha256": "b773388bf0db1896261aceeb6656e7866674ff8f7947e5da4de3b0857166b9ff",
+      "bytes": 55102
     },
     {
       "path": "data/metrics/accommodation-capacity-beds-comune-2024.json",
@@ -259,20 +259,20 @@
     {
       "path": "data/metrics/healthcare-quality-district-region-2024.json",
       "url": "/data/metrics/healthcare-quality-district-region-2024.json",
-      "sha256": "8912f65dd3ba8038d58284a6443f0d76a754118804a4df9c43cdd79be8a7d521",
-      "bytes": 2450
+      "sha256": "5c55aeb78a9e0e237ee810d818662868c9be0104cfb0ddb69b7733c2f5198dd3",
+      "bytes": 2746
     },
     {
       "path": "data/metrics/healthcare-quality-hospital-region-2024.json",
       "url": "/data/metrics/healthcare-quality-hospital-region-2024.json",
-      "sha256": "7a7fb4faedabf4e84a3087c077738aebea0444065d18fd6c503bd920fb96ca9d",
-      "bytes": 2425
+      "sha256": "3f51fa9f922d969cf40cc09743462d69851952947106267ba88aae6ca4b4bdcd",
+      "bytes": 2721
     },
     {
       "path": "data/metrics/healthcare-quality-prevention-region-2024.json",
       "url": "/data/metrics/healthcare-quality-prevention-region-2024.json",
-      "sha256": "ceeec07cc42eb848c544d4d32e1a9743920032c6bc622d69b45bf997ae944108",
-      "bytes": 2437
+      "sha256": "03675804ae741ab1e4aebe5cde3c18767fb054bee69569858a9135103a05d8da",
+      "bytes": 2733
     },
     {
       "path": "data/metrics/history/foreign-residents-citizenship-2019.json",
@@ -631,8 +631,8 @@
     {
       "path": "data/metrics/seismic-hazard-class-comune-2025.json",
       "url": "/data/metrics/seismic-hazard-class-comune-2025.json",
-      "sha256": "7803cd48a19a4a149c90ef7d5a346326189f00aa3b92d0f56c0801f803877f3f",
-      "bytes": 317757
+      "sha256": "2e0f96d9c8a3e9696cd070d909b3ff1a6f1c618cadc73122d424b3ab206db0e9",
+      "bytes": 317776
     },
     {
       "path": "data/omi/comuni.json",
@@ -691,8 +691,8 @@
     {
       "path": "llms.txt",
       "url": "/llms.txt",
-      "sha256": "8bb0365b7d1c51a6b1a67809e52f818cacd2ce48d8d73d0ec001cf55b47dff30",
-      "bytes": 27040
+      "sha256": "133cf1bfd0784f2c5a94733eea5ffaa1b411b9e4356c0d5db519bffeaa36c351",
+      "bytes": 32282
     }
   ]
 }

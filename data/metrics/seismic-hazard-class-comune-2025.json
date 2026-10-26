@@ -6,7 +6,7 @@
     "source": "Dipartimento della Protezione Civile — seismic classification",
     "sourceUrl": "https://rischi.protezionecivile.gov.it/it/sismico/attivita/classificazione-sismica/",
     "extractedAt": "2026-10-15",
-    "unit": "hazard_class",
+    "unit": "hazard_class_1_lowest_4_highest",
     "dimensions": [
       "value"
     ],

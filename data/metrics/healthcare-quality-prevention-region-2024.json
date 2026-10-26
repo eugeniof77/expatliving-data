@@ -13,7 +13,7 @@
     "methodNote": "Ministero della Salute's Nuovo Sistema di Garanzia (NSG) CORE-indicator score for collective prevention and public health (vaccination coverage, screening uptake, food/veterinary safety controls), per region, 2024 — the newest year published (approved by the Comitato LEA 14 May 2026). Score 0-100; 60 is the official \"sufficiency\" threshold below which a region is not considered compliant for this macro-area. A HIGHER score means BETTER assessed care — this is a positive-direction indicator, the opposite direction from this map's crime and air-quality layers.",
     "grain": "region",
     "kind": "scalar",
-    "coverageNote": "NSG-LEA scores Trentino-Alto Adige's two autonomous provinces — Bolzano and Trento — SEPARATELY rather than as one region, and they can score very differently (e.g. Prevenzione 2024: Bolzano 59, Trento 98). This map's region grain has one shared \"Trentino-Alto Adige\" label covering both provinces' comuni, so there is no honest single figure to show there — omitted here rather than averaged or standing one province's score in for the other's. 19/20 regions carry a real value."
+    "coverageNote": "NSG-LEA scores Trentino-Alto Adige's two autonomous provinces — Bolzano and Trento — SEPARATELY rather than as one region, and they can score very differently (e.g. Prevenzione 2024: Bolzano 59, Trento 98). This map's region grain has one shared \"Trentino-Alto Adige\" label covering both provinces' comuni, so there is no honest single figure to show there — omitted from `values` rather than averaged or standing one province's score in for the other's. 19/20 regions carry a real value. The two provincial scores are published in the separate `provinceValues` map (keys BZ and TN, the comuni.json provinceCode); the region map does not read it, the shortlist tool does."
   },
   "values": {
     "Abruzzo": {
@@ -72,6 +72,14 @@
     },
     "Veneto": {
       "value": 96.0
+    }
+  },
+  "provinceValues": {
+    "BZ": {
+      "value": 59.0
+    },
+    "TN": {
+      "value": 98.0
     }
   }
 }
