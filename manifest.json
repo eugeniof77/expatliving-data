@@ -13,8 +13,8 @@
     {
       "path": "api/openapi.json",
       "url": "/api/v1/openapi.json",
-      "sha256": "d8b62948f1e65d920604aea7e94a85dd571c924f5fe185fdc04b0edf859385b9",
-      "bytes": 104897
+      "sha256": "43116bf1b907d952099c5ad8a13c979288d96cbf0992ff9fd749408a3000546f",
+      "bytes": 129583
     },
     {
       "path": "data/bes/indicators.json",
@@ -61,8 +61,8 @@
     {
       "path": "data/meta/sources.json",
       "url": "/data/meta/sources.json",
-      "sha256": "b773388bf0db1896261aceeb6656e7866674ff8f7947e5da4de3b0857166b9ff",
-      "bytes": 55102
+      "sha256": "23090dab362b01920254af2ff822dcbb28a28506888af07e4d60126b1a1fc0dc",
+      "bytes": 63537
     },
     {
       "path": "data/metrics/accommodation-capacity-beds-comune-2024.json",
@@ -691,8 +691,8 @@
     {
       "path": "llms.txt",
       "url": "/llms.txt",
-      "sha256": "133cf1bfd0784f2c5a94733eea5ffaa1b411b9e4356c0d5db519bffeaa36c351",
-      "bytes": 32282
+      "sha256": "497b0d3c42f89985220badb979fc7ae8e731e8e0ff3ea15e064edc26e4859093",
+      "bytes": 36910
     }
   ]
 }

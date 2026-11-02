@@ -5,6 +5,17 @@ Newest first.
 
 <!-- entries -->
 
+## 2026-11-02
+
+Snapshot refreshed from https://www.expatliving.it. Changed (3):
+
+- `api/openapi.json`
+- `data/meta/sources.json`
+- `llms.txt`
+
+Added or removed files appear only when the generator is re-run and the manifest replaced.
+
+
 ## 2026-10-26
 
 Snapshot refreshed from https://www.expatliving.it. Changed (7):
